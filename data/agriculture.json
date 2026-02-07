@@ -1,0 +1,1209 @@
+{
+  "subject": "Agriculture",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The science of soil management and the production of field crops is known as:",
+      "options": ["Horticulture", "Agronomy", "Floriculture", "Silviculture"],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a biotic factor affecting agricultural production?",
+      "options": ["Soil pH", "Temperature", "Pests", "Humidity"],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "question": "The primary purpose of agriculture is to provide:",
+      "options": ["Foreign exchange", "Raw materials", "Food and fiber", "Employment"],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "question": "A farm tool used for turning soil and burying weeds is the:",
+      "options": ["Spade", "Pick axe", "Hand trowel", "Rake"],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "question": "In West Africa, the main source of power for small-scale farmers is:",
+      "options": ["Mechanical", "Animal", "Electrical", "Human"],
+      "answer": 3
+    },
+    {
+      "id": 6,
+      "question": "Igneous rocks are formed from:",
+      "options": ["Sediments", "Volcanic magma", "Metamorphism", "Organic matter"],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "The process of soil formation is called:",
+      "options": ["Weathering", "Pedogenesis", "Leaching", "Erosion"],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "Which soil type has the highest water-holding capacity?",
+      "options": ["Sandy soil", "Silty soil", "Clayey soil", "Loamy soil"],
+      "answer": 2
+    },
+    {
+      "id": 9,
+      "question": "The chemical symbol for Nitrogen in fertilizers is:",
+      "options": ["Na", "Ni", "N", "No"],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "question": "The term 'monoculture' refers to:",
+      "options": ["Growing one crop at a time", "Growing two crops", "Rearing animals only", "Shifting cultivation"],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "question": "A deficiency of Vitamin A in farm animals causes:",
+      "options": ["Scurvy", "Night blindness", "Rickets", "Sterility"],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "The gestation period of a sow (pig) is approximately:",
+      "options": ["114 days", "150 days", "280 days", "336 days"],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "An example of a ruminant animal is a:",
+      "options": ["Pig", "Chicken", "Goat", "Rabbit"],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "question": "The removal of the outer layer of the soil by water or wind is:",
+      "options": ["Mulching", "Irrigation", "Erosion", "Drainage"],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "question": "A method of providing water to crops during the dry season is:",
+      "options": ["Drainage", "Irrigation", "Transpiration", "Condensation"],
+      "answer": 1
+    },
+    {
+      "id": 16,
+      "question": "The most important cereal crop in Nigeria is:",
+      "options": ["Maize", "Cassava", "Yam", "Cocoa"],
+      "answer": 0
+    },
+    {
+      "id": 17,
+      "question": "Which of these is a legume?",
+      "options": ["Millet", "Cowpea", "Rice", "Sugar cane"],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "The 'Green Revolution' refers to:",
+      "options": ["Forest conservation", "Massive increase in food production", "Killing of weeds", "Growing of vegetables"],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "question": "Which farm animal is associated with the term 'layer'?",
+      "options": ["Cattle", "Poultry", "Sheep", "Goat"],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "The breaking of seed dormancy is necessary for:",
+      "options": ["Harvesting", "Germination", "Storage", "Processing"],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "question": "A major pest of cocoa in West Africa is the:",
+      "options": ["Aphid", "Capsid bug", "Grasshopper", "Weevil"],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "The process of removing excess water from the soil is:",
+      "options": ["Irrigation", "Drainage", "Capillarity", "Evaporation"],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "The act of giving birth in sheep is called:",
+      "options": ["Kidding", "Lambing", "Farrowing", "Calving"],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "Which of these is a plantation crop?",
+      "options": ["Maize", "Rubber", "Groundnut", "Tomato"],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "The science of honeybee keeping is:",
+      "options": ["Sericulture", "Apiculture", "Aquaculture", "Horticulture"],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "The middleman in agricultural marketing is the:",
+      "options": ["Producer", "Wholesaler", "Consumer", "Farmer"],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "question": "A system of farming where the farmer moves from one land to another is:",
+      "options": ["Shifting cultivation", "Mixed farming", "Crop rotation", "Pastoralism"],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "question": "The most effective way to control soil acidity is by applying:",
+      "options": ["Sulfur", "Fertilizer", "Lime", "Manure"],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "question": "The part of the plant responsible for photosynthesis is the:",
+      "options": ["Root", "Stem", "Leaf", "Flower"],
+      "answer": 2
+    },
+    {
+      "id": 30,
+      "question": "An example of a fungal disease in crops is:",
+      "options": ["Maize streak", "Smut", "Mosaic", "Blight"],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "question": "The use of living organisms to control pests is called:",
+      "options": ["Chemical control", "Physical control", "Biological control", "Cultural control"],
+      "answer": 2
+    },
+    {
+      "id": 32,
+      "question": "A survey instrument used for measuring horizontal angles is the:",
+      "options": ["Gunter's chain", "Theodolite", "Prismatic compass", "Abney level"],
+      "answer": 2
+    },
+    {
+      "id": 33,
+      "question": "The most common method of fish preservation in Nigeria is:",
+      "options": ["Freezing", "Canning", "Smoking", "Salting"],
+      "answer": 2
+    },
+    {
+      "id": 34,
+      "question": "The removal of the forest to establish a farm is:",
+      "options": ["Reforestation", "Afforestation", "Deforestation", "Regeneration"],
+      "answer": 2
+    },
+    {
+      "id": 35,
+      "question": "The function of the gizzard in poultry is:",
+      "options": ["Storage of food", "Chemical digestion", "Grinding of food", "Absorption"],
+      "answer": 2
+    },
+    {
+      "id": 36,
+      "question": "A pasture that contains only one species of grass is:",
+      "options": ["Natural pasture", "Artificial pasture", "Pure stand pasture", "Mixed pasture"],
+      "answer": 2
+    },
+    {
+      "id": 37,
+      "question": "The term 'culling' in animal husbandry means:",
+      "options": ["Feeding animals", "Killing of diseased/unproductive animals", "Mating animals", "Vaccination"],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "question": "Which of the following is an oilseed crop?",
+      "options": ["Soybean", "Rice", "Cassava", "Millet"],
+      "answer": 0
+    },
+    {
+      "id": 39,
+      "question": "The process by which plants lose water through the leaves is:",
+      "options": ["Osmosis", "Diffusion", "Transpiration", "Photosynthesis"],
+      "answer": 2
+    },
+    {
+      "id": 40,
+      "question": "The primary objective of land tenure reform is to:",
+      "options": ["Increase land tax", "Ensure fair distribution of land", "Promote urbanization", "Abolish farming"],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "question": "A deficiency of Phosphorus in soil results in:",
+      "options": ["Yellow leaves", "Purple tint on leaves", "Stunted root growth", "Tall spindly stems"],
+      "answer": 2
+    },
+    {
+      "id": 42,
+      "question": "The act of mating in goats is called:",
+      "options": ["Tupping", "Serving", "Coupling", "Covering"],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "question": "The type of farm power that is most flexible and easiest to control is:",
+      "options": ["Animal power", "Human power", "Mechanical power", "Solar power"],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "question": "Farm credit is most commonly obtained by small farmers from:",
+      "options": ["Commercial banks", "Cooperative societies", "World Bank", "Central Bank"],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "question": "Which of the following is a permanent crop?",
+      "options": ["Maize", "Tomato", "Oil palm", "Cowpea"],
+      "answer": 2
+    },
+    {
+      "id": 46,
+      "question": "The science of growing fruit crops is:",
+      "options": ["Olericulture", "Pomology", "Floriculture", "Silviculture"],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "question": "Which of these is a trace element (micronutrient)?",
+      "options": ["Calcium", "Magnesium", "Zinc", "Potassium"],
+      "answer": 2
+    },
+    {
+      "id": 48,
+      "question": "The incubation period for a chicken egg is:",
+      "options": ["14 days", "21 days", "28 days", "35 days"],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "question": "The term 'aquaculture' refers to:",
+      "options": ["Water conservation", "Rearing of aquatic organisms", "Irrigation", "Building dams"],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "question": "The Law of Diminishing Returns is important in:",
+      "options": ["Soil science", "Agro-forestry", "Agricultural Economics", "Animal Breeding"],
+      "answer": 2
+    },
+        {
+      "id": 51,
+      "question": "The most effective method for controlling maize rust is the use of:",
+      "options": ["Insecticides", "Resistant varieties", "Herbicides", "Early harvesting"],
+      "answer": 1
+    },
+    {
+      "id": 52,
+      "question": "Which of the following is an example of an igneous rock?",
+      "options": ["Limestone", "Granite", "Shale", "Sandstone"],
+      "answer": 1
+    },
+    {
+      "id": 53,
+      "question": "The percentage of Nitrogen in Urea is approximately:",
+      "options": ["21%", "26%", "46%", "15%"],
+      "answer": 2
+    },
+    {
+      "id": 54,
+      "question": "The system of mating where one male is allowed to mate with many females is:",
+      "options": ["Hand mating", "Pen mating", "Flock mating", "Pedigree mating"],
+      "answer": 2
+    },
+    {
+      "id": 55,
+      "question": "A farm record that shows the daily activities on the farm is the:",
+      "options": ["Inventory record", "Production record", "Farm diary", "Cash book"],
+      "answer": 2
+    },
+    {
+      "id": 56,
+      "question": "The device used to regulate temperature in an incubator is the:",
+      "options": ["Thermometer", "Hygrometer", "Thermostat", "Anemometer"],
+      "answer": 2
+    },
+    {
+      "id": 57,
+      "question": "The digestive organ in poultry where chemical digestion begins is the:",
+      "options": ["Crop", "Proventriculus", "Gizzard", "Duodenum"],
+      "answer": 1
+    },
+    {
+      "id": 58,
+      "question": "The process of adding a desirable plant part to a rootstock is:",
+      "options": ["Cuttings", "Layering", "Grafting", "Budding"],
+      "answer": 2
+    },
+    {
+      "id": 59,
+      "question": "Which of these is a biotic factor that improves soil fertility?",
+      "options": ["Earthworms", "Fungi", "Rodents", "Termites"],
+      "answer": 0
+    },
+    {
+      "id": 60,
+      "question": "The practice of growing crops and trees on the same piece of land is:",
+      "options": ["Monocropping", "Agro-forestry", "Mixed farming", "Taungya system"],
+      "answer": 1
+    },
+    {
+      "id": 61,
+      "question": "A deficiency of Vitamin D in young animals leads to:",
+      "options": ["Osteomalacia", "Rickets", "Anemia", "Beriberi"],
+      "answer": 1
+    },
+    {
+      "id": 62,
+      "question": "The most appropriate tool for digging a deep hole is the:",
+      "options": ["Garden fork", "Pick-axe", "Spade", "Hand trowel"],
+      "answer": 1
+    },
+    {
+      "id": 63,
+      "question": "The survey equipment used for measuring distances is the:",
+      "options": ["Theodolite", "Gunter's chain", "Abney level", "Cross staff"],
+      "answer": 1
+    },
+    {
+      "id": 64,
+      "question": "The main reason for parboiling paddy rice is to:",
+      "options": ["Improve the taste", "Reduce breakage during milling", "Increase the weight", "Kill insects"],
+      "answer": 1
+    },
+    {
+      "id": 65,
+      "question": "Which part of the digestive tract of a ruminant is known as the 'true stomach'?",
+      "options": ["Rumen", "Reticulum", "Omasum", "Abomasum"],
+      "answer": 3
+    },
+    {
+      "id": 66,
+      "question": "The study of the relationship between crops and the environment is:",
+      "options": ["Ecology", "Plant physiology", "Agricultural meteorology", "Soil science"],
+      "answer": 0
+    },
+    {
+      "id": 67,
+      "question": "A chemical used to kill weeds is a/an:",
+      "options": ["Insecticide", "Fungicide", "Herbicide", "Rodenticide"],
+      "answer": 2
+    },
+    {
+      "id": 68,
+      "question": "The act of giving birth in rabbits is called:",
+      "options": ["Farrowing", "Kindling", "Lambing", "Calving"],
+      "answer": 1
+    },
+    {
+      "id": 69,
+      "question": "The first milk produced by a female animal after giving birth is:",
+      "options": ["Skimmed milk", "Pasteurized milk", "Colostrum", "Condense milk"],
+      "answer": 2
+    },
+    {
+      "id": 70,
+      "question": "Which of these is a macro-nutrient required by plants?",
+      "options": ["Copper", "Iron", "Magnesium", "Boron"],
+      "answer": 2
+    },
+    {
+      "id": 71,
+      "question": "The demand for agricultural products is generally:",
+      "options": ["Highly elastic", "Inelastic", "Unitary", "Perfectly elastic"],
+      "answer": 1
+    },
+    {
+      "id": 72,
+      "question": "The method of asexual reproduction in ginger is by:",
+      "options": ["Corms", "Rhizomes", "Tubers", "Bulbs"],
+      "answer": 1
+    },
+    {
+      "id": 73,
+      "question": "The primary cause of the 'swollen shoot' disease in Cocoa is a:",
+      "options": ["Virus", "Bacterium", "Fungus", "Nematode"],
+      "answer": 0
+    },
+    {
+      "id": 74,
+      "question": "The term used for a castrated male cattle is:",
+      "options": ["Steer", "Wether", "Boar", "Capon"],
+      "answer": 0
+    },
+    {
+      "id": 75,
+      "question": "A type of drainage system that involves the use of underground pipes is:",
+      "options": ["Surface drainage", "Trench drainage", "Sub-surface drainage", "Natural drainage"],
+      "answer": 2
+    },
+    {
+      "id": 76,
+      "question": "The forest tree known for producing high-quality timber is:",
+      "options": ["Rubber", "Iroko", "Cashew", "Oil palm"],
+      "answer": 1
+    },
+    {
+      "id": 77,
+      "question": "The soil horizon that contains the most organic matter is the:",
+      "options": ["A-horizon", "B-horizon", "C-horizon", "D-horizon"],
+      "answer": 0
+    },
+    {
+      "id": 78,
+      "question": "Farm subsidies are provided by the government to:",
+      "options": ["Increase farm taxes", "Reduce production costs for farmers", "Encourage food importation", "Control farm workers"],
+      "answer": 1
+    },
+    {
+      "id": 79,
+      "question": "The process of removing the horns of an animal is:",
+      "options": ["Castration", "Debeaking", "Dehorning", "Docking"],
+      "answer": 2
+    },
+    {
+      "id": 80,
+      "question": "The nitrogen-fixing bacteria found in the root nodules of legumes is:",
+      "options": ["Nitrobacter", "Rhizobium", "Nitrosomonas", "Azotobacter"],
+      "answer": 1
+    },
+    {
+      "id": 81,
+      "question": "An example of a storage pest is the:",
+      "options": ["Grasshopper", "Bean weevil", "Aphid", "Cotton stainer"],
+      "answer": 1
+    },
+    {
+      "id": 82,
+      "question": "Which of the following is a symptom of Newcastle disease in poultry?",
+      "options": ["High egg production", "Respiratory distress", "Firm droppings", "Increased appetite"],
+      "answer": 1
+    },
+    {
+      "id": 83,
+      "question": "The tool used for sharpening farm implements like cutlasses is a:",
+      "options": ["Plier", "File", "Hammer", "Wrench"],
+      "answer": 1
+    },
+    {
+      "id": 84,
+      "question": "The process of heating milk to kill disease-causing germs is:",
+      "options": ["Homogenization", "Pasteurization", "Evaporation", "Coagulation"],
+      "answer": 1
+    },
+    {
+      "id": 85,
+      "question": "A farm asset that lasts for a very long time is a:",
+      "options": ["Current asset", "Fixed asset", "Liquid asset", "Working asset"],
+      "answer": 1
+    },
+    {
+      "id": 86,
+      "question": "Which of the following describes 'Mixed Farming'?",
+      "options": ["Growing different crops", "Growing crops and rearing animals", "Farming by many people", "Using many tools"],
+      "answer": 1
+    },
+     {
+      "id": 87,
+      "question": "The recommended spacing for a crop is determined by its:",
+      "options": ["Color", "Growth habit", "Taste", "Weight"],
+      "answer": 1
+    },
+    {
+      "id": 88,
+      "question": "The science of planting and managing forests is:",
+      "options": ["Horticulture", "Silviculture", "Agronomy", "Floriculture"],
+      "answer": 1
+    },
+    {
+      "id": 89,
+      "question": "Which of these is a product of the oil palm?",
+      "options": ["Latex", "Copra", "Kernel oil", "Cocoa butter"],
+      "answer": 2
+    },
+    {
+      "id": 90,
+      "question": "The term 'farrowing' is associated with:",
+      "options": ["Sheep", "Goats", "Pigs", "Cattle"],
+      "answer": 2
+    },
+    {
+      "id": 91,
+      "question": "The main objective of agricultural extension is to:",
+      "options": ["Provide loans", "Educate farmers on new techniques", "Buy crops from farmers", "Arrest law breakers"],
+      "answer": 1
+    },
+    {
+      "id": 92,
+      "question": "The most effective way to prevent soil erosion on a slope is:",
+      "options": ["Burning", "Terracing", "Ploughing down the slope", "Clean clearing"],
+      "answer": 1
+    },
+    {
+      "id": 93,
+      "question": "A deficiency of Iron in farm animals leads to:",
+      "options": ["Scurvy", "Anemia", "Rickets", "Goitre"],
+      "answer": 1
+    },
+    {
+      "id": 94,
+      "question": "The digestive system of a bird ends at the:",
+      "options": ["Anus", "Rectum", "Cloaca", "Urethra"],
+      "answer": 2
+    },
+    {
+      "id": 95,
+      "question": "An example of a metamorphic rock is:",
+      "options": ["Basalt", "Marble", "Limestone", "Sandstone"],
+      "answer": 1
+    },
+    {
+      "id": 96,
+      "question": "The machine used to separate seeds from the stalk is a:",
+      "options": ["Planter", "Harvester", "Thresher", "Miller"],
+      "answer": 2
+    },
+    {
+      "id": 97,
+      "question": "The function of the radiator in a tractor is to:",
+      "options": ["Lubricate the engine", "Cool the engine", "Filter air", "Ignite fuel"],
+      "answer": 1
+    },
+    {
+      "id": 98,
+      "question": "The vector of the 'trypanosomiasis' disease in cattle is the:",
+      "options": ["Mosquito", "Tsetse fly", "Tick", "Housefly"],
+      "answer": 1
+    },
+    {
+      "id": 99,
+      "question": "The removal of secondary branches from a plant is known as:",
+      "options": ["Thinning", "Pruning", "Supplying", "Mulching"],
+      "answer": 1
+    },
+    {
+      "id": 100,
+      "question": "The value of a farm asset at the end of its useful life is its:",
+      "options": ["Market value", "Salvage value", "Initial value", "Book value"],
+      "answer": 1
+    },
+        {
+      "id": 101,
+      "question": "The process of placing seeds or seedlings in the soil is:",
+      "options": ["Tillage", "Planting", "Thinning", "Harvesting"],
+      "answer": 1
+    },
+    {
+      "id": 102,
+      "question": "Which of the following is a symptom of nitrogen deficiency in crops?",
+      "options": ["Purple leaves", "Uniform yellowing of older leaves", "Spotting of leaves", "Excessive fruit drop"],
+      "answer": 1
+    },
+    {
+      "id": 103,
+      "question": "The primary source of farm power for heavy operations like plowing is:",
+      "options": ["Human power", "Animal power", "Mechanical power", "Solar power"],
+      "answer": 2
+    },
+    {
+      "id": 104,
+      "question": "A farm tool designed specifically for pruning is the:",
+      "options": ["Hand trowel", "Secateur", "Sickle", "Mattock"],
+      "answer": 1
+    },
+    {
+      "id": 105,
+      "question": "The study of the properties and management of soil is:",
+      "options": ["Morphology", "Edaphology", "Botany", "Zoology"],
+      "answer": 1
+    },
+    {
+      "id": 106,
+      "question": "The term 'layering' refers to a method of:",
+      "options": ["Seed treatment", "Vegetative propagation", "Soil conservation", "Animal feeding"],
+      "answer": 1
+    },
+    {
+      "id": 107,
+      "question": "Which of these is a concentrated organic manure?",
+      "options": ["Green manure", "Farmyard manure", "Poultry manure", "Compost"],
+      "answer": 2
+    },
+    {
+      "id": 108,
+      "question": "The time interval between the first and second heat periods in an animal is:",
+      "options": ["Gestation period", "Oestrous cycle", "Incubation period", "Lactation period"],
+      "answer": 1
+    },
+    {
+      "id": 109,
+      "question": "A major disadvantage of human power in farming is:",
+      "options": ["High cost", "Low efficiency and output", "Lack of control", "Complexity"],
+      "answer": 1
+    },
+    {
+      "id": 110,
+      "question": "The most important factor of production in agriculture is:",
+      "options": ["Labor", "Capital", "Land", "Management"],
+      "answer": 2
+    },
+    {
+      "id": 111,
+      "question": "The practice of starting a forest where none existed before is:",
+      "options": ["Reforestation", "Afforestation", "Deforestation", "Exploitation"],
+      "answer": 1
+    },
+    {
+      "id": 112,
+      "question": "The act of giving birth in cattle is:",
+      "options": ["Farrowing", "Calving", "Kindling", "Foaling"],
+      "answer": 1
+    },
+    {
+      "id": 113,
+      "question": "The science of vegetable production is known as:",
+      "options": ["Pomology", "Olericulture", "Floriculture", "Agronomy"],
+      "answer": 1
+    },
+    {
+      "id": 114,
+      "question": "A deficiency of Vitamin E in poultry leads to:",
+      "options": ["Rickets", "Crazy chick disease", "Scurvy", "Night blindness"],
+      "answer": 1
+    },
+    {
+      "id": 115,
+      "question": "The chemical used to kill snails and slugs is a:",
+      "options": ["Nematocide", "Molluscicide", "Fungicide", "Herbicide"],
+      "answer": 1
+    },
+    {
+      "id": 116,
+      "question": "Which of the following is a secondary tillage implement?",
+      "options": ["Disc plow", "Moldboard plow", "Harrow", "Ridger"],
+      "answer": 2
+    },
+    {
+      "id": 117,
+      "question": "The process of egg formation in poultry takes approximately:",
+      "options": ["12 hours", "24-26 hours", "48 hours", "72 hours"],
+      "answer": 1
+    },
+    {
+      "id": 118,
+      "question": "A structure used for storing grains is a:",
+      "options": ["Barn", "Silo", "Paddock", "Pen"],
+      "answer": 1
+    },
+    {
+      "id": 119,
+      "question": "The process of removing the top buds of a plant to encourage lateral growth is:",
+      "options": ["Pruning", "Topping", "Thinning", "Mulching"],
+      "answer": 1
+    },
+    {
+      "id": 120,
+      "question": "A castrated male sheep is called a:",
+      "options": ["Steer", "Wether", "Ram", "Ewe"],
+      "answer": 1
+    },
+    {
+      "id": 121,
+      "question": "The hormone responsible for milk let-down in animals is:",
+      "options": ["Adrenaline", "Oxytocin", "Oestrogen", "Progesterone"],
+      "answer": 1
+    },
+    {
+      "id": 122,
+      "question": "The transfer of pollen grains from the anther to the stigma is:",
+      "options": ["Germination", "Pollination", "Fertilization", "Transpiration"],
+      "answer": 1
+    },
+    {
+      "id": 123,
+      "question": "A farm record that lists all assets and liabilities is the:",
+      "options": ["Balance sheet", "Inventory", "Cash book", "Journal"],
+      "answer": 1
+    },
+    {
+      "id": 124,
+      "question": "Which of the following is a greenhouse gas emitted from rice paddies?",
+      "options": ["Oxygen", "Nitrogen", "Methane", "Helium"],
+      "answer": 2
+    },
+    {
+      "id": 125,
+      "question": "The most common method of propagating cassava is by:",
+      "options": ["Seeds", "Stem cuttings", "Roots", "Leaves"],
+      "answer": 1
+    },
+    {
+      "id": 126,
+      "question": "The part of the plow that cuts the soil horizontally is the:",
+      "options": ["Beam", "Share", "Coulter", "Mouldboard"],
+      "answer": 1
+    },
+    {
+      "id": 127,
+      "question": "The act of removing young fish from a hatchery to a pond is:",
+      "options": ["Harvesting", "Stocking", "Culling", "Fertilizing"],
+      "answer": 1
+    },
+    {
+      "id": 128,
+      "question": "Which soil organism is known as 'nature's plow'?",
+      "options": ["Termite", "Earthworm", "Centipede", "Ant"],
+      "answer": 1
+    },
+    {
+      "id": 129,
+      "question": "The primary cause of damping-off disease in seedlings is:",
+      "options": ["Fungi", "Bacteria", "Virus", "Excessive sunlight"],
+      "answer": 0
+    },
+    {
+      "id": 130,
+      "question": "A feed stuff with more than 18% crude fiber is classified as:",
+      "options": ["Concentrate", "Roughage", "Additive", "Supplement"],
+      "answer": 1
+    },
+    {
+      "id": 131,
+      "question": "The gestation period of a cow is approximately:",
+      "options": ["150 days", "280 days", "336 days", "114 days"],
+      "answer": 1
+    },
+    {
+      "id": 132,
+      "question": "The tool used for measuring the diameter of a tree trunk is a:",
+      "options": ["Ranging pole", "Caliper", "Measuring tape", "Surveying chain"],
+      "answer": 1
+    },
+    {
+      "id": 133,
+      "question": "The practice of providing shade for young seedlings is:",
+      "options": ["Mulching", "Shading", "Fencing", "Thinning"],
+      "answer": 1
+    },
+    {
+      "id": 134,
+      "question": "A disease that can be transmitted from animals to humans is called:",
+      "options": ["Epidemic", "Zoonotic", "Contagious", "Chronic"],
+      "answer": 1
+    },
+    {
+      "id": 135,
+      "question": "Which of these is a major fiber crop?",
+      "options": ["Cotton", "Maize", "Groundnut", "Sorghum"],
+      "answer": 0
+    },
+    {
+      "id": 136,
+      "question": "The science of cultivating flowers is:",
+      "options": ["Pomology", "Floriculture", "Silviculture", "Olericulture"],
+      "answer": 1
+    },
+    {
+      "id": 137,
+      "question": "The simplest form of agricultural marketing is:",
+      "options": ["Direct sale to consumers", "Wholesale", "Exportation", "Processing"],
+      "answer": 0
+    },
+    {
+      "id": 138,
+      "question": "The practice of keeping only one type of animal on a farm is:",
+      "options": ["Mixed farming", "Specialized farming", "Extensive farming", "Intensive farming"],
+      "answer": 1
+    },
+    {
+      "id": 139,
+      "question": "The tool used to measure the weight of an animal without a scale is:",
+      "options": ["Measuring tape (Girth measurement)", "Hygrometer", "Thermometer", "Caliper"],
+      "answer": 0
+    },
+    {
+      "id": 140,
+      "question": "Which of the following is a source of potassium fertilizer?",
+      "options": ["Muriate of potash", "Single superphosphate", "Urea", "Limestone"],
+      "answer": 0
+    },
+    {
+      "id": 141,
+      "question": "The process of softening seed coats to aid germination is:",
+      "options": ["Stratification", "Scarification", "Vernalization", "Inoculation"],
+      "answer": 1
+    },
+    {
+      "id": 142,
+      "question": "The removal of excess plants from a stand to allow for better growth is:",
+      "options": ["Pruning", "Thinning", "Supplying", "Staking"],
+      "answer": 1
+    },
+    {
+      "id": 143,
+      "question": "The major ingredient in fish feed that provides protein is:",
+      "options": ["Maize", "Fish meal", "Rice bran", "Cassava peel"],
+      "answer": 1
+    },
+    {
+      "id": 144,
+      "question": "The term 'capitulum' is the flower head of a:",
+      "options": ["Maize plant", "Sunflower", "Rice plant", "Bean plant"],
+      "answer": 1
+    },
+    {
+      "id": 145,
+      "question": "Which of these is a viral disease of poultry?",
+      "options": ["Coccidiosis", "Gumboro disease", "Chronic Respiratory Disease", "Fowl Cholera"],
+      "answer": 1
+    },
+    {
+      "id": 146,
+      "question": "The practice of feeding a female animal with high-quality feed before mating is:",
+      "options": ["Creep feeding", "Flushing", "Steaming up", "Culling"],
+      "answer": 1
+    },
+    {
+      "id": 147,
+      "question": "A measure of the acidity or alkalinity of the soil is:",
+      "options": ["Soil texture", "Soil pH", "Soil structure", "Soil profile"],
+      "answer": 1
+    },
+    {
+      "id": 148,
+      "question": "The process of transforming raw agricultural products into finished goods is:",
+      "options": ["Marketing", "Processing", "Distribution", "Storage"],
+      "answer": 1
+    },
+    {
+      "id": 149,
+      "question": "The legal right to use a piece of land is:",
+      "options": ["Land use", "Land tenure", "Land surveying", "Land clearing"],
+      "answer": 1
+    },
+    {
+      "id": 150,
+      "question": "Which of the following is a predatory insect used in biological control?",
+      "options": ["Ladybird beetle", "Aphid", "Locust", "Weevil"],
+      "answer": 0
+    },
+        {
+      "id": 151,
+      "question": "The science of managing forests for the benefit of humans is:",
+      "options": ["Silviculture", "Forestry", "Agro-forestry", "Wildlife management"],
+      "answer": 1
+    },
+    {
+      "id": 152,
+      "question": "Which of the following is a symptom of foot and mouth disease in cattle?",
+      "options": ["High fever and blisters in the mouth", "Loss of feathers", "Increased egg production", "Firm droppings"],
+      "answer": 0
+    },
+    {
+      "id": 153,
+      "question": "The method of preserving green forage in an airtight container is:",
+      "options": ["Hay making", "Silage making", "Dehydration", "Fermentation"],
+      "answer": 1
+    },
+    {
+      "id": 154,
+      "question": "The tool used for measuring the height of a tree is:",
+      "options": ["Abney level", "Prismatic compass", "Gunter's chain", "Theodolite"],
+      "answer": 0
+    },
+    {
+      "id": 155,
+      "question": "Which of these is a major source of animal protein for livestock?",
+      "options": ["Maize offal", "Blood meal", "Rice bran", "Molasses"],
+      "answer": 1
+    },
+    {
+      "id": 156,
+      "question": "The process of placing a piece of a plant in water or soil to grow a new plant is:",
+      "options": ["Grafting", "Budding", "Cutting", "Layering"],
+      "answer": 2
+    },
+    {
+      "id": 157,
+      "question": "The removal of a young animal from its mother's milk is:",
+      "options": ["Culling", "Weaning", "Docking", "Castration"],
+      "answer": 1
+    },
+    {
+      "id": 158,
+      "question": "A farm structure used for keeping birds is a:",
+      "options": ["Stable", "Paddock", "Cote/Pen", "Sty"],
+      "answer": 2
+    },
+    {
+      "id": 159,
+      "question": "The primary objective of agricultural insurance is to:",
+      "options": ["Provide loans", "Compensate farmers for losses", "Increase land tax", "Sell seeds"],
+      "answer": 1
+    },
+    {
+      "id": 160,
+      "question": "Which of the following is a bacterial disease of crops?",
+      "options": ["Maize streak", "Cassava mosaic", "Bacterial wilt", "Black arm of cotton"],
+      "answer": 2
+    },
+    {
+      "id": 161,
+      "question": "The term 'kidding' is the act of giving birth in:",
+      "options": ["Sheep", "Goats", "Pigs", "Rabbits"],
+      "answer": 1
+    },
+    {
+      "id": 162,
+      "question": "The most appropriate time to harvest maize for silage is at the:",
+      "options": ["Dry stage", "Milk stage", "Silking stage", "Tasseling stage"],
+      "answer": 1
+    },
+    {
+      "id": 163,
+      "question": "The process of providing nutrients to a pond to encourage the growth of plankton is:",
+      "options": ["Liming", "Fertilization", "Aeration", "Stocking"],
+      "answer": 1
+    },
+    {
+      "id": 164,
+      "question": "A deficiency of Calcium in the diet of laying birds causes:",
+      "options": ["Soft-shelled eggs", "Night blindness", "Scurvy", "Rickets"],
+      "answer": 0
+    },
+    {
+      "id": 165,
+      "question": "The study of the economic aspects of agricultural production is:",
+      "options": ["Agro-climatology", "Farm Management", "Soil Science", "Crop Physiology"],
+      "answer": 1
+    },
+    {
+      "id": 166,
+      "question": "Which of the following is an example of an indigenous agricultural practice?",
+      "options": ["Bush fallowing", "Mechanization", "Hydroponics", "Greenhouse farming"],
+      "answer": 0
+    },
+    {
+      "id": 167,
+      "question": "The practice of using a net to catch fish in a pond is:",
+      "options": ["Trawling", "Cropping/Harvesting", "Fertilizing", "Draining"],
+      "answer": 1
+    },
+    {
+      "id": 168,
+      "question": "The chemical symbol for Potassium is:",
+      "options": ["P", "Po", "K", "Ka"],
+      "answer": 2
+    },
+    {
+      "id": 169,
+      "question": "A farm record that tracks the inflow and outflow of cash is the:",
+      "options": ["Inventory", "Cash book", "Production record", "Farm diary"],
+      "answer": 1
+    },
+    {
+      "id": 170,
+      "question": "Which of these is a major advantage of animal power over human power?",
+      "options": ["It is cheaper", "It can handle heavier work", "It is easier to control", "It does not need food"],
+      "answer": 1
+    },
+    {
+      "id": 171,
+      "question": "The part of the seed that develops into the root is the:",
+      "options": ["Plumule", "Radicle", "Cotyledon", "Endosperm"],
+      "answer": 1
+    },
+    {
+      "id": 172,
+      "question": "The use of plastic or straw to cover the soil surface is:",
+      "options": ["Staking", "Mulching", "Pruning", "Thinning"],
+      "answer": 1
+    },
+    {
+      "id": 173,
+      "question": "The removal of the testes of a male animal is:",
+      "options": ["Docking", "Dehorning", "Castration", "Debeaking"],
+      "answer": 2
+    },
+    {
+      "id": 174,
+      "question": "A deficiency of Iodine in farm animals causes:",
+      "options": ["Goitre", "Anemia", "Rickets", "Sterility"],
+      "answer": 0
+    },
+    {
+      "id": 175,
+      "question": "The science of managing water for crop production is:",
+      "options": ["Drainage", "Irrigation", "Hydrology", "Aquaculture"],
+      "answer": 1
+    },
+    {
+      "id": 176,
+      "question": "The most common way to multiply sweet potato is by:",
+      "options": ["Seeds", "Stem cuttings", "Roots", "Leaves"],
+      "answer": 1
+    },
+    {
+      "id": 177,
+      "question": "Which soil horizon is referred to as the 'sub-soil'?",
+      "options": ["A-horizon", "B-horizon", "C-horizon", "D-horizon"],
+      "answer": 1
+    },
+    {
+      "id": 178,
+      "question": "A pesticide that kills all types of weeds is called:",
+      "options": ["Selective herbicide", "Non-selective herbicide", "Contact herbicide", "Systemic herbicide"],
+      "answer": 1
+    },
+    {
+      "id": 179,
+      "question": "The practice of keeping animals in a confined space is:",
+      "options": ["Extensive system", "Intensive system", "Semi-intensive system", "Nomadic system"],
+      "answer": 1
+    },
+    {
+      "id": 180,
+      "question": "The first step in the processing of oil palm fruit is:",
+      "options": ["Sterilization", "Digestion", "Pressing", "Clarification"],
+      "answer": 0
+    },
+    {
+      "id": 181,
+      "question": "A farm tool used for leveling the soil after plowing is the:",
+      "options": ["Rake", "Harrow", "Spade", "Pick-axe"],
+      "answer": 1
+    },
+    {
+      "id": 182,
+      "question": "The gestation period of a ewe (sheep) is approximately:",
+      "options": ["114 days", "150 days", "280 days", "336 days"],
+      "answer": 1
+    },
+    {
+      "id": 183,
+      "question": "Which of these is a major disease of citrus plants?",
+      "options": ["Tristeza", "Smut", "Rust", "Blight"],
+      "answer": 0
+    },
+    {
+      "id": 184,
+      "question": "The term 'monogastric' refers to animals with:",
+      "options": ["One stomach compartment", "Two stomach compartments", "Three stomach compartments", "Four stomach compartments"],
+      "answer": 0
+    },
+    {
+      "id": 185,
+      "question": "A major source of calcium for livestock is:",
+      "options": ["Bone meal", "Salt lick", "Rice bran", "Grass"],
+      "answer": 0
+    },
+    {
+      "id": 186,
+      "question": "The process of checking the fertility of an egg by holding it against a light source is:",
+      "options": ["Incubation", "Candling", "Hatching", "Brooding"],
+      "answer": 1
+    },
+    {
+      "id": 187,
+      "question": "The primary function of agricultural cooperatives is to:",
+      "options": ["Collect taxes", "Help members achieve economic goals", "Sell land", "Arrest farmers"],
+      "answer": 1
+    },
+    {
+      "id": 188,
+      "question": "Which of the following is a trace element?",
+      "options": ["Sulfur", "Boron", "Calcium", "Phosphorus"],
+      "answer": 1
+    },
+    {
+      "id": 189,
+      "question": "The practice of moving animals from one pasture to another is:",
+      "options": ["Rotational grazing", "Overgrazing", "Zero grazing", "Continuous grazing"],
+      "answer": 0
+    },
+    {
+      "id": 190,
+      "question": "The most effective way to control the spread of avian influenza is:",
+      "options": ["Vaccination", "Culling and biosecurity", "Changing feed", "Debeaking"],
+      "answer": 1
+    },
+    {
+      "id": 191,
+      "question": "The process by which rocks break down into smaller particles is:",
+      "options": ["Erosion", "Weathering", "Deposition", "Leaching"],
+      "answer": 1
+    },
+    {
+      "id": 192,
+      "question": "A farm record that lists the quantities of items in stock is the:",
+      "options": ["Cash book", "Inventory", "Production record", "Farm diary"],
+      "answer": 1
+    },
+    {
+      "id": 193,
+      "question": "The science of fruit and vegetable production combined is often under:",
+      "options": ["Horticulture", "Agronomy", "Floriculture", "Silviculture"],
+      "answer": 0
+    },
+    {
+      "id": 194,
+      "question": "Which of the following is a function of the liver in farm animals?",
+      "options": ["Bile production", "Mechanical digestion", "Absorption of water", "Egg formation"],
+      "answer": 0
+    },
+    {
+      "id": 195,
+      "question": "The practice of supporting the stem of a plant like yam is:",
+      "options": ["Mulching", "Staking", "Pruning", "Thinning"],
+      "answer": 1
+    },
+    {
+      "id": 196,
+      "question": "The hormone that regulates the level of sugar in an animal's blood is:",
+      "options": ["Adrenaline", "Insulin", "Thyroxine", "Oxytocin"],
+      "answer": 1
+    },
+    {
+      "id": 197,
+      "question": "The removal of the tail of a lamb is known as:",
+      "options": ["Docking", "Castration", "Dehorning", "Debeaking"],
+      "answer": 0
+    },
+    {
+      "id": 198,
+      "question": "Which of these is a major constituent of a balanced diet for farm animals?",
+      "options": ["Carbohydrates", "Proteins", "Minerals and Vitamins", "All of the above"],
+      "answer": 3
+    },
+    {
+      "id": 199,
+      "question": "The science of crop breeding is aimed at:",
+      "options": ["Improving crop yield and quality", "Increasing weed growth", "Reducing soil water", "Selling more fertilizer"],
+      "answer": 0
+    },
+    {
+      "id": 200,
+      "question": "The most effective way to increase agricultural production is through:",
+      "options": ["Traditional tools", "Mechanization and technology", "Using less fertilizer", "Abolishing research"],
+      "answer": 1
+    }
+  ]
+}
+
+    
+    
+ 

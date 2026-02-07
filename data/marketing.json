@@ -1,0 +1,1207 @@
+{
+  "subject": "Marketing",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Marketing is primarily concerned with the identification and satisfaction of:",
+      "options": ["Human needs and wants", "Government regulations", "Production quotas", "Store layouts"],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "question": "The '4Ps' of the marketing mix are Product, Price, Place, and:",
+      "options": ["People", "Promotion", "Process", "Packaging"],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is an example of a tangible product?",
+      "options": ["Banking", "Insurance", "A loaf of bread", "Legal advice"],
+      "answer": 2
+    },
+    {
+      "id": 4,
+      "question": "The process of dividing a total market into groups with similar characteristics is known as:",
+      "options": ["Mass marketing", "Market segmentation", "Market penetration", "Market skimming"],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "A name, term, sign, symbol, or design intended to identify the goods of a seller is a:",
+      "options": ["Label", "Brand", "Patent", "Copyright"],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "Which marketing philosophy focuses on high production efficiency and wide distribution?",
+      "options": ["Product concept", "Production concept", "Selling concept", "Societal concept"],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "The collection of individuals and households that buy goods and services for personal consumption is the:",
+      "options": ["Industrial market", "Reseller market", "Consumer market", "Government market"],
+      "answer": 2
+    },
+    {
+      "id": 8,
+      "question": "The amount of money a customer pays for a product is the:",
+      "options": ["Cost", "Value", "Price", "Utility"],
+      "answer": 2
+    },
+    {
+      "id": 9,
+      "question": "A short-term incentive to encourage the purchase or sale of a product is called:",
+      "options": ["Advertising", "Personal selling", "Public relations", "Sales promotion"],
+      "answer": 3
+    },
+    {
+      "id": 10,
+      "question": "The path through which goods move from the manufacturer to the final consumer is the:",
+      "options": ["Promotion mix", "Supply chain", "Channel of distribution", "Production line"],
+      "answer": 2
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is a 'Place' utility in marketing?",
+      "options": ["Warehousing", "Advertising", "Pricing", "Manufacturing"],
+      "answer": 0
+    },
+    {
+      "id": 12,
+      "question": "SWOT analysis stands for Strengths, Weaknesses, Opportunities, and:",
+      "options": ["Targets", "Techniques", "Threats", "Trends"],
+      "answer": 2
+    },
+    {
+      "id": 13,
+      "question": "The stage in the Product Life Cycle where sales grow rapidly is the:",
+      "options": ["Introduction stage", "Growth stage", "Maturity stage", "Decline stage"],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "A strategy of setting a high price for a new product to reap maximum revenues is:",
+      "options": ["Penetration pricing", "Psychological pricing", "Market skimming", "Cost-plus pricing"],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "question": "Marketing activities that take place across national borders is known as:",
+      "options": ["Domestic marketing", "Niche marketing", "International marketing", "Direct marketing"],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "question": "The psychological process where people select, organize, and interpret information is:",
+      "options": ["Learning", "Perception", "Motivation", "Attitude"],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "question": "A middleman who buys in bulk from producers and sells to retailers is a:",
+      "options": ["Wholesaler", "Broker", "Agent", "Consumer"],
+      "answer": 0
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is a demographic variable for market segmentation?",
+      "options": ["Personality", "Lifestyle", "Age", "Social class"],
+      "answer": 2
+    },
+    {
+      "id": 19,
+      "question": "The 'Societal Marketing Concept' balances company profits, consumer wants, and:",
+      "options": ["Product quality", "Society's interests", "Competitors' actions", "Government taxes"],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "A paid form of non-personal presentation of ideas, goods, or services by an identified sponsor is:",
+      "options": ["Publicity", "Sales promotion", "Advertising", "Personal selling"],
+      "answer": 2
+    },
+    {
+      "id": 21,
+      "question": "The set of all actual and potential buyers of a product is a:",
+      "options": ["Target group", "Segment", "Market", "Community"],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "question": "Goods that are purchased frequently, immediately, and with minimal effort are:",
+      "options": ["Shopping goods", "Specialty goods", "Convenience goods", "Unsought goods"],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "question": "The ultimate goal of the marketing process is to build strong:",
+      "options": ["Inventory", "Customer relationships", "Physical buildings", "Brand logos"],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "What is the first step in the marketing research process?",
+      "options": ["Developing a research plan", "Defining the problem", "Collecting data", "Reporting findings"],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "Setting a low price for a new product to attract a large number of buyers is:",
+      "options": ["Price skimming", "Penetration pricing", "Product bundling", "Discounting"],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "The environment consisting of actors close to the company that affect its service is the:",
+      "options": ["Macroenvironment", "Microenvironment", "Global environment", "Internal environment"],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "question": "Which of the following is NOT a part of the promotion mix?",
+      "options": ["Advertising", "Personal selling", "Public relations", "Inventory management"],
+      "answer": 3
+    },
+    {
+      "id": 28,
+      "question": "The act of obtaining a desired object from someone by offering something in return is:",
+      "options": ["Transaction", "Exchange", "Barter", "Donation"],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "question": "A company’s percentage of total sales in a given market is its:",
+      "options": ["Profit margin", "Market share", "Return on investment", "Growth rate"],
+      "answer": 1
+    },
+    {
+      "id": 30,
+      "question": "Niche marketing targets a:",
+      "options": ["Large mass market", "Small, well-defined market segment", "Global market", "Diversified market"],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "question": "The practice of using the internet to market products and services is:",
+      "options": ["Direct mail", "E-marketing", "Telemarketing", "Mass marketing"],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "Buying goods for further processing or for use in their operations is the:",
+      "options": ["Consumer market", "Business-to-business (B2B) market", "Retail market", "Black market"],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "The stage of the Product Life Cycle where sales level off is:",
+      "options": ["Introduction", "Growth", "Maturity", "Decline"],
+      "answer": 2
+    },
+    {
+      "id": 34,
+      "question": "Secondary data is information that:",
+      "options": ["Is collected for the first time", "Already exists somewhere", "Is collected through experiments", "Is always free"],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "People who are the first to adopt new products are called:",
+      "options": ["Early majority", "Laggards", "Innovators", "Late majority"],
+      "answer": 2
+    },
+    {
+      "id": 36,
+      "question": "A strategy of increasing sales of current products to current market segments is:",
+      "options": ["Market development", "Product development", "Market penetration", "Diversification"],
+      "answer": 2
+    },
+    {
+      "id": 37,
+      "question": "Which 'P' involves logistics and transportation?",
+      "options": ["Product", "Price", "Place", "Promotion"],
+      "answer": 2
+    },
+    {
+      "id": 38,
+      "question": "The total value a consumer attaches to a product's ability to satisfy a need is:",
+      "options": ["Cost", "Quality", "Utility", "Preference"],
+      "answer": 2
+    },
+    {
+      "id": 39,
+      "question": "Packaging serves two main functions: protection and:",
+      "options": ["Pricing", "Promotion", "Production", "Positioning"],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "question": "Which of these is a psychographic segmentation variable?",
+      "options": ["Gender", "Income", "Lifestyle", "Occupation"],
+      "answer": 2
+    },
+    {
+      "id": 41,
+      "question": "The 'Selling Concept' is mostly practiced with:",
+      "options": ["Sought goods", "Unsought goods", "Necessary goods", "Luxury goods"],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "question": "A brand that is given legal protection is a:",
+      "options": ["Logotype", "Trademark", "Patent", "Trade name"],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "question": "Maslow's hierarchy of needs includes physiological, safety, social, esteem, and:",
+      "options": ["Physical needs", "Self-actualization", "Financial needs", "Education"],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "question": "A reduction in price given to buyers who buy large volumes is a:",
+      "options": ["Cash discount", "Quantity discount", "Trade discount", "Seasonal discount"],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "question": "Marketing research that aims to describe marketing problems or situations is:",
+      "options": ["Exploratory research", "Descriptive research", "Causal research", "Experimental research"],
+      "answer": 1
+    },
+    {
+      "id": 46,
+      "question": "The group of brands that a consumer considers for purchase is the:",
+      "options": ["Evoked set", "Total set", "Awareness set", "Decision set"],
+      "answer": 0
+    },
+    {
+      "id": 47,
+      "question": "Telemarketing involves selling products over the:",
+      "options": ["Internet", "Television", "Telephone", "Radio"],
+      "answer": 2
+    },
+    {
+      "id": 48,
+      "question": "The four C's from the customer's perspective are Customer solution, Cost, Convenience, and:",
+      "options": ["Care", "Communication", "Choice", "Confidence"],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "question": "A distribution strategy where a product is stocked in as many outlets as possible is:",
+      "options": ["Exclusive distribution", "Selective distribution", "Intensive distribution", "Direct distribution"],
+      "answer": 2
+    },
+    {
+      "id": 50,
+      "question": "Post-purchase doubt that a consumer might feel after making a purchase is:",
+      "options": ["Customer satisfaction", "Cognitive dissonance", "Buying impulse", "Brand loyalty"],
+      "answer": 1
+    },
+        {
+      "id": 51,
+      "question": "A detailed version of a new product idea stated in meaningful consumer terms is a:",
+      "options": ["Product image", "Product idea", "Product concept", "Product feature"],
+      "answer": 2
+    },
+    {
+      "id": 52,
+      "question": "The process of comparing a company's products and processes to those of competitors is:",
+      "options": ["Targeting", "Positioning", "Benchmarking", "Segmenting"],
+      "answer": 2
+    },
+    {
+      "id": 53,
+      "question": "Which of the following is an example of an 'unsought good'?",
+      "options": ["Toothpaste", "Life Insurance", "Luxury watch", "Soft drink"],
+      "answer": 1
+    },
+    {
+      "id": 54,
+      "question": "A strategy of using a successful brand name to launch a new or modified product in a new category is:",
+      "options": ["Brand extension", "Line extension", "Multi-branding", "New branding"],
+      "answer": 0
+    },
+    {
+      "id": 55,
+      "question": "The stage in the consumer decision-making process where the buyer actually buys the product is:",
+      "options": ["Information search", "Evaluation of alternatives", "Purchase decision", "Post-purchase behavior"],
+      "answer": 2
+    },
+    {
+      "id": 56,
+      "question": "In the BCG Matrix, products with high market growth and low market share are:",
+      "options": ["Stars", "Cash Cows", "Question Marks", "Dogs"],
+      "answer": 2
+    },
+    {
+      "id": 57,
+      "question": "A price reduction offered to the channel members for performing functions like selling and record keeping is a:",
+      "options": ["Cash discount", "Quantity discount", "Functional discount", "Seasonal discount"],
+      "answer": 2
+    },
+    {
+      "id": 58,
+      "question": "The total number of items the company carries within its product lines is its product mix:",
+      "options": ["Width", "Length", "Depth", "Consistency"],
+      "answer": 1
+    },
+    {
+      "id": 59,
+      "question": "Advertising that aims to build selective demand for a specific brand is:",
+      "options": ["Informative advertising", "Persuasive advertising", "Reminder advertising", "Institutional advertising"],
+      "answer": 1
+    },
+    {
+      "id": 60,
+      "question": "The first group of people to buy a new product (about 2.5% of the market) are:",
+      "options": ["Early adopters", "Innovators", "Early majority", "Late majority"],
+      "answer": 1
+    },
+    {
+      "id": 61,
+      "question": "Market positioning involves arranging for a product to occupy a clear and desirable place in the:",
+      "options": ["Retail store", "Warehouse", "Consumer's mind", "Competitor's office"],
+      "answer": 2
+    },
+    {
+      "id": 62,
+      "question": "The use of '99.99' instead of '100' in pricing is an example of:",
+      "options": ["Skimming pricing", "Penetration pricing", "Psychological pricing", "Dynamic pricing"],
+      "answer": 2
+    },
+    {
+      "id": 63,
+      "question": "A distribution channel that has no intermediary levels is called a:",
+      "options": ["Direct marketing channel", "Indirect marketing channel", "Vertical marketing system", "Horizontal marketing system"],
+      "answer": 0
+    },
+    {
+      "id": 64,
+      "question": "The collection of online and offline tools used to track and measure marketing performance is:",
+      "options": ["Marketing audit", "Marketing analytics", "Marketing mix", "Marketing strategy"],
+      "answer": 1
+    },
+    {
+      "id": 65,
+      "question": "A brand created and owned by a reseller of a product or service is a:",
+      "options": ["Manufacturer brand", "Private brand", "Licensed brand", "Co-brand"],
+      "answer": 1
+    },
+    {
+      "id": 66,
+      "question": "The specific blend of promotion tools that the company uses to communicate customer value is the:",
+      "options": ["Marketing mix", "Product mix", "Promotion mix", "Price mix"],
+      "answer": 2
+    },
+    {
+      "id": 67,
+      "question": "Which of the following is a 'pull' strategy in promotion?",
+      "options": ["Trade shows", "Sales contests for dealers", "Consumer advertising", "Personal selling to retailers"],
+      "answer": 2
+    },
+    {
+      "id": 68,
+      "question": "The 'Durable Goods' are products that:",
+      "options": ["Are consumed in one use", "Last for a long time over many uses", "Are services provided by professionals", "Are purely digital"],
+      "answer": 1
+    },
+    {
+      "id": 69,
+      "question": "A strategy where a company charges different prices to different customers for the same product is:",
+      "options": ["Uniform pricing", "Segmented pricing", "Cost-plus pricing", "Promotional pricing"],
+      "answer": 1
+    },
+    {
+      "id": 70,
+      "question": "Information collected specifically for the current research project is:",
+      "options": ["Secondary data", "Primary data", "Internal data", "External data"],
+      "answer": 1
+    },
+    {
+      "id": 71,
+      "question": "The process of evaluating each market segment's attractiveness and selecting one or more to enter is:",
+      "options": ["Market segmentation", "Market targeting", "Market differentiation", "Market positioning"],
+      "answer": 1
+    },
+    {
+      "id": 72,
+      "question": "The systematic design, collection, analysis, and reporting of data relevant to a specific marketing situation is:",
+      "options": ["Marketing intelligence", "Marketing research", "Competitive intelligence", "Data mining"],
+      "answer": 1
+    },
+    {
+      "id": 73,
+      "question": "Which of the following is an example of an 'internal' factor affecting pricing?",
+      "options": ["Competitors' prices", "Company's marketing objectives", "Market demand", "Government regulations"],
+      "answer": 1
+    },
+    {
+      "id": 74,
+      "question": "The 'Augmented Product' level includes:",
+      "options": ["Core benefits", "Physical design", "Warranty and after-sale service", "Packaging"],
+      "answer": 2
+    },
+    {
+      "id": 75,
+      "question": "The way consumers perceive an actual or potential product is the:",
+      "options": ["Product concept", "Product image", "Product idea", "Product version"],
+      "answer": 1
+    },
+    {
+      "id": 76,
+      "question": "In marketing, PLC stands for:",
+      "options": ["Product Level Cost", "Product Life Cycle", "Price Level Control", "Public Limited Company"],
+      "answer": 1
+    },
+    {
+      "id": 77,
+      "question": "A set of interdependent organizations that help make a product available for use is a:",
+      "options": ["Marketing channel", "Sales force", "Retail chain", "Strategic alliance"],
+      "answer": 0
+    },
+    {
+      "id": 78,
+      "question": "Which of these describes a company that sells products directly to final consumers for personal use?",
+      "options": ["Wholesaler", "Broker", "Retailer", "Distributor"],
+      "answer": 2
+    },
+    {
+      "id": 79,
+      "question": "The 'AIDA' model in advertising stands for Attention, Interest, Desire, and:",
+      "options": ["Agreement", "Action", "Awareness", "Attraction"],
+      "answer": 1
+    },
+    {
+      "id": 80,
+      "question": "Providing a small sample of a product for free to encourage trial is:",
+      "options": ["Couponing", "Sampling", "Rebating", "Premium"],
+      "answer": 1
+    },
+    {
+      "id": 81,
+      "question": "Developing a product and its marketing mix for only one specific segment is:",
+      "options": ["Undifferentiated marketing", "Differentiated marketing", "Concentrated marketing", "Mass marketing"],
+      "answer": 2
+    },
+    {
+      "id": 82,
+      "question": "The stage of the PLC where profit usually peaks is the:",
+      "options": ["Introduction", "Growth", "Maturity", "Decline"],
+      "answer": 1
+    },
+    {
+      "id": 83,
+      "question": "Environmental factors like inflation, unemployment, and interest rates belong to the:",
+      "options": ["Microenvironment", "Macroenvironment", "Technological environment", "Cultural environment"],
+      "answer": 1
+    },
+    {
+      "id": 84,
+      "question": "Which of these is a form of 'Direct Marketing'?",
+      "options": ["Television commercials", "Billboard ads", "Catalog marketing", "Public relations events"],
+      "answer": 2
+    },
+    {
+      "id": 85,
+      "question": "The 'Value Proposition' of a brand is the full mix of ______ upon which it is positioned:",
+      "options": ["Prices", "Benefits", "Advertisements", "Employees"],
+      "answer": 1
+    },
+    {
+      "id": 86,
+      "question": "When a company adds more items to its product line within its present range, it is:",
+      "options": ["Line filling", "Line stretching", "Line pruning", "Line modernization"],
+      "answer": 0
+    },
+    {
+      "id": 87,
+      "question": "A buyer's 'Black Box' in consumer behavior refers to the:",
+      "options": ["Customer's wallet", "Buyer's characteristics and decision process", "Store's inventory", "Marketing mix"],
+      "answer": 1
+    },
+    {
+      "id": 88,
+      "question": "The division of the market based on knowledge, attitudes, or response to a product is:",
+      "options": ["Demographic segmentation", "Geographic segmentation", "Behavioral segmentation", "Psychographic segmentation"],
+      "answer": 2
+    },
+    {
+      "id": 89,
+      "question": "A middleman who represents either the buyer or the seller on a permanent basis is an:",
+      "options": ["Agent", "Broker", "Wholesaler", "Retailer"],
+      "answer": 0
+    },
+    {
+      "id": 90,
+      "question": "Market 'niche' is best described as:",
+      "options": ["The whole market", "A large segment", "A small, specific corner of a market", "A group of competitors"],
+      "answer": 2
+    },
+    {
+      "id": 91,
+      "question": "A person's pattern of living as expressed in his or her activities, interests, and opinions is:",
+      "options": ["Social class", "Culture", "Lifestyle", "Personality"],
+      "answer": 2
+    },
+    {
+      "id": 92,
+      "question": "The 'P' that represents the value given up to obtain a product is:",
+      "options": ["Product", "Price", "Place", "Promotion"],
+      "answer": 1
+    },
+    {
+      "id": 93,
+      "question": "Which of these is a major advantage of personal selling?",
+      "options": ["Low cost per contact", "Broad reach", "Immediate feedback and adjustment", "Non-personal nature"],
+      "answer": 2
+    },
+    {
+      "id": 94,
+      "question": "The physical environment in which a service is delivered is the:",
+      "options": ["Process", "People", "Physical evidence", "Product"],
+      "answer": 2
+    },
+    {
+      "id": 95,
+      "question": "A 'Loss Leader' pricing strategy involves:",
+      "options": ["Setting very high prices", "Selling a product at a loss to attract customers to the store", "Fixing prices with competitors", "Pricing based on international exchange rates"],
+      "answer": 1
+    },
+    {
+      "id": 96,
+      "question": "The 'Maturity' stage of the PLC is characterized by:",
+      "options": ["High costs and no profit", "Rapid sales increase", "Slowing sales growth and intense competition", "Falling sales and profits"],
+      "answer": 2
+    },
+    {
+      "id": 97,
+      "question": "Which of the following describes the 'Marketing Myopia'?",
+      "options": ["Focusing on customer needs", "Paying more attention to specific products than benefits produced", "Broadly defining the market", "Using too many promotion tools"],
+      "answer": 1
+    },
+    {
+      "id": 98,
+      "question": "The 'Total Quality Management' (TQM) approach focuses on:",
+      "options": ["Maximizing sales", "Reducing prices", "Continuous improvement of all organizational processes", "Massive advertising"],
+      "answer": 2
+    },
+    {
+      "id": 99,
+      "question": "A company that sells goods primarily to other businesses is a:",
+      "options": ["B2C company", "B2B company", "C2C company", "C2B company"],
+      "answer": 1
+    },
+    {
+      "id": 100,
+      "question": "The final stage of the buyer decision process is:",
+      "options": ["Information search", "Evaluation of alternatives", "Purchase decision", "Post-purchase behavior"],
+      "answer": 3
+    },
+        {
+      "id": 101,
+      "question": "The process of planning, implementing, and controlling the physical flow of materials and goods is:",
+      "options": ["Marketing logistics", "Product development", "Market research", "Customer service"],
+      "answer": 0
+    },
+    {
+      "id": 102,
+      "question": "Which of these is a major objective of pricing?",
+      "options": ["Market share leadership", "Survival", "Product quality leadership", "All of the above"],
+      "answer": 3
+    },
+    {
+      "id": 103,
+      "question": "A strategy of entering a foreign market by joining with foreign companies to produce or market products is:",
+      "options": ["Direct investment", "Exporting", "Joint venturing", "Indirect exporting"],
+      "answer": 2
+    },
+    {
+      "id": 104,
+      "question": "In the 'Ansoff Matrix', developing new products for existing markets is called:",
+      "options": ["Market penetration", "Product development", "Market development", "Diversification"],
+      "answer": 1
+    },
+    {
+      "id": 105,
+      "question": "The marketing of services is different from goods because services are:",
+      "options": ["Tangible", "Intangible", "Storable", "Standardized"],
+      "answer": 1
+    },
+    {
+      "id": 106,
+      "question": "A 'Market Follower' is a firm that:",
+      "options": ["Attacks the leader", "Wants to hold its share without rocking the boat", "Leads the market in price changes", "Focuses on small niches"],
+      "answer": 1
+    },
+    {
+      "id": 107,
+      "question": "The practice of 'Green Marketing' involves:",
+      "options": ["Selling plants", "Developing and marketing ecologically safe products", "Using green-colored logos", "Marketing in rural areas"],
+      "answer": 1
+    },
+    {
+      "id": 108,
+      "question": "A price markup is most commonly used by:",
+      "options": ["Manufacturers", "Wholesalers and Retailers", "Service providers", "Farmers"],
+      "answer": 1
+    },
+    {
+      "id": 109,
+      "question": "Which of the following is an example of 'Public Relations'?",
+      "options": ["A radio jingle", "A press release about a charity donation", "A buy-one-get-one-free offer", "A door-to-door sales pitch"],
+      "answer": 1
+    },
+    {
+      "id": 110,
+      "question": "The 'Inseparability' characteristic of services means that:",
+      "options": ["Services cannot be seen or tasted", "Services cannot be stored for later use", "Services are produced and consumed at the same time", "Service quality depends on who provides them"],
+      "answer": 2
+    },
+    {
+      "id": 111,
+      "question": "The total financial value of a brand is its:",
+      "options": ["Brand equity", "Brand loyalty", "Brand awareness", "Brand image"],
+      "answer": 0
+    },
+    {
+      "id": 112,
+      "question": "A warehouse that stores goods for moderate to long periods is a:",
+      "options": ["Distribution center", "Storage warehouse", "Terminal", "Retail outlet"],
+      "answer": 1
+    },
+    {
+      "id": 113,
+      "question": "Marketing that targets consumers at the 'Bottom of the Pyramid' focuses on:",
+      "options": ["The wealthiest 10%", "The middle class", "The world's poorest consumers", "Industrial buyers"],
+      "answer": 2
+    },
+    {
+      "id": 114,
+      "question": "What does the 'S' in the 'STP' model stand for?",
+      "options": ["Strategy", "Selling", "Segmentation", "Sampling"],
+      "answer": 2
+    },
+    {
+      "id": 115,
+      "question": "Which of these describes 'Direct Mail' marketing?",
+      "options": ["Ads on TV", "Sending offers or announcements to a person at a particular address", "Calls to random phone numbers", "Displaying banners on websites"],
+      "answer": 1
+    },
+    {
+      "id": 116,
+      "question": "The 'Microenvironment' include the company, suppliers, marketing intermediaries, competitors, publics, and:",
+      "options": ["Culture", "Economy", "Customers", "Technology"],
+      "answer": 2
+    },
+    {
+      "id": 117,
+      "question": "The use of short-term incentives like coupons and sweepstakes is:",
+      "options": ["Advertising", "Personal selling", "Sales promotion", "Direct marketing"],
+      "answer": 2
+    },
+    {
+      "id": 118,
+      "question": "A strategy where the company starts with a high price and gradually lowers it is:",
+      "options": ["Price penetration", "Price skimming", "Captive-product pricing", "By-product pricing"],
+      "answer": 1
+    },
+    {
+      "id": 119,
+      "question": "An example of an 'Intermediary' is a:",
+      "options": ["Producer", "Retailer", "Consumer", "Raw material supplier"],
+      "answer": 1
+    },
+    {
+      "id": 120,
+      "question": "Which of the following is a barrier to international marketing?",
+      "options": ["Tariffs and quotas", "Cultural differences", "Exchange rate instability", "All of the above"],
+      "answer": 3
+    },
+    {
+      "id": 121,
+      "question": "The four C's of marketing communications are Coherence, Consistency, Continuity, and:",
+      "options": ["Creativity", "Complementarity", "Cost", "Clarity"],
+      "answer": 1
+    },
+    {
+      "id": 122,
+      "question": "A product that is in the maturity stage should focus its advertising on:",
+      "options": ["Awareness", "Persuasion", "Reminding customers", "Trial"],
+      "answer": 2
+    },
+    {
+      "id": 123,
+      "question": "The 'Break-even' point is where:",
+      "options": ["Total revenue equals total cost", "Profit is maximized", "Variable cost is zero", "Sales are at their highest"],
+      "answer": 0
+    },
+    {
+      "id": 124,
+      "question": "The '7Ps' of service marketing include the original 4Ps plus People, Process, and:",
+      "options": ["Physical evidence", "Planning", "Positioning", "Packaging"],
+      "answer": 0
+    },
+    {
+      "id": 125,
+      "question": "Developing a specific marketing mix for a city or neighborhood is:",
+      "options": ["Individual marketing", "Local marketing", "Niche marketing", "Segment marketing"],
+      "answer": 1
+    },
+    {
+      "id": 126,
+      "question": "Which 'P' is most directly related to the 'Place' in the 4Ps?",
+      "options": ["Promotion", "Logistics", "Personal Selling", "Branding"],
+      "answer": 1
+    },
+    {
+      "id": 127,
+      "question": "The process of setting prices based on competitors' strategies and prices is:",
+      "options": ["Cost-based pricing", "Value-based pricing", "Competition-based pricing", "Customer-based pricing"],
+      "answer": 2
+    },
+    {
+      "id": 128,
+      "question": "A firm that focuses on a small, specific part of the market that other firms overlook is a:",
+      "options": ["Market leader", "Market challenger", "Market nicher", "Market follower"],
+      "answer": 2
+    },
+    {
+      "id": 129,
+      "question": "The first step in a strategic plan is to define the company:",
+      "options": ["Portfolio", "Objectives", "Mission", "Marketing mix"],
+      "answer": 2
+    },
+    {
+      "id": 130,
+      "question": "What is the primary purpose of a 'Focus Group' in marketing research?",
+      "options": ["To survey 1,000 people", "To observe consumer behavior in stores", "To gain qualitative insights through group discussion", "To test the durability of a product"],
+      "answer": 2
+    },
+    {
+      "id": 131,
+      "question": "The most expensive mode of transportation for goods is usually:",
+      "options": ["Rail", "Truck", "Water", "Air"],
+      "answer": 3
+    },
+    {
+      "id": 132,
+      "question": "When a company buys another company in a different industry, it is practicing:",
+      "options": ["Market penetration", "Conglomerate diversification", "Product development", "Market development"],
+      "answer": 1
+    },
+    {
+      "id": 133,
+      "question": "The 'Perishability' of services means that they:",
+      "options": ["Go bad like food", "Cannot be stored for later sale or use", "Are difficult to describe", "Are always high quality"],
+      "answer": 1
+    },
+    {
+      "id": 134,
+      "question": "Pricing products that must be used with a main product (e.g., printer ink) is:",
+      "options": ["Optional-product pricing", "Captive-product pricing", "Product bundle pricing", "By-product pricing"],
+      "answer": 1
+    },
+    {
+      "id": 135,
+      "question": "Social media marketing is a subset of:",
+      "options": ["Traditional marketing", "Digital marketing", "Direct mail", "Outdoor advertising"],
+      "answer": 1
+    },
+    {
+      "id": 136,
+      "question": "The 'Referral' stage in a customer journey is when the customer:",
+      "options": ["Buys for the first time", "Searches for information", "Recommends the product to others", "Evaluates alternatives"],
+      "answer": 2
+    },
+    {
+      "id": 137,
+      "question": "The use of a celebrity to endorse a product is a form of:",
+      "options": ["Rational appeal", "Moral appeal", "Emotional appeal", "Humor appeal"],
+      "answer": 2
+    },
+    {
+      "id": 138,
+      "question": "Which of these is a 'pull' promotional tool?",
+      "options": ["Trade allowances", "Inventory subsidies", "Free samples to consumers", "Sales contests for wholesalers"],
+      "answer": 2
+    },
+    {
+      "id": 139,
+      "question": "A market with many buyers and sellers trading in a uniform commodity (e.g., wheat) is:",
+      "options": ["Pure competition", "Monopolistic competition", "Oligopolistic competition", "Pure monopoly"],
+      "answer": 0
+    },
+    {
+      "id": 140,
+      "question": "The 'Black Box' model helps marketers understand:",
+      "options": ["Production costs", "Competitor strategy", "What goes on in the buyer's mind", "Retail shelf space"],
+      "answer": 2
+    },
+    {
+      "id": 141,
+      "question": "The 1960s 'Marketing Era' focused on:",
+      "options": ["Mass production", "Hard selling", "Customer needs and satisfaction", "Digital engagement"],
+      "answer": 2
+    },
+    {
+      "id": 142,
+      "question": "An organized movement of citizens and government agencies to improve the rights of buyers is:",
+      "options": ["Environmentalism", "Consumerism", "Socialism", "Capitalism"],
+      "answer": 1
+    },
+    {
+      "id": 143,
+      "question": "A set of symbols that the sender transmits in a communication process is the:",
+      "options": ["Media", "Message", "Feedback", "Noise"],
+      "answer": 1
+    },
+    {
+      "id": 144,
+      "question": "Which mode of transport is best for high-volume, low-value products like coal or iron ore?",
+      "options": ["Truck", "Air", "Rail", "Pipe"],
+      "answer": 2
+    },
+    {
+      "id": 145,
+      "question": "A 'Global Firm' is one that:",
+      "options": ["Only exports goods", "Operates in more than one country and gains advantages not available to domestic-only competitors", "Has a website accessible worldwide", "Is owned by the UN"],
+      "answer": 1
+    },
+    {
+      "id": 146,
+      "question": "In the 'Product-Market Expansion Grid', 'Diversification' involves:",
+      "options": ["Existing products, existing markets", "New products, existing markets", "Existing products, new markets", "New products, new markets"],
+      "answer": 3
+    },
+    {
+      "id": 147,
+      "question": "What is 'Market Skimming'?",
+      "options": ["Low initial price", "High initial price", "Matching competitor price", "Setting price below cost"],
+      "answer": 1
+    },
+    {
+      "id": 148,
+      "question": "The 'Ambush Marketing' strategy involves:",
+      "options": ["Setting up a store in the woods", "Associating a brand with an event without being an official sponsor", "Advertising late at night", "Aggressive door-to-door selling"],
+      "answer": 1
+    },
+    {
+      "id": 149,
+      "question": "The systematic design of a company's image and value so that customers understand what the brand stands for is:",
+      "options": ["Marketing Mix", "Positioning", "Segmentation", "Distribution"],
+      "answer": 1
+    },
+    {
+      "id": 150,
+      "question": "Which of these is a 'Convenience Product'?",
+      "options": ["Laptop", "New Car", "Sachet of salt", "Diamond ring"],
+      "answer": 2
+    },
+        {
+      "id": 151,
+      "question": "The study of how individuals, groups, and organizations select, buy, and use goods is:",
+      "options": ["Market research", "Consumer behavior", "Sales management", "Public relations"],
+      "answer": 1
+    },
+    {
+      "id": 152,
+      "question": "A strategy where a company sets a high price for a new product to 'skim' revenues layer by layer is:",
+      "options": ["Market-skimming pricing", "Market-penetration pricing", "Product bundle pricing", "Optional-product pricing"],
+      "answer": 0
+    },
+    {
+      "id": 153,
+      "question": "Which of these is a function of a 'Wholesaler'?",
+      "options": ["Bulk breaking", "Warehousing", "Transportation", "All of the above"],
+      "answer": 3
+    },
+    {
+      "id": 154,
+      "question": "The use of commercial marketing concepts to influence individuals' behavior to improve their well-being is:",
+      "options": ["Digital marketing", "Social marketing", "Service marketing", "Place marketing"],
+      "answer": 1
+    },
+    {
+      "id": 155,
+      "question": "A set of all product lines and items that a particular seller offers for sale is the:",
+      "options": ["Product line", "Product mix", "Product depth", "Product consistency"],
+      "answer": 1
+    },
+    {
+      "id": 156,
+      "question": "The specific set of retail outlets that a manufacturer uses to sell its products is called its:",
+      "options": ["Marketing mix", "Distribution network", "Sales force", "Target market"],
+      "answer": 1
+    },
+    {
+      "id": 157,
+      "question": "Which of these is a major advantage of 'Social Media' marketing?",
+      "options": ["It is completely free", "Targeted reach and engagement", "It replaces the need for a product", "It works only for teenagers"],
+      "answer": 1
+    },
+    {
+      "id": 158,
+      "question": "The practice of using a single brand name for two or more related products is:",
+      "options": ["Family branding", "Individual branding", "Private branding", "Co-branding"],
+      "answer": 0
+    },
+    {
+      "id": 159,
+      "question": "A market structure where there are many sellers but only one buyer is a:",
+      "options": ["Monopoly", "Monopsony", "Oligopoly", "Duopoly"],
+      "answer": 1
+    },
+    {
+      "id": 160,
+      "question": "In marketing, a 'Lead' refers to a:",
+      "options": ["Successful sale", "Potential customer", "Product manager", "Competitor"],
+      "answer": 1
+    },
+    {
+      "id": 161,
+      "question": "The total volume of a product that could be bought by a defined consumer group is:",
+      "options": ["Market share", "Market demand", "Market supply", "Market price"],
+      "answer": 1
+    },
+    {
+      "id": 162,
+      "question": "Which 'P' involves the use of coupons, discounts, and premiums?",
+      "options": ["Product", "Price", "Place", "Promotion"],
+      "answer": 3
+    },
+    {
+      "id": 163,
+      "question": "A strategy of providing a large number of variations of a product is product:",
+      "options": ["Simplification", "Diversification", "Standardization", "Elimination"],
+      "answer": 1
+    },
+    {
+      "id": 164,
+      "question": "The stage in the adoption process where the consumer considers whether trying the new product makes sense is:",
+      "options": ["Awareness", "Interest", "Evaluation", "Trial"],
+      "answer": 2
+    },
+    {
+      "id": 165,
+      "question": "Which of the following is a 'Direct' distribution channel?",
+      "options": ["Manufacturer to Retailer to Consumer", "Manufacturer to Wholesaler to Consumer", "Manufacturer to Consumer", "Manufacturer to Agent to Consumer"],
+      "answer": 2
+    },
+    {
+      "id": 166,
+      "question": "The process of getting the right product to the right consumer at the right time is:",
+      "options": ["Marketing", "Distribution", "Production", "Research"],
+      "answer": 1
+    },
+    {
+      "id": 167,
+      "question": "A company that produces only what is ordered is practicing:",
+      "options": ["Mass production", "Customized production", "Batch production", "Flow production"],
+      "answer": 1
+    },
+    {
+      "id": 168,
+      "question": "The 'Promotional Mix' includes advertising, sales promotion, public relations, personal selling, and:",
+      "options": ["Pricing", "Direct marketing", "Warehousing", "Segmentation"],
+      "answer": 1
+    },
+    {
+      "id": 169,
+      "question": "Setting a price based on the buyer's perception of value rather than on the seller's cost is:",
+      "options": ["Cost-plus pricing", "Value-based pricing", "Target profit pricing", "Markup pricing"],
+      "answer": 1
+    },
+    {
+      "id": 170,
+      "question": "The most important element of the 'People' P in service marketing is:",
+      "options": ["The customers only", "The employees and their service quality", "The shareholders", "The government"],
+      "answer": 1
+    },
+    {
+      "id": 171,
+      "question": "A brief and catchy phrase used in advertising to help consumers remember a brand is a:",
+      "options": ["Logo", "Slogan", "Trademark", "Headline"],
+      "answer": 1
+    },
+    {
+      "id": 172,
+      "question": "The systematic collection and analysis of publicly available information about consumers and competitors is:",
+      "options": ["Marketing research", "Marketing intelligence", "Internal records", "Marketing audit"],
+      "answer": 1
+    },
+    {
+      "id": 173,
+      "question": "Which of these is a psychological factor that influences buying behavior?",
+      "options": ["Social class", "Motivation", "Economic situation", "Lifestyle"],
+      "answer": 1
+    },
+    {
+      "id": 174,
+      "question": "A strategy of focusing on a very narrow segment of the market is:",
+      "options": ["Niche marketing", "Mass marketing", "Differentiated marketing", "Undifferentiated marketing"],
+      "answer": 0
+    },
+    {
+      "id": 175,
+      "question": "The 'Push' strategy in promotion primarily uses:",
+      "options": ["Consumer advertising", "Sales force and trade promotion", "Publicity", "Social media influencers"],
+      "answer": 1
+    },
+    {
+      "id": 176,
+      "question": "Which of these is a form of 'Outdoor' advertising?",
+      "options": ["Radio ads", "Billboards", "Newspaper inserts", "Magazines"],
+      "answer": 1
+    },
+    {
+      "id": 177,
+      "question": "The 'Standardization' of a product means it is:",
+      "options": ["Different for every customer", "Produced to a uniform specification", "Very expensive", "Handmade"],
+      "answer": 1
+    },
+    {
+      "id": 178,
+      "question": "The 'Sales Force' is part of which element of the marketing mix?",
+      "options": ["Product", "Price", "Place", "Promotion"],
+      "answer": 3
+    },
+    {
+      "id": 179,
+      "question": "What is 'Market Penetration'?",
+      "options": ["Selling new products to new markets", "Selling existing products to new markets", "Increasing sales of existing products to existing markets", "Developing new products for existing markets"],
+      "answer": 2
+    },
+    {
+      "id": 180,
+      "question": "A brand name that is owned by the manufacturer is a:",
+      "options": ["Private brand", "National brand", "Generic brand", "Store brand"],
+      "answer": 1
+    },
+    {
+      "id": 181,
+      "question": "The 'Macroenvironment' factor that includes laws, government agencies, and pressure groups is the:",
+      "options": ["Economic environment", "Political environment", "Cultural environment", "Technological environment"],
+      "answer": 1
+    },
+    {
+      "id": 182,
+      "question": "Which of these is a major reason for 'Product Failure'?",
+      "options": ["Good market research", "High product quality", "Poor timing of launch", "Effective distribution"],
+      "answer": 2
+    },
+    {
+      "id": 183,
+      "question": "The process of creating, maintaining, and enhancing strong, value-laden relationships with customers is:",
+      "options": ["Transactional marketing", "Relationship marketing", "Sales promotion", "Direct selling"],
+      "answer": 1
+    },
+    {
+      "id": 184,
+      "question": "The 'Physical Evidence' in services includes:",
+      "options": ["Employee salaries", "The layout and decor of the service facility", "The hidden processes", "The advertising budget"],
+      "answer": 1
+    },
+    {
+      "id": 185,
+      "question": "Marketing through mobile devices like smartphones and tablets is:",
+      "options": ["Telemarketing", "Mobile marketing", "E-mail marketing", "Search engine marketing"],
+      "answer": 1
+    },
+    {
+      "id": 186,
+      "question": "A 'Joint Venture' in international marketing is a form of:",
+      "options": ["Exporting", "Contract manufacturing", "Joint ownership", "Direct investment"],
+      "answer": 2
+    },
+    {
+      "id": 187,
+      "question": "The most effective tool for building up buyers' preferences, convictions, and actions is:",
+      "options": ["Advertising", "Personal selling", "Sales promotion", "Publicity"],
+      "answer": 1
+    },
+    {
+      "id": 188,
+      "question": "An example of a 'Public' in the microenvironment is:",
+      "options": ["The media", "A supplier", "A competitor", "A customer"],
+      "answer": 0
+    },
+    {
+      "id": 189,
+      "question": "The 'Product Mix Width' refers to the:",
+      "options": ["Total number of items in the mix", "Number of different product lines the company carries", "Total number of versions offered for each product", "How closely related the lines are"],
+      "answer": 1
+    },
+    {
+      "id": 190,
+      "question": "The use of 'Short Messages Service' (SMS) for marketing is a form of:",
+      "options": ["Direct marketing", "Mass marketing", "Outdoor marketing", "Public relations"],
+      "answer": 0
+    },
+    {
+      "id": 191,
+      "question": "The 'Inelastic' demand means that:",
+      "options": ["Demand changes significantly with price", "Demand hardly changes with a small change in price", "Demand is always zero", "Price is always zero"],
+      "answer": 1
+    },
+    {
+      "id": 192,
+      "question": "Which of these is a major goal of 'Public Relations'?",
+      "options": ["To make an immediate sale", "To build a good corporate image", "To reduce production costs", "To increase taxes"],
+      "answer": 1
+    },
+    {
+      "id": 193,
+      "question": "The stage of the PLC where a product is no longer profitable and is removed from the market is:",
+      "options": ["Maturity", "Decline", "Introduction", "Growth"],
+      "answer": 1
+    },
+    {
+      "id": 194,
+      "question": "A 'Market Leader' strategy usually involves:",
+      "options": ["Attacking other firms", "Finding new users and expanding total market", "Following the leader's price", "Concentrating on a niche"],
+      "answer": 1
+    },
+    {
+      "id": 195,
+      "question": "The systematic design of a questionnaire is a part of:",
+      "options": ["Marketing research", "Sales management", "Production planning", "Accounting"],
+      "answer": 0
+    },
+    {
+      "id": 196,
+      "question": "Which of these is a 'Retailer'?",
+      "options": ["A farmer selling to a factory", "A supermarket selling to consumers", "A factory selling to a wholesaler", "A bank"],
+      "answer": 1
+    },
+    {
+      "id": 197,
+      "question": "The 'SWOT' analysis is used to evaluate a company's:",
+      "options": ["Financial records", "Internal and external environment", "Employee performance", "Stock price"],
+      "answer": 1
+    },
+    {
+      "id": 198,
+      "question": "The main advantage of 'Television' advertising is its:",
+      "options": ["Low cost", "Ability to combine sight, sound, and motion", "Flexibility", "Long shelf life"],
+      "answer": 1
+    },
+    {
+      "id": 199,
+      "question": "A person's consistently favorable or unfavorable evaluations and feelings toward an object or idea is:",
+      "options": ["Perception", "Attitude", "Learning", "Belief"],
+      "answer": 1
+    },
+    {
+      "id": 200,
+      "question": "Marketing is the process by which companies create ______ for customers:",
+      "options": ["Cost", "Value", "Problems", "Confusion"],
+      "answer": 1
+    }
+  ]
+}
+
+    

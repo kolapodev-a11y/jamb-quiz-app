@@ -1,0 +1,1209 @@
+
+{
+  "subject": "Biology",
+  "questions":   [
+    {
+      "id": 1,
+      "question": "Which of the following is the basic unit of life?",
+      "options": ["Tissue", "Organ", "Cell", "System"],
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "question": "The movement of water molecules from a region of higher concentration to a region of lower concentration through a semi-permeable membrane is:",
+      "options": ["Diffusion", "Osmosis", "Plasmolysis", "Transpiration"],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "The organelle responsible for protein synthesis is the:",
+      "options": ["Mitochondrion", "Ribosome", "Golgi body", "Nucleus"],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a characteristic of living things that ensures the continuity of the species?",
+      "options": ["Growth", "Respiration", "Reproduction", "Excretion"],
+      "answer": 2
+    },
+    {
+      "id": 5,
+      "question": "The level of organization of an Amoeba is the:",
+      "options": ["Cellular level", "Tissue level", "Organ level", "System level"],
+      "answer": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of these is used for locomotion in Paramecium?",
+      "options": ["Pseudopodia", "Cilia", "Flagella", "Tentacles"],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "The enzyme in saliva that begins the digestion of starch is:",
+      "options": ["Pepsin", "Trypsin", "Ptyalin (Amylase)", "Lipase"],
+      "answer": 2
+    },
+    {
+      "id": 8,
+      "question": "Which of the following blood cells is responsible for fighting infections?",
+      "options": ["Red blood cells", "White blood cells", "Platelets", "Plasma"],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "The respiratory organ of an adult toad is the:",
+      "options": ["Gills", "Lungs and Skin", "Trachea", "Spiracles"],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "The process by which green plants manufacture their food is:",
+      "options": ["Respiration", "Photosynthesis", "Translocation", "Absorption"],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is a function of the liver?",
+      "options": ["Production of insulin", "Storage of bile", "Deamination of excess amino acids", "Filtration of urine"],
+      "answer": 2
+    },
+    {
+      "id": 12,
+      "question": "The part of the flower that receives pollen grains is the:",
+      "options": ["Anther", "Stigma", "Style", "Ovary"],
+      "answer": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is a biotic factor in an ecosystem?",
+      "options": ["Temperature", "Water", "Predation", "Soil pH"],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "question": "The type of association where both organisms benefit is:",
+      "options": ["Parasitism", "Commensalism", "Mutualism", "Competition"],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "question": "The structure in the ear responsible for maintaining balance is the:",
+      "options": ["Cochlea", "Eardrum", "Semicircular canals", "Ossicles"],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "question": "The vitamin essential for blood clotting is:",
+      "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+      "answer": 3
+    },
+    {
+      "id": 17,
+      "question": "The master gland of the endocrine system is the:",
+      "options": ["Thyroid gland", "Adrenal gland", "Pituitary gland", "Pancreas"],
+      "answer": 2
+    },
+    {
+      "id": 18,
+      "question": "The process of maintaining a constant internal environment is:",
+      "options": ["Homeostasis", "Metabolism", "Osmoregulation", "Excretion"],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "question": "Which of the following is an example of an involuntary action?",
+      "options": ["Walking", "Sneezing", "Writing", "Singing"],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "The genetic material in a cell is located in the:",
+      "options": ["Cytoplasm", "Nucleus", "Vacuole", "Cell wall"],
+      "answer": 1
+    },
+    {
+      "id": 21,
+      "question": "A group of similar cells performing a specific function is a:",
+      "options": ["Organ", "System", "Tissue", "Organism"],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "question": "The breakdown of food in the absence of oxygen is:",
+      "options": ["Aerobic respiration", "Anaerobic respiration", "Photosynthesis", "Fermentation"],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is an excretory product of the kidney?",
+      "options": ["Carbon dioxide", "Urea", "Sweat", "Bile"],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "question": "The joint at the elbow is an example of a:",
+      "options": ["Ball and socket joint", "Hinge joint", "Gliding joint", "Fixed joint"],
+      "answer": 1
+    },
+    {
+      "id": 25,
+      "question": "The transition from a tadpole to an adult toad is called:",
+      "options": ["Metamorphosis", "Ecdysis", "Growth", "Fertilization"],
+      "answer": 0
+    },
+    {
+      "id": 26,
+      "question": "The hormone responsible for the 'fight or flight' response is:",
+      "options": ["Insulin", "Thyroxine", "Adrenaline", "Estrogen"],
+      "answer": 2
+    },
+    {
+      "id": 27,
+      "question": "Which of the following plants is a monocotyledon?",
+      "options": ["Beans", "Mango", "Maize", "Groundnut"],
+      "answer": 2
+    },
+    {
+      "id": 28,
+      "question": "The deficiency of Iodine in the diet leads to:",
+      "options": ["Scurvy", "Rickets", "Goitre", "Anaemia"],
+      "answer": 2
+    },
+    {
+      "id": 29,
+      "question": "The part of the brain that controls voluntary movement and intelligence is the:",
+      "options": ["Cerebellum", "Medulla oblongata", "Cerebrum", "Hypothalamus"],
+      "answer": 2
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is the definition of Ecology?",
+      "options": ["Study of heredity", "Study of cells", "Study of organisms and their environment", "Study of internal organs"],
+      "answer": 2
+    },
+    {
+      "id": 31,
+      "question": "The male sex cell in humans is the:",
+      "options": ["Ovum", "Sperm", "Zygote", "Embryo"],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "question": "The removal of the apical bud to encourage lateral growth is called:",
+      "options": ["Pruning", "Grafting", "Layering", "Budding"],
+      "answer": 0
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is a warm-blooded animal?",
+      "options": ["Lizard", "Fish", "Pigeon", "Frog"],
+      "answer": 2
+    },
+    {
+      "id": 34,
+      "question": "The pigment that gives color to the skin and protects it from UV light is:",
+      "options": ["Chlorophyll", "Hemoglobin", "Melanin", "Bile"],
+      "answer": 2
+    },
+    {
+      "id": 35,
+      "question": "The process of cell division that results in four daughter cells with half the number of chromosomes is:",
+      "options": ["Mitosis", "Meiosis", "Binary fission", "Budding"],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is a primary consumer?",
+      "options": ["Lion", "Hawk", "Goat", "Snake"],
+      "answer": 2
+    },
+    {
+      "id": 37,
+      "question": "The scientist who proposed the theory of evolution by natural selection was:",
+      "options": ["Gregor Mendel", "Charles Darwin", "Robert Hooke", "Louis Pasteur"],
+      "answer": 1
+    },
+    {
+      "id": 38,
+      "question": "The vector for Malaria is the:",
+      "options": ["Tsetse fly", "Housefly", "Female Anopheles mosquito", "Male Anopheles mosquito"],
+      "answer": 2
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is a function of the skeleton?",
+      "options": ["Digestion of food", "Production of blood cells", "Secretion of hormones", "Excretion of waste"],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "question": "The study of heredity and variation is:",
+      "options": ["Evolution", "Genetics", "Taxonomy", "Physiology"],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "question": "A cross between a tall pea plant (TT) and a short pea plant (tt) will result in offspring that are:",
+      "options": ["All short", "All tall", "Half tall, half short", "Mostly short"],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "question": "The structure in a plant cell that provides rigidity and support is the:",
+      "options": ["Cell membrane", "Cell wall", "Chloroplast", "Cytoplasm"],
+      "answer": 1
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is an example of an aquatic habitat?",
+      "options": ["Desert", "Rainforest", "Ocean", "Savanna"],
+      "answer": 2
+    },
+    {
+      "id": 44,
+      "question": "The process by which plants lose water vapor through the stomata is:",
+      "options": ["Translocation", "Transpiration", "Guttation", "Inhibition"],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "question": "The type of fruit formed from a single ovary is a:",
+      "options": ["Simple fruit", "Aggregate fruit", "Multiple fruit", "False fruit"],
+      "answer": 0
+    },
+    {
+      "id": 46,
+      "question": "Which of the following is a non-communicable disease?",
+      "options": ["Tuberculosis", "AIDS", "Diabetes", "Cholera"],
+      "answer": 2
+    },
+    {
+      "id": 47,
+      "question": "The part of the eye that controls the amount of light entering is the:",
+      "options": ["Retina", "Lens", "Iris", "Cornea"],
+      "answer": 2
+    },
+    {
+      "id": 48,
+      "question": "The respiratory surface of a fish is the:",
+      "options": ["Skin", "Gills", "Mouth", "Fin"],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "question": "The stage of mitosis where chromosomes align at the equator is:",
+      "options": ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "question": "Which of the following is a decomposer?",
+      "options": ["Green plant", "Fungi", "Rabbit", "Eagle"],
+      "answer": 1
+    },
+        {
+      "id": 51,
+      "question": "The sequence of organisms through which energy is transferred is called a:",
+      "options": ["Food chain", "Food web", "Pyramid of numbers", "Ecosystem"],
+      "answer": 0
+    },
+    {
+      "id": 52,
+      "question": "Which of the following is an example of a physiological variation?",
+      "options": ["Height", "Skin color", "Blood group", "Fingerprints"],
+      "answer": 2
+    },
+    {
+      "id": 53,
+      "question": "The process by which waste products of metabolism are removed from the body is:",
+      "options": ["Digestion", "Excretion", "Egestion", "Secretion"],
+      "answer": 1
+    },
+    {
+      "id": 54,
+      "question": "The main respiratory gas exchange surface in humans is the:",
+      "options": ["Trachea", "Bronchi", "Alveoli", "Diaphragm"],
+      "answer": 2
+    },
+    {
+      "id": 55,
+      "question": "Which of the following describes the function of the xylem in plants?",
+      "options": ["Transport of food", "Transport of water and minerals", "Storage of starch", "Protection of the stem"],
+      "answer": 1
+    },
+    {
+      "id": 56,
+      "question": "The part of the human brain that maintains balance and muscular coordination is the:",
+      "options": ["Cerebrum", "Cerebellum", "Hypothalamus", "Medulla oblongata"],
+      "answer": 1
+    },
+    {
+      "id": 57,
+      "question": "An example of a flightless bird is the:",
+      "options": ["Eagle", "Pigeon", "Ostrich", "Hawk"],
+      "answer": 2
+    },
+    {
+      "id": 58,
+      "question": "The organelle often referred to as the 'powerhouse' of the cell is the:",
+      "options": ["Nucleus", "Ribosome", "Mitochondrion", "Vacuole"],
+      "answer": 2
+    },
+    {
+      "id": 59,
+      "question": "Which of the following is a symptom of Kwashiorkor?",
+      "options": ["Thinning of hair", "Swollen abdomen", "Bleeding gums", "Bowed legs"],
+      "answer": 1
+    },
+    {
+      "id": 60,
+      "question": "The dental formula $2(i \frac{2}{2}, c \frac{1}{1}, pm \frac{2}{2}, m \frac{3}{3})$ belongs to:",
+      "options": ["Dog", "Man", "Rabbit", "Sheep"],
+      "answer": 1
+    },
+    {
+      "id": 61,
+      "question": "The process of getting rid of undigested food from the gut is:",
+      "options": ["Excretion", "Egestion", "Metabolism", "Deamination"],
+      "answer": 1
+    },
+    {
+      "id": 62,
+      "question": "Which of the following is a characteristic of Wind-pollinated flowers?",
+      "options": ["Brightly colored petals", "Scented flowers", "Large, feathery stigmas", "Presence of nectar"],
+      "answer": 2
+    },
+    {
+      "id": 63,
+      "question": "The part of the ear that conducts sound vibrations from the eardrum to the inner ear is the:",
+      "options": ["Ossicles", "Cochlea", "Auditory nerve", "Pinna"],
+      "answer": 0
+    },
+    {
+      "id": 64,
+      "question": "The blood vessel that carries oxygenated blood from the lungs to the heart is the:",
+      "options": ["Pulmonary artery", "Pulmonary vein", "Aorta", "Vena cava"],
+      "answer": 1
+    },
+    {
+      "id": 65,
+      "question": "Which of the following describes the relationship between a cattle and a tick?",
+      "options": ["Commensalism", "Mutualism", "Parasitism", "Saprophytism"],
+      "answer": 2
+    },
+    {
+      "id": 66,
+      "question": "The light-sensitive layer of the eye is the:",
+      "options": ["Sclera", "Choroid", "Retina", "Iris"],
+      "answer": 2
+    },
+    {
+      "id": 67,
+      "question": "The hormone that regulates the blood sugar level in humans is:",
+      "options": ["Adrenaline", "Insulin", "Thyroxine", "Progesterone"],
+      "answer": 1
+    },
+    {
+      "id": 68,
+      "question": "In which part of the digestive system is water mostly absorbed?",
+      "options": ["Stomach", "Duodenum", "Large intestine", "Small intestine"],
+      "answer": 2
+    },
+    {
+      "id": 69,
+      "question": "The structure in a bird's egg that provides food for the developing embryo is the:",
+      "options": ["Albumen", "Yolk", "Chalaza", "Shell"],
+      "answer": 1
+    },
+    {
+      "id": 70,
+      "question": "Which of the following is a long-sightedness eye defect?",
+      "options": ["Myopia", "Hypermetropia", "Presbyopia", "Astigmatism"],
+      "answer": 1
+    },
+    {
+      "id": 71,
+      "question": "The basic unit of classification of living things is the:",
+      "options": ["Kingdom", "Class", "Species", "Genus"],
+      "answer": 2
+    },
+    {
+      "id": 72,
+      "question": "Which of the following organisms exhibit autotrophic nutrition?",
+      "options": ["Fungi", "Animals", "Green plants", "Bacteria"],
+      "answer": 2
+    },
+    {
+      "id": 73,
+      "question": "The enzyme that coagulates milk in the stomach of infants is:",
+      "options": ["Rennin", "Pepsin", "Trypsin", "Amylase"],
+      "answer": 0
+    },
+    {
+      "id": 74,
+      "question": "The movement of sugars through the phloem is known as:",
+      "options": ["Transpiration", "Translocation", "Ascent of sap", "Diffusion"],
+      "answer": 1
+    },
+    {
+      "id": 75,
+      "question": "Which of the following is a nitrogen-fixing bacterium?",
+      "options": ["Nitrosomonas", "Rhizobium", "Azotobacter", "Nitrobacter"],
+      "answer": 1
+    },
+    {
+      "id": 76,
+      "question": "The site of gaseous exchange in a leaf is the:",
+      "options": ["Stomata", "Cuticle", "Palisade mesophyll", "Vascular bundle"],
+      "answer": 0
+    },
+    {
+      "id": 77,
+      "question": "The type of dentition where an animal has different sets of teeth is:",
+      "options": ["Homodont", "Heterodont", "Monodont", "Polydont"],
+      "answer": 1
+    },
+    {
+      "id": 78,
+      "question": "Which of the following parts of the skin helps in temperature regulation?",
+      "options": ["Epidermis", "Sebaceous gland", "Sweat gland", "Cornified layer"],
+      "answer": 2
+    },
+    {
+      "id": 79,
+      "question": "The fluid-filled sac that protects the human fetus from mechanical shock is the:",
+      "options": ["Placenta", "Amnion", "Umbilical cord", "Allantois"],
+      "answer": 1
+    },
+    {
+      "id": 80,
+      "question": "The production of fruits without fertilization is:",
+      "options": ["Pollination", "Parthenocarpy", "Vegetative propagation", "Parthenogenesis"],
+      "answer": 1
+    },
+    {
+      "id": 81,
+      "question": "Which of the following is a function of the spinal cord?",
+      "options": ["Thinking", "Reflex actions", "Memory", "Vision"],
+      "answer": 1
+    },
+    {
+      "id": 82,
+      "question": "The functional unit of the kidney is the:",
+      "options": ["Nephron", "Neuron", "Medulla", "Pelvis"],
+      "answer": 0
+    },
+    {
+      "id": 83,
+      "question": "In the ABO blood group system, the universal donor is:",
+      "options": ["Group A", "Group B", "Group AB", "Group O"],
+      "answer": 3
+    },
+    {
+      "id": 84,
+      "question": "Which of the following is an example of a vestigial organ in humans?",
+      "options": ["Tail bone (coccyx)", "Hand", "Heart", "Lung"],
+      "answer": 0
+    },
+    {
+      "id": 85,
+      "question": "The process by which an organism develops from an unfertilized egg is:",
+      "options": ["Sexual reproduction", "Parthenogenesis", "Budding", "Fission"],
+      "answer": 1
+    },
+    {
+      "id": 86,
+      "question": "The structural and functional unit of the nervous system is the:",
+      "options": ["Nephron", "Axon", "Neuron", "Dendrite"],
+      "answer": 2
+    },
+    {
+      "id": 87,
+      "question": "Which of the following is a social insect?",
+      "options": ["Mosquito", "Termite", "Housefly", "Butterfly"],
+      "answer": 1
+    },
+    {
+      "id": 88,
+      "question": "The theory of use and disuse of organs was proposed by:",
+      "options": ["Darwin", "Mendel", "Lamarck", "Pasteur"],
+      "answer": 2
+    },
+    {
+      "id": 89,
+      "question": "The storage form of carbohydrate in animals is:",
+      "options": ["Starch", "Glucose", "Glycogen", "Cellulose"],
+      "answer": 2
+    },
+    {
+      "id": 90,
+      "question": "Which of the following is the respiratory organ of a spider?",
+      "options": ["Gills", "Book lungs", "Trachea", "Skin"],
+      "answer": 1
+    },
+    {
+      "id": 91,
+      "question": "The dark reaction of photosynthesis takes place in the:",
+      "options": ["Grana", "Stroma", "Thylakoid", "Cell sap"],
+      "answer": 1
+    },
+    {
+      "id": 92,
+      "question": "Which of the following is responsible for the transport of impulse towards the cell body?",
+      "options": ["Axon", "Dendrite", "Synapse", "Myelin sheath"],
+      "answer": 1
+    },
+    {
+      "id": 93,
+      "question": "The relationship where an organism lives on or in another organism and harms it is:",
+      "options": ["Saprophytism", "Symbiosis", "Parasitism", "Epiphytism"],
+      "answer": 2
+    },
+    {
+      "id": 94,
+      "question": "Which part of the brain controls respiration and heartbeat?",
+      "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Thalamus"],
+      "answer": 2
+    },
+    {
+      "id": 95,
+      "question": "The first stable product of photosynthesis in C3 plants is:",
+      "options": ["Glucose", "PGA", "Starch", "Pyruvate"],
+      "answer": 1
+    },
+    {
+      "id": 96,
+      "question": "A group of individuals of the same species living in a particular area at a particular time is a:",
+      "options": ["Community", "Population", "Niche", "Biome"],
+      "answer": 1
+    },
+    {
+      "id": 97,
+      "question": "The deficiency of Vitamin A causes:",
+      "options": ["Scurvy", "Rickets", "Night blindness", "Beri-beri"],
+      "answer": 2
+    },
+    {
+      "id": 98,
+      "question": "Which of the following is an example of a berry?",
+      "options": ["Mango", "Tomato", "Orange", "Coconut"],
+      "answer": 1
+    },
+    {
+      "id": 99,
+      "question": "The hormone that causes the ripening of fruits is:",
+      "options": ["Auxin", "Gibberellin", "Ethylene", "Cytokinin"],
+      "answer": 2
+    },
+    {
+      "id": 100,
+      "question": "The stage of meiosis where crossing over occurs is:",
+      "options": ["Prophase I", "Metaphase I", "Anaphase I", "Telophase I"],
+      "answer": 0
+    },
+        {
+      "id": 101,
+      "question": "The movement of a whole organism in response to a directional stimulus is called:",
+      "options": ["Tropism", "Taxis", "Nastic movement", "Kinesis"],
+      "answer": 1
+    },
+    {
+      "id": 102,
+      "question": "Which of the following is the excretory organ of an earthworm?",
+      "options": ["Malpighian tubules", "Nephridia", "Contractile vacuole", "Flame cells"],
+      "answer": 1
+    },
+    {
+      "id": 103,
+      "question": "The property of an ecosystem to return to its original state after a disturbance is:",
+      "options": ["Resistance", "Resilience", "Succession", "Climax"],
+      "answer": 1
+    },
+    {
+      "id": 104,
+      "question": "The first vertebrae in the neck region of a mammal is the:",
+      "options": ["Axis", "Atlas", "Cervical", "Thoracic"],
+      "answer": 1
+    },
+    {
+      "id": 105,
+      "question": "Which of the following is an example of an infectious disease?",
+      "options": ["Diabetes", "Scurvy", "Tuberculosis", "Cancer"],
+      "answer": 2
+    },
+    {
+      "id": 106,
+      "question": "The genetic makeup of an individual is its:",
+      "options": ["Phenotype", "Genotype", "Allele", "Locus"],
+      "answer": 1
+    },
+    {
+      "id": 107,
+      "question": "The part of the flower that develops into a seed after fertilization is the:",
+      "options": ["Ovary", "Ovule", "Carpel", "Pollen grain"],
+      "answer": 1
+    },
+    {
+      "id": 108,
+      "question": "Which of the following is a function of the amniotic fluid?",
+      "options": ["Provides nutrients", "Protects fetus from shock", "Carries oxygen", "Removes waste"],
+      "answer": 1
+    },
+    {
+      "id": 109,
+      "question": "The type of muscle found in the walls of the heart is:",
+      "options": ["Smooth muscle", "Skeletal muscle", "Cardiac muscle", "Voluntary muscle"],
+      "answer": 2
+    },
+    {
+      "id": 110,
+      "question": "Which of the following organisms shows external fertilization?",
+      "options": ["Lizard", "Bird", "Toad", "Mammal"],
+      "answer": 2
+    },
+    {
+      "id": 111,
+      "question": "The enzyme responsible for the digestion of proteins in the duodenum is:",
+      "options": ["Pepsin", "Trypsin", "Amylase", "Lipase"],
+      "answer": 1
+    },
+    {
+      "id": 112,
+      "question": "The structure that prevents food from entering the trachea is the:",
+      "options": ["Larynx", "Pharynx", "Epiglottis", "Soft palate"],
+      "answer": 2
+    },
+    {
+      "id": 113,
+      "question": "Which of the following is an example of a discontinuous variation?",
+      "options": ["Height", "Weight", "Skin color", "Blood group"],
+      "answer": 3
+    },
+    {
+      "id": 114,
+      "question": "The vitamin produced by the action of sunlight on the skin is:",
+      "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+      "answer": 3
+    },
+    {
+      "id": 115,
+      "question": "The part of the eye that contains only cones and is the point of sharpest vision is the:",
+      "options": ["Optic nerve", "Blind spot", "Fovea (Yellow spot)", "Cornea"],
+      "answer": 2
+    },
+    {
+      "id": 116,
+      "question": "Which of the following is a function of the large intestine?",
+      "options": ["Digestion of fats", "Absorption of water", "Production of bile", "Absorption of amino acids"],
+      "answer": 1
+    },
+    {
+      "id": 117,
+      "question": "The phenomenon of 'industrial melanism' is an example of:",
+      "options": ["Mutation", "Natural selection", "Artificial selection", "Acquired character"],
+      "answer": 1
+    },
+    {
+      "id": 118,
+      "question": "The respiratory organ of an insect is the:",
+      "options": ["Lung", "Gill", "Tracheal system", "Skin"],
+      "answer": 2
+    },
+    {
+      "id": 119,
+      "question": "Which of the following is a result of the deficiency of Vitamin C?",
+      "options": ["Rickets", "Night blindness", "Scurvy", "Pellagra"],
+      "answer": 2
+    },
+    {
+      "id": 120,
+      "question": "The study of fossils is known as:",
+      "options": ["Archaeology", "Paleontology", "Evolution", "Anthropology"],
+      "answer": 1
+    },
+    {
+      "id": 121,
+      "question": "The hormone that causes the uterus to contract during childbirth is:",
+      "options": ["Prolactin", "Oxytocin", "Estrogen", "Progesterone"],
+      "answer": 1
+    },
+    {
+      "id": 122,
+      "question": "The type of placentation where ovules are attached to the center of a compound ovary is:",
+      "options": ["Marginal", "Axile", "Parietal", "Basal"],
+      "answer": 1
+    },
+    {
+      "id": 123,
+      "question": "Which of the following is a flight adaptation in birds?",
+      "options": ["Heavy bones", "Pneumatic (hollow) bones", "Webbed feet", "Long tails"],
+      "answer": 1
+    },
+    {
+      "id": 124,
+      "question": "The association between nitrogen-fixing bacteria and legumes is:",
+      "options": ["Parasitism", "Symbiosis", "Commensalism", "Saprophytism"],
+      "answer": 1
+    },
+    {
+      "id": 125,
+      "question": "The center for breathing and heartbeat in the brain is the:",
+      "options": ["Cerebrum", "Cerebellum", "Medulla oblongata", "Hypothalamus"],
+      "answer": 2
+    },
+    {
+      "id": 126,
+      "question": "The theory of spontaneous generation was disproved by:",
+      "options": ["Lamarck", "Darwin", "Louis Pasteur", "Gregor Mendel"],
+      "answer": 2
+    },
+    {
+      "id": 127,
+      "question": "The number of chromosomes in a human gamete is:",
+      "options": ["46", "23", "44", "22"],
+      "answer": 1
+    },
+    {
+      "id": 128,
+      "question": "Which of the following is a function of the placenta?",
+      "options": ["Protects fetus from shock", "Exchange of nutrients and waste", "Produces milk", "Determines sex"],
+      "answer": 1
+    },
+    {
+      "id": 129,
+      "question": "The first sign of germinating seeds is usually the appearance of the:",
+      "options": ["Plumule", "Radicle", "Cotyledon", "Hypocotyl"],
+      "answer": 1
+    },
+    {
+      "id": 130,
+      "question": "Which of the following is an excretory product in plants?",
+      "options": ["Starch", "Tannins", "Glucose", "Proteins"],
+      "answer": 1
+    },
+    {
+      "id": 131,
+      "question": "The joint between the atlas and axis vertebrae allows for what type of movement?",
+      "options": ["Gliding", "Hinge", "Pivoting", "Fixed"],
+      "answer": 2
+    },
+    {
+      "id": 132,
+      "question": "Which of the following is a xerophyte?",
+      "options": ["Water lily", "Cactus", "Mango tree", "Fern"],
+      "answer": 1
+    },
+    {
+      "id": 133,
+      "question": "The small vessels that connect arteries to veins are:",
+      "options": ["Venules", "Arterioles", "Capillaries", "Lymphatics"],
+      "answer": 2
+    },
+    {
+      "id": 134,
+      "question": "The primary function of the iris is to:",
+      "options": ["Protect the eye", "Focus the lens", "Regulate light entering the eye", "Hold the retina"],
+      "answer": 2
+    },
+    {
+      "id": 135,
+      "question": "Which of the following is a characteristic of enzymes?",
+      "options": ["They are used up in reactions", "They are protein in nature", "They work at all temperatures", "They are non-specific"],
+      "answer": 1
+    },
+    {
+      "id": 136,
+      "question": "The stage of the life cycle of a mosquito that is found on the surface of water is the:",
+      "options": ["Egg", "Larva", "Pupa", "All of the above"],
+      "answer": 3
+    },
+    {
+      "id": 137,
+      "question": "The major greenhouse gas responsible for global warming is:",
+      "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"],
+      "answer": 1
+    },
+    {
+      "id": 138,
+      "question": "Which of the following is a primary sex organ in males?",
+      "options": ["Penis", "Testis", "Scrotum", "Epididymis"],
+      "answer": 1
+    },
+    {
+      "id": 139,
+      "question": "The deficiency of Vitamin B1 leads to:",
+      "options": ["Pellagra", "Beri-beri", "Scurvy", "Rickets"],
+      "answer": 1
+    },
+    {
+      "id": 140,
+      "question": "Which of the following is a flightless bird found in Australia?",
+      "options": ["Ostrich", "Emu", "Kiwi", "Penguin"],
+      "answer": 1
+    },
+    {
+      "id": 141,
+      "question": "The part of the flower that produces pollen is the:",
+      "options": ["Stigma", "Filament", "Anther", "Ovary"],
+      "answer": 2
+    },
+    {
+      "id": 142,
+      "question": "Which of the following is the structural unit of the skeleton?",
+      "options": ["Muscle", "Tendon", "Bone", "Ligament"],
+      "answer": 2
+    },
+    {
+      "id": 143,
+      "question": "The change in population size over time is called:",
+      "options": ["Niche", "Succession", "Growth", "Evolution"],
+      "answer": 2
+    },
+    {
+      "id": 144,
+      "question": "Which of the following is a density-independent factor?",
+      "options": ["Disease", "Predation", "Flood", "Competition"],
+      "answer": 2
+    },
+    {
+      "id": 145,
+      "question": "The main function of the contractile vacuole in Amoeba is:",
+      "options": ["Digestion", "Osmoregulation", "Respiration", "Movement"],
+      "answer": 1
+    },
+    {
+      "id": 146,
+      "question": "Which of the following is a characteristic of mammals?",
+      "options": ["Cold blooded", "Presence of scales", "Presence of mammary glands", "Lay eggs with shells"],
+      "answer": 2
+    },
+    {
+      "id": 147,
+      "question": "The total energy trapped by green plants is called:",
+      "options": ["Gross primary productivity", "Net primary productivity", "Secondary productivity", "Biomass"],
+      "answer": 0
+    },
+    {
+      "id": 148,
+      "question": "The organism that occupies the second trophic level in a food chain is a:",
+      "options": ["Producer", "Primary consumer", "Secondary consumer", "Tertiary consumer"],
+      "answer": 1
+    },
+    {
+      "id": 149,
+      "question": "The hormone responsible for seed dormancy is:",
+      "options": ["Auxin", "Cytokinin", "Abscisic acid", "Gibberellin"],
+      "answer": 2
+    },
+    {
+      "id": 150,
+      "question": "Which of the following is the site of cellular respiration?",
+      "options": ["Chloroplast", "Mitochondrion", "Ribosome", "Nucleolus"],
+      "answer": 1
+    },
+        {
+      "id": 151,
+      "question": "Which of the following is a function of the amniotic fluid?",
+      "options": ["Provide nourishment", "Protect against mechanical shock", "Excrete waste", "Supply oxygen"],
+      "answer": 1
+    },
+    {
+      "id": 152,
+      "question": "The type of evolution where different species develop similar traits due to similar environments is:",
+      "options": ["Divergent evolution", "Convergent evolution", "Parallel evolution", "Co-evolution"],
+      "answer": 1
+    },
+    {
+      "id": 153,
+      "question": "Which of the following is an example of a reflex action?",
+      "options": ["Riding a bicycle", "Blinking of the eye", "Singing a song", "Solving a math problem"],
+      "answer": 1
+    },
+    {
+      "id": 154,
+      "question": "The structural unit of the human kidney is the:",
+      "options": ["Nephron", "Neuron", "Alveolus", "Villus"],
+      "answer": 0
+    },
+    {
+      "id": 155,
+      "question": "The pigment in the retina that is sensitive to low light intensity is:",
+      "options": ["Melanin", "Rhodopsin", "Chlorophyll", "Hemoglobin"],
+      "answer": 1
+    },
+    {
+      "id": 156,
+      "question": "Which of the following describes a population?",
+      "options": ["Different species in an area", "Same species in an area at a time", "Biotic and abiotic factors", "The role an organism plays"],
+      "answer": 1
+    },
+    {
+      "id": 157,
+      "question": "The process by which an organism maintains a stable internal environment is:",
+      "options": ["Metabolism", "Homeostasis", "Osmosis", "Egestion"],
+      "answer": 1
+    },
+    {
+      "id": 158,
+      "question": "The chromosome composition of a human male is:",
+      "options": ["44 + XX", "44 + XY", "46 + XX", "46 + XY"],
+      "answer": 1
+    },
+    {
+      "id": 159,
+      "question": "Which of the following is a nitrogenous waste product in birds?",
+      "options": ["Ammonia", "Urea", "Uric acid", "Sweat"],
+      "answer": 2
+    },
+    {
+      "id": 160,
+      "question": "The hormone that promotes the elongation of cells in plants is:",
+      "options": ["Abscisic acid", "Auxin", "Ethylene", "Cytokinin"],
+      "answer": 1
+    },
+    {
+      "id": 161,
+      "question": "Which of the following is the function of the Eustachian tube?",
+      "options": ["Hearing", "Balancing", "Equalizing pressure in the ear", "Protecting the eardrum"],
+      "answer": 2
+    },
+    {
+      "id": 162,
+      "question": "The type of skeleton found in insects is the:",
+      "options": ["Endoskeleton", "Exoskeleton", "Hydrostatic skeleton", "Bony skeleton"],
+      "answer": 1
+    },
+    {
+      "id": 163,
+      "question": "Which of the following is a non-renewable resource?",
+      "options": ["Water", "Forest", "Petroleum", "Soil"],
+      "answer": 2
+    },
+    {
+      "id": 164,
+      "question": "The process of a cell engulfing solid particles is called:",
+      "options": ["Pinocytosis", "Phagocytosis", "Exocytosis", "Diffusion"],
+      "answer": 1
+    },
+    {
+      "id": 165,
+      "question": "The vitamin essential for good night vision is:",
+      "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+      "answer": 0
+    },
+    {
+      "id": 166,
+      "question": "Which of the following is a primary consumer in a savanna?",
+      "options": ["Lion", "Zebra", "Vulture", "Hyena"],
+      "answer": 1
+    },
+    {
+      "id": 167,
+      "question": "The part of the flower that produces nectar is the:",
+      "options": ["Anther", "Stigma", "Nectary", "Sepal"],
+      "answer": 2
+    },
+    {
+      "id": 168,
+      "question": "The exchange of genetic material during meiosis occurs at the:",
+      "options": ["Centromere", "Chiasma", "Spindle fiber", "Nuclear membrane"],
+      "answer": 1
+    },
+    {
+      "id": 169,
+      "question": "Which of the following is a parasitic plant?",
+      "options": ["Mistletoe", "Hibiscus", "Fern", "Moss"],
+      "answer": 0
+    },
+    {
+      "id": 170,
+      "question": "The first step in the process of photosynthesis is the:",
+      "options": ["Fixation of CO2", "Activation of chlorophyll by light", "Formation of glucose", "Photolysis of water"],
+      "answer": 1
+    },
+    {
+      "id": 171,
+      "question": "The dental formula of an adult human is:",
+      "options": ["I2/2, C1/1, P2/2, M2/2", "I2/2, C1/1, P2/2, M3/3", "I3/3, C1/1, P4/4, M2/2", "I1/1, C0/0, P2/2, M3/3"],
+      "answer": 1
+    },
+    {
+      "id": 172,
+      "question": "The part of the skin that produces oil is the:",
+      "options": ["Sweat gland", "Sebaceous gland", "Dermis", "Malpighian layer"],
+      "answer": 1
+    },
+    {
+      "id": 173,
+      "question": "Which of the following is a characteristic of hydrophytes?",
+      "options": ["Deep roots", "Sunken stomata", "Aerenchyma tissue", "Thick cuticles"],
+      "answer": 2
+    },
+    {
+      "id": 174,
+      "question": "The theory that explains evolution through 'survival of the fittest' is:",
+      "options": ["Lamarckism", "Darwinism", "Mendelism", "Pasteurism"],
+      "answer": 1
+    },
+    {
+      "id": 175,
+      "question": "The study of the relationship between a single species and its environment is:",
+      "options": ["Synecology", "Autecology", "Ecosystem", "Biome"],
+      "answer": 1
+    },
+    {
+      "id": 176,
+      "question": "Which of the following is a function of the skeleton?",
+      "options": ["Transportation of oxygen", "Storage of calcium", "Digestion of lipids", "Synthesis of Vitamin D"],
+      "answer": 1
+    },
+    {
+      "id": 177,
+      "question": "The sequence of bases in DNA that codes for a protein is a:",
+      "options": ["Genotype", "Gene", "Chromosome", "Nucleoside"],
+      "answer": 1
+    },
+    {
+      "id": 178,
+      "question": "The causative agent of Cholera is a:",
+      "options": ["Virus", "Bacterium", "Protozoan", "Fungus"],
+      "answer": 1
+    },
+    {
+      "id": 179,
+      "question": "The instrument used to measure wind speed is the:",
+      "options": ["Barometer", "Hygrometer", "Anemometer", "Thermometer"],
+      "answer": 2
+    },
+    {
+      "id": 180,
+      "question": "Which of the following is a feature of a wind-pollinated flower?",
+      "options": ["Small and inconspicuous", "Brightly colored", "Scented", "Sticky pollen grains"],
+      "answer": 0
+    },
+    {
+      "id": 181,
+      "question": "The movement of a plant part towards gravity is:",
+      "options": ["Phototropism", "Geotropism", "Hydrotropism", "Chemotropism"],
+      "answer": 1
+    },
+    {
+      "id": 182,
+      "question": "Which of the following blood groups can receive blood from all other groups?",
+      "options": ["A", "B", "AB", "O"],
+      "answer": 2
+    },
+    {
+      "id": 183,
+      "question": "The production of milk in mammals is stimulated by the hormone:",
+      "options": ["Oxytocin", "Prolactin", "Estrogen", "Progesterone"],
+      "answer": 1
+    },
+    {
+      "id": 184,
+      "question": "The total number of alleles in a population is the:",
+      "options": ["Gene flow", "Gene pool", "Genetic drift", "Genotype"],
+      "answer": 1
+    },
+    {
+      "id": 185,
+      "question": "The process by which complex food is broken down into simple soluble forms is:",
+      "options": ["Absorption", "Digestion", "Assimilation", "Ingestion"],
+      "answer": 1
+    },
+    {
+      "id": 186,
+      "question": "Which of the following is an example of a simple fruit?",
+      "options": ["Pineapple", "Maize grain", "Blackberry", "Custard apple"],
+      "answer": 1
+    },
+    {
+      "id": 187,
+      "question": "The main function of the placenta is to:",
+      "options": ["Attach fetus to uterus", "Exchange materials between mother and fetus", "Produce amniotic fluid", "Determining the sex of the baby"],
+      "answer": 1
+    },
+    {
+      "id": 188,
+      "question": "The part of the leaf that is most active in photosynthesis is the:",
+      "options": ["Spongy mesophyll", "Palisade mesophyll", "Upper epidermis", "Vascular bundle"],
+      "answer": 1
+    },
+    {
+      "id": 189,
+      "question": "The structure in the bird's stomach used for grinding food is the:",
+      "options": ["Crop", "Gizzard", "Proventriculus", "Cloaca"],
+      "answer": 1
+    },
+    {
+      "id": 190,
+      "question": "The state of inactivity in animals during the hot dry season is:",
+      "options": ["Hibernation", "Aestivation", "Migration", "Dormancy"],
+      "answer": 1
+    },
+    {
+      "id": 191,
+      "question": "Which of the following is a function of the large intestine?",
+      "options": ["Digestion of starch", "Absorption of water", "Absorption of proteins", "Secretion of bile"],
+      "answer": 1
+    },
+    {
+      "id": 192,
+      "question": "The ability of an organism to blend with its background is:",
+      "options": ["Warning coloration", "Camouflage", "Mimicry", "Hibernation"],
+      "answer": 1
+    },
+    {
+      "id": 193,
+      "question": "The hormone that regulates the amount of water in the blood is:",
+      "options": ["Insulin", "ADH (Vasopressin)", "Thyroxine", "Adrenaline"],
+      "answer": 1
+    },
+    {
+      "id": 194,
+      "question": "Which of the following is a decomposer?",
+      "options": ["Earthworm", "Mushroom", "Grasshopper", "Green plant"],
+      "answer": 1
+    },
+    {
+      "id": 195,
+      "question": "The type of cell division that occurs in somatic cells is:",
+      "options": ["Meiosis", "Mitosis", "Amitosis", "Cytokinesis"],
+      "answer": 1
+    },
+    {
+      "id": 196,
+      "question": "The study of the internal structures of an organism is:",
+      "options": ["Morphology", "Anatomy", "Physiology", "Taxonomy"],
+      "answer": 1
+    },
+    {
+      "id": 197,
+      "question": "Which of the following organisms has a water vascular system?",
+      "options": ["Starfish", "Hydra", "Sponge", "Planaria"],
+      "answer": 0
+    },
+    {
+      "id": 198,
+      "question": "The site of fertilization in humans is the:",
+      "options": ["Ovary", "Uterus", "Fallopian tube (Oviduct)", "Vagina"],
+      "answer": 2
+    },
+    {
+      "id": 199,
+      "question": "The smallest bone in the human body is the:",
+      "options": ["Femur", "Humerus", "Stapes", "Patella"],
+      "answer": 2
+    },
+    {
+      "id": 200,
+      "question": "Which of the following is a greenhouse gas?",
+      "options": ["Oxygen", "Methane", "Nitrogen", "Helium"],
+      "answer": 1
+    }
+    
+    
+
+  ]
+}

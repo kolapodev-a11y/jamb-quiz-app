@@ -1,0 +1,1208 @@
+{
+  "subject": "CRS",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to the creation story in Genesis, man was created on the:",
+      "options": ["Third day", "Fourth day", "Fifth day", "Sixth day"],
+      "answer": 3
+    },
+    {
+      "id": 2,
+      "question": "The second creation story emphasizes that man was made from:",
+      "options": ["The word of God", "The dust of the ground", "The rib of a woman", "The spirit of God"],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "question": "The direct consequence of Adam and Eve's disobedience was:",
+      "options": ["Death", "Separation from God", "Hard labor", "Loss of memory"],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "question": "Cain killed Abel because:",
+      "options": ["Abel stole his sheep", "God accepted Abel's offering and rejected his", "Abel was the favorite child", "Abel refused to farm with him"],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "question": "God decided to destroy the world with a flood because of:",
+      "options": ["Lack of food", "The wickedness of man", "The Tower of Babel", "The worship of idols"],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "question": "The sign of the covenant God made with Noah never to destroy the earth with water again was the:",
+      "options": ["Circumcision", "Rainbow", "Cloud", "Dove"],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "question": "Abraham was called by God to leave his father's house in:",
+      "options": ["Haran", "Ur", "Egypt", "Canaan"],
+      "answer": 1
+    },
+    {
+      "id": 8,
+      "question": "The son of the promise born to Abraham and Sarah was:",
+      "options": ["Ishmael", "Isaac", "Jacob", "Esau"],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "question": "Jacob's name was changed to Israel after he:",
+      "options": ["Deceived his father", "Wrestled with an angel", "Dreamed of a ladder", "Married Rachel"],
+      "answer": 1
+    },
+    {
+      "id": 10,
+      "question": "Joseph was sold into slavery in Egypt by his brothers for:",
+      "options": ["10 pieces of silver", "20 pieces of silver", "30 pieces of silver", "50 pieces of silver"],
+      "answer": 1
+    },
+    {
+      "id": 11,
+      "question": "Moses encountered God for the first time through a:",
+      "options": ["Thunderstorm", "Burning bush", "Cloud of fire", "Still small voice"],
+      "answer": 1
+    },
+    {
+      "id": 12,
+      "question": "The last plague that forced Pharaoh to let the Israelites go was the:",
+      "options": ["Death of the firstborn", "Locusts", "Darkness", "Turning water to blood"],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "question": "The Israelites crossed the Red Sea while the Egyptians:",
+      "options": ["Returned home", "Drowned in the sea", "Followed them to Canaan", "Worshipped God"],
+      "answer": 1
+    },
+    {
+      "id": 14,
+      "question": "The Ten Commandments were given to Moses on:",
+      "options": ["Mount Nebo", "Mount Sinai", "Mount Horeb", "Mount Carmel"],
+      "answer": 1
+    },
+    {
+      "id": 15,
+      "question": "The golden calf was made for the Israelites by:",
+      "options": ["Moses", "Joshua", "Aaron", "Caleb"],
+      "answer": 2
+    },
+    {
+      "id": 16,
+      "question": "Joshua succeeded Moses as the leader of Israel because:",
+      "options": ["He was Moses' son", "He was full of the spirit of wisdom", "He was the oldest man", "He was a great hunter"],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "question": "The walls of Jericho fell after the Israelites marched around it for:",
+      "options": ["3 days", "7 days", "10 days", "12 days"],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "question": "Deborah was a prominent female:",
+      "options": ["Queen", "Priestess", "Judge", "Prophetess"],
+      "answer": 2
+    },
+    {
+      "id": 19,
+      "question": "The source of Samson's great strength was his:",
+      "options": ["Diet", "Hair", "Armor", "Sword"],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "question": "Samuel was called by God while he was serving under:",
+      "options": ["Eli", "Saul", "David", "Nathan"],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "question": "The first king of Israel was:",
+      "options": ["David", "Saul", "Solomon", "Samuel"],
+      "answer": 1
+    },
+    {
+      "id": 22,
+      "question": "Saul was rejected as king because he:",
+      "options": ["Was too young", "Disobeyed God's command regarding the Amalekites", "Lost a battle", "Killed David"],
+      "answer": 1
+    },
+    {
+      "id": 23,
+      "question": "David defeated the Philistine giant, Goliath, with a:",
+      "options": ["Spear", "Sword", "Sling and a stone", "Bow and arrow"],
+      "answer": 2
+    },
+    {
+      "id": 24,
+      "question": "Solomon asked God for ______ to lead the people:",
+      "options": ["Wealth", "Long life", "Wisdom", "Power"],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "question": "The prophet who challenged the prophets of Baal on Mount Carmel was:",
+      "options": ["Elisha", "Elijah", "Isaiah", "Jeremiah"],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "question": "According to the Gospel of Luke, the angel who appeared to Mary was:",
+      "options": ["Michael", "Gabriel", "Uriel", "Raphael"],
+      "answer": 1
+    },
+    {
+      "id": 27,
+      "question": "Jesus was born in Bethlehem during the reign of:",
+      "options": ["King David", "King Solomon", "Herod the Great", "Pontius Pilate"],
+      "answer": 2
+    },
+    {
+      "id": 28,
+      "question": "John the Baptist preached a baptism of:",
+      "options": ["Fire", "Repentance", "Holy Spirit", "Water alone"],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "question": "Jesus was tempted by the devil in the wilderness for:",
+      "options": ["7 days", "12 days", "40 days", "50 days"],
+      "answer": 2
+    },
+    {
+      "id": 30,
+      "question": "The first miracle of Jesus was at a wedding in:",
+      "options": ["Nazareth", "Jerusalem", "Cana", "Capernaum"],
+      "answer": 2
+    },
+    {
+      "id": 31,
+      "question": "In the Sermon on the Mount, Jesus said 'Blessed are the peacemakers, for they shall be called...':",
+      "options": ["Sons of God", "Great in heaven", "Heirs of the kingdom", "Prophets"],
+      "answer": 0
+    },
+    {
+      "id": 32,
+      "question": "The parable of the Prodigal Son teaches about:",
+      "options": ["Hard work", "God's forgiveness", "Agricultural practices", "Laziness"],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "question": "Jesus fed the five thousand with:",
+      "options": ["Two loaves and five fish", "Five loaves and two fish", "Twelve loaves", "Seven loaves and three fish"],
+      "answer": 1
+    },
+    {
+      "id": 34,
+      "question": "On the Mount of Transfiguration, Jesus appeared with:",
+      "options": ["Abraham and Isaac", "Moses and Elijah", "Peter and John", "David and Solomon"],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "question": "The disciple who betrayed Jesus for thirty pieces of silver was:",
+      "options": ["Peter", "Andrew", "Judas Iscariot", "Thomas"],
+      "answer": 2
+    },
+    {
+      "id": 36,
+      "question": "Jesus' final prayer before his arrest was in the:",
+      "options": ["Temple", "Garden of Gethsemane", "Upper room", "Wilderness"],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "question": "The Roman governor who sentenced Jesus to death was:",
+      "options": ["Herod Antipas", "Augustus Caesar", "Pontius Pilate", "Felix"],
+      "answer": 2
+    },
+    {
+      "id": 38,
+      "question": "Jesus was crucified at a place called Golgotha, which means:",
+      "options": ["Place of Skulls", "Place of Death", "Mountain of God", "City of Peace"],
+      "answer": 0
+    },
+    {
+      "id": 39,
+      "question": "Jesus rose from the dead on the:",
+      "options": ["First day", "Second day", "Third day", "Seventh day"],
+      "answer": 2
+    },
+    {
+      "id": 40,
+      "question": "The Great Commission was a command given to the disciples to:",
+      "options": ["Build a temple", "Go and make disciples of all nations", "Stay in Jerusalem", "Fight the Romans"],
+      "answer": 1
+    },
+    {
+      "id": 41,
+      "question": "The Holy Spirit descended on the disciples on the day of:",
+      "options": ["Passover", "Pentecost", "Atonement", "Sabbath"],
+      "answer": 1
+    },
+    {
+      "id": 42,
+      "question": "The first Christian martyr was:",
+      "options": ["Peter", "James", "Stephen", "Paul"],
+      "answer": 2
+    },
+    {
+      "id": 43,
+      "question": "Saul's conversion took place on the road to:",
+      "options": ["Jerusalem", "Rome", "Damascus", "Antioch"],
+      "answer": 2
+    },
+    {
+      "id": 44,
+      "question": "The first Gentile convert was:",
+      "options": ["Cornelius", "Lydia", "Timothy", "Titus"],
+      "answer": 0
+    },
+    {
+      "id": 45,
+      "question": "Paul and Silas were imprisoned in Philippi for:",
+      "options": ["Stealing", "Preaching the gospel", "Casting out a spirit of divination", "Inciting a riot"],
+      "answer": 2
+    },
+    {
+      "id": 46,
+      "question": "The Council of Jerusalem was called to discuss:",
+      "options": ["Food for the poor", "The inclusion of Gentiles and circumcision", "The election of deacons", "The translation of the Bible"],
+      "answer": 1
+    },
+    {
+      "id": 47,
+      "question": "In 1 Corinthians 13, Paul says the greatest of all virtues is:",
+      "options": ["Faith", "Hope", "Love", "Knowledge"],
+      "answer": 2
+    },
+    {
+      "id": 48,
+      "question": "James teaches that 'Faith without ______ is dead':",
+      "options": ["Prayer", "Works", "Fasting", "Tithes"],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "question": "The fruit of the Spirit, according to Galatians, includes:",
+      "options": ["Wealth and power", "Love, joy, and peace", "Prophecy and tongues", "Healing and miracles"],
+      "answer": 1
+    },
+    {
+      "id": 50,
+      "question": "The final book of the New Testament is:",
+      "options": ["Jude", "Hebrews", "Revelation", "Philemon"],
+      "answer": 2
+    },
+        {
+      "id": 51,
+      "question": "The prophet who took over from Elijah after he was taken up to heaven was:",
+      "options": ["Amos", "Elisha", "Hosea", "Micah"],
+      "answer": 1
+    },
+    {
+      "id": 52,
+      "question": "The healing of Naaman the Syrian of leprosy was performed by:",
+      "options": ["Elijah", "Elisha", "Gehazi", "Samuel"],
+      "answer": 1
+    },
+    {
+      "id": 53,
+      "question": "The decree that allowed the Jews to return to Jerusalem from exile was issued by:",
+      "options": ["Nebuchadnezzar", "Cyrus", "Darius", "Artaxerxes"],
+      "answer": 1
+    },
+    {
+      "id": 54,
+      "question": "Nehemiah’s primary mission in Jerusalem was to:",
+      "options": ["Build the Temple", "Rebuild the walls of Jerusalem", "Teach the Law", "Purify the priesthood"],
+      "answer": 1
+    },
+    {
+      "id": 55,
+      "question": "The prophet known for his message on Social Justice is:",
+      "options": ["Hosea", "Amos", "Joel", "Obadiah"],
+      "answer": 1
+    },
+    {
+      "id": 56,
+      "question": "God’s love for Israel was illustrated by Hosea through his marriage to:",
+      "options": ["Ruth", "Gomer", "Esther", "Jezebel"],
+      "answer": 1
+    },
+    {
+      "id": 57,
+      "question": "The prophet who saw a vision of the dry bones coming to life was:",
+      "options": ["Isaiah", "Jeremiah", "Ezekiel", "Daniel"],
+      "answer": 2
+    },
+    {
+      "id": 58,
+      "question": "Shadrach, Meshach, and Abednego were thrown into a burning fiery furnace because they refused to:",
+      "options": ["Pay taxes", "Worship the golden image", "Pray to God", "Leave Babylon"],
+      "answer": 1
+    },
+    {
+      "id": 59,
+      "question": "The story of Jonah emphasizes God’s concern for:",
+      "options": ["Only the Jews", "The people of Nineveh", "The sailors", "The king of Israel"],
+      "answer": 1
+    },
+    {
+      "id": 60,
+      "question": "The wise men from the East were guided to Jesus by a:",
+      "options": ["Map", "Star", "Prophet", "Dream"],
+      "answer": 1
+    },
+    {
+      "id": 61,
+      "question": "Jesus said, 'I am the way, the truth, and the life' during his conversation with:",
+      "options": ["Peter", "Thomas", "Philip", "John"],
+      "answer": 1
+    },
+    {
+      "id": 62,
+      "question": "The sister of Martha who sat at Jesus' feet to listen to his word was:",
+      "options": ["Mary", "Elizabeth", "Salome", "Tabitha"],
+      "answer": 0
+    },
+    {
+      "id": 63,
+      "question": "Zacchaeus, the tax collector, climbed a ______ tree to see Jesus:",
+      "options": ["Mustard", "Fig", "Sycamore", "Olive"],
+      "answer": 2
+    },
+    {
+      "id": 64,
+      "question": "Jesus was arrested in the Garden of Gethsemane by a band of soldiers led by:",
+      "options": ["Peter", "Judas Iscariot", "Pontius Pilate", "The High Priest"],
+      "answer": 1
+    },
+    {
+      "id": 65,
+      "question": "The disciple who denied Jesus three times was:",
+      "options": ["Judas", "Peter", "John", "Thomas"],
+      "answer": 1
+    },
+    {
+      "id": 66,
+      "question": "The prisoner released by Pilate instead of Jesus was:",
+      "options": ["Barnabas", "Barabbas", "Barnaby", "Silas"],
+      "answer": 1
+    },
+    {
+      "id": 67,
+      "question": "On the cross, Jesus said to the thief, 'Today you will be with me in...':",
+      "options": ["Heaven", "The Temple", "Paradise", "Jerusalem"],
+      "answer": 2
+    },
+    {
+      "id": 68,
+      "question": "According to the Acts of the Apostles, the replacement for Judas Iscariot was:",
+      "options": ["Paul", "Barnabas", "Matthias", "Stephen"],
+      "answer": 2
+    },
+    {
+      "id": 69,
+      "question": "The crippled man at the Beautiful Gate was healed by:",
+      "options": ["Jesus", "Peter and John", "Paul and Silas", "Stephen"],
+      "answer": 1
+    },
+    {
+      "id": 70,
+      "question": "Ananias and Sapphira died because they:",
+      "options": ["Refused to pray", "Lied to the Holy Spirit", "Left the church", "Worshipped idols"],
+      "answer": 1
+    },
+    {
+      "id": 71,
+      "question": "The Ethiopian Eunuch was baptized by:",
+      "options": ["Peter", "John", "Philip", "Paul"],
+      "answer": 2
+    },
+    {
+      "id": 72,
+      "question": "The town where the followers of Jesus were first called Christians was:",
+      "options": ["Jerusalem", "Damascus", "Antioch", "Ephesus"],
+      "answer": 2
+    },
+    {
+      "id": 73,
+      "question": "Paul was a citizen of which empire?",
+      "options": ["Greek", "Persian", "Roman", "Egyptian"],
+      "answer": 2
+    },
+    {
+      "id": 74,
+      "question": "The fruit of the Spirit that refers to the ability to wait calmly is:",
+      "options": ["Joy", "Peace", "Patience", "Kindness"],
+      "answer": 2
+    },
+    {
+      "id": 75,
+      "question": "According to Paul in Ephesians, children should obey their parents because it is:",
+      "options": ["The Law", "Right", "A tradition", "Mandatory"],
+      "answer": 1
+    },
+    {
+      "id": 76,
+      "question": "In the story of the Good Samaritan, the two people who passed by the wounded man were:",
+      "options": ["A King and a Slave", "A Priest and a Levite", "A Lawyer and a Scribe", "A Pharisee and a Sadducee"],
+      "answer": 1
+    },
+    {
+      "id": 77,
+      "question": "The number of baskets left over after Jesus fed the four thousand was:",
+      "options": ["Seven", "Twelve", "Five", "Three"],
+      "answer": 0
+    },
+    {
+      "id": 78,
+      "question": "Nicodemus, who came to Jesus by night, was a member of the:",
+      "options": ["Roman Guard", "Sanhedrin", "Zealots", "Essenes"],
+      "answer": 1
+    },
+    {
+      "id": 79,
+      "question": "The theme of the book of Amos is God’s ______:",
+      "options": ["Mercy", "Judgment on Israel's neighbors", "Justice and Righteousness", "Power"],
+      "answer": 2
+    },
+    {
+      "id": 80,
+      "question": "The King of Israel who took Naboth’s vineyard was:",
+      "options": ["David", "Saul", "Ahab", "Jeroboam"],
+      "answer": 2
+    },
+    {
+      "id": 81,
+      "question": "The woman who hid the spies in Jericho was:",
+      "options": ["Deborah", "Rahab", "Delilah", "Ruth"],
+      "answer": 1
+    },
+    {
+      "id": 82,
+      "question": "The name 'Immanuel' means:",
+      "options": ["God is great", "God with us", "God is love", "God is my king"],
+      "answer": 1
+    },
+    {
+      "id": 83,
+      "question": "The first book of the Bible is:",
+      "options": ["Exodus", "Leviticus", "Genesis", "Numbers"],
+      "answer": 2
+    },
+    {
+      "id": 84,
+      "question": "The man who helped Jesus carry the cross was:",
+      "options": ["Joseph of Arimathea", "Simon of Cyrene", "Andrew", "Nicodemus"],
+      "answer": 1
+    },
+    {
+      "id": 85,
+      "question": "The sea where Jesus calmed the storm was the:",
+      "options": ["Red Sea", "Dead Sea", "Sea of Galilee", "Mediterranean Sea"],
+      "answer": 2
+    },
+    {
+      "id": 86,
+      "question": "In the parable of the Sower, the seeds that fell on the path represent those who:",
+      "options": ["Hear but do not understand", "Accept with joy but fail", "Are choked by worries", "Produce fruit"],
+      "answer": 0
+    },
+    {
+      "id": 87,
+      "question": "The 'Old Covenant' was sealed with the blood of:",
+      "options": ["Jesus", "Animals", "Moses", "Abraham"],
+      "answer": 1
+    },
+    {
+      "id": 88,
+      "question": "The prophet who said, 'Behold, a virgin shall conceive' was:",
+      "options": ["Isaiah", "Jeremiah", "Malachi", "Ezekiel"],
+      "answer": 0
+    },
+    {
+      "id": 89,
+      "question": "Who was the father of John the Baptist?",
+      "options": ["Simeon", "Zechariah", "Joseph", "Levi"],
+      "answer": 1
+    },
+    {
+      "id": 90,
+      "question": "The disciple whom Jesus loved was:",
+      "options": ["Peter", "John", "James", "Andrew"],
+      "answer": 1
+    },
+    {
+      "id": 91,
+      "question": "The city where Jesus was raised was:",
+      "options": ["Bethlehem", "Nazareth", "Capernaum", "Jericho"],
+      "answer": 1
+    },
+    {
+      "id": 92,
+      "question": "The main focus of the Gospel of Matthew is Jesus as the:",
+      "options": ["Suffering Servant", "Son of Man", "King of the Jews", "Universal Savior"],
+      "answer": 2
+    },
+    {
+      "id": 93,
+      "question": "The person who provided the tomb for Jesus' burial was:",
+      "options": ["Pontius Pilate", "Joseph of Arimathea", "Simon Peter", "Mary Magdalene"],
+      "answer": 1
+    },
+    {
+      "id": 94,
+      "question": "Paul’s companion on his first missionary journey was:",
+      "options": ["Silas", "Barnabas", "Timothy", "Luke"],
+      "answer": 1
+    },
+    {
+      "id": 95,
+      "question": "The letter written by Paul to a slave owner regarding his runaway slave Onesimus is:",
+      "options": ["Philemon", "Titus", "Philippians", "Colossians"],
+      "answer": 0
+    },
+    {
+      "id": 96,
+      "question": "God tested Abraham by asking him to sacrifice:",
+      "options": ["Ishmael", "Isaac", "A lamb", "His wealth"],
+      "answer": 1
+    },
+    {
+      "id": 97,
+      "question": "The queen who visited Solomon to test him with hard questions was the:",
+      "options": ["Queen of Egypt", "Queen of Sheba", "Queen Jezebel", "Queen Esther"],
+      "answer": 1
+    },
+    {
+      "id": 98,
+      "question": "The place where the ten commandments were kept was the:",
+      "options": ["Temple", "Ark of the Covenant", "Altar", "Tabernacle"],
+      "answer": 1
+    },
+    {
+      "id": 99,
+      "question": "The 'Upper Room' is significant for the celebration of the:",
+      "options": ["Passover", "Last Supper", "Pentecost", "Both B and C"],
+      "answer": 3
+    },
+    {
+      "id": 100,
+      "question": "The meaning of the name 'Jesus' is:",
+      "options": ["The Anointed One", "The Lord saves", "Son of God", "Prince of Peace"],
+      "answer": 1
+    },
+        {
+      "id": 101,
+      "question": "The division of the Kingdom of Israel into North and South occurred during the reign of:",
+      "options": ["Solomon", "Rehoboam", "Jeroboam", "David"],
+      "answer": 1
+    },
+    {
+      "id": 102,
+      "question": "The capital of the Northern Kingdom of Israel was:",
+      "options": ["Jerusalem", "Samaria", "Bethel", "Dan"],
+      "answer": 1
+    },
+    {
+      "id": 103,
+      "question": "The prophet who confronted King David about his sin with Bathsheba was:",
+      "options": ["Samuel", "Nathan", "Gad", "Elijah"],
+      "answer": 1
+    },
+    {
+      "id": 104,
+      "question": "The Persian King who was influenced by Esther to save the Jews was:",
+      "options": ["Cyrus", "Darius", "Ahasuerus (Xerxes)", "Artaxerxes"],
+      "answer": 2
+    },
+    {
+      "id": 105,
+      "question": "In the book of Daniel, the king who saw the 'handwriting on the wall' was:",
+      "options": ["Nebuchadnezzar", "Belshazzar", "Darius", "Cyrus"],
+      "answer": 1
+    },
+    {
+      "id": 106,
+      "question": "The prophet who was called by God while he was still a youth was:",
+      "options": ["Jeremiah", "Isaiah", "Ezekiel", "Amos"],
+      "answer": 0
+    },
+    {
+      "id": 107,
+      "question": "Jesus was baptized by John the Baptist in the River:",
+      "options": ["Nile", "Tigris", "Jordan", "Euphrates"],
+      "answer": 2
+    },
+    {
+      "id": 108,
+      "question": "The disciple who was a tax collector before being called by Jesus was:",
+      "options": ["Peter", "Andrew", "Matthew", "John"],
+      "answer": 2
+    },
+    {
+      "id": 109,
+      "question": "Jesus said, 'Render therefore to Caesar the things that are Caesar's' in response to a question about:",
+      "options": ["Worship", "Marriage", "Paying taxes", "Sabbath laws"],
+      "answer": 2
+    },
+    {
+      "id": 110,
+      "question": "The parable of the Mustard Seed illustrates:",
+      "options": ["The growth of the Kingdom of God", "The need for prayer", "Judgment day", "The danger of wealth"],
+      "answer": 0
+    },
+    {
+      "id": 111,
+      "question": "The miracle of the raising of Lazarus took place in:",
+      "options": ["Nazareth", "Bethany", "Jericho", "Capernaum"],
+      "answer": 1
+    },
+    {
+      "id": 112,
+      "question": "During the Last Supper, the bread represented Jesus':",
+      "options": ["Spirit", "Blood", "Body", "Word"],
+      "answer": 2
+    },
+    {
+      "id": 113,
+      "question": "The person who helped take Jesus' body down from the cross was:",
+      "options": ["Peter", "John", "Joseph of Arimathea", "The Roman Centurion"],
+      "answer": 2
+    },
+    {
+      "id": 114,
+      "question": "The first person to see the risen Christ was:",
+      "options": ["Peter", "John", "Mary Magdalene", "The Virgin Mary"],
+      "answer": 2
+    },
+    {
+      "id": 115,
+      "question": "The book of Acts was written by:",
+      "options": ["Matthew", "Mark", "Luke", "John"],
+      "answer": 2
+    },
+    {
+      "id": 116,
+      "question": "The chosen replacement for the deacon ministry who was 'full of faith and the Holy Spirit' was:",
+      "options": ["Stephen", "Philip", "Timon", "Nicanor"],
+      "answer": 0
+    },
+    {
+      "id": 117,
+      "question": "Paul was born in the city of:",
+      "options": ["Jerusalem", "Antioch", "Tarsus", "Ephesus"],
+      "answer": 2
+    },
+    {
+      "id": 118,
+      "question": "The woman in Joppa whom Peter raised from the dead was:",
+      "options": ["Lydia", "Tabitha (Dorcas)", "Rhoda", "Priscilla"],
+      "answer": 1
+    },
+    {
+      "id": 119,
+      "question": "The couple who were struck dead for lying about the price of their land were:",
+      "options": ["Aquila and Priscilla", "Ananias and Sapphira", "Ahab and Jezebel", "Elkanah and Hannah"],
+      "answer": 1
+    },
+    {
+      "id": 120,
+      "question": "According to Paul, the 'wages of sin is...':",
+      "options": ["Hell", "Judgment", "Death", "Sorrow"],
+      "answer": 2
+    },
+    {
+      "id": 121,
+      "question": "Which of these is NOT a synoptic Gospel?",
+      "options": ["Matthew", "Mark", "Luke", "John"],
+      "answer": 3
+    },
+    {
+      "id": 122,
+      "question": "The prophet Elijah's life ended when he was:",
+      "options": ["Beheaded", "Crucified", "Taken to heaven in a whirlwind", "Died of old age"],
+      "answer": 2
+    },
+    {
+      "id": 123,
+      "question": "King Solomon is most famous for building the:",
+      "options": ["Wall of Jerusalem", "Temple in Jerusalem", "Tower of Babel", "Palace in Samaria"],
+      "answer": 1
+    },
+    {
+      "id": 124,
+      "question": "The boy who was dedicated to God's service by his mother Hannah was:",
+      "options": ["Samson", "Samuel", "Isaac", "John"],
+      "answer": 1
+    },
+    {
+      "id": 125,
+      "question": "In the parable of the Wheat and Tares, the tares represent:",
+      "options": ["The children of the kingdom", "The children of the wicked one", "The angels", "The word of God"],
+      "answer": 1
+    },
+    {
+      "id": 126,
+      "question": "The disciple who doubted Jesus' resurrection until he saw the nail marks was:",
+      "options": ["Peter", "Andrew", "Thomas", "James"],
+      "answer": 2
+    },
+    {
+      "id": 127,
+      "question": "The 'Sermon on the Mount' is recorded in the book of:",
+      "options": ["Matthew", "Mark", "Luke", "John"],
+      "answer": 0
+    },
+    {
+      "id": 128,
+      "question": "The woman who was a 'seller of purple' and the first convert in Philippi was:",
+      "options": ["Mary", "Martha", "Lydia", "Chloe"],
+      "answer": 2
+    },
+    {
+      "id": 129,
+      "question": "The Roman Centurion who witnessed the crucifixion and said 'Truly this was the Son of God' was at:",
+      "options": ["Calvary", "The Temple", "The Praetorium", "The Garden"],
+      "answer": 0
+    },
+    {
+      "id": 130,
+      "question": "The phrase 'Alpha and Omega' in the book of Revelation refers to:",
+      "options": ["The beginning and the end", "The law and the prophets", "Life and death", "Heaven and earth"],
+      "answer": 0
+    },
+    {
+      "id": 131,
+      "question": "The father of the twelve tribes of Israel was:",
+      "options": ["Abraham", "Isaac", "Jacob", "Joseph"],
+      "answer": 2
+    },
+    {
+      "id": 132,
+      "question": "The prophet who spent three days in the belly of a great fish was:",
+      "options": ["Micah", "Jonah", "Amos", "Malachi"],
+      "answer": 1
+    },
+    {
+      "id": 133,
+      "question": "The King who asked for the head of John the Baptist on a platter was:",
+      "options": ["Herod the Great", "Herod Antipas", "Agrippa", "Philip"],
+      "answer": 1
+    },
+    {
+      "id": 134,
+      "question": "The Jewish feast that was being celebrated during the crucifixion of Jesus was:",
+      "options": ["Pentecost", "Tabernacles", "Passover", "Purim"],
+      "answer": 2
+    },
+    {
+      "id": 135,
+      "question": "Paul's teacher in the Jewish law was:",
+      "options": ["Gamaliel", "Nicodemus", "Caiaphas", "Ananias"],
+      "answer": 0
+    },
+    {
+      "id": 136,
+      "question": "The number of people who were added to the church on the day of Pentecost was about:",
+      "options": ["1,000", "2,000", "3,000", "5,000"],
+      "answer": 2
+    },
+    {
+      "id": 137,
+      "question": "The prophet who said 'The soul that sinneth, it shall die' was:",
+      "options": ["Isaiah", "Ezekiel", "Joel", "Haggai"],
+      "answer": 1
+    },
+    {
+      "id": 138,
+      "question": "The city of Jerusalem was captured by the Babylonians during the reign of King:",
+      "options": ["Hezekiah", "Josiah", "Zedekiah", "Manasseh"],
+      "answer": 2
+    },
+    {
+      "id": 139,
+      "question": "The high priest who presided over the trial of Jesus was:",
+      "options": ["Annas", "Caiaphas", "Gamaliel", "Zechariah"],
+      "answer": 1
+    },
+    {
+      "id": 140,
+      "question": "In the Lord's Prayer, we are taught to ask for our:",
+      "options": ["Daily bread", "Wealth", "Victory over enemies", "Success"],
+      "answer": 0
+    },
+    {
+      "id": 141,
+      "question": "The person who took the place of Moses to lead the Israelites into the Promised Land was:",
+      "options": ["Caleb", "Joshua", "Aaron", "Eleazar"],
+      "answer": 1
+    },
+    {
+      "id": 142,
+      "question": "The prophet who told King Ahab that there would be no rain for three years was:",
+      "options": ["Elisha", "Elijah", "Obadiah", "Micaiah"],
+      "answer": 1
+    },
+    {
+      "id": 143,
+      "question": "The book of Psalms is primarily a collection of:",
+      "options": ["Laws", "Histories", "Songs and Prayers", "Prophecies"],
+      "answer": 2
+    },
+    {
+      "id": 144,
+      "question": "The first miracle of Peter in the book of Acts was the healing of a:",
+      "options": ["Blind man", "Lame man", "Leper", "Deaf man"],
+      "answer": 1
+    },
+    {
+      "id": 145,
+      "question": "According to Paul, 'All scripture is given by...':",
+      "options": ["Tradition", "The Apostles", "Inspiration of God", "The Church"],
+      "answer": 2
+    },
+    {
+      "id": 146,
+      "question": "The theme of the book of Ecclesiastes is:",
+      "options": ["The vanity of life without God", "The history of the Kings", "The laws of the Temple", "The second coming"],
+      "answer": 0
+    },
+    {
+      "id": 147,
+      "question": "The island where John wrote the book of Revelation was:",
+      "options": ["Cyprus", "Crete", "Patmos", "Malta"],
+      "answer": 2
+    },
+    {
+      "id": 148,
+      "question": "The commandment 'Honor thy father and thy mother' is the ______ commandment:",
+      "options": ["First", "Third", "Fifth", "Tenth"],
+      "answer": 2
+    },
+    {
+      "id": 149,
+      "question": "The parable of the Ten Virgins teaches us about:",
+      "options": ["Kindness", "Preparedness for the second coming", "Financial management", "Marriage customs"],
+      "answer": 1
+    },
+    {
+      "id": 150,
+      "question": "The 'New Covenant' was promised by God through the prophet:",
+      "options": ["Isaiah", "Jeremiah", "Amos", "Haggai"],
+      "answer": 1
+    },
+        {
+      "id": 151,
+      "question": "The story of the Tower of Babel explains the origin of:",
+      "options": ["Human sin", "Different languages", "The city of Rome", "The Babylonian Empire"],
+      "answer": 1
+    },
+    {
+      "id": 152,
+      "question": "Who was the mother of Samuel?",
+      "options": ["Peninnah", "Hannah", "Rachel", "Leah"],
+      "answer": 1
+    },
+    {
+      "id": 153,
+      "question": "The act of God's 'Passover' in Egypt involved the marking of doorposts with:",
+      "options": ["Oil", "Water", "Lamb's blood", "Ash"],
+      "answer": 2
+    },
+    {
+      "id": 154,
+      "question": "Which king of Israel was known for his extreme cruelty and worship of Baal?",
+      "options": ["Jehu", "Ahab", "Josiah", "Hezekiah"],
+      "answer": 1
+    },
+    {
+      "id": 155,
+      "question": "The prophet who was taken away in a chariot of fire was:",
+      "options": ["Elisha", "Elijah", "Enoch", "Moses"],
+      "answer": 1
+    },
+    {
+      "id": 156,
+      "question": "According to the Gospel of John, the Word was with God in the:",
+      "options": ["Temple", "Beginning", "Cloud", "Garden"],
+      "answer": 1
+    },
+    {
+      "id": 157,
+      "question": "Jesus was betrayed in the garden by a:",
+      "options": ["Handshake", "Kiss", "Hug", "Sword point"],
+      "answer": 1
+    },
+    {
+      "id": 158,
+      "question": "The man who asked 'Can anything good come out of Nazareth?' was:",
+      "options": ["Philip", "Nathanael", "Andrew", "Thomas"],
+      "answer": 1
+    },
+    {
+      "id": 159,
+      "question": "Which of these parables teaches that we should forgive others as God forgives us?",
+      "options": ["The Good Samaritan", "The Unforgiving Servant", "The Sower", "The Talents"],
+      "answer": 1
+    },
+    {
+      "id": 160,
+      "question": "The first five books of the Bible are collectively called the:",
+      "options": ["Prophets", "Pentateuch", "Epistles", "Gospels"],
+      "answer": 1
+    },
+    {
+      "id": 161,
+      "question": "In the wilderness, God provided the Israelites with 'bread from heaven' called:",
+      "options": ["Mana", "Manna", "Leaven", "Quail"],
+      "answer": 1
+    },
+    {
+      "id": 162,
+      "question": "The successor of Elijah who received a 'double portion' of his spirit was:",
+      "options": ["Gehazi", "Elisha", "Amos", "Obadiah"],
+      "answer": 1
+    },
+    {
+      "id": 163,
+      "question": "King David's original occupation was a:",
+      "options": ["Carpenter", "Shepherd", "Fisherman", "Tax collector"],
+      "answer": 1
+    },
+    {
+      "id": 164,
+      "question": "The longest chapter in the Bible is:",
+      "options": ["Psalm 23", "Psalm 119", "Genesis 1", "Isaiah 53"],
+      "answer": 1
+    },
+    {
+      "id": 165,
+      "question": "The Roman Centurion whose servant Jesus healed was praised for his:",
+      "options": ["Wealth", "Faith", "Bravery", "Kindness"],
+      "answer": 1
+    },
+    {
+      "id": 166,
+      "question": "The town where Jesus performed his first miracle was:",
+      "options": ["Cana", "Capernaum", "Jericho", "Bethlehem"],
+      "answer": 0
+    },
+    {
+      "id": 167,
+      "question": "Who was the 'voice of one crying in the wilderness'?",
+      "options": ["Jesus", "John the Baptist", "Elijah", "Isaiah"],
+      "answer": 1
+    },
+    {
+      "id": 168,
+      "question": "The person who said, 'I find no fault in this man' was:",
+      "options": ["Herod", "Pontius Pilate", "Caiaphas", "Judas"],
+      "answer": 1
+    },
+    {
+      "id": 169,
+      "question": "The number of days Jesus remained on earth after his resurrection was:",
+      "options": ["7", "12", "40", "50"],
+      "answer": 2
+    },
+    {
+      "id": 170,
+      "question": "The magician in Samaria who tried to buy the power of the Holy Spirit was:",
+      "options": ["Elymas", "Simon", "Theudas", "Bar-Jesus"],
+      "answer": 1
+    },
+    {
+      "id": 171,
+      "question": "Paul was ship-wrecked on the island of:",
+      "options": ["Cyprus", "Crete", "Malta", "Patmos"],
+      "answer": 2
+    },
+    {
+      "id": 172,
+      "question": "In his letter to the Romans, Paul states that 'all have sinned and fallen short of...':",
+      "options": ["The Law", "The Glory of God", "Heaven", "Salvation"],
+      "answer": 1
+    },
+    {
+      "id": 173,
+      "question": "The fruit of the Spirit that means 'gentleness' or 'humility' is:",
+      "options": ["Peace", "Meekness", "Temperance", "Faith"],
+      "answer": 1
+    },
+    {
+      "id": 174,
+      "question": "The book of Proverbs was largely written by:",
+      "options": ["David", "Solomon", "Hezekiah", "Lemuel"],
+      "answer": 1
+    },
+    {
+      "id": 175,
+      "question": "The wall of Jerusalem was rebuilt in how many days under Nehemiah?",
+      "options": ["40 days", "52 days", "70 days", "100 days"],
+      "answer": 1
+    },
+    {
+      "id": 176,
+      "question": "The prophet who said 'I am not a prophet, nor the son of a prophet' was:",
+      "options": ["Amos", "Hosea", "Micah", "Zechariah"],
+      "answer": 0
+    },
+    {
+      "id": 177,
+      "question": "The 'Valley of the Shadow of Death' is mentioned in:",
+      "options": ["Psalm 1", "Psalm 23", "Psalm 91", "Psalm 121"],
+      "answer": 1
+    },
+    {
+      "id": 178,
+      "question": "Who was the father of King Solomon?",
+      "options": ["Saul", "David", "Absalom", "Nathan"],
+      "answer": 1
+    },
+    {
+      "id": 179,
+      "question": "The city that was destroyed along with Gomorrah was:",
+      "options": ["Sodom", "Nineveh", "Jericho", "Babylon"],
+      "answer": 0
+    },
+    {
+      "id": 180,
+      "question": "In the Transfiguration, the disciples present were Peter, James and:",
+      "options": ["Andrew", "John", "Philip", "Thomas"],
+      "answer": 1
+    },
+    {
+      "id": 181,
+      "question": "The parable of the Lost Sheep emphasizes God's:",
+      "options": ["Judgment", "Anger", "Love for the individual", "Power"],
+      "answer": 2
+    },
+    {
+      "id": 182,
+      "question": "The first deacon to be martyred for his faith was:",
+      "options": ["Philip", "Stephen", "Prochorus", "Timon"],
+      "answer": 1
+    },
+    {
+      "id": 183,
+      "question": "The high priest who met Abraham and blessed him was:",
+      "options": ["Aaron", "Melchizedek", "Eli", "Zadok"],
+      "answer": 1
+    },
+    {
+      "id": 184,
+      "question": "The last judge of Israel was:",
+      "options": ["Gideon", "Samson", "Samuel", "Eli"],
+      "answer": 2
+    },
+    {
+      "id": 185,
+      "question": "The 'Day of the Lord' is a major theme in the book of:",
+      "options": ["Joel", "Obadiah", "Jonah", "Nahum"],
+      "answer": 0
+    },
+    {
+      "id": 186,
+      "question": "The 'Beatitudes' begin with: 'Blessed are the...':",
+      "options": ["Pure in heart", "Poor in spirit", "Meek", "Merciful"],
+      "answer": 1
+    },
+    {
+      "id": 187,
+      "question": "The disciple who brought his brother Simon Peter to Jesus was:",
+      "options": ["Andrew", "John", "Philip", "James"],
+      "answer": 0
+    },
+    {
+      "id": 188,
+      "question": "Jesus said 'It is finished' while on the:",
+      "options": ["Mountain", "Cross", "Temple steps", "Boat"],
+      "answer": 1
+    },
+    {
+      "id": 189,
+      "question": "Which book of the Bible contains the story of the 'Fiery Furnace'?",
+      "options": ["Isaiah", "Jeremiah", "Daniel", "Ezekiel"],
+      "answer": 2
+    },
+    {
+      "id": 190,
+      "question": "The first king of the Southern Kingdom of Judah was:",
+      "options": ["Jeroboam", "Rehoboam", "Asa", "Jehoshaphat"],
+      "answer": 1
+    },
+    {
+      "id": 191,
+      "question": "The wife of Isaac was:",
+      "options": ["Sarah", "Rebekah", "Rachel", "Leah"],
+      "answer": 1
+    },
+    {
+      "id": 192,
+      "question": "Moses died on Mount:",
+      "options": ["Sinai", "Nebo", "Carmel", "Horeb"],
+      "answer": 1
+    },
+    {
+      "id": 193,
+      "question": "The 'Prince of Peace' is a title given to the Messiah by:",
+      "options": ["Isaiah", "Jeremiah", "Daniel", "Micah"],
+      "answer": 0
+    },
+    {
+      "id": 194,
+      "question": "The Pharisee who visited Jesus by night was:",
+      "options": ["Gamaliel", "Nicodemus", "Caiaphas", "Saul"],
+      "answer": 1
+    },
+    {
+      "id": 195,
+      "question": "The number of people saved in Noah's ark was:",
+      "options": ["2", "7", "8", "12"],
+      "answer": 2
+    },
+    {
+      "id": 196,
+      "question": "The disciple who was known as 'The Zealot' was:",
+      "options": ["Simon", "Jude", "James", "Matthew"],
+      "answer": 0
+    },
+    {
+      "id": 197,
+      "question": "According to Paul, 'the love of money is the root of all...':",
+      "options": ["Sins", "Evil", "Problems", "Suffering"],
+      "answer": 1
+    },
+    {
+      "id": 198,
+      "question": "The city where the wall fell after the Israelites shouted was:",
+      "options": ["Ai", "Jericho", "Gibeon", "Hebron"],
+      "answer": 1
+    },
+    {
+      "id": 199,
+      "question": "The final command of Jesus to his disciples is known as the:",
+      "options": ["Great Commandment", "Great Commission", "New Covenant", "Last Supper"],
+      "answer": 1
+    },
+    {
+      "id": 200,
+      "question": "The New Jerusalem is described in the book of:",
+      "options": ["Acts", "Ephesians", "Hebrews", "Revelation"],
+      "answer": 3
+    }
+  ]
+}
+
+    
+    
