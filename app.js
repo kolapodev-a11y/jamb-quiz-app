@@ -202,11 +202,12 @@ async function loadQuestions() {
         for (const subject of selectedSubjects) {
             const questionsCount = currentMode === 'test' ? 10 : 
                                   (subject === 'english' ? 60 : 40);
-            const response = await fetch(`./data/${subject}.json`);
+            const response = await fetch(`./data/${subject.toLowerCase()}.json`);
             if (!response.ok) {
-                console.error(`❌ Failed to load ${subject}.json`);
+                console.error(`❌ Failed to load ${subject}.json - Status: ${response.status}`);
                 continue;
             }
+
             
             const data = await response.json();
             const allQuestionObjects = data.questions || [];
