@@ -1,0 +1,2405 @@
+{
+  "subject": "history",
+  "questions": [
+    {
+      "id": 1,
+      "questionNumber": 1,
+      "question": "The primary source of history that involves the use of spoken words handed down from generation to generation is:",
+      "options": [
+        "Archaeology",
+        "Oral tradition",
+        "Written records",
+        "Linguistics"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "questionNumber": 2,
+      "question": "The Nok Culture is famous for its unique figurines made of:",
+      "options": [
+        "Bronze",
+        "Iron",
+        "Terracotta",
+        "Wood"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "questionNumber": 3,
+      "question": "Which ancient empire was known as the 'Land of Gold'?",
+      "options": [
+        "Mali",
+        "Songhai",
+        "Ghana",
+        "Kanem-Borno"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "questionNumber": 4,
+      "question": "The famous pilgrimage of Mansa Musa to Mecca took place in:",
+      "options": [
+        "1224",
+        "1324",
+        "1424",
+        "1524"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "questionNumber": 5,
+      "question": "The capital of the Songhai Empire was:",
+      "options": [
+        "Kumbi Saleh",
+        "Timbuktu",
+        "Gao",
+        "Niani"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "questionNumber": 6,
+      "question": "The legendary founder of the Old Oyo Empire was:",
+      "options": [
+        "Oranmiyan",
+        "Oduduwa",
+        "Sango",
+        "Lisabi"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "questionNumber": 7,
+      "question": "In the pre-colonial Hausa states, the head of the government was known as the:",
+      "options": [
+        "Obi",
+        "Sarkin",
+        "Oba",
+        "Emir"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "questionNumber": 8,
+      "question": "The Jihad of 1804 in Northern Nigeria was led by:",
+      "options": [
+        "Uthman Dan Fodio",
+        "El-Kanemi",
+        "Umar Tal",
+        "Samore Toure"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "questionNumber": 9,
+      "question": "The Trans-Saharan trade involved the exchange of North African salt for West African:",
+      "options": [
+        "Silver",
+        "Gold",
+        "Diamond",
+        "Copper"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "questionNumber": 10,
+      "question": "The main administrative body that checked the powers of the Alaafin of Oyo was the:",
+      "options": [
+        "Ogboni",
+        "Oyo Mesi",
+        "Eso",
+        "Are-Ona-Kakanfo"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "questionNumber": 11,
+      "question": "The Portuguese explorer who first reached the coast of modern-day Nigeria in 1472 was:",
+      "options": [
+        "Vasco da Gama",
+        "Ruy de Sequeira",
+        "Christopher Columbus",
+        "Mungo Park"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "questionNumber": 12,
+      "question": "Which ethnic group in Nigeria is traditionally associated with the 'Segmentary' or 'Acephalous' system of government?",
+      "options": [
+        "Yoruba",
+        "Hausa",
+        "Igbo",
+        "Fulani"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "questionNumber": 13,
+      "question": "The long-distance trade across the Sahara Desert used which animal as the primary means of transport?",
+      "options": [
+        "Horse",
+        "Donkey",
+        "Camel",
+        "Ox"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "questionNumber": 14,
+      "question": "The capital of the Kanem-Borno Empire was moved from Njimi to Ngazargamu by:",
+      "options": [
+        "Mai Idris Alooma",
+        "Mai Dunama Dibbalemi",
+        "Mai Ali Gaji",
+        "Sayf b. Dhi Yazan"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "questionNumber": 15,
+      "question": "The Benin Empire was famous for its artistic works made primarily of:",
+      "options": [
+        "Gold",
+        "Bronze",
+        "Silver",
+        "Iron"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "questionNumber": 16,
+      "question": "The Berlin Conference of 1884-1885 was convened to:",
+      "options": [
+        "End the slave trade",
+        "Partition Africa among European powers",
+        "Promote African culture",
+        "Establish a world bank"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "questionNumber": 17,
+      "question": "The 'Scramble for Africa' refers to the:",
+      "options": [
+        "Migration of Africans to Europe",
+        "Rapid colonization of Africa by Europeans",
+        "Search for gold in South Africa",
+        "Introduction of Islam to West Africa"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "questionNumber": 18,
+      "question": "The British consul who was instrumental in the annexation of Lagos in 1861 was:",
+      "options": [
+        "John Beecroft",
+        "Norman Bedingfield",
+        "Frederick Lugard",
+        "George Goldie"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "questionNumber": 19,
+      "question": "The Royal Niger Company was led by:",
+      "options": [
+        "Sir George Goldie",
+        "Lord Lugard",
+        "Herbert Macaulay",
+        "John Holt"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "questionNumber": 20,
+      "question": "The first European nation to engage in the Trans-Atlantic Slave Trade was:",
+      "options": [
+        "Britain",
+        "France",
+        "Portugal",
+        "Spain"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "questionNumber": 21,
+      "question": "The primary cause of the fall of the Songhai Empire was the invasion by:",
+      "options": [
+        "The British",
+        "The Moroccans",
+        "The Fulani",
+        "The Malians"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "questionNumber": 22,
+      "question": "The title of the ruler of the Benin Kingdom is:",
+      "options": [
+        "Obi",
+        "Olu",
+        "Oba",
+        "Eze"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "questionNumber": 23,
+      "question": "Who was the first Bishop of the Niger Territory?",
+      "options": [
+        "Henry Townsend",
+        "Samuel Ajayi Crowther",
+        "Thomas Birch Freeman",
+        "William Baikie"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "questionNumber": 24,
+      "question": "The 'Manilla' was a type of ______ used in early Nigerian trade:",
+      "options": [
+        "Cloth",
+        "Currency",
+        "Weapon",
+        "Food"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "questionNumber": 25,
+      "question": "The Igbo-Ukwu archaeological site is significant for its:",
+      "options": [
+        "Stone tools",
+        "Sophisticated bronze castings",
+        "Cave paintings",
+        "Iron furnaces"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "questionNumber": 26,
+      "question": "The 19th-century 'Yoruba Civil Wars' began after the fall of:",
+      "options": [
+        "Ibadan",
+        "Ijaye",
+        "Old Oyo",
+        "Abeokuta"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "questionNumber": 27,
+      "question": "The legendary Queen of Zazzau (Zaria) known for her military conquests was:",
+      "options": [
+        "Queen Idia",
+        "Queen Amina",
+        "Queen Emotan",
+        "Moremi"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "questionNumber": 28,
+      "question": "The British explorer who 'discovered' the mouth of the River Niger was:",
+      "options": [
+        "Mungo Park",
+        "Richard and John Lander",
+        "Hugh Clapperton",
+        "Walter Oudney"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "questionNumber": 29,
+      "question": "The policy used by the British to rule Nigeria through traditional rulers was:",
+      "options": [
+        "Assimilation",
+        "Indirect Rule",
+        "Direct Rule",
+        "Association"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "questionNumber": 30,
+      "question": "The 1914 Amalgamation of Northern and Southern Nigeria was carried out by:",
+      "options": [
+        "Sir Arthur Richards",
+        "Lord Frederick Lugard",
+        "Sir Bernard Bourdillon",
+        "Sir John Macpherson"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "questionNumber": 31,
+      "question": "The first Nigerian political party was the:",
+      "options": [
+        "NCNC",
+        "NYM",
+        "NNDP",
+        "NPC"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 32,
+      "questionNumber": 32,
+      "question": "The system of slavery where a person is treated as the legal property of another is:",
+      "options": [
+        "Domestic slavery",
+        "Chattel slavery",
+        "Serfdom",
+        "Pawnship"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "questionNumber": 33,
+      "question": "The 'Middle Passage' refers to the journey of slaves from:",
+      "options": [
+        "Africa to Europe",
+        "Africa to the Americas",
+        "Europe to Africa",
+        "The Americas to Europe"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "questionNumber": 34,
+      "question": "The abolition of the Slave Trade by the British Parliament took place in:",
+      "options": [
+        "1807",
+        "1833",
+        "1861",
+        "1884"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "questionNumber": 35,
+      "question": "The Egba people established their capital at Abeokuta in:",
+      "options": [
+        "1800",
+        "1830",
+        "1851",
+        "1893"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "questionNumber": 36,
+      "question": "Which secret society acted as a judicial body in the Old Calabar kingdom?",
+      "options": [
+        "Ogboni",
+        "Ekpe",
+        "Ogo",
+        "Poro"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "questionNumber": 37,
+      "question": "The 'Aro Confederacy' dominated trade and politics in Igboland through the influence of the:",
+      "options": [
+        "Long Juju Oracle",
+        "Eze Nri",
+        "Omu-Okwei",
+        "Age Grades"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "questionNumber": 38,
+      "question": "The 1851 British bombardment of Lagos was primarily to:",
+      "options": [
+        "Steal gold",
+        "Restore Kosoko",
+        "Stop the slave trade and depose Kosoko",
+        "Establish a school"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "questionNumber": 39,
+      "question": "Who was the 'founder' of the Nri Kingdom?",
+      "options": [
+        "Eri",
+        "Aguleri",
+        "Onitsha",
+        "Nri-Ifikuanim"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "questionNumber": 40,
+      "question": "The famous female heroine of Ile-Ife who helped defeat the Igbo raiders was:",
+      "options": [
+        "Queen Idia",
+        "Moremi Ajasoro",
+        "Queen Amina",
+        "Madam Tinubu"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "questionNumber": 41,
+      "question": "The Egyptian Pharaoh who built the Great Pyramid of Giza was:",
+      "options": [
+        "Tutankhamun",
+        "Khufu",
+        "Ramses II",
+        "Akhenaten"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "questionNumber": 42,
+      "question": "The ancient African civilization located in modern-day Ethiopia was:",
+      "options": [
+        "Kush",
+        "Aksum",
+        "Meroe",
+        "Carthage"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "questionNumber": 43,
+      "question": "The trans-Atlantic slave trade is also known as the:",
+      "options": [
+        "Rectangular Trade",
+        "Triangular Trade",
+        "Circular Trade",
+        "Linear Trade"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "questionNumber": 44,
+      "question": "The most powerful state in the 19th-century Yoruba land after the fall of Oyo was:",
+      "options": [
+        "Ijebu",
+        "Ibadan",
+        "Egba",
+        "Ilorin"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "questionNumber": 45,
+      "question": "The British official who founded the Southern Nigeria Protectorate was:",
+      "options": [
+        "Ralph Moor",
+        "George Goldie",
+        "Frederick Lugard",
+        "Claude Macdonald"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 46,
+      "questionNumber": 46,
+      "question": "The 1929 'Women's War' (Aba Women's Riot) was caused by:",
+      "options": [
+        "Lack of food",
+        "Introduction of direct taxation on women",
+        "The killing of a king",
+        "The arrival of missionaries"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "questionNumber": 47,
+      "question": "The first capital of Northern Nigeria under the British was:",
+      "options": [
+        "Kaduna",
+        "Kano",
+        "Lokoja",
+        "Zungeru"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "questionNumber": 48,
+      "question": "The African ruler who successfully resisted Italian colonization in 1896 was:",
+      "options": [
+        "Menelik II",
+        "Samore Toure",
+        "Behanzin",
+        "Cetshwayo"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "questionNumber": 49,
+      "question": "The first newspaper in Nigeria, 'Iwe Irohin', was founded in:",
+      "options": [
+        "1859",
+        "1880",
+        "1901",
+        "1923"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "questionNumber": 50,
+      "question": "The Nigerian nationalist known as the 'Father of Nigerian Nationalism' was:",
+      "options": [
+        "Nnamdi Azikiwe",
+        "Obafemi Awolowo",
+        "Herbert Macaulay",
+        "Ahmadu Bello"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 51,
+      "questionNumber": 51,
+      "question": "The 1922 Clifford Constitution was significant because it introduced the:",
+      "options": [
+        "Federal system",
+        "Elective principle",
+        "Unicameral legislature",
+        "Regionalism"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "questionNumber": 52,
+      "question": "The Richards Constitution of 1946 divided Nigeria into:",
+      "options": [
+        "Two regions",
+        "Three regions",
+        "Four regions",
+        "Twelve states"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "questionNumber": 53,
+      "question": "The first Nigerian to be appointed to the Executive Council in 1943 was:",
+      "options": [
+        "Sir Adeyemo Alakija",
+        "Herbert Macaulay",
+        "Ernest Ikoli",
+        "Nnamdi Azikiwe"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "questionNumber": 54,
+      "question": "The West African Students' Union (WASU) was founded in London in 1925 by:",
+      "options": [
+        "Nnamdi Azikiwe",
+        "Ladipo Solanke",
+        "Obafemi Awolowo",
+        "J.B. Danquah"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "questionNumber": 55,
+      "question": "The General Strike of 1945 in Nigeria was led by:",
+      "options": [
+        "The NCNC",
+        "The Nigerian Youth Movement",
+        "Michael Imoudu",
+        "Aminu Kano"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "questionNumber": 56,
+      "question": "The Zikist Movement was the radical youth wing of which party?",
+      "options": [
+        "NPC",
+        "NCNC",
+        "AG",
+        "NYM"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "questionNumber": 57,
+      "question": "The Macpherson Constitution of 1951 was unique because it involved:",
+      "options": [
+        "Wide consultation with Nigerians",
+        "Military decree",
+        "The British Queen directly",
+        "Only the Northern Emirs"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "questionNumber": 58,
+      "question": "The Action Group (AG) was formed primarily from a Yoruba cultural organization called:",
+      "options": [
+        "Egbe Omo Oduduwa",
+        "Jam'iyyar Mutane Arewa",
+        "State Movement",
+        "The Ogboni"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "questionNumber": 59,
+      "question": "The first Premier of the Western Region was:",
+      "options": [
+        "S.L. Akintola",
+        "Obafemi Awolowo",
+        "Nnamdi Azikiwe",
+        "Ahmadu Bello"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "questionNumber": 60,
+      "question": "The 1953 motion for 'Self-Government in 1956' was moved by:",
+      "options": [
+        "Anthony Enahoro",
+        "Ahmadu Bello",
+        "Tafawa Balewa",
+        "Herbert Macaulay"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "questionNumber": 61,
+      "question": "The Lyttelton Constitution of 1954 is famous for formally establishing:",
+      "options": [
+        "The Monarchy",
+        "A Federal System of government",
+        "Unitary government",
+        "The Indirect Rule system"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "questionNumber": 62,
+      "question": "The first Prime Minister of independent Nigeria was:",
+      "options": [
+        "Nnamdi Azikiwe",
+        "Abubakar Tafawa Balewa",
+        "Ahmadu Bello",
+        "Obafemi Awolowo"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "questionNumber": 63,
+      "question": "Which Nigerian city was the scene of the 1949 Iva Valley Coal Mine massacre?",
+      "options": [
+        "Jos",
+        "Enugu",
+        "Calabar",
+        "Kaduna"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "questionNumber": 64,
+      "question": "The Willink Commission of 1957 was set up to investigate:",
+      "options": [
+        "Tax evasion",
+        "The fears of minority groups",
+        "Boundary disputes",
+        "The 1953 census"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "questionNumber": 65,
+      "question": "Nigeria became a Republic in:",
+      "options": [
+        "1960",
+        "1961",
+        "1963",
+        "1966"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "questionNumber": 66,
+      "question": "The Pan-African Congress of 1945, which heavily influenced African nationalists, was held in:",
+      "options": [
+        "Accra",
+        "Lagos",
+        "Manchester",
+        "Paris"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "questionNumber": 67,
+      "question": "The first Governor-General of independent Nigeria was:",
+      "options": [
+        "James Robertson",
+        "Nnamdi Azikiwe",
+        "Frederick Lugard",
+        "Arthur Richards"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "questionNumber": 68,
+      "question": "The 'Borgu' region was a point of conflict between which two European powers?",
+      "options": [
+        "Britain and Portugal",
+        "France and Britain",
+        "Germany and France",
+        "Italy and Britain"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "questionNumber": 69,
+      "question": "The Indirect Rule system failed in Southeastern Nigeria primarily because of the lack of:",
+      "options": [
+        "Natural resources",
+        "Traditional centralized authority",
+        "Formal education",
+        "Trade routes"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "questionNumber": 70,
+      "question": "The first secondary school in Nigeria, CMS Grammar School, was established in:",
+      "options": [
+        "1842",
+        "1859",
+        "1901",
+        "1914"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 71,
+      "questionNumber": 71,
+      "question": "The head of the Northern People’s Congress (NPC) was:",
+      "options": [
+        "Abubakar Tafawa Balewa",
+        "Sir Ahmadu Bello",
+        "Aminu Kano",
+        "Shehu Shagari"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "questionNumber": 72,
+      "question": "The 'Satiru Rising' of 1906 was a religious and social revolt against British rule in:",
+      "options": [
+        "Kano",
+        "Sokoto",
+        "Bornu",
+        "Bauchi"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "questionNumber": 73,
+      "question": "The Aba Women’s War of 1929 was sparked by the census of ______:",
+      "options": [
+        "Cattle",
+        "Houses and personal property",
+        "Men only",
+        "Palm oil trees"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "questionNumber": 74,
+      "question": "Who was the founder of the Nigerian Youth Movement (NYM)?",
+      "options": [
+        "Dr. J.C. Vaughan",
+        "Ernest Ikoli",
+        "Samuel Akinsanya",
+        "All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 75,
+      "questionNumber": 75,
+      "question": "The Lagos Youth Movement was renamed the Nigerian Youth Movement in:",
+      "options": [
+        "1934",
+        "1936",
+        "1944",
+        "1951"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "questionNumber": 76,
+      "question": "The newspaper founded by Nnamdi Azikiwe in 1937 was the:",
+      "options": [
+        "West African Pilot",
+        "Daily Times",
+        "Lagos Weekly Record",
+        "The Comet"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 77,
+      "questionNumber": 77,
+      "question": "The 1951 Constitution was named after:",
+      "options": [
+        "Sir John Macpherson",
+        "Sir Arthur Richards",
+        "Lord Lyttelton",
+        "Sir Oliver Lyttelton"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 78,
+      "questionNumber": 78,
+      "question": "The first indigenous Speaker of the House of Representatives was:",
+      "options": [
+        "Jaja Wachuku",
+        "Nnamdi Azikiwe",
+        "Dennis Osadebay",
+        "Ames Casely-Hayford"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 79,
+      "questionNumber": 79,
+      "question": "The 'Hausa-Fulani' political interest in the 1950s was represented by the:",
+      "options": [
+        "NEPU",
+        "NPC",
+        "UMBC",
+        "NCNC"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 80,
+      "questionNumber": 80,
+      "question": "The first university in Nigeria, the University College Ibadan, was established in:",
+      "options": [
+        "1932",
+        "1948",
+        "1960",
+        "1962"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 81,
+      "questionNumber": 81,
+      "question": "The 1897 British expedition against the Benin Empire led to the exile of:",
+      "options": [
+        "Oba Ovonramwen",
+        "Oba Ewuare",
+        "Oba Esigie",
+        "Oba Ozolua"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 82,
+      "questionNumber": 82,
+      "question": "The policy of 'Assimilation' was used in Africa by which colonial power?",
+      "options": [
+        "Britain",
+        "France",
+        "Germany",
+        "Belgium"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "questionNumber": 83,
+      "question": "The 'Warrant Chiefs' were a feature of British administration in:",
+      "options": [
+        "Northern Nigeria",
+        "Western Nigeria",
+        "Eastern Nigeria",
+        "The Colony of Lagos"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 84,
+      "questionNumber": 84,
+      "question": "The major reason for the 1914 Amalgamation was for the British to:",
+      "options": [
+        "Promote unity",
+        "Subsidize the Northern budget with Southern revenue",
+        "Spread Christianity",
+        "Build a railway"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "questionNumber": 85,
+      "question": "The Lagos Colony was annexed by the British in:",
+      "options": [
+        "1851",
+        "1861",
+        "1885",
+        "1900"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 86,
+      "questionNumber": 86,
+      "question": "The leader of the National Congress of British West Africa (NCBWA) was:",
+      "options": [
+        "Herbert Macaulay",
+        "Casely Hayford",
+        "Ladipo Solanke",
+        "Samuel Lewis"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "questionNumber": 87,
+      "question": "The first political party to be formed in Nigeria (1923) was the:",
+      "options": [
+        "NCNC",
+        "NNDP",
+        "NYM",
+        "NPC"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "questionNumber": 88,
+      "question": "The Atlantic Charter of 1941 was significant to African nationalists because it:",
+      "options": [
+        "Supported the right of all people to choose their own government",
+        "Ended the slave trade",
+        "Divided Africa",
+        "Started World War II"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 89,
+      "questionNumber": 89,
+      "question": "The first Nigerian to serve as the President of the Senate was:",
+      "options": [
+        "Nnamdi Azikiwe",
+        "Dennis Osadebay",
+        "Tafawa Balewa",
+        "Obafemi Awolowo"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 90,
+      "questionNumber": 90,
+      "question": "The mid-western region was created out of the Western region in:",
+      "options": [
+        "1960",
+        "1963",
+        "1967",
+        "1976"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "questionNumber": 91,
+      "question": "The British officer who led the conquest of the Sokoto Caliphate in 1903 was:",
+      "options": [
+        "Lord Lugard",
+        "General Kemball",
+        "Sir George Goldie",
+        "Captain Glover"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 92,
+      "questionNumber": 92,
+      "question": "The first military coup in Nigeria occurred on:",
+      "options": [
+        "January 15, 1966",
+        "July 29, 1966",
+        "July 29, 1975",
+        "December 31, 1983"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 93,
+      "questionNumber": 93,
+      "question": "The first military Head of State in Nigeria was:",
+      "options": [
+        "Murtala Muhammed",
+        "Aguiyi-Ironsi",
+        "Yakubu Gowon",
+        "Olusegun Obasanjo"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "questionNumber": 94,
+      "question": "The motto of the Northern People’s Congress (NPC) was:",
+      "options": [
+        "One North, One People",
+        "Unity and Faith",
+        "Justice and Progress",
+        "Freedom and Liberty"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 95,
+      "questionNumber": 95,
+      "question": "The King of Lagos who was deposed in 1851 for refusing to sign an anti-slavery treaty was:",
+      "options": [
+        "Akitoye",
+        "Kosoko",
+        "Dosumu",
+        "Oluwole"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 96,
+      "questionNumber": 96,
+      "question": "The colonial policy of 'Direct Rule' was most famously used by:",
+      "options": [
+        "Britain in India",
+        "France in West Africa",
+        "Portugal in Angola",
+        "Belgium in the Congo"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 97,
+      "questionNumber": 97,
+      "question": "The first indigenous Governor-General of Nigeria was:",
+      "options": [
+        "Sir Ahmadu Bello",
+        "Dr. Nnamdi Azikiwe",
+        "Sir Abubakar Tafawa Balewa",
+        "Chief Obafemi Awolowo"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 98,
+      "questionNumber": 98,
+      "question": "The protectorate of Northern Nigeria and Southern Nigeria were created in:",
+      "options": [
+        "1861",
+        "1885",
+        "1900",
+        "1914"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 99,
+      "questionNumber": 99,
+      "question": "The person who suggested the name 'Nigeria' was:",
+      "options": [
+        "Frederick Lugard",
+        "Flora Shaw",
+        "George Goldie",
+        "Mary Slessor"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "questionNumber": 100,
+      "question": "The Nigerian Civil War lasted from:",
+      "options": [
+        "1960-1963",
+        "1966-1969",
+        "1967-1970",
+        "1970-1973"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 101,
+      "questionNumber": 101,
+      "question": "The leader of the secessionist state of Biafra was:",
+      "options": [
+        "Chukwuemeka Odumegwu Ojukwu",
+        "Philip Effiong",
+        "Nzeogwu Kaduna",
+        "Johnson Aguiyi-Ironsi"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "questionNumber": 102,
+      "question": "The 'No Victor, No Vanquished' policy was declared at the end of the Civil War by:",
+      "options": [
+        "Murtala Muhammed",
+        "Yakubu Gowon",
+        "Olusegun Obasanjo",
+        "Shehu Shagari"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "questionNumber": 103,
+      "question": "The 1966 'Araba' riots occurred primarily in which part of Nigeria?",
+      "options": [
+        "The East",
+        "The West",
+        "The North",
+        "The Mid-West"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "questionNumber": 104,
+      "question": "Which agreement was signed in Ghana to prevent the Nigerian Civil War but ultimately failed?",
+      "options": [
+        "The Accra Accord",
+        "The Aburi Accord",
+        "The Kumasi Treaty",
+        "The Legon Agreement"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 105,
+      "questionNumber": 105,
+      "question": "Nigeria changed from driving on the left to the right side of the road in:",
+      "options": [
+        "1960",
+        "1970",
+        "1972",
+        "1975"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 106,
+      "questionNumber": 106,
+      "question": "The National Youth Service Corps (NYSC) was established in 1973 to promote:",
+      "options": [
+        "Military training",
+        "National unity and reconciliation",
+        "Agriculture",
+        "Physical fitness"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "questionNumber": 107,
+      "question": "The first military ruler to be assassinated in a bloody counter-coup was:",
+      "options": [
+        "Aguiyi-Ironsi",
+        "Murtala Muhammed",
+        "Yakubu Gowon",
+        "Sani Abacha"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 108,
+      "questionNumber": 108,
+      "question": "Which Head of State created 12 states in Nigeria in 1967?",
+      "options": [
+        "Aguiyi-Ironsi",
+        "Yakubu Gowon",
+        "Murtala Muhammed",
+        "Olusegun Obasanjo"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 109,
+      "questionNumber": 109,
+      "question": "The 'Indigenization Decree' of 1972 was aimed at:",
+      "options": [
+        "Promoting local languages",
+        "Transferring ownership of businesses to Nigerians",
+        "Expelling foreigners",
+        "Nationalizing the oil industry"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 110,
+      "questionNumber": 110,
+      "question": "The Federal Capital Territory, Abuja, was created during the regime of:",
+      "options": [
+        "Yakubu Gowon",
+        "Murtala Muhammed",
+        "Ibrahim Babangida",
+        "Shehu Shagari"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "questionNumber": 111,
+      "question": "The 1977 World Black and African Festival of Arts and Culture (FESTAC) was hosted in:",
+      "options": [
+        "Accra",
+        "Dakar",
+        "Lagos",
+        "Nairobi"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 112,
+      "questionNumber": 112,
+      "question": "The first Executive President of Nigeria was:",
+      "options": [
+        "Nnamdi Azikiwe",
+        "Shehu Shagari",
+        "Abubakar Tafawa Balewa",
+        "Olusegun Obasanjo"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "questionNumber": 113,
+      "question": "The Second Republic of Nigeria lasted from:",
+      "options": [
+        "1963-1966",
+        "1979-1983",
+        "1993-1999",
+        "1960-1963"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "questionNumber": 114,
+      "question": "The political party of President Shehu Shagari was the:",
+      "options": [
+        "UPN",
+        "NPN",
+        "NPP",
+        "GNPP"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "questionNumber": 115,
+      "question": "The 'War Against Indiscipline' (WAI) was a flagship program of which regime?",
+      "options": [
+        "Murtala/Obasanjo",
+        "Buhari/Idiagbon",
+        "Babangida",
+        "Abacha"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "questionNumber": 116,
+      "question": "The 1993 presidential election, widely considered Nigeria's freest, was won by:",
+      "options": [
+        "Bashir Tofa",
+        "Moshood Abiola",
+        "Ernest Shonekan",
+        "Sani Abacha"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "questionNumber": 117,
+      "question": "The interim National Government of 1993 was headed by:",
+      "options": [
+        "Ibrahim Babangida",
+        "Sani Abacha",
+        "Ernest Shonekan",
+        "Abdulsalami Abubakar"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "questionNumber": 118,
+      "question": "The Nigerian civil rights activist and playwright executed in 1995 was:",
+      "options": [
+        "Wole Soyinka",
+        "Ken Saro-Wiwa",
+        "Gani Fawehinmi",
+        "Fela Kuti"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "questionNumber": 119,
+      "question": "Nigeria returned to democratic rule in 1999 under the leadership of:",
+      "options": [
+        "Sani Abacha",
+        "Abdulsalami Abubakar",
+        "Olusegun Obasanjo",
+        "Umaru Musa Yar'Adua"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 120,
+      "questionNumber": 120,
+      "question": "The first African country to gain independence from colonial rule (1957) was:",
+      "options": [
+        "Nigeria",
+        "Ghana",
+        "Kenya",
+        "Sudan"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "questionNumber": 121,
+      "question": "The primary objective of the OAU (now AU) at its formation in 1963 was to:",
+      "options": [
+        "Establish a common currency",
+        "Eradicate all forms of colonialism in Africa",
+        "Build a trans-African highway",
+        "Promote trade with Europe"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "questionNumber": 122,
+      "question": "The Economic Community of West African States (ECOWAS) was established in:",
+      "options": [
+        "1963",
+        "1975",
+        "1980",
+        "1999"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "questionNumber": 123,
+      "question": "Which Nigerian leader played a key role in the formation of ECOWAS?",
+      "options": [
+        "Murtala Muhammed",
+        "Yakubu Gowon",
+        "Shehu Shagari",
+        "Ibrahim Babangida"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "questionNumber": 124,
+      "question": "The apartheid system was a policy of racial segregation in:",
+      "options": [
+        "Zimbabwe",
+        "Kenya",
+        "South Africa",
+        "Angola"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 125,
+      "questionNumber": 125,
+      "question": "The 1887 'Treaty of Peace' ended the 16-year long war in Yorubaland known as the:",
+      "options": [
+        "Owu War",
+        "Kiriji War",
+        "Ijaye War",
+        "Egba War"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "questionNumber": 126,
+      "question": "The first Nigerian to win the Nobel Prize for Literature was:",
+      "options": [
+        "Chinua Achebe",
+        "Wole Soyinka",
+        "Ben Okri",
+        "Cyprian Ekwensi"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "questionNumber": 127,
+      "question": "The currency 'Naira and Kobo' was introduced to replace the Pound in:",
+      "options": [
+        "1960",
+        "1970",
+        "1973",
+        "1977"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 128,
+      "questionNumber": 128,
+      "question": "The title of the traditional ruler of Sokoto is:",
+      "options": [
+        "Emir",
+        "Sultan",
+        "Shehu",
+        "Sarkin"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 129,
+      "questionNumber": 129,
+      "question": "The movement of the capital from Lagos to Abuja officially occurred in:",
+      "options": [
+        "1976",
+        "1985",
+        "1991",
+        "1999"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "questionNumber": 130,
+      "question": "The first woman to drive a car in Nigeria was:",
+      "options": [
+        "Margaret Ekpo",
+        "Funmilayo Ransome-Kuti",
+        "Gambon Sawaba",
+        "Flora Nwapa"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 131,
+      "questionNumber": 131,
+      "question": "The major reason for the fall of the First Republic was:",
+      "options": [
+        "Economic recession",
+        "Political instability and corruption",
+        "Foreign invasion",
+        "Natural disaster"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 132,
+      "questionNumber": 132,
+      "question": "The 1976 Local Government Reform aimed at:",
+      "options": [
+        "Abolishing local governments",
+        "Making local government a third tier of government",
+        "Giving more power to Emirs",
+        "Centralizing all power in Lagos"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "questionNumber": 133,
+      "question": "Who was the military officer that announced the first coup in Nigeria?",
+      "options": [
+        "Chukwuma Kaduna Nzeogwu",
+        "Emmanuel Ifeajuna",
+        "Theophilus Danjuma",
+        "Murtala Muhammed"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 134,
+      "questionNumber": 134,
+      "question": "The 'Operation Feed the Nation' (OFN) was launched by:",
+      "options": [
+        "Yakubu Gowon",
+        "Olusegun Obasanjo",
+        "Shehu Shagari",
+        "Ibrahim Babangida"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "questionNumber": 135,
+      "question": "The head of the 1979 Constitution Drafting Committee was:",
+      "options": [
+        "Chief Rotimi Williams",
+        "Udo Udoma",
+        "Niki Tobi",
+        "Taslim Elias"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 136,
+      "questionNumber": 136,
+      "question": "Which Nigerian leader was killed in a failed coup led by Buka Suka Dimka?",
+      "options": [
+        "Aguiyi-Ironsi",
+        "Murtala Muhammed",
+        "Sani Abacha",
+        "Ibrahim Babangida"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "questionNumber": 137,
+      "question": "The 'Green Revolution' was the agricultural program of:",
+      "options": [
+        "Olusegun Obasanjo",
+        "Shehu Shagari",
+        "Buhari",
+        "Babangida"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "questionNumber": 138,
+      "question": "The only Nigerian military ruler to have voluntarily handed over power to a civilian twice is:",
+      "options": [
+        "Olusegun Obasanjo",
+        "Ibrahim Babangida",
+        "Abdulsalami Abubakar",
+        "Muhammadu Buhari"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 139,
+      "questionNumber": 139,
+      "question": "The term 'June 12' in Nigerian history refers to the election of:",
+      "options": [
+        "1979",
+        "1983",
+        "1993",
+        "1999"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 140,
+      "questionNumber": 140,
+      "question": "The first female Governor in Nigeria (briefly in Anambra) was:",
+      "options": [
+        "Virginia Etiaba",
+        "Ngozi Okonjo-Iweala",
+        "Diezani Alison-Madueke",
+        "Dora Akunyili"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "questionNumber": 141,
+      "question": "The 1962/63 census was controversial because:",
+      "options": [
+        "The forms were lost",
+        "Figures were inflated for political reasons",
+        "People refused to be counted",
+        "It was too expensive"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 142,
+      "questionNumber": 142,
+      "question": "The 1953 Kano Riot was a result of the tension between:",
+      "options": [
+        "Christians and Muslims",
+        "NPC and AG/NCNC supporters",
+        "Farmers and Herders",
+        "British and Nigerians"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 143,
+      "questionNumber": 143,
+      "question": "The 'Udoji Award' of 1974 was famous for:",
+      "options": [
+        "Granting scholarships",
+        "Large salary increases for public servants",
+        "Nationalizing banks",
+        "Winning a football trophy"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 144,
+      "questionNumber": 144,
+      "question": "The Structural Adjustment Program (SAP) was introduced in 1986 by:",
+      "options": [
+        "Muhammadu Buhari",
+        "Ibrahim Babangida",
+        "Sani Abacha",
+        "Shehu Shagari"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 145,
+      "questionNumber": 145,
+      "question": "The 1978 Land Use Act vested all land in the territory of each state in the:",
+      "options": [
+        "Federal Government",
+        "Governor of the State",
+        "Traditional Rulers",
+        "Local Government Chairmen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 146,
+      "questionNumber": 146,
+      "question": "The military ruler who moved his office from Lagos to Abuja in 1991 was:",
+      "options": [
+        "Murtala Muhammed",
+        "Ibrahim Babangida",
+        "Sani Abacha",
+        "Abdulsalami Abubakar"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 147,
+      "questionNumber": 147,
+      "question": "The 'ECOMOG' was a West African intervention force first deployed to:",
+      "options": [
+        "Sierra Leone",
+        "Liberia",
+        "Gambia",
+        "Ivory Coast"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "questionNumber": 148,
+      "question": "The first Nigerian to become the Secretary-General of the Commonwealth was:",
+      "options": [
+        "Nnamdi Azikiwe",
+        "Emeka Anyaoku",
+        "Joe Garba",
+        "Ibrahim Gambari"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 149,
+      "questionNumber": 149,
+      "question": "The 1914 amalgamation joined the Colony and Protectorate of Southern Nigeria with the:",
+      "options": [
+        "Protectorate of Northern Nigeria",
+        "Lagos Colony",
+        "Oil Rivers Protectorate",
+        "Niger Coast Protectorate"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 150,
+      "questionNumber": 150,
+      "question": "The first military ruler to die of natural causes while in office was:",
+      "options": [
+        "Aguiyi-Ironsi",
+        "Murtala Muhammed",
+        "Sani Abacha",
+        "Umaru Yar'Adua"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 151,
+      "questionNumber": 151,
+      "question": "The First World War lasted from:",
+      "options": [
+        "1910-1914",
+        "1914-1918",
+        "1918-1922",
+        "1939-1945"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 152,
+      "questionNumber": 152,
+      "question": "The United Nations Organization (UNO) was established in 1945 to replace the:",
+      "options": [
+        "League of Nations",
+        "North Atlantic Treaty Organization",
+        "Warsaw Pact",
+        "European Union"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 153,
+      "questionNumber": 153,
+      "question": "The first man to walk on the moon in 1969 was:",
+      "options": [
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "John Glenn"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 154,
+      "questionNumber": 154,
+      "question": "The Cold War was a period of tension between the USA and:",
+      "options": [
+        "China",
+        "The Soviet Union (USSR)",
+        "Germany",
+        "Japan"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 155,
+      "questionNumber": 155,
+      "question": "The ancient Greek city-state known for its democratic system was:",
+      "options": [
+        "Sparta",
+        "Athens",
+        "Thebes",
+        "Corinth"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 156,
+      "questionNumber": 156,
+      "question": "The French Revolution of 1789 was fought under the slogan:",
+      "options": [
+        "Peace, Bread, and Land",
+        "Liberty, Equality, Fraternity",
+        "In God We Trust",
+        "Victory or Death"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 157,
+      "questionNumber": 157,
+      "question": "The first president of post-apartheid South Africa was:",
+      "options": [
+        "Desmond Tutu",
+        "Thabo Mbeki",
+        "Nelson Mandela",
+        "F.W. de Klerk"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 158,
+      "questionNumber": 158,
+      "question": "The 'Industrial Revolution' began in which country?",
+      "options": [
+        "France",
+        "USA",
+        "Great Britain",
+        "Germany"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 159,
+      "questionNumber": 159,
+      "question": "The primary cause of the Second World War was the invasion of Poland by:",
+      "options": [
+        "Italy",
+        "Japan",
+        "Germany",
+        "The Soviet Union"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 160,
+      "questionNumber": 160,
+      "question": "The Suez Canal connects the Mediterranean Sea to the:",
+      "options": [
+        "Atlantic Ocean",
+        "Red Sea",
+        "Dead Sea",
+        "Black Sea"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 161,
+      "questionNumber": 161,
+      "question": "The 'Great Wall' was built by which ancient civilization?",
+      "options": [
+        "Romans",
+        "Persians",
+        "Chinese",
+        "Egyptians"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 162,
+      "questionNumber": 162,
+      "question": "The leader of the Indian independence movement who practiced non-violence was:",
+      "options": [
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose",
+        "Sardar Patel"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 163,
+      "questionNumber": 163,
+      "question": "The African country that was never formally colonized by Europeans is:",
+      "options": [
+        "Nigeria",
+        "Ghana",
+        "Ethiopia",
+        "Kenya"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 164,
+      "questionNumber": 164,
+      "question": "The system of 'Vassalage' and 'Manorialism' was central to:",
+      "options": [
+        "Capitalism",
+        "Feudalism",
+        "Socialism",
+        "Communism"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 165,
+      "questionNumber": 165,
+      "question": "The first female Prime Minister of the United Kingdom was:",
+      "options": [
+        "Theresa May",
+        "Margaret Thatcher",
+        "Angela Merkel",
+        "Indira Gandhi"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "questionNumber": 166,
+      "question": "The 'Berlin Wall', a symbol of the Cold War, fell in:",
+      "options": [
+        "1985",
+        "1989",
+        "1991",
+        "1995"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 167,
+      "questionNumber": 167,
+      "question": "The Renaissance period, known for the revival of art and learning, began in:",
+      "options": [
+        "France",
+        "Italy",
+        "Spain",
+        "England"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "questionNumber": 168,
+      "question": "Which ancient civilization developed the system of writing known as Hieroglyphics?",
+      "options": [
+        "Mesopotamians",
+        "Egyptians",
+        "Aztecs",
+        "Incas"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 169,
+      "questionNumber": 169,
+      "question": "The 'Bolshevik Revolution' of 1917 took place in:",
+      "options": [
+        "China",
+        "Russia",
+        "Germany",
+        "France"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 170,
+      "questionNumber": 170,
+      "question": "The Magna Carta (1215) is a significant document in the history of:",
+      "options": [
+        "Human Rights",
+        "The Catholic Church",
+        "The British Monarchy",
+        "American Independence"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 171,
+      "questionNumber": 171,
+      "question": "The primary religion of the Mali Empire under Mansa Musa was:",
+      "options": [
+        "Christianity",
+        "Islam",
+        "Traditional Religion",
+        "Buddhism"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 172,
+      "questionNumber": 172,
+      "question": "The first Black president of the United States was:",
+      "options": [
+        "Bill Clinton",
+        "Barack Obama",
+        "George Bush",
+        "Joe Biden"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "questionNumber": 173,
+      "question": "The 'Apartheid' laws in South Africa were officially repealed in the early:",
+      "options": [
+        "1970s",
+        "1980s",
+        "1990s",
+        "2000s"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 174,
+      "questionNumber": 174,
+      "question": "Which explorer is credited with 'discovering' the Americas in 1492?",
+      "options": [
+        "Ferdinand Magellan",
+        "Christopher Columbus",
+        "Amerigo Vespucci",
+        "James Cook"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 175,
+      "questionNumber": 175,
+      "question": "The African Union (AU) is headquartered in:",
+      "options": [
+        "Lagos, Nigeria",
+        "Nairobi, Kenya",
+        "Addis Ababa, Ethiopia",
+        "Cairo, Egypt"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 176,
+      "questionNumber": 176,
+      "question": "The 'Cradle of Humankind', where many early hominid fossils were found, is in:",
+      "options": [
+        "Kenya",
+        "South Africa",
+        "Tanzania",
+        "Ethiopia"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 177,
+      "questionNumber": 177,
+      "question": "The 1884-1885 Berlin Conference was hosted by:",
+      "options": [
+        "Queen Victoria",
+        "Otto von Bismarck",
+        "Napoleon III",
+        "Leopold II"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 178,
+      "questionNumber": 178,
+      "question": "The first president of independent Kenya was:",
+      "options": [
+        "Daniel arap Moi",
+        "Jomo Kenyatta",
+        "Mwai Kibaki",
+        "Uhuru Kenyatta"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 179,
+      "questionNumber": 179,
+      "question": "The ancient trade route linking China with the West was the:",
+      "options": [
+        "Trans-Saharan route",
+        "Silk Road",
+        "Spice Route",
+        "Appian Way"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 180,
+      "questionNumber": 180,
+      "question": "The philosopher known for the idea of 'Separation of Powers' was:",
+      "options": [
+        "Thomas Hobbes",
+        "John Locke",
+        "Montesquieu",
+        "Jean-Jacques Rousseau"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 181,
+      "questionNumber": 181,
+      "question": "The military alliance formed by the Soviet Union and its Eastern European satellites was the:",
+      "options": [
+        "NATO",
+        "Warsaw Pact",
+        "SEATO",
+        "UN Security Council"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 182,
+      "questionNumber": 182,
+      "question": "The first country to use atomic bombs in warfare was:",
+      "options": [
+        "Germany",
+        "Japan",
+        "USA",
+        "Russia"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 183,
+      "questionNumber": 183,
+      "question": "The head of the Roman Catholic Church is the:",
+      "options": [
+        "Archbishop",
+        "Cardinal",
+        "Pope",
+        "Patriarch"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 184,
+      "questionNumber": 184,
+      "question": "The 'Emancipation Proclamation', which aimed to free slaves in the USA, was issued by:",
+      "options": [
+        "George Washington",
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "Andrew Jackson"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 185,
+      "questionNumber": 185,
+      "question": "The official language of the Byzantine Empire was:",
+      "options": [
+        "Latin",
+        "Greek",
+        "Arabic",
+        "Hebrew"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 186,
+      "questionNumber": 186,
+      "question": "The 1994 genocide in which nearly a million people were killed occurred in:",
+      "options": [
+        "Sudan",
+        "Rwanda",
+        "Congo",
+        "Burundi"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 187,
+      "questionNumber": 187,
+      "question": "The first president of Independent Ghana was:",
+      "options": [
+        "Kwame Nkrumah",
+        "Jerry Rawlings",
+        "Kofi Annan",
+        "John Kufuor"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 188,
+      "questionNumber": 188,
+      "question": "The leader of the Nazi Party in Germany was:",
+      "options": [
+        "Benito Mussolini",
+        "Adolf Hitler",
+        "Joseph Stalin",
+        "Winston Churchill"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 189,
+      "questionNumber": 189,
+      "question": "The ancient Mesopotamian civilization is located between which two rivers?",
+      "options": [
+        "Nile and Jordan",
+        "Tigris and Euphrates",
+        "Indus and Ganges",
+        "Yellow and Yangtze"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 190,
+      "questionNumber": 190,
+      "question": "The 'Steam Engine' was significantly improved for industrial use by:",
+      "options": [
+        "Isaac Newton",
+        "James Watt",
+        "Thomas Edison",
+        "Nikola Tesla"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 191,
+      "questionNumber": 191,
+      "question": "The system of 'Indirect Rule' in Nigeria was first experimented in:",
+      "options": [
+        "Lagos",
+        "The North",
+        "The East",
+        "The West"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 192,
+      "questionNumber": 192,
+      "question": "The 1960 independence of Nigeria was granted by the:",
+      "options": [
+        "United Nations",
+        "British Parliament",
+        "International Court",
+        "African Union"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 193,
+      "questionNumber": 193,
+      "question": "The major reason for the emergence of the Oyo Empire was its:",
+      "options": [
+        "Agricultural wealth",
+        "Strong Cavalry (Horses)",
+        "Naval power",
+        "Bronze technology"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 194,
+      "questionNumber": 194,
+      "question": "The first military coup in Africa occurred in:",
+      "options": [
+        "Nigeria (1966)",
+        "Egypt (1952)",
+        "Togo (1963)",
+        "Ghana (1966)"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 195,
+      "questionNumber": 195,
+      "question": "The British monarch at the time of Nigeria's independence in 1960 was:",
+      "options": [
+        "Queen Victoria",
+        "King George VI",
+        "Queen Elizabeth II",
+        "King Charles III"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 196,
+      "questionNumber": 196,
+      "question": "The capital of the ancient Mali Empire was:",
+      "options": [
+        "Kumbi Saleh",
+        "Timbuktu",
+        "Niani",
+        "Gao"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 197,
+      "questionNumber": 197,
+      "question": "The main reason for European exploration in the 15th century was to find a sea route to:",
+      "options": [
+        "Africa",
+        "America",
+        "Asia (The Indies)",
+        "Australia"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 198,
+      "questionNumber": 198,
+      "question": "The 'League of Nations' failed primarily because it lacked:",
+      "options": [
+        "Funding",
+        "A headquarters",
+        "The membership of the USA",
+        "A written constitution"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 199,
+      "questionNumber": 199,
+      "question": "The term 'Decolonization' refers to the:",
+      "options": [
+        "Invasion of Africa",
+        "Process of colonies gaining independence",
+        "Spread of Christianity",
+        "Partition of Africa"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 200,
+      "questionNumber": 200,
+      "question": "The Nigerian national anthem 'Arise, O Compatriots' was adopted in:",
+      "options": [
+        "1960",
+        "1963",
+        "1978",
+        "1999"
+      ],
+      "answer": "C"
+    }
+  ]
+}

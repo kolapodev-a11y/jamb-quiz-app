@@ -1,0 +1,2405 @@
+{
+  "subject": "accounting",
+  "questions": [
+    {
+      "id": 1,
+      "questionNumber": 1,
+      "question": "The accounting equation is represented as:",
+      "options": [
+        "Assets = Liabilities - Capital",
+        "Assets = Liabilities + Capital",
+        "Capital = Assets + Liabilities",
+        "Liabilities = Assets + Capital"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "questionNumber": 2,
+      "question": "Which of the following is a representative personal account?",
+      "options": [
+        "Cash Account",
+        "Salaries Prepayment Account",
+        "Building Account",
+        "Bad Debts Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "questionNumber": 3,
+      "question": "The process of transferring entries from the journal to the ledger is known as:",
+      "options": [
+        "Balancing",
+        "Drafting",
+        "Posting",
+        "Summarizing"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "questionNumber": 4,
+      "question": "Which subsidiary book is used to record the sale of fixed assets on credit?",
+      "options": [
+        "Sales Journal",
+        "General Journal",
+        "Cash Book",
+        "Purchases Journal"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "questionNumber": 5,
+      "question": "A credit balance in the Cash Book (Bank Column) indicates:",
+      "options": [
+        "Cash in hand",
+        "Bank Overdraft",
+        "Bank Deposit",
+        "Profit"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "questionNumber": 6,
+      "question": "Which of the following errors will affect the agreement of the Trial Balance?",
+      "options": [
+        "Error of Omission",
+        "Error of Commission",
+        "Single Entry of a transaction",
+        "Error of Principle"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "questionNumber": 7,
+      "question": "The document sent by a seller to a buyer when goods are returned is a:",
+      "options": [
+        "Debit Note",
+        "Credit Note",
+        "Invoice",
+        "Waybill"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "questionNumber": 8,
+      "question": "Provision for Bad Debts is an application of which accounting concept?",
+      "options": [
+        "Going Concern",
+        "Prudence (Conservatism)",
+        "Entity",
+        "Materiality"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "questionNumber": 9,
+      "question": "The systematic allocation of the cost of a tangible fixed asset over its useful life is:",
+      "options": [
+        "Appreciation",
+        "Depreciation",
+        "Depletion",
+        "Amortization"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "questionNumber": 10,
+      "question": "A petty cash book system where the cashier is given a fixed sum at the start of a period is the:",
+      "options": [
+        "Float system",
+        "Fixed system",
+        "Imprest system",
+        "Variable system"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "questionNumber": 11,
+      "question": "Which of the following is a current asset?",
+      "options": [
+        "Machinery",
+        "Inventory (Stock)",
+        "Goodwill",
+        "Long-term Loan"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "questionNumber": 12,
+      "question": "A trial balance is prepared to test the:",
+      "options": [
+        "Arithmetical accuracy of the ledger",
+        "Financial position of the business",
+        "Profitability of the business",
+        "Efficiency of the accountant"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "questionNumber": 13,
+      "question": "When a cheque is received and paid into the bank on the same day, it is entered in the three-column cash book as:",
+      "options": [
+        "Debit Cash column",
+        "Debit Bank column",
+        "Credit Bank column",
+        "Credit Cash column"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "questionNumber": 14,
+      "question": "The concept that states a business will continue to operate for the foreseeable future is:",
+      "options": [
+        "Business Entity",
+        "Going Concern",
+        "Money Measurement",
+        "Dual Aspect"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "questionNumber": 15,
+      "question": "Which of the following is an intangible asset?",
+      "options": [
+        "Furniture",
+        "Motor Vehicle",
+        "Copyright",
+        "Debtors"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "questionNumber": 16,
+      "question": "In a partnership, the 'sharing of profits and losses' is documented in the:",
+      "options": [
+        "Memorandum of Association",
+        "Partnership Deed",
+        "Articles of Association",
+        "Trade Agreement"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "questionNumber": 17,
+      "question": "A bank reconciliation statement is prepared to reconcile the difference between the:",
+      "options": [
+        "Cash and Bank columns of the Cash Book",
+        "Cash Book and Bank Statement",
+        "Trial Balance and Balance Sheet",
+        "Debit and Credit sides of the Ledger"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "questionNumber": 18,
+      "question": "The value of an asset at the end of its useful life is its:",
+      "options": [
+        "Book Value",
+        "Market Value",
+        "Scrap (Salvage) Value",
+        "Historical Cost"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "questionNumber": 19,
+      "question": "An example of a nominal account is:",
+      "options": [
+        "Furniture Account",
+        "Rent Account",
+        "Bank Account",
+        "Creditors Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "questionNumber": 20,
+      "question": "Prime cost consists of:",
+      "options": [
+        "Direct materials + Direct labor + Direct expenses",
+        "Factory overheads + Raw materials",
+        "Opening stock + Purchases - Closing stock",
+        "Selling expenses + Administrative expenses"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "questionNumber": 21,
+      "question": "Which of the following is a capital expenditure?",
+      "options": [
+        "Repairs to machinery",
+        "Purchase of fuel",
+        "Purchase of a delivery van",
+        "Payment of wages"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "questionNumber": 22,
+      "question": "The excess of current assets over current liabilities is:",
+      "options": [
+        "Working Capital",
+        "Fixed Capital",
+        "Net Profit",
+        "Gross Profit"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "questionNumber": 23,
+      "question": "Opening stock plus purchases minus closing stock equals:",
+      "options": [
+        "Net Profit",
+        "Gross Profit",
+        "Cost of Goods Sold",
+        "Total Sales"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "questionNumber": 24,
+      "question": "A person to whom a business owes money for goods supplied is a:",
+      "options": [
+        "Debtor",
+        "Creditor",
+        "Shareholder",
+        "Manager"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "questionNumber": 25,
+      "question": "The double-entry for 'Cash Sales' is:",
+      "options": [
+        "Debit Sales, Credit Cash",
+        "Debit Cash, Credit Sales",
+        "Debit Debtors, Credit Sales",
+        "Debit Sales, Credit Debtors"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "questionNumber": 26,
+      "question": "Which of the following is not a subsidiary book?",
+      "options": [
+        "Sales Book",
+        "Purchases Book",
+        "General Ledger",
+        "Returns Inward Book"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "questionNumber": 27,
+      "question": "The discount allowed to a customer for prompt payment is:",
+      "options": [
+        "Trade Discount",
+        "Cash Discount",
+        "Quantity Discount",
+        "Seasonal Discount"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "questionNumber": 28,
+      "question": "In the absence of a partnership agreement, the interest on a partner's loan to the firm is:",
+      "options": [
+        "10% p.a.",
+        "5% p.a.",
+        "No interest",
+        "15% p.a."
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "questionNumber": 29,
+      "question": "Which of the following is a long-term liability?",
+      "options": [
+        "Bank Overdraft",
+        "Trade Creditors",
+        "Debentures",
+        "Accrued Salaries"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "questionNumber": 30,
+      "question": "An entry made on both sides of a cash book is called a:",
+      "options": [
+        "Dual entry",
+        "Contra entry",
+        "Reverse entry",
+        "Journal entry"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "questionNumber": 31,
+      "question": "The 'Consistency' concept requires that:",
+      "options": [
+        "Accounting methods remain unchanged from one period to another",
+        "Assets equal liabilities",
+        "Profit is recognized only when realized",
+        "Personal expenses are kept separate"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 32,
+      "questionNumber": 32,
+      "question": "The 'Sales Returns' book is also called:",
+      "options": [
+        "Returns Outward Book",
+        "Returns Inward Book",
+        "Purchases Returns Book",
+        "General Journal"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "questionNumber": 33,
+      "question": "Which of these will appear on the debit side of a Trial Balance?",
+      "options": [
+        "Capital",
+        "Sales",
+        "Purchases",
+        "Provision for Depreciation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 34,
+      "questionNumber": 34,
+      "question": "The book-keeping system where only one aspect of a transaction is recorded is:",
+      "options": [
+        "Double Entry",
+        "Single Entry",
+        "Incomplete Records",
+        "Journalizing"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "questionNumber": 35,
+      "question": "When a partner retires, the 'Goodwill' is shared among the partners in their:",
+      "options": [
+        "Capital ratio",
+        "Profit sharing ratio",
+        "Equal ratio",
+        "Current ratio"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "questionNumber": 36,
+      "question": "An unpresented cheque is a cheque:",
+      "options": [
+        "Issued by the firm but not yet paid by the bank",
+        "Received by the firm but not yet taken to the bank",
+        "Rejected by the bank due to insufficient funds",
+        "Drawn but not yet signed"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "questionNumber": 37,
+      "question": "Which of the following describes 'Accrued Income'?",
+      "options": [
+        "Income received in advance",
+        "Income earned but not yet received",
+        "Income not yet earned",
+        "Expenses paid in advance"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 38,
+      "questionNumber": 38,
+      "question": "Gross Profit is calculated in the:",
+      "options": [
+        "Profit and Loss Account",
+        "Trading Account",
+        "Balance Sheet",
+        "Appropriation Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "questionNumber": 39,
+      "question": "Which accounting principle states that every transaction has a two-fold effect?",
+      "options": [
+        "Matching",
+        "Entity",
+        "Dual Aspect",
+        "Realization"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 40,
+      "questionNumber": 40,
+      "question": "A Suspense Account is used to:",
+      "options": [
+        "Record long term loans",
+        "Balance the trial balance temporarily",
+        "Record hidden profits",
+        "Avoid paying tax"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "questionNumber": 41,
+      "question": "The 'historical cost' concept requires assets to be recorded at:",
+      "options": [
+        "Current market value",
+        "Price paid at the time of purchase",
+        "Estimated value",
+        "Price minus depreciation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "questionNumber": 42,
+      "question": "What is the effect of 'Drawings' on the Balance Sheet?",
+      "options": [
+        "Increases Capital",
+        "Decreases Capital",
+        "Increases Assets",
+        "Decreases Liabilities"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "questionNumber": 43,
+      "question": "The 'Periodicity' concept means financial statements are prepared:",
+      "options": [
+        "Only when the business closes",
+        "At regular intervals (e.g., yearly)",
+        "Whenever the manager wants",
+        "Every day"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "questionNumber": 44,
+      "question": "Which of the following is a fixed asset?",
+      "options": [
+        "Stock",
+        "Bank",
+        "Prepayments",
+        "Land"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 45,
+      "questionNumber": 45,
+      "question": "Carriage Inwards is:",
+      "options": [
+        "An expense on sales",
+        "An expense on purchases",
+        "A capital receipt",
+        "A liability"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "questionNumber": 46,
+      "question": "An example of a liability is:",
+      "options": [
+        "Accrued Wages",
+        "Prepaid Rent",
+        "Debtors",
+        "Equipment"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "questionNumber": 47,
+      "question": "The value of shares issued to the public is:",
+      "options": [
+        "Authorized Capital",
+        "Issued Capital",
+        "Called-up Capital",
+        "Reserve Capital"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "questionNumber": 48,
+      "question": "Financial Accounting is primarily for:",
+      "options": [
+        "Internal management",
+        "External users",
+        "Production staff",
+        "Sales department"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "questionNumber": 49,
+      "question": "The Ledger is known as the:",
+      "options": [
+        "Book of original entry",
+        "Book of secondary entry",
+        "Principal book of accounts",
+        "Waste book"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 50,
+      "questionNumber": 50,
+      "question": "An error of principle occurs when:",
+      "options": [
+        "A transaction is completely omitted",
+        "An entry is made in the wrong class of account",
+        "An entry is made on the wrong side",
+        "Numbers are transposed"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "questionNumber": 51,
+      "question": "The excess of income over expenditure in a non-profit making organization is called:",
+      "options": [
+        "Net Profit",
+        "Surplus",
+        "Capital",
+        "Accumulated Fund"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "questionNumber": 52,
+      "question": "A Sales Control Account is also known as:",
+      "options": [
+        "Purchases Ledger Control Account",
+        "Total Debtors Account",
+        "Total Creditors Account",
+        "Nominal Ledger Control Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "questionNumber": 53,
+      "question": "Which of the following is an example of an error of commission?",
+      "options": [
+        "Purchases of $500 totally omitted",
+        "Sales to A. Smith recorded in B. Smith's account",
+        "Purchase of a motor van recorded in repairs account",
+        "Cash sales of $100 recorded as $10"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 54,
+      "questionNumber": 54,
+      "question": "The capital of a non-profit making organization is referred to as:",
+      "options": [
+        "Working Capital",
+        "Share Capital",
+        "Accumulated Fund",
+        "Reserve Fund"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 55,
+      "questionNumber": 55,
+      "question": "The 'Matching' concept requires that:",
+      "options": [
+        "Assets must match liabilities",
+        "Revenue of a period must be related to the expenses of that same period",
+        "Debits must match credits",
+        "Closing stock must match opening stock"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "questionNumber": 56,
+      "question": "A credit note received is first recorded in the:",
+      "options": [
+        "Sales Returns Book",
+        "Purchases Returns Book",
+        "General Journal",
+        "Cash Book"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "questionNumber": 57,
+      "question": "Which of the following is a nominal account?",
+      "options": [
+        "Plant and Machinery",
+        "Bank Account",
+        "Discount Received",
+        "Trade Debtors"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 58,
+      "questionNumber": 58,
+      "question": "The 'Imprest amount' in a petty cash book refers to the:",
+      "options": [
+        "Amount spent by the petty cashier",
+        "Fixed sum of money at the start of a period",
+        "Balance left at the end of the period",
+        "Smallest coin in circulation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "questionNumber": 59,
+      "question": "Provision for depreciation is a:",
+      "options": [
+        "Current Asset",
+        "Current Liability",
+        "Reduction in the value of a fixed asset",
+        "Revenue Receipt"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "questionNumber": 60,
+      "question": "The document that serves as a command to the bank to pay a certain sum of money is a:",
+      "options": [
+        "Invoice",
+        "Receipt",
+        "Cheque",
+        "Credit Note"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "questionNumber": 61,
+      "question": "Which of the following is a direct expense?",
+      "options": [
+        "Rent",
+        "Insurance",
+        "Royalties",
+        "Salesman Commission"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "questionNumber": 62,
+      "question": "Closing stock is valued at:",
+      "options": [
+        "Cost price only",
+        "Market price only",
+        "Lower of cost and net realizable value",
+        "Higher of cost and net realizable value"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "questionNumber": 63,
+      "question": "The column in a subsidiary book used to record the reference to the ledger page is:",
+      "options": [
+        "Date",
+        "Particulars",
+        "Folio",
+        "Amount"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 64,
+      "questionNumber": 64,
+      "question": "The double entry for 'Bad Debts Recovered' is:",
+      "options": [
+        "Debit Bad Debts, Credit Cash",
+        "Debit Cash, Credit Bad Debts Recovered",
+        "Debit Debtors, Credit Cash",
+        "Debit Profit and Loss, Credit Debtors"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "questionNumber": 65,
+      "question": "A debit balance in the Purchases Ledger Control Account indicates:",
+      "options": [
+        "The total amount owed to creditors",
+        "An overpayment to a creditor",
+        "Total purchases for the period",
+        "Returns outward"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 66,
+      "questionNumber": 66,
+      "question": "In a partnership, interest on drawings is:",
+      "options": [
+        "Income to the partners",
+        "Income to the firm",
+        "An expense to the firm",
+        "A liability to the bank"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "questionNumber": 67,
+      "question": "The 'Money Measurement' concept states that:",
+      "options": [
+        "Only transactions that can be expressed in monetary terms are recorded",
+        "The value of money is constant",
+        "Business assets are always cash",
+        "Profit is the same as cash"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "questionNumber": 68,
+      "question": "Which of the following is a liability?",
+      "options": [
+        "Accrued Rent",
+        "Prepaid Insurance",
+        "Bills Receivable",
+        "Stock"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "questionNumber": 69,
+      "question": "The process of preparing a manufacturing account is to find the:",
+      "options": [
+        "Gross Profit",
+        "Net Profit",
+        "Cost of production",
+        "Prime cost"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 70,
+      "questionNumber": 70,
+      "question": "Working Capital is defined as:",
+      "options": [
+        "Total Assets - Total Liabilities",
+        "Current Assets - Current Liabilities",
+        "Fixed Assets + Current Assets",
+        "Capital + Long-term Loans"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 71,
+      "questionNumber": 71,
+      "question": "A trial balance that does not agree may be balanced by creating a:",
+      "options": [
+        "Capital Account",
+        "Suspense Account",
+        "Trading Account",
+        "Drawings Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "questionNumber": 72,
+      "question": "Goodwill is classified as a/an:",
+      "options": [
+        "Current Asset",
+        "Fixed Tangible Asset",
+        "Intangible Asset",
+        "Current Liability"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 73,
+      "questionNumber": 73,
+      "question": "When goods are sold for cash, the entry is made in the:",
+      "options": [
+        "Sales Journal",
+        "Cash Book",
+        "Purchases Journal",
+        "General Journal"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "questionNumber": 74,
+      "question": "The 'Materiality' concept suggests that:",
+      "options": [
+        "Only large items should be recorded",
+        "Items of small value can be treated as expenses rather than assets",
+        "All materials must be weighed",
+        "Closing stock must be counted"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "questionNumber": 75,
+      "question": "Which of the following is an example of Revenue Expenditure?",
+      "options": [
+        "Cost of installing a new machine",
+        "Legal fees for buying a building",
+        "Purchase of stationery",
+        "Extension to a factory"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 76,
+      "questionNumber": 76,
+      "question": "The credit side of the Profit and Loss account records:",
+      "options": [
+        "Expenses",
+        "Gross Profit and other incomes",
+        "Assets",
+        "Net Loss"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 77,
+      "questionNumber": 77,
+      "question": "A bank statement with a debit balance indicates:",
+      "options": [
+        "Money in the bank",
+        "An overdraft",
+        "A loan from the firm",
+        "A bank error"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "questionNumber": 78,
+      "question": "Which of the following is a factory overhead?",
+      "options": [
+        "Direct Labor",
+        "Raw Materials",
+        "Factory Rent",
+        "Carriage Outwards"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 79,
+      "questionNumber": 79,
+      "question": "The 'Prudence' concept ensures that:",
+      "options": [
+        "Profits are overstated",
+        "Assets are understated",
+        "Anticipated profits are not recorded, but all possible losses are",
+        "Accountants are always careful"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 80,
+      "questionNumber": 80,
+      "question": "In a partnership, the Appropriation Account is used to:",
+      "options": [
+        "Calculate Gross Profit",
+        "Determine Cost of Goods Sold",
+        "Show how net profit is shared among partners",
+        "List assets and liabilities"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "questionNumber": 81,
+      "question": "The ledger containing the accounts of trade debtors is the:",
+      "options": [
+        "General Ledger",
+        "Sales Ledger",
+        "Purchases Ledger",
+        "Private Ledger"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 82,
+      "questionNumber": 82,
+      "question": "Which of the following describes a 'Dishonored Cheque'?",
+      "options": [
+        "A cheque that the bank refuses to pay",
+        "A cheque with a wrong date",
+        "A cheque that is torn",
+        "A cheque paid into a wrong account"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 83,
+      "questionNumber": 83,
+      "question": "Capital is equal to:",
+      "options": [
+        "Net Assets",
+        "Gross Assets",
+        "Total Liabilities",
+        "Working Capital"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 84,
+      "questionNumber": 84,
+      "question": "The method of depreciation where a fixed percentage is applied to the cost of the asset is the:",
+      "options": [
+        "Reducing Balance Method",
+        "Straight Line Method",
+        "Revaluation Method",
+        "Sum of the years digits"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "questionNumber": 85,
+      "question": "Which of the following will not appear in a Bank Reconciliation Statement?",
+      "options": [
+        "Unpresented cheques",
+        "Uncredited lodgements",
+        "Cash sales",
+        "Bank charges"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 86,
+      "questionNumber": 86,
+      "question": "An example of a real account is:",
+      "options": [
+        "Cash Account",
+        "Rent Account",
+        "Insurance Account",
+        "Commission Account"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 87,
+      "questionNumber": 87,
+      "question": "Which subsidiary book records the purchase of office equipment on credit?",
+      "options": [
+        "Purchases Journal",
+        "Cash Book",
+        "General Journal",
+        "Returns Outward Book"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 88,
+      "questionNumber": 88,
+      "question": "Dividends are paid out of:",
+      "options": [
+        "Capital",
+        "Gross Profit",
+        "Retained Profits",
+        "Fixed Assets"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 89,
+      "questionNumber": 89,
+      "question": "Which of the following is a current liability?",
+      "options": [
+        "Debentures",
+        "Bank Overdraft",
+        "Buildings",
+        "Motor Vehicles"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "questionNumber": 90,
+      "question": "The value of shares that a company is authorized to issue according to its Memorandum of Association is:",
+      "options": [
+        "Issued Capital",
+        "Called-up Capital",
+        "Authorized Capital",
+        "Paid-up Capital"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 91,
+      "questionNumber": 91,
+      "question": "A transaction involving the movement of cash from the office to the bank is a:",
+      "options": [
+        "Credit entry",
+        "Debit entry",
+        "Contra entry",
+        "Reverse entry"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 92,
+      "questionNumber": 92,
+      "question": "The document sent by a supplier to a customer showing the details of goods sold and the price is an:",
+      "options": [
+        "Invoice",
+        "Receipt",
+        "Order",
+        "Statement of Account"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 93,
+      "questionNumber": 93,
+      "question": "Which of the following is found in the Manufacturing Account?",
+      "options": [
+        "Net Profit",
+        "Cost of raw materials consumed",
+        "Sales Commission",
+        "Bad Debts"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "questionNumber": 94,
+      "question": "Accrued expenses are shown in the Balance Sheet as:",
+      "options": [
+        "Current Assets",
+        "Current Liabilities",
+        "Fixed Assets",
+        "Capital"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 95,
+      "questionNumber": 95,
+      "question": "The total of the Sales Journal is posted to the:",
+      "options": [
+        "Debit of Sales Account",
+        "Credit of Sales Account",
+        "Debit of Debtors Account",
+        "Credit of Debtors Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 96,
+      "questionNumber": 96,
+      "question": "Which of the following is a characteristic of a Private Limited Company?",
+      "options": [
+        "Shares are traded on the Stock Exchange",
+        "Shares can only be transferred with the consent of other members",
+        "Minimum of 50 members",
+        "It does not have a separate legal entity"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 97,
+      "questionNumber": 97,
+      "question": "The book of original entry for transactions that cannot be recorded in any other subsidiary book is the:",
+      "options": [
+        "General Journal",
+        "Cash Book",
+        "Petty Cash Book",
+        "Sales Day Book"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 98,
+      "questionNumber": 98,
+      "question": "Depreciation is an example of a:",
+      "options": [
+        "Cash expense",
+        "Non-cash expense",
+        "Capital receipt",
+        "Current liability"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 99,
+      "questionNumber": 99,
+      "question": "When a partner provides capital, the entry is:",
+      "options": [
+        "Debit Capital, Credit Bank",
+        "Debit Bank, Credit Capital",
+        "Debit Drawings, Credit Bank",
+        "Debit Bank, Credit Drawings"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "questionNumber": 100,
+      "question": "The cost of goods available for sale is:",
+      "options": [
+        "Opening Stock + Purchases",
+        "Closing Stock + Purchases",
+        "Sales - Gross Profit",
+        "Opening Stock + Net Profit"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 101,
+      "questionNumber": 101,
+      "question": "The capital of a company is divided into small units called:",
+      "options": [
+        "Debentures",
+        "Shares",
+        "Dividends",
+        "Funds"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "questionNumber": 102,
+      "question": "Which of the following describes 'Authorised Capital'?",
+      "options": [
+        "The amount of capital actually paid by shareholders",
+        "The maximum amount of capital a company is allowed to issue",
+        "The amount of capital offered to the public",
+        "The capital used for daily operations"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "questionNumber": 103,
+      "question": "When shares are issued at a price higher than their face value, they are said to be issued at:",
+      "options": [
+        "Par",
+        "Discount",
+        "Premium",
+        "Loss"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "questionNumber": 104,
+      "question": "A statement of affairs is prepared to estimate:",
+      "options": [
+        "Net Profit",
+        "Gross Profit",
+        "Opening or Closing Capital",
+        "Cash Balance"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 105,
+      "questionNumber": 105,
+      "question": "The main purpose of a Departmental Account is to:",
+      "options": [
+        "Ascertain the profit or loss of each department",
+        "Combine all expenses into one account",
+        "Calculate the total tax of the company",
+        "Check the efficiency of the General Manager"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 106,
+      "questionNumber": 106,
+      "question": "Expenses that cannot be directly traced to a specific department are shared using:",
+      "options": [
+        "Arbitrary ratios",
+        "A basis of apportionment",
+        "The manager's preference",
+        "Equal proportions"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "questionNumber": 107,
+      "question": "Which of the following is an example of an external user of accounting information?",
+      "options": [
+        "Shop Floor Supervisor",
+        "Board of Directors",
+        "Internal Auditor",
+        "Potential Investors"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 108,
+      "questionNumber": 108,
+      "question": "The 'Matching Concept' is most closely related to which of the following?",
+      "options": [
+        "Trial Balance",
+        "Bank Reconciliation",
+        "Accruals and Prepayments",
+        "Double Entry Bookkeeping"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "questionNumber": 109,
+      "question": "In a manufacturing account, the 'Cost of Production' is transferred to the:",
+      "options": [
+        "Trading Account",
+        "Profit and Loss Account",
+        "Balance Sheet",
+        "Capital Account"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "questionNumber": 110,
+      "question": "Which of the following is a long-term liability?",
+      "options": [
+        "Bank Overdraft",
+        "Accrued Wages",
+        "10-year Mortgage Loan",
+        "Trade Creditors"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "questionNumber": 111,
+      "question": "The person who is appointed by a court to manage the affairs of a bankrupt person is a/an:",
+      "options": [
+        "Auditor",
+        "Liquidator",
+        "Trustee",
+        "Broker"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 112,
+      "questionNumber": 112,
+      "question": "Which of the following is not a feature of a Receipts and Payments Account?",
+      "options": [
+        "It is a summary of the cash book",
+        "It includes both capital and revenue items",
+        "It records non-cash items like depreciation",
+        "It shows the closing cash balance"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 113,
+      "questionNumber": 113,
+      "question": "The systematic record of all transactions in chronological order is the:",
+      "options": [
+        "Ledger",
+        "Journal",
+        "Trial Balance",
+        "Balance Sheet"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "questionNumber": 114,
+      "question": "Which of the following is a component of 'Prime Cost'?",
+      "options": [
+        "Factory Power",
+        "Factory Rent",
+        "Direct Wages",
+        "Depreciation of Machinery"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 115,
+      "questionNumber": 115,
+      "question": "When a business is sold, the excess of the purchase price over the net assets is:",
+      "options": [
+        "Reserve",
+        "Capital",
+        "Goodwill",
+        "Net Profit"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 116,
+      "questionNumber": 116,
+      "question": "The 'Going Concern' concept assumes that:",
+      "options": [
+        "The business will close down soon",
+        "The business will continue indefinitely",
+        "The owners will soon retire",
+        "The business has no debts"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "questionNumber": 117,
+      "question": "Which of the following is a credit entry in a Purchases Ledger Control Account?",
+      "options": [
+        "Returns Outward",
+        "Cash paid to creditors",
+        "Credit Purchases",
+        "Discount Received"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 118,
+      "questionNumber": 118,
+      "question": "A dividend is a:",
+      "options": [
+        "Loan to a company",
+        "Tax paid by a company",
+        "Share of profit distributed to shareholders",
+        "Commission paid to brokers"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 119,
+      "questionNumber": 119,
+      "question": "The 'Objectivity' concept requires that accounting data be:",
+      "options": [
+        "Based on opinions",
+        "Verifiable by evidence",
+        "Estimated by management",
+        "Based on future trends"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "questionNumber": 120,
+      "question": "Which of the following will decrease the Net Profit?",
+      "options": [
+        "Increase in Closing Stock",
+        "Increase in Provision for Bad Debts",
+        "Decrease in Carriage Outwards",
+        "Decrease in Rent Expense"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "questionNumber": 121,
+      "question": "Interest on a partner's capital is usually debited to the:",
+      "options": [
+        "Profit and Loss Account",
+        "Profit and Loss Appropriation Account",
+        "Trading Account",
+        "Current Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "questionNumber": 122,
+      "question": "The 'Double Entry' system was pioneered by:",
+      "options": [
+        "Adam Smith",
+        "Luca Pacioli",
+        "John Maynard Keynes",
+        "Alfred Marshall"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "questionNumber": 123,
+      "question": "Which of the following is an example of an 'Error of Principle'?",
+      "options": [
+        "Recording sales in the purchases book",
+        "Recording the purchase of a laptop in the Office Equipment account",
+        "Recording the repair of a motor vehicle in the Motor Vehicle account",
+        "Omitting a transaction entirely"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 124,
+      "questionNumber": 124,
+      "question": "The 'Historical Cost' concept is criticized because it:",
+      "options": [
+        "Is too difficult to calculate",
+        "Does not account for the effect of inflation",
+        "Uses too many documents",
+        "Is not used by small businesses"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "questionNumber": 125,
+      "question": "Which of the following is a fictitious asset?",
+      "options": [
+        "Goodwill",
+        "Preliminary Expenses",
+        "Patents",
+        "Stock"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "questionNumber": 126,
+      "question": "A credit balance on a 'Purchases Account' is:",
+      "options": [
+        "Normal",
+        "An error",
+        "Indication of profit",
+        "Indication of a return"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "questionNumber": 127,
+      "question": "The process of equating the total of the debit side with the total of the credit side of an account is:",
+      "options": [
+        "Posting",
+        "Summarizing",
+        "Balancing",
+        "Journalizing"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 128,
+      "questionNumber": 128,
+      "question": "Which of the following is not found in a Partnership Balance Sheet?",
+      "options": [
+        "Current Accounts",
+        "Capital Accounts",
+        "Drawings",
+        "Dividend Payable"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 129,
+      "questionNumber": 129,
+      "question": "Bad debts are written off by:",
+      "options": [
+        "Debiting Bad Debts and Crediting Debtors",
+        "Debiting Debtors and Crediting Bad Debts",
+        "Debiting Profit and Loss and Crediting Cash",
+        "Debiting Cash and Crediting Debtors"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 130,
+      "questionNumber": 130,
+      "question": "The 'Business Entity' concept separates the business from its:",
+      "options": [
+        "Creditors",
+        "Customers",
+        "Owners",
+        "Employees"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 131,
+      "questionNumber": 131,
+      "question": "Which of the following is a nominal account?",
+      "options": [
+        "Cash",
+        "Furniture",
+        "Interest Received",
+        "Debtors"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 132,
+      "questionNumber": 132,
+      "question": "The 'Matching' concept is also known as the:",
+      "options": [
+        "Accrual Concept",
+        "Entity Concept",
+        "Prudence Concept",
+        "Cost Concept"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 133,
+      "questionNumber": 133,
+      "question": "A debit balance in the 'Returns Outward' account is:",
+      "options": [
+        "Normal",
+        "Abnormal",
+        "Indication of more returns",
+        "Indication of profit"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "questionNumber": 134,
+      "question": "A ledger which contains only the accounts of creditors is the:",
+      "options": [
+        "Sales Ledger",
+        "Purchases Ledger",
+        "Nominal Ledger",
+        "General Ledger"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "questionNumber": 135,
+      "question": "Which of the following is a liquid asset?",
+      "options": [
+        "Stock",
+        "Prepaid Expenses",
+        "Cash in hand",
+        "Machinery"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 136,
+      "questionNumber": 136,
+      "question": "The profit made on the sale of a fixed asset is a:",
+      "options": [
+        "Revenue Profit",
+        "Capital Profit",
+        "Gross Profit",
+        "Operating Profit"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "questionNumber": 137,
+      "question": "When a cheque is dishonoured, the bank usually sends a:",
+      "options": [
+        "Credit Note",
+        "Debit Note",
+        "Dishonour Slip",
+        "Statement of Account"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 138,
+      "questionNumber": 138,
+      "question": "Which of the following is a source document?",
+      "options": [
+        "Trial Balance",
+        "Invoice",
+        "Ledger",
+        "Balance Sheet"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "questionNumber": 139,
+      "question": "The 'Consistency' principle helps in:",
+      "options": [
+        "Reducing tax",
+        "Comparing financial statements over time",
+        "Hiding losses",
+        "Increasing sales"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "questionNumber": 140,
+      "question": "The term 'Narration' is used in connection with the:",
+      "options": [
+        "Ledger",
+        "Journal",
+        "Balance Sheet",
+        "Cash Book"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 141,
+      "questionNumber": 141,
+      "question": "Which of the following is not a capital expenditure?",
+      "options": [
+        "Purchase of land",
+        "Legal fees for land purchase",
+        "Carriage on new machinery",
+        "Repairs to old machinery"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 142,
+      "questionNumber": 142,
+      "question": "The financial year of a company is often called its:",
+      "options": [
+        "Calendar year",
+        "Fiscal year",
+        "Leap year",
+        "Assessment year"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 143,
+      "questionNumber": 143,
+      "question": "Which of the following is a contra entry?",
+      "options": [
+        "Cash sales",
+        "Cheque paid to a creditor",
+        "Cash withdrawn from bank for office use",
+        "Cash paid for rent"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 144,
+      "questionNumber": 144,
+      "question": "The 'Sales' account is always:",
+      "options": [
+        "Debited",
+        "Credited",
+        "Balanced",
+        "Omitted"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 145,
+      "questionNumber": 145,
+      "question": "Which of the following will not appear in a 'Receipts and Payments' account?",
+      "options": [
+        "Purchase of equipment",
+        "Salaries paid",
+        "Depreciation of furniture",
+        "Subscription received"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 146,
+      "questionNumber": 146,
+      "question": "The main purpose of a trial balance is to discover:",
+      "options": [
+        "Errors of principle",
+        "Errors of omission",
+        "Arithmetical errors",
+        "Compensating errors"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 147,
+      "questionNumber": 147,
+      "question": "Under the 'Reducing Balance Method', depreciation is calculated on the:",
+      "options": [
+        "Original cost",
+        "Market value",
+        "Book value (carrying amount)",
+        "Scrap value"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 148,
+      "questionNumber": 148,
+      "question": "Which of the following is a characteristic of 'Preference Shares'?",
+      "options": [
+        "They have no voting rights",
+        "They receive a fixed rate of dividend",
+        "They are paid after ordinary shares during liquidation",
+        "They have fluctuating dividends"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 149,
+      "questionNumber": 149,
+      "question": "An example of a 'Representative Personal Account' is:",
+      "options": [
+        "John's Account",
+        "Bank Account",
+        "Accrued Wages Account",
+        "Cash Account"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 150,
+      "questionNumber": 150,
+      "question": "Profit and Loss Appropriation Account is prepared for:",
+      "options": [
+        "Sole Traders",
+        "Partnerships",
+        "Non-profit making organizations",
+        "Creditors"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 151,
+      "questionNumber": 151,
+      "question": "The accounting entry for a partner's drawings of cash is:",
+      "options": [
+        "Debit Cash, Credit Drawings",
+        "Debit Drawings, Credit Cash",
+        "Debit Capital, Credit Drawings",
+        "Debit Drawings, Credit Capital"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 152,
+      "questionNumber": 152,
+      "question": "Which of the following is a component of 'Prime Cost' in a manufacturing account?",
+      "options": [
+        "Factory Power",
+        "Direct Raw Materials consumed",
+        "Factory Rent",
+        "Supervisors' Salaries"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 153,
+      "questionNumber": 153,
+      "question": "A statement of affairs is similar to a:",
+      "options": [
+        "Trading Account",
+        "Profit and Loss Account",
+        "Balance Sheet",
+        "Trial Balance"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 154,
+      "questionNumber": 154,
+      "question": "When goods are sent to a branch at cost plus a percentage, this is known as:",
+      "options": [
+        "Cost Price",
+        "Selling Price",
+        "Invoice Price",
+        "Market Price"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 155,
+      "questionNumber": 155,
+      "question": "The 'Current Ratio' is a measure of a firm's:",
+      "options": [
+        "Profitability",
+        "Liquidity",
+        "Efficiency",
+        "Solvency"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 156,
+      "questionNumber": 156,
+      "question": "Which of the following is an intangible asset?",
+      "options": [
+        "Inventory",
+        "Prepayments",
+        "Patents",
+        "Investment"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 157,
+      "questionNumber": 157,
+      "question": "The excess of income over expenditure in a non-profit organization is added to the:",
+      "options": [
+        "Net Profit",
+        "Capital Fund",
+        "Accumulated Fund",
+        "General Reserve"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 158,
+      "questionNumber": 158,
+      "question": "Which of the following describes 'Prime Cost'?",
+      "options": [
+        "Total Factory Cost",
+        "Sum of all direct costs",
+        "Total Administrative Cost",
+        "Cost of Goods Sold"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 159,
+      "questionNumber": 159,
+      "question": "When a partner retires, the balance on his Capital Account is usually transferred to his:",
+      "options": [
+        "Current Account",
+        "Loan Account",
+        "Bank Account",
+        "Suspense Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 160,
+      "questionNumber": 160,
+      "question": "The document used to record the internal transfer of goods between departments is a:",
+      "options": [
+        "Transfer Note",
+        "Credit Note",
+        "Debit Note",
+        "Invoice"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 161,
+      "questionNumber": 161,
+      "question": "Which of the following is found in the 'Appropriation Account' of a company?",
+      "options": [
+        "Gross Profit",
+        "Directors' Fees",
+        "Proposed Dividends",
+        "Rent and Rates"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 162,
+      "questionNumber": 162,
+      "question": "In the absence of a partnership deed, profits and losses are shared:",
+      "options": [
+        "In capital ratio",
+        "In drawing ratio",
+        "Equally",
+        "Based on seniority"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 163,
+      "questionNumber": 163,
+      "question": "Which ratio measures the number of times a business replaces its stock in a year?",
+      "options": [
+        "Acid Test Ratio",
+        "Stock Turnover Ratio",
+        "Gross Profit Margin",
+        "Net Profit Ratio"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 164,
+      "questionNumber": 164,
+      "question": "The double entry for 'Discount Received' is:",
+      "options": [
+        "Debit Discount Received, Credit Creditors",
+        "Debit Creditors, Credit Discount Received",
+        "Debit Discount Received, Credit Cash",
+        "Debit Profit and Loss, Credit Creditors"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 165,
+      "questionNumber": 165,
+      "question": "An example of a 'Fictitious Asset' is:",
+      "options": [
+        "Goodwill",
+        "Trade Marks",
+        "Preliminary Expenses",
+        "Loose Tools"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 166,
+      "questionNumber": 166,
+      "question": "The 'Consistency' concept requires that accounting policies should:",
+      "options": [
+        "Be changed every year",
+        "Be followed strictly by all businesses",
+        "Remain the same from one period to another",
+        "Only use the cash basis"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 167,
+      "questionNumber": 167,
+      "question": "A credit balance in the Purchases Ledger Control Account represents:",
+      "options": [
+        "Total Debtors",
+        "Total Creditors",
+        "Total Sales",
+        "Total Purchases"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "questionNumber": 168,
+      "question": "Which of the following is a revenue receipt?",
+      "options": [
+        "Sale of Fixed Asset",
+        "Loan from Bank",
+        "Commission Received",
+        "Issue of Shares"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 169,
+      "questionNumber": 169,
+      "question": "The value of an asset as shown in the books of account is its:",
+      "options": [
+        "Market Value",
+        "Realizable Value",
+        "Book Value",
+        "Replacement Value"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 170,
+      "questionNumber": 170,
+      "question": "Under the 'Fixed Capital' method, a partner's drawings are recorded in the:",
+      "options": [
+        "Capital Account",
+        "Current Account",
+        "Loan Account",
+        "Profit and Loss Account"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "questionNumber": 171,
+      "question": "The 'Sales Journal' is used to record:",
+      "options": [
+        "All sales",
+        "Cash sales only",
+        "Credit sales of goods",
+        "Credit sales of fixed assets"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 172,
+      "questionNumber": 172,
+      "question": "Which of the following is a liquid asset?",
+      "options": [
+        "Inventory",
+        "Debtors",
+        "Machinery",
+        "Building"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "questionNumber": 173,
+      "question": "The 'Matching Concept' is also called the:",
+      "options": [
+        "Accrual Concept",
+        "Entity Concept",
+        "Dual Aspect Concept",
+        "Cost Concept"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 174,
+      "questionNumber": 174,
+      "question": "The cost of transporting goods to customers is:",
+      "options": [
+        "Carriage Inward",
+        "Carriage Outward",
+        "Import Duty",
+        "Warehouse Rent"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 175,
+      "questionNumber": 175,
+      "question": "Which of the following is not a source of income for a club?",
+      "options": [
+        "Subscriptions",
+        "Donations",
+        "Entrance Fees",
+        "Salaries to staff"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 176,
+      "questionNumber": 176,
+      "question": "Depreciation is a process of:",
+      "options": [
+        "Valuation",
+        "Allocation",
+        "Cash conservation",
+        "Tax evasion"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 177,
+      "questionNumber": 177,
+      "question": "The 'Business Entity' concept is applicable to:",
+      "options": [
+        "Sole traders only",
+        "Partnerships only",
+        "Companies only",
+        "All types of businesses"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 178,
+      "questionNumber": 178,
+      "question": "The 'Acid Test Ratio' is calculated as:",
+      "options": [
+        "Current Assets / Current Liabilities",
+        "(Current Assets - Stock) / Current Liabilities",
+        "Total Assets / Total Liabilities",
+        "Net Profit / Sales"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 179,
+      "questionNumber": 179,
+      "question": "Which of the following is a nominal account?",
+      "options": [
+        "Bank",
+        "Stock",
+        "Wages",
+        "Furniture"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 180,
+      "questionNumber": 180,
+      "question": "The 'Prudence' concept ensures that:",
+      "options": [
+        "Assets are overstated",
+        "Liabilities are understated",
+        "Profits are not anticipated",
+        "Expenses are ignored"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 181,
+      "questionNumber": 181,
+      "question": "A trial balance is prepared before the preparation of:",
+      "options": [
+        "Subsidiary books",
+        "The Journal",
+        "Final Accounts",
+        "Ledger"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 182,
+      "questionNumber": 182,
+      "question": "Goodwill is shared among partners in their profit-sharing ratio when:",
+      "options": [
+        "A partner retires",
+        "A partner is admitted",
+        "The business is profitable",
+        "The business is insolvent"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 183,
+      "questionNumber": 183,
+      "question": "Which of the following is a capital receipt?",
+      "options": [
+        "Interest on investment",
+        "Sale of old newspaper",
+        "Additional capital introduced by owner",
+        "Rent received"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 184,
+      "questionNumber": 184,
+      "question": "The 'Sales Returns' book records:",
+      "options": [
+        "Goods returned to suppliers",
+        "Goods returned by customers",
+        "Fixed assets returned",
+        "Cash refunds"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "questionNumber": 185,
+      "question": "The double entry for 'Purchase of Furniture for Cash' is:",
+      "options": [
+        "Debit Purchases, Credit Cash",
+        "Debit Furniture, Credit Cash",
+        "Debit Cash, Credit Furniture",
+        "Debit Furniture, Credit Creditors"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 186,
+      "questionNumber": 186,
+      "question": "The 'Money Measurement' concept records only:",
+      "options": [
+        "Profitable events",
+        "Events that can be measured in money",
+        "Internal transactions",
+        "Credit transactions"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 187,
+      "questionNumber": 187,
+      "question": "Which of the following is a current liability?",
+      "options": [
+        "Debentures",
+        "Bank Loan (5 years)",
+        "Accrued Expenses",
+        "Goodwill"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 188,
+      "questionNumber": 188,
+      "question": "The term 'Capital' means:",
+      "options": [
+        "Total Assets",
+        "Total Liabilities",
+        "Total Assets - Total Liabilities",
+        "Total Assets + Total Liabilities"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 189,
+      "questionNumber": 189,
+      "question": "The 'Receipts and Payments Account' is a summary of the:",
+      "options": [
+        "Ledger",
+        "Profit and Loss Account",
+        "Cash Book",
+        "Trial Balance"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 190,
+      "questionNumber": 190,
+      "question": "The 'Matching Concept' requires that cost of goods sold is matched with:",
+      "options": [
+        "Total Purchases",
+        "Total Sales",
+        "Revenue of the period",
+        "Closing Stock"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 191,
+      "questionNumber": 191,
+      "question": "Which of the following is a source document for sales returns?",
+      "options": [
+        "Debit Note",
+        "Credit Note",
+        "Invoice",
+        "Receipt"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 192,
+      "questionNumber": 192,
+      "question": "The term 'Carriage Outwards' refers to:",
+      "options": [
+        "Cost of buying goods",
+        "Cost of delivering goods to customers",
+        "Export duties",
+        "Railway charges"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 193,
+      "questionNumber": 193,
+      "question": "The 'Accounting Equation' is also known as the:",
+      "options": [
+        "Journal Equation",
+        "Balance Sheet Equation",
+        "Income Equation",
+        "Ledger Equation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 194,
+      "questionNumber": 194,
+      "question": "Which of the following is an example of 'Revenue Expenditure'?",
+      "options": [
+        "Purchase of Machinery",
+        "Cost of Extension of Building",
+        "Installation charges of new Machine",
+        "White-washing of old building"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 195,
+      "questionNumber": 195,
+      "question": "The 'Periodicity' concept means financial statements are prepared at:",
+      "options": [
+        "The owner's request",
+        "The end of each accounting period",
+        "The end of each month",
+        "The end of each day"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 196,
+      "questionNumber": 196,
+      "question": "A person who owes money to a business is a:",
+      "options": [
+        "Creditor",
+        "Debtor",
+        "Partner",
+        "Shareholder"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 197,
+      "questionNumber": 197,
+      "question": "The 'Double Entry' system means that:",
+      "options": [
+        "Every transaction is recorded twice in one account",
+        "Every transaction has two aspects: Debit and Credit",
+        "Every transaction is recorded in two different journals",
+        "Every transaction involves two people"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 198,
+      "questionNumber": 198,
+      "question": "Which of the following is a fixed asset?",
+      "options": [
+        "Trade Debtors",
+        "Bills Receivable",
+        "Leasehold Premises",
+        "Closing Stock"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 199,
+      "questionNumber": 199,
+      "question": "The 'Objectivity' concept requires that transactions are supported by:",
+      "options": [
+        "Manager's opinion",
+        "Physical evidence",
+        "Forecasts",
+        "Auditor's report"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 200,
+      "questionNumber": 200,
+      "question": "The term 'Net Assets' is another word for:",
+      "options": [
+        "Total Assets",
+        "Total Liabilities",
+        "Capital",
+        "Working Capital"
+      ],
+      "answer": "C"
+    }
+  ]
+}

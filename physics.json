@@ -1,0 +1,2393 @@
+{
+  "subject": "physics",
+  "questions": [
+    {
+      "id": 1,
+      "questionNumber": 1,
+      "question": "Which of the following is a fundamental quantity?",
+      "options": [
+        "Velocity",
+        "Luminous Intensity",
+        "Force",
+        "Pressure"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "questionNumber": 2,
+      "question": "The dimensions of momentum are:",
+      "options": [
+        "$[MLT^{-1}]$",
+        "$[MLT^{-2}]$",
+        "$[ML^2T^{-2}]$",
+        "$[ML^{-1}T^{-1}]$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "questionNumber": 3,
+      "question": "A car accelerates from rest at $4 ms^{-2}$. What is its velocity after 5 seconds?",
+      "options": [
+        "$10 ms^{-1}$",
+        "$20 ms^{-1}$",
+        "$25 ms^{-1}$",
+        "$40 ms^{-1}$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "questionNumber": 4,
+      "question": "The tendency of a body to remain at rest or preserve its state of uniform motion is called:",
+      "options": [
+        "Momentum",
+        "Inertia",
+        "Force",
+        "Friction"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "questionNumber": 5,
+      "question": "Calculate the work done when a force of 20N pushes a box through a distance of 5m.",
+      "options": [
+        "4J",
+        "100J",
+        "50J",
+        "25J"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "questionNumber": 6,
+      "question": "The point through which the resultant of the weight of all particles of a body acts is the:",
+      "options": [
+        "Center of mass",
+        "Center of gravity",
+        "Center of curvature",
+        "Equilibrium point"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "questionNumber": 7,
+      "question": "A machine has an efficiency of 80%. If the work input is 200J, what is the work output?",
+      "options": [
+        "160J",
+        "250J",
+        "100J",
+        "120J"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "questionNumber": 8,
+      "question": "The clinical thermometer is designed with a constriction to:",
+      "options": [
+        "Prevent the mercury from expanding too fast",
+        "Prevent the backflow of mercury",
+        "Make it look better",
+        "Increase sensitivity"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "questionNumber": 9,
+      "question": "The heat required to change 1kg of a substance from solid to liquid at constant temperature is:",
+      "options": [
+        "Specific heat capacity",
+        "Latent heat of vaporization",
+        "Specific latent heat of fusion",
+        "Heat capacity"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "questionNumber": 10,
+      "question": "The atmospheric pressure at sea level is approximately:",
+      "options": [
+        "$760 mmHg$",
+        "$100 mmHg$",
+        "$500 mmHg$",
+        "$1000 mmHg$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "questionNumber": 11,
+      "question": "Which of the following is the correct relationship between Velocity ($v$), Frequency ($f$), and Wavelength ($\\lambda$)?",
+      "options": [
+        "$f = v\\lambda$",
+        "$v = f\\lambda$",
+        "$\\lambda = vf$",
+        "$v = f/\\lambda$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "questionNumber": 12,
+      "question": "An object is placed at the center of curvature of a concave mirror. The image formed is:",
+      "options": [
+        "Real, inverted and diminished",
+        "Virtual, erect and magnified",
+        "Real, inverted and same size",
+        "Real, erect and diminished"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "questionNumber": 13,
+      "question": "The refractive index of a medium is 1.5. Calculate the speed of light in that medium. ($c = 3 \times 10^8 ms^{-1}$)",
+      "options": [
+        "$2 \times 10^8 ms^{-1}$",
+        "$4.5 \times 10^8 ms^{-1}$",
+        "$1.5 \times 10^8 ms^{-1}$",
+        "$3 \times 10^8 ms^{-1}$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "questionNumber": 14,
+      "question": "A diverging lens is also known as a:",
+      "options": [
+        "Convex lens",
+        "Concave lens",
+        "Plano-convex lens",
+        "Biconvex lens"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "questionNumber": 15,
+      "question": "The unit of power of a lens is:",
+      "options": [
+        "Watts",
+        "Dioptres",
+        "Metres",
+        "Joules"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "questionNumber": 16,
+      "question": "Which property of sound waves depends on the frequency?",
+      "options": [
+        "Loudness",
+        "Pitch",
+        "Quality",
+        "Intensity"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "questionNumber": 17,
+      "question": "The time taken for a complete oscillation of a simple pendulum is its:",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Period",
+        "Wavelength"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "questionNumber": 18,
+      "question": "Surface tension is caused by:",
+      "options": [
+        "Adhesive forces",
+        "Cohesive forces",
+        "Gravitational forces",
+        "Magnetic forces"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "questionNumber": 19,
+      "question": "Which of the following is a vector quantity?",
+      "options": [
+        "Mass",
+        "Distance",
+        "Displacement",
+        "Time"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "questionNumber": 20,
+      "question": "A body of mass 2kg moves with a velocity of $10 ms^{-1}$. Calculate its kinetic energy.",
+      "options": [
+        "10J",
+        "20J",
+        "100J",
+        "200J"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "questionNumber": 21,
+      "question": "The hydraulic press works on:",
+      "options": [
+        "Archimedes' principle",
+        "Pascal's principle",
+        "Bernoulli's principle",
+        "Hooke's law"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "questionNumber": 22,
+      "question": "Upthrust is equal to the weight of fluid displaced. This is:",
+      "options": [
+        "Newton's law",
+        "Archimedes' principle",
+        "Flotation law",
+        "Pascal's law"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "questionNumber": 23,
+      "question": "The temperature at which the water vapor in the air is just sufficient to saturate it is the:",
+      "options": [
+        "Boiling point",
+        "Melting point",
+        "Dew point",
+        "Critical point"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "questionNumber": 24,
+      "question": "A simple machine with a velocity ratio of 5 and efficiency of 60% has a mechanical advantage of:",
+      "options": [
+        "3",
+        "12",
+        "0.12",
+        "30"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "questionNumber": 25,
+      "question": "The clinical thermometer usually ranges from:",
+      "options": [
+        "$0^\\circ C$ to $100^\\circ C$",
+        "$35^\\circ C$ to $42^\\circ C$",
+        "$32^\\circ C$ to $212^\\circ C$",
+        "$-10^\\circ C$ to $110^\\circ C$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "questionNumber": 26,
+      "question": "Which of the following methods of heat transfer does not require a material medium?",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Evaporation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "questionNumber": 27,
+      "question": "The scent of a perfume spreading in a room is an example of:",
+      "options": [
+        "Osmosis",
+        "Diffusion",
+        "Capillarity",
+        "Surface tension"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "questionNumber": 28,
+      "question": "The apparent shift in the position of an object when viewed from two different points is:",
+      "options": [
+        "Refraction",
+        "Reflection",
+        "Parallax",
+        "Diffraction"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "questionNumber": 29,
+      "question": "An object is placed 15cm in front of a plane mirror. The distance between the object and its image is:",
+      "options": [
+        "15cm",
+        "30cm",
+        "7.5cm",
+        "0cm"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "questionNumber": 30,
+      "question": "Total internal reflection occurs when the angle of incidence is:",
+      "options": [
+        "Less than the critical angle",
+        "Equal to the critical angle",
+        "Greater than the critical angle",
+        "Zero"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "questionNumber": 31,
+      "question": "The primary colors of light are:",
+      "options": [
+        "Red, Yellow, Blue",
+        "Red, Green, Blue",
+        "Yellow, Cyan, Magenta",
+        "Red, White, Black"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "questionNumber": 32,
+      "question": "The defect of the eye where a person can see distant objects clearly but not near ones is:",
+      "options": [
+        "Myopia",
+        "Hypermetropia",
+        "Astigmatism",
+        "Presbyopia"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "questionNumber": 33,
+      "question": "Sound travels fastest in:",
+      "options": [
+        "Air",
+        "Water",
+        "Steel",
+        "Vacuum"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 34,
+      "questionNumber": 34,
+      "question": "The velocity of sound in air is approximately:",
+      "options": [
+        "$3 \times 10^8 ms^{-1}$",
+        "$340 ms^{-1}$",
+        "$1500 ms^{-1}$",
+        "$330 kms^{-1}$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "questionNumber": 35,
+      "question": "The fundamental frequency of a plucked string is $f$. The frequency of the first overtone is:",
+      "options": [
+        "$f/2$",
+        "$2f$",
+        "$3f$",
+        "$4f$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "questionNumber": 36,
+      "question": "Electrostatic charges are produced by:",
+      "options": [
+        "Conduction",
+        "Friction",
+        "Induction",
+        "All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 37,
+      "questionNumber": 37,
+      "question": "The SI unit of electric capacitance is the:",
+      "options": [
+        "Ohm",
+        "Farad",
+        "Coulomb",
+        "Volt"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 38,
+      "questionNumber": 38,
+      "question": "Resistance ($R$) is given by Ohm's Law as:",
+      "options": [
+        "$R = IV$",
+        "$R = V/I$",
+        "$R = I/V$",
+        "$R = V^2I$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "questionNumber": 39,
+      "question": "The rate of flow of electric charges is called:",
+      "options": [
+        "Voltage",
+        "Resistance",
+        "Current",
+        "Capacitance"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 40,
+      "questionNumber": 40,
+      "question": "Which of the following is an electrical insulator?",
+      "options": [
+        "Copper",
+        "Aluminum",
+        "Plastic",
+        "Silver"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "questionNumber": 41,
+      "question": "The device used to store electric charge is a:",
+      "options": [
+        "Resistor",
+        "Inductor",
+        "Capacitor",
+        "Transistor"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "questionNumber": 42,
+      "question": "A wire of resistance $10\\Omega$ is doubled in length. Its new resistance (assuming same volume) will be:",
+      "options": [
+        "$20\\Omega$",
+        "$40\\Omega$",
+        "$5\\Omega$",
+        "$10\\Omega$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "questionNumber": 43,
+      "question": "The magnetic field of a bar magnet is strongest at the:",
+      "options": [
+        "Center",
+        "Poles",
+        "Equator",
+        "Edges"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "questionNumber": 44,
+      "question": "Soft iron is used to make electromagnets because it is:",
+      "options": [
+        "Easy to magnetize and demagnetize",
+        "Difficult to magnetize",
+        "A permanent magnet",
+        "A poor conductor"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "questionNumber": 45,
+      "question": "The angle between the magnetic north and the geographic north is the:",
+      "options": [
+        "Angle of dip",
+        "Angle of declination",
+        "Magnetic latitude",
+        "Isogonic angle"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "questionNumber": 46,
+      "question": "A transformer works on the principle of:",
+      "options": [
+        "Self induction",
+        "Mutual induction",
+        "Electrostatic induction",
+        "Magnetic shielding"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "questionNumber": 47,
+      "question": "Step-up transformers are used to:",
+      "options": [
+        "Increase voltage",
+        "Decrease voltage",
+        "Increase current",
+        "Decrease resistance"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 48,
+      "questionNumber": 48,
+      "question": "Which of the following is a semiconductor?",
+      "options": [
+        "Copper",
+        "Silicon",
+        "Iron",
+        "Glass"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "questionNumber": 49,
+      "question": "The emission of electrons from a metal surface by light is:",
+      "options": [
+        "Thermionic emission",
+        "Photoelectric emission",
+        "Secondary emission",
+        "Field emission"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "questionNumber": 50,
+      "question": "The half-life of a radioactive element is 10 days. How much of a 100g sample remains after 20 days?",
+      "options": [
+        "50g",
+        "25g",
+        "12.5g",
+        "0g"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "questionNumber": 51,
+      "question": "The force that keeps a body moving in a circular path is directed towards the center and is called:",
+      "options": [
+        "Centrifugal force",
+        "Centripetal force",
+        "Gravitational force",
+        "Reaction force"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "questionNumber": 52,
+      "question": "The work done in stretching a spring of stiffness $k$ by a distance $x$ is given by:",
+      "options": [
+        "$kx$",
+        "$\\frac{1}{2}kx$",
+        "$\\frac{1}{2}kx^2$",
+        "$kx^2$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "questionNumber": 53,
+      "question": "A body of mass 5kg is lifted through a height of 10m. Calculate the potential energy gained. ($g = 10 ms^{-2}$)",
+      "options": [
+        "50J",
+        "100J",
+        "500J",
+        "250J"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "questionNumber": 54,
+      "question": "Which of the following follows the principle of moments?",
+      "options": [
+        "Lever",
+        "Inclined plane",
+        "Hydraulic press",
+        "Pulley"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "questionNumber": 55,
+      "question": "The property of a liquid that makes it resist the relative motion between its layers is:",
+      "options": [
+        "Surface tension",
+        "Viscosity",
+        "Capillarity",
+        "Adhesion"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "questionNumber": 56,
+      "question": "At what temperature does water have its maximum density?",
+      "options": [
+        "$0^\\circ C$",
+        "$4^\\circ C$",
+        "$100^\\circ C$",
+        "$-4^\\circ C$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "questionNumber": 57,
+      "question": "The pressure in a liquid increases with:",
+      "options": [
+        "Surface area",
+        "Depth",
+        "Volume",
+        "Shape of container"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "questionNumber": 58,
+      "question": "A wave that travels in a direction perpendicular to the direction of vibration is a:",
+      "options": [
+        "Longitudinal wave",
+        "Transverse wave",
+        "Stationary wave",
+        "Mechanical wave"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "questionNumber": 59,
+      "question": "The distance between two successive crests of a wave is the:",
+      "options": [
+        "Amplitude",
+        "Frequency",
+        "Wavelength",
+        "Velocity"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "questionNumber": 60,
+      "question": "The phenomenon where a wave spreads out as it passes through a narrow opening is:",
+      "options": [
+        "Refraction",
+        "Reflection",
+        "Diffraction",
+        "Interference"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "questionNumber": 61,
+      "question": "Which of the following electromagnetic waves has the shortest wavelength?",
+      "options": [
+        "Radio waves",
+        "Infrared",
+        "Visible light",
+        "Gamma rays"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 62,
+      "questionNumber": 62,
+      "question": "The image formed by a convex mirror is always:",
+      "options": [
+        "Real, inverted, diminished",
+        "Virtual, erect, diminished",
+        "Virtual, erect, magnified",
+        "Real, erect, magnified"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "questionNumber": 63,
+      "question": "The angle of incidence for which the angle of refraction is $90^\\circ$ is the:",
+      "options": [
+        "Critical angle",
+        "Angle of deviation",
+        "Angle of reflection",
+        "Angle of dip"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "questionNumber": 64,
+      "question": "White light is separated into its component colors by a prism. This is called:",
+      "options": [
+        "Diffraction",
+        "Dispersion",
+        "Refraction",
+        "Polarization"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "questionNumber": 65,
+      "question": "A person with myopia requires a lens of what type to correct their vision?",
+      "options": [
+        "Biconvex",
+        "Concave",
+        "Cylindrical",
+        "Plano-convex"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 66,
+      "questionNumber": 66,
+      "question": "The loudness of sound depends on the wave's:",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Velocity",
+        "Wavelength"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "questionNumber": 67,
+      "question": "An echo is heard when a sound wave is:",
+      "options": [
+        "Refracted",
+        "Reflected",
+        "Diffracted",
+        "Absorbed"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "questionNumber": 68,
+      "question": "The quality of a note depends on the presence of:",
+      "options": [
+        "Overtones",
+        "Fundamental frequency",
+        "Amplitude",
+        "Velocity"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "questionNumber": 69,
+      "question": "The unit of electric potential difference is the:",
+      "options": [
+        "Ampere",
+        "Ohm",
+        "Volt",
+        "Watt"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 70,
+      "questionNumber": 70,
+      "question": "Two resistors of $4\\Omega$ and $6\\Omega$ are connected in series. The effective resistance is:",
+      "options": [
+        "$10\\Omega$",
+        "$2.4\\Omega$",
+        "$2\\Omega$",
+        "$24\\Omega$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "questionNumber": 71,
+      "question": "The heating effect of electric current is used in a:",
+      "options": [
+        "Radio",
+        "Electric iron",
+        "Electric bell",
+        "Transformer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "questionNumber": 72,
+      "question": "Which of the following is used to measure electric current?",
+      "options": [
+        "Voltmeter",
+        "Ammeter",
+        "Galvanometer",
+        "Ohmmeter"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "questionNumber": 73,
+      "question": "The material used for the filament of a light bulb is:",
+      "options": [
+        "Copper",
+        "Tungsten",
+        "Aluminum",
+        "Iron"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "questionNumber": 74,
+      "question": "A fuse is always connected to the:",
+      "options": [
+        "Neutral wire",
+        "Earth wire",
+        "Live wire",
+        "Switch"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 75,
+      "questionNumber": 75,
+      "question": "Like magnetic poles:",
+      "options": [
+        "Attract",
+        "Repel",
+        "Neutralize",
+        "Rotate"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "questionNumber": 76,
+      "question": "The process of making a magnet using a current-carrying coil is:",
+      "options": [
+        "Single touch",
+        "Double touch",
+        "Electrical method",
+        "Induction"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 77,
+      "questionNumber": 77,
+      "question": "The direction of a magnetic field is from:",
+      "options": [
+        "South to North",
+        "North to South",
+        "East to West",
+        "Center to Edge"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "questionNumber": 78,
+      "question": "The Faraday's law of electromagnetic induction states that the induced e.m.f is proportional to the:",
+      "options": [
+        "Resistance",
+        "Magnetic flux",
+        "Rate of change of magnetic flux",
+        "Current"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 79,
+      "questionNumber": 79,
+      "question": "A DC generator uses what to maintain the direction of current in the external circuit?",
+      "options": [
+        "Slip rings",
+        "Split rings (Commutator)",
+        "Brushes",
+        "Magnets"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 80,
+      "questionNumber": 80,
+      "question": "The particle in an atom that has a negative charge is the:",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Nucleus"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "questionNumber": 81,
+      "question": "Cathode rays are streams of fast-moving:",
+      "options": [
+        "Protons",
+        "Neutrons",
+        "Electrons",
+        "Ions"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 82,
+      "questionNumber": 82,
+      "question": "The minimum frequency required to eject electrons from a metal surface is the:",
+      "options": [
+        "Critical frequency",
+        "Threshold frequency",
+        "Fundamental frequency",
+        "Resonant frequency"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "questionNumber": 83,
+      "question": "X-rays are produced when fast-moving electrons hit a:",
+      "options": [
+        "Gas",
+        "Metal target",
+        "Liquid",
+        "Vacuum"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 84,
+      "questionNumber": 84,
+      "question": "The time taken for half the atoms of a radioactive substance to decay is its:",
+      "options": [
+        "Decay constant",
+        "Average life",
+        "Half-life",
+        "Full life"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 85,
+      "questionNumber": 85,
+      "question": "Which of the following is used as a moderator in a nuclear reactor?",
+      "options": [
+        "Uranium",
+        "Graphite",
+        "Boron",
+        "Cadmium"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 86,
+      "questionNumber": 86,
+      "question": "The energy of a photon is given by $E = hf$. What is $h$?",
+      "options": [
+        "Planck's constant",
+        "Gravitational constant",
+        "Speed of light",
+        "Gas constant"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 87,
+      "questionNumber": 87,
+      "question": "In a p-type semiconductor, the majority charge carriers are:",
+      "options": [
+        "Electrons",
+        "Holes",
+        "Protons",
+        "Neutrons"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "questionNumber": 88,
+      "question": "The process of adding impurities to a pure semiconductor is:",
+      "options": [
+        "Ionization",
+        "Doping",
+        "Rectification",
+        "Amplification"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 89,
+      "questionNumber": 89,
+      "question": "A diode is primarily used for:",
+      "options": [
+        "Amplification",
+        "Rectification",
+        "Modulation",
+        "Oscillation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "questionNumber": 90,
+      "question": "The escape velocity of an object from the Earth's surface depends on:",
+      "options": [
+        "Mass of the object",
+        "Mass of the Earth",
+        "Angle of projection",
+        "Color of the object"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "questionNumber": 91,
+      "question": "A brass rod is 2m long at $10^\\circ C$. Calculate its expansion when heated to $50^\\circ C$. (Linear expansivity of brass $= 1.9 \times 10^{-5} K^{-1}$)",
+      "options": [
+        "0.152 mm",
+        "1.52 mm",
+        "15.2 mm",
+        "0.0152 mm"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 92,
+      "questionNumber": 92,
+      "question": "The density of mercury is $13600 kg/m^3$. Calculate the pressure at the bottom of a 76cm column. ($g = 10 ms^{-2}$)",
+      "options": [
+        "$1.03 \times 10^5 Pa$",
+        "$1.36 \times 10^5 Pa$",
+        "$7.6 \times 10^4 Pa$",
+        "$1.01 \times 10^4 Pa$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 93,
+      "questionNumber": 93,
+      "question": "Which of the following is a unit of pressure?",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Joule",
+        "Watt"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "questionNumber": 94,
+      "question": "A vector has both magnitude and:",
+      "options": [
+        "Mass",
+        "Direction",
+        "Volume",
+        "Time"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 95,
+      "questionNumber": 95,
+      "question": "The acceleration due to gravity on the Moon is about what fraction of that on Earth?",
+      "options": [
+        "1/2",
+        "1/4",
+        "1/6",
+        "1/10"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 96,
+      "questionNumber": 96,
+      "question": "The product of force and time is:",
+      "options": [
+        "Work",
+        "Power",
+        "Impulse",
+        "Momentum"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 97,
+      "questionNumber": 97,
+      "question": "A machine with a velocity ratio of 4 requires an effort of 50N to lift a load of 150N. Calculate its efficiency.",
+      "options": [
+        "75%",
+        "60%",
+        "80%",
+        "90%"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 98,
+      "questionNumber": 98,
+      "question": "The boiling point of water on the Fahrenheit scale is:",
+      "options": [
+        "$32^\\circ F$",
+        "$100^\\circ F$",
+        "$212^\\circ F$",
+        "$373^\\circ F$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 99,
+      "questionNumber": 99,
+      "question": "The change in the direction of a wave as it moves from one medium to another is:",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Diffraction",
+        "Polarization"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "questionNumber": 100,
+      "question": "Which of the following is used to measure high temperatures in furnaces?",
+      "options": [
+        "Clinical thermometer",
+        "Alcohol thermometer",
+        "Optical pyrometer",
+        "Mercury-in-glass thermometer"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 101,
+      "questionNumber": 101,
+      "question": "The property of a material to recover its original shape after the removal of a deforming force is:",
+      "options": [
+        "Plasticity",
+        "Elasticity",
+        "Malleability",
+        "Ductility"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "questionNumber": 102,
+      "question": "Calculate the force required to produce an acceleration of $5 ms^{-2}$ in a body of mass 10kg.",
+      "options": [
+        "2N",
+        "50N",
+        "15N",
+        "0.5N"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "questionNumber": 103,
+      "question": "Which of the following describes the motion of a simple pendulum?",
+      "options": [
+        "Rotational motion",
+        "Simple Harmonic Motion",
+        "Random motion",
+        "Translational motion"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 104,
+      "questionNumber": 104,
+      "question": "The escape velocity of a rocket from the earth is approximately:",
+      "options": [
+        "$11.2 km/s$",
+        "$8.0 km/s$",
+        "$9.8 km/s$",
+        "$3.0 \times 10^8 m/s$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 105,
+      "questionNumber": 105,
+      "question": "A hydrometer is an instrument used to measure the:",
+      "options": [
+        "Relative humidity",
+        "Relative density of liquids",
+        "Pressure of a gas",
+        "Depth of the sea"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "questionNumber": 106,
+      "question": "The SI unit of the coefficient of friction is:",
+      "options": [
+        "Newton",
+        "Pascal",
+        "It has no unit",
+        "Joule"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 107,
+      "questionNumber": 107,
+      "question": "Boyle's Law states that at constant temperature, the volume of a gas is inversely proportional to its:",
+      "options": [
+        "Mass",
+        "Density",
+        "Pressure",
+        "Absolute temperature"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "questionNumber": 108,
+      "question": "The transfer of heat through a vacuum is primarily by:",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Evaporation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "questionNumber": 109,
+      "question": "An example of a good radiator of heat is a:",
+      "options": [
+        "Shiny white surface",
+        "Dull black surface",
+        "Polished silver surface",
+        "Transparent surface"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 110,
+      "questionNumber": 110,
+      "question": "The constant temperature at which a liquid changes to gas at atmospheric pressure is its:",
+      "options": [
+        "Melting point",
+        "Boiling point",
+        "Critical temperature",
+        "Dew point"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "questionNumber": 111,
+      "question": "Which of the following is used to investigate the wave nature of light?",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Interference",
+        "Rectilinear propagation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 112,
+      "questionNumber": 112,
+      "question": "The image formed by a magnifying glass is:",
+      "options": [
+        "Virtual, erect and diminished",
+        "Real, inverted and magnified",
+        "Virtual, erect and magnified",
+        "Real, erect and diminished"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 113,
+      "questionNumber": 113,
+      "question": "The property of sound that distinguishes a note played on a piano from the same note on a violin is:",
+      "options": [
+        "Pitch",
+        "Loudness",
+        "Timbre (Quality)",
+        "Intensity"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 114,
+      "questionNumber": 114,
+      "question": "The intensity of sound is measured in:",
+      "options": [
+        "Hertz",
+        "Decibels (dB)",
+        "Watts",
+        "Newtons"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "questionNumber": 115,
+      "question": "Which of the following is a primary cell?",
+      "options": [
+        "Lead-acid accumulator",
+        "Leclanché cell",
+        "Nickel-Iron cell",
+        "Alkaline accumulator"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "questionNumber": 116,
+      "question": "Calculate the power of an electric heater which draws a current of 5A from a 240V supply.",
+      "options": [
+        "48W",
+        "1200W",
+        "245W",
+        "1150W"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "questionNumber": 117,
+      "question": "The resistance of a conductor increases with an increase in its:",
+      "options": [
+        "Length",
+        "Cross-sectional area",
+        "Thickness",
+        "Density"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 118,
+      "questionNumber": 118,
+      "question": "A moving-coil galvanometer can be converted into an ammeter by connecting a:",
+      "options": [
+        "High resistance in series",
+        "Low resistance in parallel",
+        "High resistance in parallel",
+        "Low resistance in series"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "questionNumber": 119,
+      "question": "Lenz's Law is a consequence of the law of conservation of:",
+      "options": [
+        "Charge",
+        "Mass",
+        "Energy",
+        "Momentum"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 120,
+      "questionNumber": 120,
+      "question": "Eddy currents in a transformer core are reduced by:",
+      "options": [
+        "Using a solid core",
+        "Laminating the core",
+        "Using copper wires",
+        "Increasing the voltage"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "questionNumber": 121,
+      "question": "Which of the following is an example of a paramagnetic material?",
+      "options": [
+        "Iron",
+        "Aluminum",
+        "Water",
+        "Bismuth"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "questionNumber": 122,
+      "question": "The process by which electrons are emitted from a heated filament is:",
+      "options": [
+        "Photoelectric effect",
+        "Thermionic emission",
+        "Ionization",
+        "Field emission"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "questionNumber": 123,
+      "question": "In a nuclear reaction, the mass defect is converted into:",
+      "options": [
+        "Protons",
+        "Neutrons",
+        "Binding energy",
+        "Alpha particles"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 124,
+      "questionNumber": 124,
+      "question": "Which radioactive radiation has the highest ionizing power?",
+      "options": [
+        "Alpha rays",
+        "Beta rays",
+        "Gamma rays",
+        "X-rays"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 125,
+      "questionNumber": 125,
+      "question": "The most common impurity added to silicon to create an n-type semiconductor is:",
+      "options": [
+        "Boron",
+        "Phosphorus",
+        "Aluminum",
+        "Indium"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "questionNumber": 126,
+      "question": "The depletion layer of a p-n junction diode acts as a/an:",
+      "options": [
+        "Conductor",
+        "Insulator",
+        "Semiconductor",
+        "Capacitor"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 127,
+      "questionNumber": 127,
+      "question": "The logic gate that gives a high output only when all its inputs are high is:",
+      "options": [
+        "OR gate",
+        "AND gate",
+        "NOT gate",
+        "NAND gate"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "questionNumber": 128,
+      "question": "A capacitor of $10 \\mu F$ is connected to a 100V DC source. The energy stored is:",
+      "options": [
+        "$0.05 J$",
+        "$0.1 J$",
+        "$1.0 J$",
+        "$0.5 J$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 129,
+      "questionNumber": 129,
+      "question": "The work done per unit charge in moving a charge between two points is:",
+      "options": [
+        "Current",
+        "Resistance",
+        "Potential difference",
+        "Capacitance"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "questionNumber": 130,
+      "question": "A glass rod rubbed with silk acquires a positive charge because:",
+      "options": [
+        "Protons are added",
+        "Electrons are removed",
+        "Electrons are added",
+        "Protons are removed"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 131,
+      "questionNumber": 131,
+      "question": "The frequency of a wave with a period of 0.02 seconds is:",
+      "options": [
+        "20 Hz",
+        "50 Hz",
+        "100 Hz",
+        "5 Hz"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 132,
+      "questionNumber": 132,
+      "question": "Total internal reflection is used in:",
+      "options": [
+        "Microscopes",
+        "Optical fibers",
+        "Magnifying glasses",
+        "Spectrometers"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "questionNumber": 133,
+      "question": "The image formed by a camera is:",
+      "options": [
+        "Real, erect and diminished",
+        "Real, inverted and diminished",
+        "Virtual, inverted and magnified",
+        "Virtual, erect and diminished"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "questionNumber": 134,
+      "question": "The speed of sound increases with an increase in:",
+      "options": [
+        "Pressure",
+        "Temperature",
+        "Wavelength",
+        "Frequency"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "questionNumber": 135,
+      "question": "Two sound waves of slightly different frequencies produce:",
+      "options": [
+        "Echoes",
+        "Beats",
+        "Resonance",
+        "Overtones"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 136,
+      "questionNumber": 136,
+      "question": "The particle responsible for carrying magnetic force is the:",
+      "options": [
+        "Electron",
+        "Photon",
+        "Graviton",
+        "Magneton"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "questionNumber": 137,
+      "question": "A step-down transformer has a turns ratio of 10:1. If the primary voltage is 240V, the secondary voltage is:",
+      "options": [
+        "2400V",
+        "24V",
+        "240V",
+        "12V"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "questionNumber": 138,
+      "question": "The phenomenon of radioactivity was discovered by:",
+      "options": [
+        "Marie Curie",
+        "Henri Becquerel",
+        "Ernest Rutherford",
+        "Albert Einstein"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "questionNumber": 139,
+      "question": "Which of the following is a non-renewable source of energy?",
+      "options": [
+        "Solar energy",
+        "Wind energy",
+        "Nuclear energy",
+        "Geothermal energy"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 140,
+      "questionNumber": 140,
+      "question": "The dimension of pressure is:",
+      "options": [
+        "$[ML^{-1}T^{-2}]$",
+        "$[MLT^{-2}]$",
+        "$[ML^2T^{-3}]$",
+        "$[ML^{-2}T^{-2}]$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 141,
+      "questionNumber": 141,
+      "question": "A resultant force is zero when a body is in:",
+      "options": [
+        "Motion",
+        "Acceleration",
+        "Equilibrium",
+        "Rotation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 142,
+      "questionNumber": 142,
+      "question": "The period of a simple pendulum depends on the:",
+      "options": [
+        "Mass of the bob",
+        "Amplitude of oscillation",
+        "Length of the pendulum",
+        "Material of the bob"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 143,
+      "questionNumber": 143,
+      "question": "Density is defined as:",
+      "options": [
+        "Weight per unit volume",
+        "Mass per unit volume",
+        "Volume per unit mass",
+        "Force per unit area"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 144,
+      "questionNumber": 144,
+      "question": "Which of the following instruments is used to measure gas pressure?",
+      "options": [
+        "Barometer",
+        "Manometer",
+        "Anemometer",
+        "Hygrometer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 145,
+      "questionNumber": 145,
+      "question": "The heat capacity of a body is the product of its mass and its:",
+      "options": [
+        "Density",
+        "Specific heat capacity",
+        "Latent heat",
+        "Temperature"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 146,
+      "questionNumber": 146,
+      "question": "Thermal equilibrium between two bodies exists when they have the same:",
+      "options": [
+        "Heat content",
+        "Mass",
+        "Temperature",
+        "Specific heat capacity"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 147,
+      "questionNumber": 147,
+      "question": "Refractive index of a glass prism is usually found using the formula involving the:",
+      "options": [
+        "Critical angle",
+        "Angle of minimum deviation",
+        "Angle of incidence",
+        "Angle of reflection"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "questionNumber": 148,
+      "question": "A transistor acts as a/an:",
+      "options": [
+        "Rectifier",
+        "Amplifier",
+        "Inductor",
+        "Resistor"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 149,
+      "questionNumber": 149,
+      "question": "The mass number of an atom represents the total number of:",
+      "options": [
+        "Protons and electrons",
+        "Protons and neutrons",
+        "Neutrons and electrons",
+        "Electrons only"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 150,
+      "questionNumber": 150,
+      "question": "The property of light that explains the formation of shadows is:",
+      "options": [
+        "Refraction",
+        "Diffraction",
+        "Rectilinear propagation",
+        "Polarization"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 151,
+      "questionNumber": 151,
+      "question": "Calculate the frequency of a radio wave with a wavelength of 300m. ($c = 3 \times 10^8 ms^{-1}$)",
+      "options": [
+        "1 MHz",
+        "10 MHz",
+        "100 kHz",
+        "300 kHz"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 152,
+      "questionNumber": 152,
+      "question": "Which of the following mirrors is used as a driving mirror in vehicles?",
+      "options": [
+        "Plane mirror",
+        "Concave mirror",
+        "Convex mirror",
+        "Parabolic mirror"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 153,
+      "questionNumber": 153,
+      "question": "The apparent depth of a pool is 3m. If the refractive index of water is 1.33, what is the real depth?",
+      "options": [
+        "2.25m",
+        "4.0m",
+        "3.33m",
+        "3.99m"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 154,
+      "questionNumber": 154,
+      "question": "The speed of light is highest in:",
+      "options": [
+        "Water",
+        "Glass",
+        "Air",
+        "Vacuum"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 155,
+      "questionNumber": 155,
+      "question": "Which instrument is used to compare the relative densities of two liquids?",
+      "options": [
+        "Hare's apparatus",
+        "U-tube Manometer",
+        "Hydrometer",
+        "Pycnometer"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 156,
+      "questionNumber": 156,
+      "question": "A body starts from rest and moves with a constant acceleration of $2 ms^{-2}$. Calculate the distance covered in 10s.",
+      "options": [
+        "20m",
+        "100m",
+        "200m",
+        "50m"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 157,
+      "questionNumber": 157,
+      "question": "The unit of luminous intensity is the:",
+      "options": [
+        "Lumen",
+        "Lux",
+        "Candela",
+        "Watt"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 158,
+      "questionNumber": 158,
+      "question": "Which of the following is a second-class lever?",
+      "options": [
+        "See-saw",
+        "Wheelbarrow",
+        "Sugar tongs",
+        "Scissors"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 159,
+      "questionNumber": 159,
+      "question": "The pressure at any point in a liquid at rest acts:",
+      "options": [
+        "Only downwards",
+        "Only upwards",
+        "In all directions",
+        "Only sideways"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 160,
+      "questionNumber": 160,
+      "question": "A gas at $27^\\circ C$ is heated until its volume doubles at constant pressure. What is the new temperature?",
+      "options": [
+        "$54^\\circ C$",
+        "$327^\\circ C$",
+        "$600^\\circ C$",
+        "$300^\\circ C$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 161,
+      "questionNumber": 161,
+      "question": "The process of heat transfer in a liquid is primarily by:",
+      "options": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Vibration"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 162,
+      "questionNumber": 162,
+      "question": "Which of the following is an effect of thermal expansion?",
+      "options": [
+        "Buckling of railway tracks",
+        "Cooling of a room",
+        "Formation of clouds",
+        "Melting of ice"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 163,
+      "questionNumber": 163,
+      "question": "An object 5cm high is placed 10cm from a convex lens of focal length 15cm. The image is:",
+      "options": [
+        "Real and diminished",
+        "Virtual and magnified",
+        "Real and same size",
+        "Virtual and diminished"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 164,
+      "questionNumber": 164,
+      "question": "The color seen when red and blue lights are mixed is:",
+      "options": [
+        "Yellow",
+        "Cyan",
+        "Magenta",
+        "White"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 165,
+      "questionNumber": 165,
+      "question": "Which of the following is used to produce a pure spectrum?",
+      "options": [
+        "Glass block",
+        "Prism with a spectrometer",
+        "Convex lens",
+        "Diffraction grating only"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "questionNumber": 166,
+      "question": "Sound waves cannot be:",
+      "options": [
+        "Reflected",
+        "Refracted",
+        "Polarized",
+        "Diffracted"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 167,
+      "questionNumber": 167,
+      "question": "The phenomenon where a vibration is induced in a body by another vibrating body of the same frequency is:",
+      "options": [
+        "Reverberation",
+        "Resonance",
+        "Echo",
+        "Harmonics"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "questionNumber": 168,
+      "question": "The work done in moving a 2C charge through a potential difference of 10V is:",
+      "options": [
+        "5J",
+        "12J",
+        "20J",
+        "8J"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 169,
+      "questionNumber": 169,
+      "question": "The earth wire in a plug is connected to the:",
+      "options": [
+        "Switch",
+        "Circuit breaker",
+        "Metal casing of the appliance",
+        "Heating element"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 170,
+      "questionNumber": 170,
+      "question": "Which of the following materials is used for the core of an electromagnet?",
+      "options": [
+        "Steel",
+        "Soft iron",
+        "Aluminum",
+        "Copper"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "questionNumber": 171,
+      "question": "The magnetic effect of electric current was discovered by:",
+      "options": [
+        "Faraday",
+        "Oersted",
+        "Ampere",
+        "Maxwell"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 172,
+      "questionNumber": 172,
+      "question": "The function of a split-ring commutator in a DC motor is to:",
+      "options": [
+        "Reverse the current direction",
+        "Increase the speed",
+        "Reduce friction",
+        "Generate magnetic field"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 173,
+      "questionNumber": 173,
+      "question": "Which radiation is most harmful to human tissues due to its high penetration?",
+      "options": [
+        "Alpha rays",
+        "Beta rays",
+        "Gamma rays",
+        "Ultraviolet"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 174,
+      "questionNumber": 174,
+      "question": "The mass defect in a nuclear reaction is $0.001 kg$. Calculate the energy released. ($c = 3 \times 10^8 ms^{-1}$)",
+      "options": [
+        "$3 \times 10^5 J$",
+        "$9 \times 10^{10} J$",
+        "$9 \times 10^{13} J$",
+        "$3 \times 10^{16} J$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 175,
+      "questionNumber": 175,
+      "question": "The majority charge carriers in an n-type semiconductor are:",
+      "options": [
+        "Holes",
+        "Electrons",
+        "Ions",
+        "Protons"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 176,
+      "questionNumber": 176,
+      "question": "A logic gate with one input and one output that reverses the input signal is a/an:",
+      "options": [
+        "OR gate",
+        "AND gate",
+        "NOT gate",
+        "NOR gate"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 177,
+      "questionNumber": 177,
+      "question": "The escape of liquid molecules from the surface of a liquid at all temperatures is:",
+      "options": [
+        "Boiling",
+        "Evaporation",
+        "Sublimation",
+        "Condensation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 178,
+      "questionNumber": 178,
+      "question": "A simple pendulum has a period $T$. If the length is quadrupled, the new period is:",
+      "options": [
+        "$T/2$",
+        "$2T$",
+        "$4T$",
+        "$T^2$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 179,
+      "questionNumber": 179,
+      "question": "The force of attraction between any two masses in the universe is given by:",
+      "options": [
+        "Newton's First Law",
+        "Newton's Second Law",
+        "Newton's Law of Universal Gravitation",
+        "Hooke's Law"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 180,
+      "questionNumber": 180,
+      "question": "Calculate the weight of a 5kg mass on a planet where $g = 4 ms^{-2}$.",
+      "options": [
+        "1.25N",
+        "9N",
+        "20N",
+        "50N"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 181,
+      "questionNumber": 181,
+      "question": "The SI unit of impulse is:",
+      "options": [
+        "$N$",
+        "$kg ms^{-2}$",
+        "$Ns$",
+        "$J$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 182,
+      "questionNumber": 182,
+      "question": "Which of the following is a base unit?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Kilogram",
+        "Pascal"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 183,
+      "questionNumber": 183,
+      "question": "The coefficient of linear expansion ($\\alpha$) and volume expansion ($\\gamma$) are related by:",
+      "options": [
+        "$\\gamma = 3\\alpha$",
+        "$\\alpha = 3\\gamma$",
+        "$\\gamma = \\alpha^3$",
+        "$\\gamma = \\alpha/3$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 184,
+      "questionNumber": 184,
+      "question": "A refrigerator works by removing heat from its contents through:",
+      "options": [
+        "Conduction",
+        "Evaporation of a volatile liquid",
+        "Radiation",
+        "Insulation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "questionNumber": 185,
+      "question": "Which of the following is a characteristic of a plane mirror image?",
+      "options": [
+        "Real",
+        "Laterally inverted",
+        "Magnified",
+        "Inverted"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 186,
+      "questionNumber": 186,
+      "question": "The focal length of a lens with a power of +2.0 dioptres is:",
+      "options": [
+        "0.5m",
+        "2.0m",
+        "5.0m",
+        "1.0m"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 187,
+      "questionNumber": 187,
+      "question": "The speed of light in a glass block of refractive index 1.5 is:",
+      "options": [
+        "$3 \times 10^8 ms^{-1}$",
+        "$2 \times 10^8 ms^{-1}$",
+        "$1.5 \times 10^8 ms^{-1}$",
+        "$4.5 \times 10^8 ms^{-1}$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 188,
+      "questionNumber": 188,
+      "question": "A sound wave of frequency 500 Hz travels at $340 ms^{-1}$. What is its wavelength?",
+      "options": [
+        "0.68m",
+        "1.47m",
+        "170m",
+        "0.5m"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 189,
+      "questionNumber": 189,
+      "question": "The vibration of air columns in a pipe closed at one end produces:",
+      "options": [
+        "All harmonics",
+        "Only even harmonics",
+        "Only odd harmonics",
+        "No harmonics"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 190,
+      "questionNumber": 190,
+      "question": "The unit of magnetic flux density is the:",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Henry",
+        "Farad"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 191,
+      "questionNumber": 191,
+      "question": "According to Lenz's law, the induced current flows to:",
+      "options": [
+        "Support the change causing it",
+        "Oppose the change causing it",
+        "Increase the flux",
+        "Reduce the resistance"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 192,
+      "questionNumber": 192,
+      "question": "In a step-up transformer, the number of turns in the secondary coil is:",
+      "options": [
+        "Less than the primary",
+        "Equal to the primary",
+        "Greater than the primary",
+        "Zero"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 193,
+      "questionNumber": 193,
+      "question": "The process of joining two light nuclei to form a heavier one is:",
+      "options": [
+        "Nuclear fission",
+        "Nuclear fusion",
+        "Radioactive decay",
+        "Alpha emission"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 194,
+      "questionNumber": 194,
+      "question": "The particle used to trigger the fission of Uranium-235 is a:",
+      "options": [
+        "Proton",
+        "Alpha particle",
+        "Neutron",
+        "Electron"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 195,
+      "questionNumber": 195,
+      "question": "Which of the following is a scalar quantity?",
+      "options": [
+        "Momentum",
+        "Energy",
+        "Weight",
+        "Electric field"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 196,
+      "questionNumber": 196,
+      "question": "The mercury in a barometer stays up because of:",
+      "options": [
+        "Capillarity",
+        "Surface tension",
+        "Atmospheric pressure",
+        "Gravity"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 197,
+      "questionNumber": 197,
+      "question": "Which of the following is an example of a longitudinal wave?",
+      "options": [
+        "Light wave",
+        "Radio wave",
+        "Sound wave",
+        "Water wave"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 198,
+      "questionNumber": 198,
+      "question": "The work done in pushing a car with a force of 500N through 10m is:",
+      "options": [
+        "50J",
+        "500J",
+        "5000J",
+        "50000J"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 199,
+      "questionNumber": 199,
+      "question": "The energy possessed by a body due to its position is:",
+      "options": [
+        "Kinetic energy",
+        "Potential energy",
+        "Chemical energy",
+        "Thermal energy"
+      ],
+      "answer": "B"
+    }
+  ]
+}

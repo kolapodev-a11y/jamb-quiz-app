@@ -1,0 +1,2405 @@
+{
+  "subject": "geography",
+  "questions": [
+    {
+      "id": 1,
+      "questionNumber": 1,
+      "question": "The planet often referred to as the Earth's twin because of its similar size and mass is:",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "questionNumber": 2,
+      "question": "The innermost layer of the Earth is called the:",
+      "options": [
+        "Crust",
+        "Mantle",
+        "Core",
+        "Lithosphere"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "questionNumber": 3,
+      "question": "Which of the following rocks is formed from the cooling and solidification of molten magma?",
+      "options": [
+        "Sedimentary",
+        "Igneous",
+        "Metamorphic",
+        "Sandstone"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "questionNumber": 4,
+      "question": "The lines on a map joining places of equal atmospheric pressure are called:",
+      "options": [
+        "Isotherms",
+        "Isohyets",
+        "Isobars",
+        "Isohels"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "questionNumber": 5,
+      "question": "The rotation of the Earth on its axis causes:",
+      "options": [
+        "Seasons",
+        "Day and night",
+        "Eclipse",
+        "Leap year"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "questionNumber": 6,
+      "question": "The time difference between two places located 15 degrees of longitude apart is:",
+      "options": [
+        "1 hour",
+        "4 minutes",
+        "15 minutes",
+        "2 hours"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "questionNumber": 7,
+      "question": "Which of these is a form of mechanical weathering?",
+      "options": [
+        "Oxidation",
+        "Carbonation",
+        "Exfoliation",
+        "Hydration"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "questionNumber": 8,
+      "question": "A piece of land almost surrounded by water but connected to the mainland by an isthmus is a/an:",
+      "options": [
+        "Island",
+        "Peninsula",
+        "Archipelago",
+        "Delta"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "questionNumber": 9,
+      "question": "The point on the Earth's surface directly above the focus of an earthquake is the:",
+      "options": [
+        "Epicenter",
+        "Seismic zone",
+        "Fault line",
+        "Magnitude"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "questionNumber": 10,
+      "question": "Which of the following is a sedimentary rock?",
+      "options": [
+        "Granite",
+        "Basalt",
+        "Limestone",
+        "Quartzite"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "questionNumber": 11,
+      "question": "The instrument used for measuring wind speed is the:",
+      "options": [
+        "Wind vane",
+        "Anemometer",
+        "Hygrometer",
+        "Barometer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "questionNumber": 12,
+      "question": "The scale of a map expressed as a ratio (e.g., 1:50,000) is known as:",
+      "options": [
+        "Linear scale",
+        "Representative Fraction",
+        "Statement scale",
+        "Graphic scale"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "questionNumber": 13,
+      "question": "The process by which plants release water vapor into the atmosphere is:",
+      "options": [
+        "Evaporation",
+        "Condensation",
+        "Transpiration",
+        "Precipitation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "questionNumber": 14,
+      "question": "Which layer of the atmosphere contains the ozone layer?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "questionNumber": 15,
+      "question": "The Great Rift Valley is a result of:",
+      "options": [
+        "Folding",
+        "Faulting",
+        "Volcanicity",
+        "Glaciation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "questionNumber": 16,
+      "question": "A high-level plateau surrounded by mountains is called a/an:",
+      "options": [
+        "Intermontane plateau",
+        "Piedmont plateau",
+        "Volcanic plateau",
+        "Continental plateau"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "questionNumber": 17,
+      "question": "The most common gas in the Earth's atmosphere is:",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "questionNumber": 18,
+      "question": "The movement of water through the soil profile is known as:",
+      "options": [
+        "Runoff",
+        "Infiltration",
+        "Percolation",
+        "Leaching"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "questionNumber": 19,
+      "question": "Which ocean is the largest and deepest in the world?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "questionNumber": 20,
+      "question": "The Mediterranean climate is characterized by:",
+      "options": [
+        "Hot, wet summers",
+        "Cold, dry winters",
+        "Hot, dry summers and mild, wet winters",
+        "Constant rainfall throughout the year"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "questionNumber": 21,
+      "question": "The point where a river begins is its:",
+      "options": [
+        "Mouth",
+        "Delta",
+        "Source",
+        "Confluence"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "questionNumber": 22,
+      "question": "Which of these is a warm ocean current?",
+      "options": [
+        "Benguela Current",
+        "Canaries Current",
+        "Gulf Stream",
+        "Labrador Current"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "questionNumber": 23,
+      "question": "The process where rocks are worn away by the rubbing of other rocks carried by the wind or water is:",
+      "options": [
+        "Attrition",
+        "Abrasion",
+        "Corrosion",
+        "Hydraulic action"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "questionNumber": 24,
+      "question": "A line joining places with the same amount of sunshine is an:",
+      "options": [
+        "Isohyet",
+        "Isotherm",
+        "Isohel",
+        "Isohaline"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "questionNumber": 25,
+      "question": "The 'SIAL' layer of the Earth's crust is composed mainly of:",
+      "options": [
+        "Silica and Magnesium",
+        "Silica and Aluminum",
+        "Iron and Nickel",
+        "Carbon and Oxygen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "questionNumber": 26,
+      "question": "Which of the following is a primary activity in geography?",
+      "options": [
+        "Manufacturing",
+        "Banking",
+        "Agriculture",
+        "Teaching"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "questionNumber": 27,
+      "question": "The boundary between the crust and the mantle is known as the:",
+      "options": [
+        "Gutenberg Discontinuity",
+        "Mohorovicic Discontinuity",
+        "Conrad Discontinuity",
+        "Asthenosphere"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "questionNumber": 28,
+      "question": "What is the standard time of a country whose longitude is 45°E?",
+      "options": [
+        "GMT +1",
+        "GMT +2",
+        "GMT +3",
+        "GMT -3"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "questionNumber": 29,
+      "question": "Ox-bow lakes are formed in the _____ stage of a river:",
+      "options": [
+        "Youthful",
+        "Mature",
+        "Old",
+        "Rejuvenated"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "questionNumber": 30,
+      "question": "The Stevenson screen is painted white to:",
+      "options": [
+        "Absorb heat",
+        "Reflect solar radiation",
+        "Prevent rust",
+        "Make it visible"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "questionNumber": 31,
+      "question": "A steep-sided volcanic cone formed by ash and cinders is a:",
+      "options": [
+        "Composite cone",
+        "Cinder cone",
+        "Shield volcano",
+        "Lava dome"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "questionNumber": 32,
+      "question": "The process of soil being washed away by rain on a slope is called:",
+      "options": [
+        "Deforestation",
+        "Leaching",
+        "Sheet erosion",
+        "Irrigation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "questionNumber": 33,
+      "question": "Which type of rainfall occurs when air is forced to rise over a mountain?",
+      "options": [
+        "Convectional",
+        "Cyclonic",
+        "Orographic",
+        "Frontal"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 34,
+      "questionNumber": 34,
+      "question": "The scale 1:100,000 means 1cm on the map represents ______ on the ground:",
+      "options": [
+        "1km",
+        "10km",
+        "100km",
+        "0.1km"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "questionNumber": 35,
+      "question": "The longest day in the Northern Hemisphere (June 21) is called the:",
+      "options": [
+        "Spring Equinox",
+        "Summer Solstice",
+        "Winter Solstice",
+        "Autumn Equinox"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "questionNumber": 36,
+      "question": "Which of the following is a metamorphic rock formed from limestone?",
+      "options": [
+        "Slate",
+        "Gneiss",
+        "Marble",
+        "Schist"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 37,
+      "questionNumber": 37,
+      "question": "The percentage of the Earth's surface covered by water is approximately:",
+      "options": [
+        "30%",
+        "50%",
+        "71%",
+        "90%"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "questionNumber": 38,
+      "question": "A barometer is used to measure:",
+      "options": [
+        "Humidity",
+        "Rainfall",
+        "Atmospheric pressure",
+        "Wind direction"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "questionNumber": 39,
+      "question": "The distance between two degrees of latitude is approximately:",
+      "options": [
+        "111km",
+        "15km",
+        "40,000km",
+        "60km"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "questionNumber": 40,
+      "question": "The largest desert in the world is the:",
+      "options": [
+        "Kalahari",
+        "Gobi",
+        "Sahara",
+        "Atacama"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "questionNumber": 41,
+      "question": "A river that flows into another larger river is called a:",
+      "options": [
+        "Distributary",
+        "Tributary",
+        "Estuary",
+        "Meander"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "questionNumber": 42,
+      "question": "Which cloud type is often associated with thunderstorms and heavy rain?",
+      "options": [
+        "Cirrus",
+        "Stratus",
+        "Cumulonimbus",
+        "Altocumulus"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "questionNumber": 43,
+      "question": "The transition zone between two different ecosystems is called an:",
+      "options": [
+        "Ecotone",
+        "Ecotype",
+        "Ecological niche",
+        "Ecosphere"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "questionNumber": 44,
+      "question": "What is the main cause of ocean tides?",
+      "options": [
+        "Earth's rotation",
+        "Gravitational pull of the moon and sun",
+        "Wind action",
+        "Ocean currents"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "questionNumber": 45,
+      "question": "The zero-degree longitude is also known as the:",
+      "options": [
+        "Equator",
+        "Prime Meridian",
+        "International Date Line",
+        "Tropic of Cancer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "questionNumber": 46,
+      "question": "An example of an intrusive igneous rock is:",
+      "options": [
+        "Basalt",
+        "Granite",
+        "Obsidian",
+        "Pumice"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "questionNumber": 47,
+      "question": "The process of 'Karst topography' is associated with:",
+      "options": [
+        "Clay",
+        "Granite",
+        "Limestone",
+        "Sandstone"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "questionNumber": 48,
+      "question": "A hygrometer is used to measure:",
+      "options": [
+        "Wind speed",
+        "Relative humidity",
+        "Sunshine hours",
+        "Temperature"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "questionNumber": 49,
+      "question": "The point in the orbit of a planet where it is closest to the sun is:",
+      "options": [
+        "Aphelion",
+        "Perihelion",
+        "Equinox",
+        "Solstice"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "questionNumber": 50,
+      "question": "The removal of soluble minerals from the soil by water is:",
+      "options": [
+        "Erosion",
+        "Leaching",
+        "Weathering",
+        "Deposition"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "questionNumber": 51,
+      "question": "The sharp, jagged peak formed when several cirques cut back into a mountain is a/an:",
+      "options": [
+        "Arête",
+        "Pyramidal peak",
+        "Drumlin",
+        "Esker"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "questionNumber": 52,
+      "question": "A dry valley is a characteristic feature of:",
+      "options": [
+        "Granite topography",
+        "Karst topography",
+        "Glaciated topography",
+        "Desert topography"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "questionNumber": 53,
+      "question": "The standard unit for measuring atmospheric pressure is:",
+      "options": [
+        "Millimeters",
+        "Degrees",
+        "Millibars",
+        "Knots"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "questionNumber": 54,
+      "question": "The process whereby a river increases its length by eroding backwards at its source is:",
+      "options": [
+        "Vertical erosion",
+        "Lateral erosion",
+        "Headward erosion",
+        "Deposition"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 55,
+      "questionNumber": 55,
+      "question": "Which of these is a landform associated with coastal deposition?",
+      "options": [
+        "Cliff",
+        "Cave",
+        "Spit",
+        "Stack"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "questionNumber": 56,
+      "question": "A line on a map joining places with the same mean temperature is an:",
+      "options": [
+        "Isohyet",
+        "Isobar",
+        "Isotherm",
+        "Isohel"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 57,
+      "questionNumber": 57,
+      "question": "The cooling of air as it rises, leading to condensation, is known as:",
+      "options": [
+        "Advection cooling",
+        "Adiabatic cooling",
+        "Convection cooling",
+        "Radiation cooling"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "questionNumber": 58,
+      "question": "Which of the following is an example of a block mountain?",
+      "options": [
+        "Himalayas",
+        "Andes",
+        "Vosges",
+        "Rockies"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 59,
+      "questionNumber": 59,
+      "question": "The time recorded at the Greenwich Meridian is 12:00 noon. What is the time at Longitude 30°W?",
+      "options": [
+        "2:00 PM",
+        "10:00 AM",
+        "12:00 PM",
+        "2:00 AM"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "questionNumber": 60,
+      "question": "The transfer of heat through the horizontal movement of air is:",
+      "options": [
+        "Convection",
+        "Conduction",
+        "Advection",
+        "Radiation"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "questionNumber": 61,
+      "question": "Mushroom rocks are landforms primarily created by:",
+      "options": [
+        "Water erosion",
+        "Wind erosion",
+        "Glacial action",
+        "Chemical weathering"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "questionNumber": 62,
+      "question": "A river capture is most likely to occur in which stage of a river?",
+      "options": [
+        "Youthful stage",
+        "Mature stage",
+        "Old stage",
+        "Deltaic stage"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 63,
+      "questionNumber": 63,
+      "question": "The most important factor influencing the distribution of temperature on Earth is:",
+      "options": [
+        "Altitude",
+        "Latitude",
+        "Distance from the sea",
+        "Ocean currents"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "questionNumber": 64,
+      "question": "The term 'Sima' refers to the layer of the Earth's crust rich in:",
+      "options": [
+        "Silica and Aluminum",
+        "Silica and Magnesium",
+        "Iron and Nickel",
+        "Carbon and Oxygen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "questionNumber": 65,
+      "question": "The study of the description of the Earth's surface and its inhabitants is:",
+      "options": [
+        "Geology",
+        "Geomorphology",
+        "Geography",
+        "Ecology"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "questionNumber": 66,
+      "question": "Which type of vegetation is found in the Amazon Basin?",
+      "options": [
+        "Tropical Grassland",
+        "Tropical Rainforest",
+        "Coniferous Forest",
+        "Desert Scrub"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "questionNumber": 67,
+      "question": "The world's largest producer of cocoa is:",
+      "options": [
+        "Nigeria",
+        "Ghana",
+        "Ivory Coast",
+        "Brazil"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "questionNumber": 68,
+      "question": "Settlements that develop along a road or a river are described as:",
+      "options": [
+        "Nucleated",
+        "Dispersed",
+        "Linear",
+        "Planned"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "questionNumber": 69,
+      "question": "The process of moving from a rural area to an urban area is:",
+      "options": [
+        "Urbanization",
+        "Rural-urban migration",
+        "Emigration",
+        "Immigration"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "questionNumber": 70,
+      "question": "Which of these is a non-renewable resource?",
+      "options": [
+        "Solar energy",
+        "Water",
+        "Petroleum",
+        "Forest"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "questionNumber": 71,
+      "question": "The bearing of South-East (SE) is:",
+      "options": [
+        "45°",
+        "135°",
+        "225°",
+        "315°"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "questionNumber": 72,
+      "question": "The Stevenson screen is placed at a height of about _____ above the ground:",
+      "options": [
+        "0.5m",
+        "1.2m",
+        "2.0m",
+        "5.0m"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "questionNumber": 73,
+      "question": "A delta formed when the mouth of a river is blocked by a sea bar is a/an:",
+      "options": [
+        "Arcuate delta",
+        "Bird’s foot delta",
+        "Estuarine delta",
+        "Cuspate delta"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 74,
+      "questionNumber": 74,
+      "question": "The atmospheric layer where all weather phenomena occur is the:",
+      "options": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 75,
+      "questionNumber": 75,
+      "question": "The transition between the crust and the mantle is the:",
+      "options": [
+        "Gutenberg line",
+        "Moho discontinuity",
+        "Sial-Sima line",
+        "Fault zone"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "questionNumber": 76,
+      "question": "An example of a folded mountain is the:",
+      "options": [
+        "Atlas",
+        "Kilimanjaro",
+        "Vesuvius",
+        "Black Forest"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 77,
+      "questionNumber": 77,
+      "question": "A huge mass of ice moving slowly down a mountain valley is a/an:",
+      "options": [
+        "Iceberg",
+        "Glacier",
+        "Avalanche",
+        "Ice cap"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "questionNumber": 78,
+      "question": "Which of the following planets has the largest number of known moons?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 79,
+      "questionNumber": 79,
+      "question": "The humidity of the air is expressed as a percentage using a:",
+      "options": [
+        "Barometer",
+        "Hygrometer",
+        "Thermometer",
+        "Anemometer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 80,
+      "questionNumber": 80,
+      "question": "The 'Ring of Fire' is a zone of frequent earthquakes and volcanic eruptions located around the:",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "questionNumber": 81,
+      "question": "A line on a map joining places with equal salinity in the ocean is an:",
+      "options": [
+        "Isohel",
+        "Isohaline",
+        "Isobar",
+        "Isohyet"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 82,
+      "questionNumber": 82,
+      "question": "The removal of the top layer of soil by wind or water is:",
+      "options": [
+        "Weathering",
+        "Mass wasting",
+        "Erosion",
+        "Deposition"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 83,
+      "questionNumber": 83,
+      "question": "The chemical weathering process that involves the reaction of minerals with water is:",
+      "options": [
+        "Solution",
+        "Hydration",
+        "Oxidation",
+        "Carbonation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 84,
+      "questionNumber": 84,
+      "question": "In a population pyramid, a broad base indicates:",
+      "options": [
+        "Low birth rate",
+        "High birth rate",
+        "Aging population",
+        "Low death rate"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "questionNumber": 85,
+      "question": "The most densely populated country in Africa is:",
+      "options": [
+        "Egypt",
+        "Nigeria",
+        "Ethiopia",
+        "South Africa"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 86,
+      "questionNumber": 86,
+      "question": "The system of farming where trees are grown together with crops is:",
+      "options": [
+        "Mixed farming",
+        "Agro-forestry",
+        "Plantation agriculture",
+        "Shifting cultivation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "questionNumber": 87,
+      "question": "The leading mineral export of Nigeria is:",
+      "options": [
+        "Coal",
+        "Tin",
+        "Petroleum",
+        "Iron ore"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 88,
+      "questionNumber": 88,
+      "question": "The boundary between the Earth and the atmosphere is the:",
+      "options": [
+        "Surface",
+        "Horizon",
+        "Tropopause",
+        "Stratopause"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 89,
+      "questionNumber": 89,
+      "question": "A landform formed by the accumulation of sand by wind action is a:",
+      "options": [
+        "Playa",
+        "Dune",
+        "Inselberg",
+        "Wadi"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "questionNumber": 90,
+      "question": "The 'Greenhouse Effect' is primarily caused by an increase in:",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "questionNumber": 91,
+      "question": "The steepness of a slope is indicated on a map by:",
+      "options": [
+        "Coloring",
+        "Contour lines",
+        "Symbols",
+        "Lettering"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 92,
+      "questionNumber": 92,
+      "question": "Which of these is a secondary industry?",
+      "options": [
+        "Fishing",
+        "Mining",
+        "Textile manufacturing",
+        "Transport"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 93,
+      "questionNumber": 93,
+      "question": "The point in the sky directly above an observer is the:",
+      "options": [
+        "Nadir",
+        "Zenith",
+        "Horizon",
+        "Apex"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "questionNumber": 94,
+      "question": "The 'Cotton Belt' is a famous agricultural region in:",
+      "options": [
+        "China",
+        "India",
+        "USA",
+        "Egypt"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 95,
+      "questionNumber": 95,
+      "question": "A large-scale map is one that covers a:",
+      "options": [
+        "Large area with little detail",
+        "Small area with great detail",
+        "Small area with little detail",
+        "Large area with great detail"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 96,
+      "questionNumber": 96,
+      "question": "The primary cause of ocean currents is:",
+      "options": [
+        "Difference in density",
+        "Wind",
+        "Earth's rotation",
+        "All of the above"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 97,
+      "questionNumber": 97,
+      "question": "The deepest trench in the world is the:",
+      "options": [
+        "Java Trench",
+        "Mariana Trench",
+        "Tonga Trench",
+        "Puerto Rico Trench"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 98,
+      "questionNumber": 98,
+      "question": "The predominant type of climate in Nigeria is:",
+      "options": [
+        "Equatorial",
+        "Tropical Continental",
+        "Desert",
+        "Mediterranean"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 99,
+      "questionNumber": 99,
+      "question": "The removal of forests for other land uses is:",
+      "options": [
+        "Reforestation",
+        "Afforestation",
+        "Deforestation",
+        "Silviculture"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 100,
+      "questionNumber": 100,
+      "question": "The imaginary line that separates day from night on Earth is the:",
+      "options": [
+        "Equator",
+        "Prime Meridian",
+        "Circle of Illumination",
+        "Ecliptic"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 101,
+      "questionNumber": 101,
+      "question": "The study of the relationship between living organisms and their environment is:",
+      "options": [
+        "Geology",
+        "Ecology",
+        "Anthropology",
+        "Meteorology"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 102,
+      "questionNumber": 102,
+      "question": "Which of the following is a major cause of global warming?",
+      "options": [
+        "Planting trees",
+        "Burning fossil fuels",
+        "Using solar energy",
+        "Recycling waste"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "questionNumber": 103,
+      "question": "The type of soil with the highest water-holding capacity is:",
+      "options": [
+        "Sandy soil",
+        "Loamy soil",
+        "Clayey soil",
+        "Silty soil"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "questionNumber": 104,
+      "question": "The leading producer of crude oil in Africa is:",
+      "options": [
+        "Egypt",
+        "South Africa",
+        "Nigeria",
+        "Algeria"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 105,
+      "questionNumber": 105,
+      "question": "Which of these features is formed by wind deposition in the desert?",
+      "options": [
+        "Barchan",
+        "Inselberg",
+        "Zeugen",
+        "Yardang"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 106,
+      "questionNumber": 106,
+      "question": "The instrument used to measure the intensity of an earthquake is the:",
+      "options": [
+        "Barometer",
+        "Seismograph",
+        "Hygrometer",
+        "Anemometer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "questionNumber": 107,
+      "question": "The time at the Prime Meridian (0°) is 10:00 AM. What is the longitude of a place where the time is 2:00 PM?",
+      "options": [
+        "30°E",
+        "60°E",
+        "30°W",
+        "60°W"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "questionNumber": 108,
+      "question": "A landform produced by the collapse of the roof of a limestone cave is a:",
+      "options": [
+        "Stalactite",
+        "Stalagmite",
+        "Polje",
+        "Doline"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 109,
+      "questionNumber": 109,
+      "question": "The most extensive vegetation type in Nigeria is the:",
+      "options": [
+        "Rainforest",
+        "Mangrove Swamp",
+        "Savanna",
+        "Montane"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 110,
+      "questionNumber": 110,
+      "question": "Which of the following is a renewable energy source?",
+      "options": [
+        "Coal",
+        "Natural Gas",
+        "Wind",
+        "Nuclear"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "questionNumber": 111,
+      "question": "The method of representing the three-dimensional Earth on a two-dimensional map is:",
+      "options": [
+        "Map scale",
+        "Map projection",
+        "Cartography",
+        "Surveying"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 112,
+      "questionNumber": 112,
+      "question": "Which river in Nigeria is known for the Kainji Dam?",
+      "options": [
+        "River Benue",
+        "River Niger",
+        "River Kaduna",
+        "River Ogun"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "questionNumber": 113,
+      "question": "The atmospheric pressure at sea level is approximately:",
+      "options": [
+        "760mb",
+        "1013mb",
+        "900mb",
+        "1200mb"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "questionNumber": 114,
+      "question": "A rock that has been changed by high temperature and pressure is:",
+      "options": [
+        "Clastic",
+        "Volcanic",
+        "Metamorphic",
+        "Organic"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 115,
+      "questionNumber": 115,
+      "question": "The distance between the sun and the earth is greatest during:",
+      "options": [
+        "Perihelion",
+        "Aphelion",
+        "Equinox",
+        "Solstice"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "questionNumber": 116,
+      "question": "The scale 1:50,000 is an example of a:",
+      "options": [
+        "Small scale",
+        "Medium scale",
+        "Large scale",
+        "Graphic scale"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 117,
+      "questionNumber": 117,
+      "question": "Which of these is a major industrial region in Nigeria?",
+      "options": [
+        "Lagos-Ota",
+        "Jos Plateau",
+        "Sokoto Basin",
+        "Chad Basin"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 118,
+      "questionNumber": 118,
+      "question": "The process where rocks peel off in layers due to temperature changes is:",
+      "options": [
+        "Frost wedging",
+        "Exfoliation",
+        "Carbonation",
+        "Oxidation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "questionNumber": 119,
+      "question": "An example of a tectonic lake is:",
+      "options": [
+        "Lake Chad",
+        "Lake Victoria",
+        "Lake Tanganyika",
+        "Lake Bosumtwi"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 120,
+      "questionNumber": 120,
+      "question": "The direction of a compass needle points towards the:",
+      "options": [
+        "True North",
+        "Magnetic North",
+        "Grid North",
+        "Celestial North"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "questionNumber": 121,
+      "question": "The largest man-made lake in Nigeria is formed by the:",
+      "options": [
+        "Shiroro Dam",
+        "Kainji Dam",
+        "Jebba Dam",
+        "Tiga Dam"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 122,
+      "questionNumber": 122,
+      "question": "The 'V' shaped valley is a feature of the ______ stage of a river:",
+      "options": [
+        "Upper",
+        "Middle",
+        "Lower",
+        "Old"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 123,
+      "questionNumber": 123,
+      "question": "Which of the following is a primary cause of acid rain?",
+      "options": [
+        "Carbon dioxide",
+        "Sulfur dioxide",
+        "Oxygen",
+        "Argon"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "questionNumber": 124,
+      "question": "The imaginary line that joins the North and South Poles is the:",
+      "options": [
+        "Equator",
+        "Axis",
+        "Orbit",
+        "Tropic"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "questionNumber": 125,
+      "question": "The density of population is calculated as:",
+      "options": [
+        "Total land area / Total population",
+        "Total population / Total land area",
+        "Birth rate - Death rate",
+        "Total population × Land area"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "questionNumber": 126,
+      "question": "Which of these is a volcanic mountain in Africa?",
+      "options": [
+        "Mount Cameroon",
+        "Drakensberg",
+        "Atlas Mountains",
+        "Ethiopian Highlands"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "questionNumber": 127,
+      "question": "The instrument used for measuring the amount of rainfall is the:",
+      "options": [
+        "Barometer",
+        "Rain gauge",
+        "Anemometer",
+        "Hygrometer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 128,
+      "questionNumber": 128,
+      "question": "The point where two rivers meet is called the:",
+      "options": [
+        "Source",
+        "Mouth",
+        "Confluence",
+        "Estuary"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 129,
+      "questionNumber": 129,
+      "question": "A line joining places with the same amount of rainfall is an:",
+      "options": [
+        "Isotherm",
+        "Isobar",
+        "Isohyet",
+        "Isohel"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "questionNumber": 130,
+      "question": "The main mineral found in the Niger Delta of Nigeria is:",
+      "options": [
+        "Coal",
+        "Iron ore",
+        "Petroleum",
+        "Gold"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 131,
+      "questionNumber": 131,
+      "question": "The rotation of the earth causes:",
+      "options": [
+        "Change in seasons",
+        "Day and night",
+        "Lunar eclipse",
+        "Variation in length of day"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 132,
+      "questionNumber": 132,
+      "question": "Which of these planets is known for its rings?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Saturn",
+        "Mercury"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 133,
+      "questionNumber": 133,
+      "question": "The cooling and hardening of magma underground results in:",
+      "options": [
+        "Extrusive rocks",
+        "Intrusive rocks",
+        "Sedimentary rocks",
+        "Metamorphic rocks"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "questionNumber": 134,
+      "question": "A settlement where the houses are far apart from each other is:",
+      "options": [
+        "Nucleated",
+        "Dispersed",
+        "Linear",
+        "Isolated"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 135,
+      "questionNumber": 135,
+      "question": "The largest continent in the world is:",
+      "options": [
+        "Africa",
+        "Asia",
+        "North America",
+        "Europe"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 136,
+      "questionNumber": 136,
+      "question": "Which of the following is a major export crop of Nigeria?",
+      "options": [
+        "Wheat",
+        "Rice",
+        "Cocoa",
+        "Barley"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 137,
+      "questionNumber": 137,
+      "question": "The layer of the atmosphere where planes fly to avoid weather turbulence is the:",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "questionNumber": 138,
+      "question": "The highest point in Nigeria is found on the:",
+      "options": [
+        "Jos Plateau",
+        "Obudu Plateau",
+        "Mambilla Plateau",
+        "Biu Plateau"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 139,
+      "questionNumber": 139,
+      "question": "The map symbol for a railway line is usually a:",
+      "options": [
+        "Solid black line",
+        "Dashed line",
+        "Line with crossbars",
+        "Blue line"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 140,
+      "questionNumber": 140,
+      "question": "Which of the following describes the weather of a place over a long period?",
+      "options": [
+        "Meteorology",
+        "Climate",
+        "Season",
+        "Atmosphere"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 141,
+      "questionNumber": 141,
+      "question": "The process of nitrogen being converted into a form plants can use is:",
+      "options": [
+        "Denitrification",
+        "Nitrogen fixation",
+        "Photosynthesis",
+        "Respiration"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 142,
+      "questionNumber": 142,
+      "question": "A deep valley with very steep sides is a:",
+      "options": [
+        "Gorge",
+        "Canyon",
+        "Rift Valley",
+        "Both A and B"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 143,
+      "questionNumber": 143,
+      "question": "The planet closest to the sun is:",
+      "options": [
+        "Venus",
+        "Mars",
+        "Mercury",
+        "Earth"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 144,
+      "questionNumber": 144,
+      "question": "Which of the following is an example of an organic sedimentary rock?",
+      "options": [
+        "Sandstone",
+        "Shale",
+        "Coal",
+        "Conglomerate"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 145,
+      "questionNumber": 145,
+      "question": "The most important source of energy for the Earth is the:",
+      "options": [
+        "Moon",
+        "Sun",
+        "Stars",
+        "Core"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 146,
+      "questionNumber": 146,
+      "question": "A line on a map joining places with the same elevation is a:",
+      "options": [
+        "Contour line",
+        "Grid line",
+        "Latitude",
+        "Longitude"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 147,
+      "questionNumber": 147,
+      "question": "Which of these is a cold ocean current?",
+      "options": [
+        "Gulf Stream",
+        "Benguela Current",
+        "Kuroshio Current",
+        "Brazilian Current"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "questionNumber": 148,
+      "question": "The Earth's crust and the upper part of the mantle make up the:",
+      "options": [
+        "Biosphere",
+        "Atmosphere",
+        "Lithosphere",
+        "Hydrosphere"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 149,
+      "questionNumber": 149,
+      "question": "The percentage of nitrogen in the atmosphere is approximately:",
+      "options": [
+        "21%",
+        "78%",
+        "0.03%",
+        "0.9%"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 150,
+      "questionNumber": 150,
+      "question": "The largest ocean in the world is the:",
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Arctic"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 151,
+      "questionNumber": 151,
+      "question": "The time at a place X is 8:00 AM while the time at the Greenwich Meridian is 12:00 Noon. What is the longitude of place X?",
+      "options": [
+        "60°E",
+        "60°W",
+        "15°E",
+        "15°W"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 152,
+      "questionNumber": 152,
+      "question": "Which of the following is a major characteristic of a coniferous forest?",
+      "options": [
+        "Broad leaves",
+        "Needle-like leaves",
+        "Lush undergrowth",
+        "Shedding leaves in summer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 153,
+      "questionNumber": 153,
+      "question": "The process of getting data about the Earth's surface without being in physical contact with it is:",
+      "options": [
+        "Geographic Information System",
+        "Remote Sensing",
+        "Surveying",
+        "Cartography"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 154,
+      "questionNumber": 154,
+      "question": "The 'Pampas' is a temperate grassland found in:",
+      "options": [
+        "South Africa",
+        "Argentina",
+        "Australia",
+        "USA"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 155,
+      "questionNumber": 155,
+      "question": "The atmospheric condition where temperature increases with altitude is called:",
+      "options": [
+        "Temperature lapse rate",
+        "Temperature inversion",
+        "Greenhouse effect",
+        "Global warming"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 156,
+      "questionNumber": 156,
+      "question": "An example of a man-made environmental hazard is:",
+      "options": [
+        "Earthquake",
+        "Flood",
+        "Oil spillage",
+        "Drought"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 157,
+      "questionNumber": 157,
+      "question": "Which of the following scales is the smallest?",
+      "options": [
+        "1:10,000",
+        "1:50,000",
+        "1:100,000",
+        "1:1,000,000"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 158,
+      "questionNumber": 158,
+      "question": "The distance from the Equator to the North Pole is ______ degrees:",
+      "options": [
+        "45°",
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 159,
+      "questionNumber": 159,
+      "question": "A line on a map joining places with equal duration of sunshine is an:",
+      "options": [
+        "Isobar",
+        "Isohel",
+        "Isohyet",
+        "Isoneph"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 160,
+      "questionNumber": 160,
+      "question": "The most important mineral resource in the Jos Plateau of Nigeria is:",
+      "options": [
+        "Gold",
+        "Coal",
+        "Tin",
+        "Petroleum"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 161,
+      "questionNumber": 161,
+      "question": "The largest city in Nigeria by population is:",
+      "options": [
+        "Abuja",
+        "Lagos",
+        "Kano",
+        "Ibadan"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 162,
+      "questionNumber": 162,
+      "question": "A mountain with a broad base and gentle slopes formed from fluid lava is a:",
+      "options": [
+        "Composite volcano",
+        "Shield volcano",
+        "Cinder cone",
+        "Lava dome"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 163,
+      "questionNumber": 163,
+      "question": "Which of these is a major cause of desertification?",
+      "options": [
+        "Reforestation",
+        "Overgrazing",
+        "Irrigation",
+        "Crop rotation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 164,
+      "questionNumber": 164,
+      "question": "The point within the Earth where an earthquake originates is the:",
+      "options": [
+        "Epicenter",
+        "Focus",
+        "Fault",
+        "Tremor"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 165,
+      "questionNumber": 165,
+      "question": "The study of the statistics of human populations is:",
+      "options": [
+        "Cartography",
+        "Demography",
+        "Sociology",
+        "Anthropology"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 166,
+      "questionNumber": 166,
+      "question": "A delta formed when the river current is stronger than the waves is a/an:",
+      "options": [
+        "Bird’s foot delta",
+        "Arcuate delta",
+        "Cuspate delta",
+        "Estuarine delta"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 167,
+      "questionNumber": 167,
+      "question": "Which of the following is an example of a metamorphic rock?",
+      "options": [
+        "Shale",
+        "Gneiss",
+        "Basalt",
+        "Limestone"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 168,
+      "questionNumber": 168,
+      "question": "The highest temperature ever recorded on Earth was in:",
+      "options": [
+        "Death Valley, USA",
+        "Al-Aziziyah, Libya",
+        "Sahara Desert",
+        "Lut Desert, Iran"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 169,
+      "questionNumber": 169,
+      "question": "The movement of people out of a country is called:",
+      "options": [
+        "Immigration",
+        "Emigration",
+        "Urbanization",
+        "Migration"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 170,
+      "questionNumber": 170,
+      "question": "Which of the following is a major industrial city in Germany?",
+      "options": [
+        "Paris",
+        "Essen (Ruhr)",
+        "Milan",
+        "Birmingham"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "questionNumber": 171,
+      "question": "A steep-sided, flat-topped hill in a desert is a/an:",
+      "options": [
+        "Inselberg",
+        "Mesa",
+        "Butte",
+        "Wadi"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 172,
+      "questionNumber": 172,
+      "question": "The 'Prairie' is a temperate grassland found in:",
+      "options": [
+        "South America",
+        "North America",
+        "Africa",
+        "Asia"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "questionNumber": 173,
+      "question": "Which layer of the atmosphere reflects radio waves back to Earth?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Ionosphere",
+        "Exosphere"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 174,
+      "questionNumber": 174,
+      "question": "The process of reclaiming land from the sea in the Netherlands results in:",
+      "options": [
+        "Deltas",
+        "Polders",
+        "Estuaries",
+        "Lagoons"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 175,
+      "questionNumber": 175,
+      "question": "The leading producer of gold in the world is currently:",
+      "options": [
+        "South Africa",
+        "China",
+        "Australia",
+        "Russia"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 176,
+      "questionNumber": 176,
+      "question": "The map projection that preserves the correct shape of countries but distorts their size is:",
+      "options": [
+        "Mercator",
+        "Peters",
+        "Conical",
+        "Azimuthal"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 177,
+      "questionNumber": 177,
+      "question": "Which of the following is a major tributary of River Niger?",
+      "options": [
+        "River Benue",
+        "River Cross",
+        "River Ogun",
+        "River Imo"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 178,
+      "questionNumber": 178,
+      "question": "The line that divides the Earth into the Northern and Southern Hemispheres is the:",
+      "options": [
+        "Equator",
+        "Prime Meridian",
+        "Tropic of Capricorn",
+        "Arctic Circle"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 179,
+      "questionNumber": 179,
+      "question": "A type of farming where a large area of land is used for a single crop is:",
+      "options": [
+        "Mixed farming",
+        "Plantation agriculture",
+        "Subsistence farming",
+        "Shifting cultivation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 180,
+      "questionNumber": 180,
+      "question": "The term used for the total number of deaths per thousand people in a year is:",
+      "options": [
+        "Birth rate",
+        "Death rate",
+        "Mortality index",
+        "Life expectancy"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 181,
+      "questionNumber": 181,
+      "question": "The instrument used to measure the depth of the ocean is the:",
+      "options": [
+        "Hygrometer",
+        "Fathometer",
+        "Altimeter",
+        "Barometer"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 182,
+      "questionNumber": 182,
+      "question": "Which of the following is a major seaport in Nigeria?",
+      "options": [
+        "Lagos (Apapa)",
+        "Kano",
+        "Ibadan",
+        "Enugu"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 183,
+      "questionNumber": 183,
+      "question": "The change in the direction of wind due to the Earth's rotation is known as the:",
+      "options": [
+        "Pressure effect",
+        "Coriolis effect",
+        "Greenhouse effect",
+        "Lapse rate"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 184,
+      "questionNumber": 184,
+      "question": "The largest man-made forest in the world is the:",
+      "options": [
+        "Amazon",
+        "Green Great Wall (China)",
+        "Congo Basin",
+        "Black Forest"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "questionNumber": 185,
+      "question": "Which of these is a major feature of the lower course of a river?",
+      "options": [
+        "Waterfalls",
+        "Gorges",
+        "Meanders",
+        "V-shaped valleys"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 186,
+      "questionNumber": 186,
+      "question": "The layer of the Earth that consists mostly of molten rock is the:",
+      "options": [
+        "Inner core",
+        "Outer core",
+        "Mantle",
+        "Crust"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 187,
+      "questionNumber": 187,
+      "question": "The seasonal reversal of wind direction that brings rain to India and Southeast Asia is the:",
+      "options": [
+        "Trade wind",
+        "Westerlies",
+        "Monsoon",
+        "Harmattan"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 188,
+      "questionNumber": 188,
+      "question": "The percentage of freshwater on Earth is approximately:",
+      "options": [
+        "1%",
+        "3%",
+        "10%",
+        "25%"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 189,
+      "questionNumber": 189,
+      "question": "Which of these is a major advantage of rail transport?",
+      "options": [
+        "Speed",
+        "Flexibility",
+        "Ability to carry heavy goods over long distances",
+        "Door-to-door service"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 190,
+      "questionNumber": 190,
+      "question": "The primary component of the solar system is the:",
+      "options": [
+        "Earth",
+        "Jupiter",
+        "Sun",
+        "Asteroid belt"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 191,
+      "questionNumber": 191,
+      "question": "The soil type often found in tropical rainforests that is rich in iron and aluminum is:",
+      "options": [
+        "Podzol",
+        "Laterite",
+        "Chernozem",
+        "Loess"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 192,
+      "questionNumber": 192,
+      "question": "The scale 1cm to 2km is a ______ scale:",
+      "options": [
+        "Statement",
+        "Representative Fraction",
+        "Linear",
+        "Graphic"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 193,
+      "questionNumber": 193,
+      "question": "Which of these gases protects us from harmful ultraviolet rays?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Ozone",
+        "Hydrogen"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 194,
+      "questionNumber": 194,
+      "question": "The process of water seeping into the ground is:",
+      "options": [
+        "Evaporation",
+        "Infiltration",
+        "Condensation",
+        "Surface runoff"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 195,
+      "questionNumber": 195,
+      "question": "The smallest continent in the world by land area is:",
+      "options": [
+        "Europe",
+        "Antarctica",
+        "Australia",
+        "South America"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 196,
+      "questionNumber": 196,
+      "question": "Which of the following is a tertiary industry?",
+      "options": [
+        "Farming",
+        "Mining",
+        "Banking",
+        "Construction"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 197,
+      "questionNumber": 197,
+      "question": "The point on the Earth's surface farthest from its center is the summit of:",
+      "options": [
+        "Mount Everest",
+        "Mount Chimborazo",
+        "Mount Kilimanjaro",
+        "Mount Fuji"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 198,
+      "questionNumber": 198,
+      "question": "The most common form of precipitation is:",
+      "options": [
+        "Snow",
+        "Hail",
+        "Rain",
+        "Sleet"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 199,
+      "questionNumber": 199,
+      "question": "A line on a map joining places with the same cloud cover is an:",
+      "options": [
+        "Isohyet",
+        "Isoneph",
+        "Isobar",
+        "Isotherm"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 200,
+      "questionNumber": 200,
+      "question": "The process where the Earth's surface is built up by the deposition of sediments is:",
+      "options": [
+        "Degradation",
+        "Aggradation",
+        "Denudation",
+        "Weathering"
+      ],
+      "answer": "B"
+    }
+  ]
+}
