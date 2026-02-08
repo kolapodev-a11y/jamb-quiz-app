@@ -166,67 +166,81 @@ async function startQuiz() {
         alert('Please select exactly 4 subjects (English + 3 others)');
         return;
     }
-
-    // Load questions
-    await loadQuestions();
-
-    if (quizData.length === 0) {
-        alert('Failed to load questions. Please check that JSON files are available.');
-        return;
-    }
-
-    // Initialize quiz state
-    currentQuestionIndex = 0;
-    userAnswers = new Array(quizData.length).fill(null);
-    quizStartTime = Date.now();
-
-    // Show quiz screen FIRST so DOM elements exist
-    showScreen('quiz-screen');
-
-    // Start timer AFTER screen is active
-    startTimer();
-
-    // Display first question
-    displayQuestion();
-    updateQuizNavigation();
-}
-
-// ============================================
-// Load Questions
-// ============================================
-
+    //================ load question ======================///
 async function loadQuestions() {
     quizData = [];
+    const failedSubjects = [];
     
     try {
         for (const subject of selectedSubjects) {
             const questionsCount = currentMode === 'test' ? 10 : 
                                   (subject === 'english' ? 60 : 40);
             
-            const response = await fetch(`data/${subject}.json`);
-            if (!response.ok) {
-                console.error(`❌ Failed to load ${subject}.json`);
-                continue;
-            }
+            // Try absolute path first, then relative
+            const url = `/data/${subject}.json`;
             
-            const data = await response.json();
-            const allQuestions = data.questions || [];
+            console.log(`📥 Loading: ${url}`);
             
-            if (allQuestions.length === 0) {
-                console.warn(`⚠️ ${subject}.json has no questions!`);
-                continue;
-            }
-
-            const selectedQuestions = getRandomQuestions(allQuestions, questionsCount);
-            
-            selectedQuestions.forEach(q => {
-                quizData.push({
-                    ...q,
-                    subject: subject,
-                    subjectDisplay: capitalizeFirst(subject)
+            try {
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    }
                 });
-            });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                if (!data.questions || !Array.isArray(data.questions)) {
+                    throw new Error('Invalid JSON structure: missing questions array');
+                }
+                
+                if (data.questions.length === 0) {
+                    console.warn(`⚠️ ${subject}.json has no questions`);
+                    failedSubjects.push(subject);
+                    continue;
+                }
+
+                const selectedQuestions = getRandomQuestions(data.questions, questionsCount);
+                
+                selectedQuestions.forEach(q => {
+                    quizData.push({
+                        ...q,
+                        subject: subject,
+                        subjectDisplay: capitalizeFirst(subject)
+                    });
+                });
+                
+                console.log(`✅ Loaded ${subject}: ${selectedQuestions.length} questions`);
+                
+            } catch (fetchError) {
+                console.error(`❌ Failed to load ${subject}:`, fetchError);
+                failedSubjects.push(subject);
+            }
         }
+
+        if (quizData.length === 0) {
+            throw new Error('No questions loaded from any subject');
+        }
+        
+        if (failedSubjects.length > 0) {
+            alert(`⚠️ Warning: Failed to load ${failedSubjects.join(', ')}. Quiz will continue with available subjects.`);
+        }
+
+        document.getElementById('totalQuestions').textContent = quizData.length;
+        
+    } catch (error) {
+        console.error('💥 Critical error:', error);
+        alert(`Failed to load quiz questions. Please check your internet connection and try again.\n\nError: ${error.message}`);
+        throw error;
+    }
+}
+
 
         document.getElementById('totalQuestions').textContent = quizData.length;
     } catch (error) {
