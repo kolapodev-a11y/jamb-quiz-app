@@ -1,0 +1,2405 @@
+{
+  "subject": "chemistry",
+  "questions": [
+    {
+      "id": 1,
+      "questionNumber": 1,
+      "question": "Which of the following particles has a relative mass of 1 and a charge of +1?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Alpha particle"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "questionNumber": 2,
+      "question": "The vertical columns in the periodic table are known as:",
+      "options": [
+        "Periods",
+        "Groups",
+        "Rows",
+        "Series"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "questionNumber": 3,
+      "question": "What is the oxidation state of Manganese in $KMnO_4$?",
+      "options": [
+        "+2",
+        "+4",
+        "+6",
+        "+7"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "questionNumber": 4,
+      "question": "Which gas is evolved when dilute hydrochloric acid reacts with calcium carbonate?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Carbon dioxide",
+        "Chlorine"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "questionNumber": 5,
+      "question": "The bond formed by the sharing of electrons between two atoms is called:",
+      "options": [
+        "Ionic bond",
+        "Covalent bond",
+        "Metallic bond",
+        "Dative bond"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "questionNumber": 6,
+      "question": "What is the IUPAC name for $CH_3CH_2CH_2OH$?",
+      "options": [
+        "Ethanol",
+        "Propan-1-ol",
+        "Butanol",
+        "Methanol"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "questionNumber": 7,
+      "question": "Which of the following is an example of a physical change?",
+      "options": [
+        "Burning of wood",
+        "Rusting of iron",
+        "Melting of ice",
+        "Souring of milk"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "questionNumber": 8,
+      "question": "According to Graham's law, the rate of diffusion of a gas is inversely proportional to the square root of its:",
+      "options": [
+        "Pressure",
+        "Temperature",
+        "Volume",
+        "Density"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "questionNumber": 9,
+      "question": "What is the shape of a water molecule?",
+      "options": [
+        "Linear",
+        "Tetrahedral",
+        "Bent (V-shaped)",
+        "Trigonal planar"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "questionNumber": 10,
+      "question": "The process of loss of electrons is called:",
+      "options": [
+        "Reduction",
+        "Oxidation",
+        "Hydrogenation",
+        "Sublimation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "questionNumber": 11,
+      "question": "Which of these is the most electronegative element?",
+      "options": [
+        "Oxygen",
+        "Chlorine",
+        "Fluorine",
+        "Nitrogen"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "questionNumber": 12,
+      "question": "Calculate the number of moles in 20g of Calcium (Ca = 40).",
+      "options": [
+        "0.5 mol",
+        "1.0 mol",
+        "2.0 mol",
+        "0.2 mol"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "questionNumber": 13,
+      "question": "A substance that increases the rate of a chemical reaction without being consumed is a:",
+      "options": [
+        "Reactant",
+        "Product",
+        "Catalyst",
+        "Solvent"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "questionNumber": 14,
+      "question": "What is the PH of a neutral solution at 25°C?",
+      "options": [
+        "1",
+        "7",
+        "14",
+        "0"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "questionNumber": 15,
+      "question": "Which subatomic particle was discovered by J.J. Thomson using the cathode ray tube?",
+      "options": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Positron"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "questionNumber": 16,
+      "question": "The law of definite proportions was proposed by:",
+      "options": [
+        "John Dalton",
+        "Joseph Proust",
+        "Antoine Lavoisier",
+        "Gay-Lussac"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "questionNumber": 17,
+      "question": "Which of the following gases turns lime water milky?",
+      "options": [
+        "$CO$",
+        "$CO_2$",
+        "$NO_2$",
+        "$SO_2$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "questionNumber": 18,
+      "question": "What type of hybridisation is found in Ethene ($C_2H_4$)?",
+      "options": [
+        "$sp$",
+        "$sp^2$",
+        "$sp^3$",
+        "$dsp^2$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "questionNumber": 19,
+      "question": "The mass number of an atom is the sum of:",
+      "options": [
+        "Protons and electrons",
+        "Protons and neutrons",
+        "Neutrons and electrons",
+        "Protons only"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "questionNumber": 20,
+      "question": "Which of the following is an alkali metal?",
+      "options": [
+        "Magnesium",
+        "Sodium",
+        "Calcium",
+        "Aluminum"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "questionNumber": 21,
+      "question": "The spontaneous decay of an unstable atomic nucleus is called:",
+      "options": [
+        "Fusion",
+        "Fission",
+        "Radioactivity",
+        "Ionization"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "questionNumber": 22,
+      "question": "The molar volume of any gas at S.T.P is:",
+      "options": [
+        "22.4 dm³",
+        "24.0 dm³",
+        "11.2 dm³",
+        "44.8 dm³"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "questionNumber": 23,
+      "question": "Which of these is used to test for the presence of starch?",
+      "options": [
+        "Benedict's solution",
+        "Iodine solution",
+        "Millon's reagent",
+        "Fehling's solution"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "questionNumber": 24,
+      "question": "The bond in Sodium Chloride ($NaCl$) is:",
+      "options": [
+        "Covalent",
+        "Ionic",
+        "Metallic",
+        "Hydrogen bond"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "questionNumber": 25,
+      "question": "Which of the following is an isotope of Hydrogen?",
+      "options": [
+        "Deuterium",
+        "Helium",
+        "Lithium",
+        "Beryllium"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "questionNumber": 26,
+      "question": "The heat change at constant pressure is known as:",
+      "options": [
+        "Entropy",
+        "Enthalpy",
+        "Free energy",
+        "Internal energy"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "questionNumber": 27,
+      "question": "What is the empirical formula of Benzene ($C_6H_6$)?",
+      "options": [
+        "$C_2H_2$",
+        "$CH$",
+        "$C_3H_3$",
+        "$C_6H_6$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "questionNumber": 28,
+      "question": "Which of the following is a trihydric alcohol?",
+      "options": [
+        "Ethanol",
+        "Propan-2-ol",
+        "Glycerol",
+        "Glycol"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "questionNumber": 29,
+      "question": "The major constituent of natural gas is:",
+      "options": [
+        "Ethane",
+        "Methane",
+        "Propane",
+        "Butane"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "questionNumber": 30,
+      "question": "During the electrolysis of copper(II) sulphate using copper electrodes, the anode:",
+      "options": [
+        "Gains mass",
+        "Dissolves",
+        "Evolves oxygen",
+        "Evolves hydrogen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "questionNumber": 31,
+      "question": "Which of the following is an amphoteric oxide?",
+      "options": [
+        "$Na_2O$",
+        "$MgO$",
+        "$Al_2O_3$",
+        "$SO_2$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 32,
+      "questionNumber": 32,
+      "question": "The state of matter with no definite shape but a definite volume is:",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "questionNumber": 33,
+      "question": "The number of electrons in the outer shell of Halogens is:",
+      "options": [
+        "1",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 34,
+      "questionNumber": 34,
+      "question": "What is the color of phenolphthalein in an acidic solution?",
+      "options": [
+        "Pink",
+        "Colorless",
+        "Yellow",
+        "Blue"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "questionNumber": 35,
+      "question": "Which of the following is a noble gas?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Fluorine",
+        "Oxygen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "questionNumber": 36,
+      "question": "The separation technique used to obtain pure water from sea water is:",
+      "options": [
+        "Filtration",
+        "Distillation",
+        "Evaporation",
+        "Chromatography"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "questionNumber": 37,
+      "question": "The most abundant gas in the atmosphere is:",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "questionNumber": 38,
+      "question": "Hard water contains the following ions except:",
+      "options": [
+        "$Ca^{2+}$",
+        "$Mg^{2+}$",
+        "$Na^{+}$",
+        "$Fe^{2+}$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "questionNumber": 39,
+      "question": "What is the conjugate base of $HCl$?",
+      "options": [
+        "$H^+$",
+        "$Cl^-$",
+        "$OH^-$",
+        "$H_2O$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "questionNumber": 40,
+      "question": "Which of the following is used as a refrigerant?",
+      "options": [
+        "Liquid Nitrogen",
+        "Carbon dioxide",
+        "Ammonia",
+        "Methane"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "questionNumber": 41,
+      "question": "The functional group $-COOH$ represents:",
+      "options": [
+        "Alkanols",
+        "Alkanals",
+        "Alkanoic acids",
+        "Alkanoates"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "questionNumber": 42,
+      "question": "Which of the following exhibits allotropy?",
+      "options": [
+        "Hydrogen",
+        "Sodium",
+        "Sulphur",
+        "Magnesium"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "questionNumber": 43,
+      "question": "The process by which vegetable oil is converted to margarine is:",
+      "options": [
+        "Saponification",
+        "Hydrogenation",
+        "Esterification",
+        "Polymerization"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "questionNumber": 44,
+      "question": "The formula for rust is:",
+      "options": [
+        "$FeO$",
+        "$Fe_2O_3 \\cdot xH_2O$",
+        "$Fe_3O_4$",
+        "$Fe(OH)_2$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "questionNumber": 45,
+      "question": "Which of the following is a greenhouse gas?",
+      "options": [
+        "Nitrogen",
+        "Argon",
+        "Carbon dioxide",
+        "Helium"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 46,
+      "questionNumber": 46,
+      "question": "The bond angle in a tetrahedral molecule like methane is:",
+      "options": [
+        "90°",
+        "104.5°",
+        "109.5°",
+        "120°"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "questionNumber": 47,
+      "question": "What is the concentration of 0.1 mol of $NaOH$ in 500 cm³ of solution?",
+      "options": [
+        "0.1 M",
+        "0.2 M",
+        "0.5 M",
+        "1.0 M"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "questionNumber": 48,
+      "question": "Which element has the electron configuration $1s^2 2s^2 2p^6$?",
+      "options": [
+        "Helium",
+        "Neon",
+        "Argon",
+        "Krypton"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "questionNumber": 49,
+      "question": "The reaction $Acid + Base \\rightarrow Salt + Water$ is called:",
+      "options": [
+        "Hydrolysis",
+        "Neutralization",
+        "Oxidation",
+        "Reduction"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "questionNumber": 50,
+      "question": "Which indicator is best for a titration between a strong acid and a weak base?",
+      "options": [
+        "Methyl orange",
+        "Phenolphthalein",
+        "Litmus",
+        "Bromothymol blue"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "questionNumber": 51,
+      "question": "The constant 'R' in the ideal gas equation $PV = nRT$ is known as the:",
+      "options": [
+        "Universal gas constant",
+        "Boltzmann constant",
+        "Avogadro's constant",
+        "Planck's constant"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 52,
+      "questionNumber": 52,
+      "question": "Which of the following elements is a liquid at room temperature?",
+      "options": [
+        "Mercury",
+        "Iodine",
+        "Phosphorus",
+        "Iron"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 53,
+      "questionNumber": 53,
+      "question": "The gas produced when ammonium salt is heated with an alkali is:",
+      "options": [
+        "Ammonia",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "questionNumber": 54,
+      "question": "Which of these is a saturated hydrocarbon?",
+      "options": [
+        "Ethane",
+        "Ethene",
+        "Ethyne",
+        "Benzene"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "questionNumber": 55,
+      "question": "The oxidation state of Oxygen in most oxides is:",
+      "options": [
+        "-2",
+        "-1",
+        "0",
+        "+2"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "questionNumber": 56,
+      "question": "Water is a polar solvent because of its:",
+      "options": [
+        "High boiling point",
+        "V-shaped molecular structure",
+        "High density",
+        "Lack of color"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "questionNumber": 57,
+      "question": "Which of the following is a property of a base?",
+      "options": [
+        "Sour taste",
+        "Turns red litmus blue",
+        "Reacts with metals to give $H_2$",
+        "PH less than 7"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "questionNumber": 58,
+      "question": "The escape of a gas through a tiny hole into a vacuum is called:",
+      "options": [
+        "Diffusion",
+        "Effusion",
+        "Evaporation",
+        "Sublimation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "questionNumber": 59,
+      "question": "Which law states that the total pressure of a mixture of gases is the sum of the partial pressures?",
+      "options": [
+        "Boyle's Law",
+        "Charles's Law",
+        "Dalton's Law",
+        "Graham's Law"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "questionNumber": 60,
+      "question": "The main ore of aluminum is:",
+      "options": [
+        "Hematite",
+        "Bauxite",
+        "Cassiterite",
+        "Galena"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "questionNumber": 61,
+      "question": "Which of the following is a temporary hardness of water caused by?",
+      "options": [
+        "$CaSO_4$",
+        "$MgCl_2$",
+        "$Ca(HCO_3)_2$",
+        "$MgSO_4$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "questionNumber": 62,
+      "question": "The process of cracking in petroleum industry is used to:",
+      "options": [
+        "Combine small molecules",
+        "Break large molecules",
+        "Remove impurities",
+        "Purify petrol"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "questionNumber": 63,
+      "question": "Which of the following is a neutral oxide?",
+      "options": [
+        "$CO_2$",
+        "$SO_2$",
+        "$NO$",
+        "$P_4O_{10}$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 64,
+      "questionNumber": 64,
+      "question": "What is the formula of the precipitate formed when $AgNO_3$ reacts with $NaCl$?",
+      "options": [
+        "$AgCl$",
+        "$NaNO_3$",
+        "$AgNa$",
+        "$ClNO_3$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "questionNumber": 65,
+      "question": "The boiling point of water is higher than expected due to:",
+      "options": [
+        "Ionic bonding",
+        "Covalent bonding",
+        "Hydrogen bonding",
+        "Metallic bonding"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "questionNumber": 66,
+      "question": "A reaction in which heat is absorbed from the surroundings is:",
+      "options": [
+        "Exothermic",
+        "Endothermic",
+        "Spontaneous",
+        "Adiabatic"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "questionNumber": 67,
+      "question": "Which of the following is used as an indicator in a weak acid-strong base titration?",
+      "options": [
+        "Methyl orange",
+        "Phenolphthalein",
+        "Litmus",
+        "Methyl red"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "questionNumber": 68,
+      "question": "The most abundant metal in the Earth's crust is:",
+      "options": [
+        "Iron",
+        "Aluminum",
+        "Copper",
+        "Gold"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "questionNumber": 69,
+      "question": "What is the molar mass of $H_2SO_4$? ($H=1, S=32, O=16$)",
+      "options": [
+        "98 g/mol",
+        "49 g/mol",
+        "100 g/mol",
+        "94 g/mol"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "questionNumber": 70,
+      "question": "Which element is found in all organic compounds?",
+      "options": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon",
+        "Sulphur"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "questionNumber": 71,
+      "question": "The separation of a mixture of liquids based on their boiling points is:",
+      "options": [
+        "Filtration",
+        "Fractional distillation",
+        "Decantation",
+        "Centrifugation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "questionNumber": 72,
+      "question": "Which of the following rays has the highest penetrating power?",
+      "options": [
+        "Alpha rays",
+        "Beta rays",
+        "Gamma rays",
+        "X-rays"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 73,
+      "questionNumber": 73,
+      "question": "The number of neutrons in an atom of $^{23}_{11}Na$ is:",
+      "options": [
+        "11",
+        "12",
+        "23",
+        "34"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "questionNumber": 74,
+      "question": "An example of a polysaccharide is:",
+      "options": [
+        "Glucose",
+        "Sucrose",
+        "Starch",
+        "Fructose"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 75,
+      "questionNumber": 75,
+      "question": "The kinetic theory of gases assumes that collisions between molecules are:",
+      "options": [
+        "Inelastic",
+        "Elastic",
+        "Occasional",
+        "Violent"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "questionNumber": 76,
+      "question": "Which of the following can be used to dry Ammonia gas?",
+      "options": [
+        "$H_2SO_4$",
+        "$CaCl_2$",
+        "$CaO$",
+        "$P_4O_{10}$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 77,
+      "questionNumber": 77,
+      "question": "The geometric shape of a methane molecule ($CH_4$) is:",
+      "options": [
+        "Linear",
+        "Planar",
+        "Tetrahedral",
+        "Octahedral"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 78,
+      "questionNumber": 78,
+      "question": "The functional group for Alkanals (Aldehydes) is:",
+      "options": [
+        "$-OH$",
+        "$-CHO$",
+        "$-COOH$",
+        "$-CO-$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "questionNumber": 79,
+      "question": "What is the IUPAC name for $CH_3COOCH_2CH_3$?",
+      "options": [
+        "Ethyl ethanoate",
+        "Methyl propanoate",
+        "Ethyl methanoate",
+        "Propyl ethanoate"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 80,
+      "questionNumber": 80,
+      "question": "Which of the following is a strong electrolyte?",
+      "options": [
+        "Acetic acid",
+        "Ammonium hydroxide",
+        "Sodium chloride",
+        "Pure water"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "questionNumber": 81,
+      "question": "The bleaching action of Chlorine is due to its ability to:",
+      "options": [
+        "Reduce",
+        "Oxidize",
+        "Neutralize",
+        "Dehydrate"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 82,
+      "questionNumber": 82,
+      "question": "Which gas is used in filling balloons because it is light and non-flammable?",
+      "options": [
+        "Hydrogen",
+        "Helium",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 83,
+      "questionNumber": 83,
+      "question": "The catalyst used in the Haber process for the manufacture of Ammonia is:",
+      "options": [
+        "Platinum",
+        "Vanadium(V) oxide",
+        "Finely divided iron",
+        "Nickel"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 84,
+      "questionNumber": 84,
+      "question": "What is the oxidation number of Chromium in $K_2Cr_2O_7$?",
+      "options": [
+        "+3",
+        "+6",
+        "+7",
+        "+4"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 85,
+      "questionNumber": 85,
+      "question": "Which of the following is an example of an ester?",
+      "options": [
+        "Fat",
+        "Protein",
+        "Cellulose",
+        "Rubber"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 86,
+      "questionNumber": 86,
+      "question": "The unit of entropy is:",
+      "options": [
+        "$J/mol$",
+        "$J/K \\cdot mol$",
+        "$kJ/mol$",
+        "$K/J$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "questionNumber": 87,
+      "question": "The movement of liquid particles from a region of higher concentration to lower concentration is:",
+      "options": [
+        "Osmosis",
+        "Diffusion",
+        "Effusion",
+        "Active transport"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "questionNumber": 88,
+      "question": "Which of the following is a primary cell?",
+      "options": [
+        "Leclanché cell",
+        "Lead-acid accumulator",
+        "Nickel-cadmium battery",
+        "Lithium-ion battery"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 89,
+      "questionNumber": 89,
+      "question": "The monomer of natural rubber is:",
+      "options": [
+        "Ethylene",
+        "Isoprene",
+        "Styrene",
+        "Vinyl chloride"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "questionNumber": 90,
+      "question": "Which of the following is a basic oxide?",
+      "options": [
+        "$NO_2$",
+        "$CO_2$",
+        "$Na_2O$",
+        "$Al_2O_3$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 91,
+      "questionNumber": 91,
+      "question": "The law of mass action states that the rate of reaction is proportional to the:",
+      "options": [
+        "Temperature",
+        "Surface area",
+        "Active mass of reactants",
+        "Pressure"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 92,
+      "questionNumber": 92,
+      "question": "Which of the following metals is extracted by electrolysis of its molten ore?",
+      "options": [
+        "Iron",
+        "Copper",
+        "Aluminum",
+        "Lead"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 93,
+      "questionNumber": 93,
+      "question": "The gas that gives a pop sound with a glowing splinter is:",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 94,
+      "questionNumber": 94,
+      "question": "Which of the following is a property of Transition Metals?",
+      "options": [
+        "Low melting points",
+        "Form colorless compounds",
+        "Variable oxidation states",
+        "Highly reactive with water"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 95,
+      "questionNumber": 95,
+      "question": "A solution that can resist a change in PH when small amounts of acid or base are added is a:",
+      "options": [
+        "Saturated solution",
+        "Buffer solution",
+        "Standard solution",
+        "Colloidal solution"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 96,
+      "questionNumber": 96,
+      "question": "The formula for Ozone is:",
+      "options": [
+        "$O$",
+        "$O_2$",
+        "$O_3$",
+        "$O_4$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 97,
+      "questionNumber": 97,
+      "question": "What is the name of the process used to extract Sulphur from underground deposits?",
+      "options": [
+        "Contact process",
+        "Frasch process",
+        "Haber process",
+        "Solvay process"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 98,
+      "questionNumber": 98,
+      "question": "Which of the following is used in the manufacture of glass?",
+      "options": [
+        "$NaCl$",
+        "$Na_2CO_3$",
+        "$NaHCO_3$",
+        "$NaOH$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 99,
+      "questionNumber": 99,
+      "question": "The number of electrons in the $Ca^{2+}$ ion is: (Atomic number of $Ca = 20$)",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "40"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 100,
+      "questionNumber": 100,
+      "question": "Which of the following is an example of a chemical change?",
+      "options": [
+        "Sublimation of iodine",
+        "Dissolving sugar in water",
+        "Fermentation of glucose",
+        "Boiling of water"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 101,
+      "questionNumber": 101,
+      "question": "Which of the following is the most reactive metal?",
+      "options": [
+        "Potassium",
+        "Sodium",
+        "Calcium",
+        "Magnesium"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 102,
+      "questionNumber": 102,
+      "question": "The gas that turns acidified potassium dichromate(VI) paper from orange to green is:",
+      "options": [
+        "$CO_2$",
+        "$SO_2$",
+        "$H_2S$",
+        "$NH_3$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 103,
+      "questionNumber": 103,
+      "question": "What is the concentration of a solution containing 4g of $NaOH$ in 250cm³ of solution? ($Na=23, O=16, H=1$)",
+      "options": [
+        "0.1 mol/dm³",
+        "0.2 mol/dm³",
+        "0.4 mol/dm³",
+        "1.0 mol/dm³"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "questionNumber": 104,
+      "question": "Which of the following is an example of a coordinate (dative) covalent bond?",
+      "options": [
+        "$NH_3$",
+        "$CH_4$",
+        "$NH_4^+$",
+        "$H_2O$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 105,
+      "questionNumber": 105,
+      "question": "The process of heating an ore in the absence of air to remove volatile matter is:",
+      "options": [
+        "Roasting",
+        "Calcination",
+        "Smelting",
+        "Froth flotation"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "questionNumber": 106,
+      "question": "Which of the following is a condensation polymer?",
+      "options": [
+        "Polyethylene",
+        "Nylon-6,6",
+        "Polyvinyl chloride",
+        "Polystyrene"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 107,
+      "questionNumber": 107,
+      "question": "The shape of an ammonia molecule is:",
+      "options": [
+        "Tetrahedral",
+        "Trigonal planar",
+        "Trigonal pyramidal",
+        "Linear"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "questionNumber": 108,
+      "question": "Which of the following salts is insoluble in water?",
+      "options": [
+        "$Na_2CO_3$",
+        "$K_2SO_4$",
+        "$PbCl_2$ (cold)",
+        "$(NH_4)_2SO_4$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 109,
+      "questionNumber": 109,
+      "question": "The major product of the dehydration of ethanol is:",
+      "options": [
+        "Ethane",
+        "Ethene",
+        "Ethyne",
+        "Diethyl ether"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 110,
+      "questionNumber": 110,
+      "question": "In the extraction of iron, the function of limestone is to:",
+      "options": [
+        "Act as a reducing agent",
+        "Act as a flux to remove impurities",
+        "Act as a fuel",
+        "Provide oxygen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 111,
+      "questionNumber": 111,
+      "question": "Which of the following is a physical property of Chlorine?",
+      "options": [
+        "It is a greenish-yellow gas",
+        "It is a powerful oxidizing agent",
+        "It bleaches moist litmus paper",
+        "It reacts with metals"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 112,
+      "questionNumber": 112,
+      "question": "The number of electrons present in the $L$ shell of a Carbon atom is:",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 113,
+      "questionNumber": 113,
+      "question": "Which of the following gases is used in the manufacturing of margarine?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen",
+        "Chlorine"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 114,
+      "questionNumber": 114,
+      "question": "The formula of the gas that occupies 11.2 dm³ at S.T.P. and has a mass of 22g is:",
+      "options": [
+        "$O_2$",
+        "$CO_2$",
+        "$N_2$",
+        "$CH_4$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 115,
+      "questionNumber": 115,
+      "question": "The chemical used to detect the presence of water is:",
+      "options": [
+        "Anhydrous copper(II) sulphate",
+        "Calcium oxide",
+        "Sodium hydroxide",
+        "Potassium permanganate"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 116,
+      "questionNumber": 116,
+      "question": "Which of the following is a property of Alkanes?",
+      "options": [
+        "They are highly reactive",
+        "They undergo addition reactions",
+        "They undergo substitution reactions",
+        "They decolorize bromine water"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 117,
+      "questionNumber": 117,
+      "question": "The PH of a 0.01 mol/dm³ solution of $HCl$ is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "7"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 118,
+      "questionNumber": 118,
+      "question": "Which of the following is a characteristic of a catalyst?",
+      "options": [
+        "It is used up in the reaction",
+        "It starts a reaction",
+        "It alters the rate of reaction",
+        "It increases the yield of products"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 119,
+      "questionNumber": 119,
+      "question": "The oxidation of ethanol with acidified potassium dichromate(VI) yields:",
+      "options": [
+        "Ethane",
+        "Ethanal",
+        "Ethanoic acid",
+        "Ethene"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 120,
+      "questionNumber": 120,
+      "question": "Which of the following is a form of amorphous carbon?",
+      "options": [
+        "Diamond",
+        "Graphite",
+        "Lampblack",
+        "Buckminsterfullerene"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 121,
+      "questionNumber": 121,
+      "question": "The electrode at which oxidation occurs during electrolysis is the:",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Voltmeter",
+        "Electrolyte"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 122,
+      "questionNumber": 122,
+      "question": "Which of the following describes the Brown Ring Test?",
+      "options": [
+        "Test for $SO_4^{2-}$",
+        "Test for $NO_3^-$",
+        "Test for $CO_3^{2-}$",
+        "Test for $Cl^-$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "questionNumber": 123,
+      "question": "The main component of the shells of sea creatures is:",
+      "options": [
+        "$CaSO_4$",
+        "$MgCl_2$",
+        "$CaCO_3$",
+        "$NaCl$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 124,
+      "questionNumber": 124,
+      "question": "Which gas is produced by the action of cold water on calcium carbide?",
+      "options": [
+        "Methane",
+        "Ethane",
+        "Ethyne (Acetylene)",
+        "Ethene"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 125,
+      "questionNumber": 125,
+      "question": "The type of bond in $NH_4Cl$ includes:",
+      "options": [
+        "Ionic and Covalent only",
+        "Ionic, Covalent, and Dative",
+        "Metallic and Covalent",
+        "Dative and Metallic"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "questionNumber": 126,
+      "question": "What is the molarity of a solution containing 0.5 moles in 2.0 dm³?",
+      "options": [
+        "0.25 M",
+        "1.0 M",
+        "0.5 M",
+        "4.0 M"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "questionNumber": 127,
+      "question": "Which of the following is the catalyst for the Contact Process?",
+      "options": [
+        "Iron",
+        "Nickel",
+        "Vanadium(V) oxide",
+        "Platinum"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 128,
+      "questionNumber": 128,
+      "question": "The process by which large amounts of energy are released when small nuclei combine is:",
+      "options": [
+        "Nuclear fission",
+        "Nuclear fusion",
+        "Radioactive decay",
+        "Ionization"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 129,
+      "questionNumber": 129,
+      "question": "Which of the following turns anhydrous cobalt(II) chloride paper from blue to pink?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Water vapor",
+        "Carbon dioxide"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "questionNumber": 130,
+      "question": "The gas responsible for the rotten egg smell is:",
+      "options": [
+        "$NH_3$",
+        "$SO_2$",
+        "$H_2S$",
+        "$HCl$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 131,
+      "questionNumber": 131,
+      "question": "The general formula for the Alkyne series is:",
+      "options": [
+        "$C_nH_{2n+2}$",
+        "$C_nH_{2n}$",
+        "$C_nH_{2n-2}$",
+        "$C_nH_{2n-1}$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 132,
+      "questionNumber": 132,
+      "question": "Which of the following is a primary constituent of Bronze?",
+      "options": [
+        "Copper and Zinc",
+        "Copper and Tin",
+        "Iron and Carbon",
+        "Aluminum and Copper"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "questionNumber": 133,
+      "question": "The formula of the oxide formed when Magnesium burns in air is:",
+      "options": [
+        "$Mg_2O$",
+        "$MgO$",
+        "$MgO_2$",
+        "$Mg_2O_3$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "questionNumber": 134,
+      "question": "Which of the following is a weak acid?",
+      "options": [
+        "$H_2SO_4$",
+        "$HCl$",
+        "$HNO_3$",
+        "$CH_3COOH$"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 135,
+      "questionNumber": 135,
+      "question": "The maximum number of electrons that can be held in the $M$ shell is:",
+      "options": [
+        "2",
+        "8",
+        "18",
+        "32"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 136,
+      "questionNumber": 136,
+      "question": "The removal of impurities from an ore using water and chemicals is:",
+      "options": [
+        "Smelting",
+        "Froth flotation",
+        "Electrolysis",
+        "Roasting"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 137,
+      "questionNumber": 137,
+      "question": "Which of the following is used in the manufacture of matches?",
+      "options": [
+        "Nitrogen",
+        "Phosphorus",
+        "Chlorine",
+        "Sulphur"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "questionNumber": 138,
+      "question": "What is the name of the process by which a solid changes directly to a gas?",
+      "options": [
+        "Evaporation",
+        "Sublimation",
+        "Condensation",
+        "Deposition"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "questionNumber": 139,
+      "question": "The flame color of Potassium salt in a flame test is:",
+      "options": [
+        "Golden yellow",
+        "Lilac",
+        "Brick red",
+        "Apple green"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 140,
+      "questionNumber": 140,
+      "question": "Which of the following gases is a major air pollutant causing acid rain?",
+      "options": [
+        "$CO$",
+        "$SO_2$",
+        "$CH_4$",
+        "$O_2$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 141,
+      "questionNumber": 141,
+      "question": "The bond in a nitrogen molecule ($N_2$) is a:",
+      "options": [
+        "Single covalent bond",
+        "Double covalent bond",
+        "Triple covalent bond",
+        "Ionic bond"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 142,
+      "questionNumber": 142,
+      "question": "The density of a gas at S.T.P. is given by:",
+      "options": [
+        "Molar Mass / 22.4",
+        "22.4 / Molar Mass",
+        "Molar Mass × 22.4",
+        "Volume / Mass"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 143,
+      "questionNumber": 143,
+      "question": "Which of the following is an allotrope of Oxygen?",
+      "options": [
+        "Ozone",
+        "Graphite",
+        "Diamond",
+        "Sulphur"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 144,
+      "questionNumber": 144,
+      "question": "The functional group for Alkanones (Ketones) is:",
+      "options": [
+        "$-OH$",
+        "$-CHO$",
+        "$-CO-$",
+        "$-COOH$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 145,
+      "questionNumber": 145,
+      "question": "Which of the following is a synthetic rubber?",
+      "options": [
+        "Isoprene",
+        "Neoprene",
+        "Cellulose",
+        "Protein"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 146,
+      "questionNumber": 146,
+      "question": "The standard unit for measuring temperature in gas law calculations is:",
+      "options": [
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin",
+        "Rankine"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 147,
+      "questionNumber": 147,
+      "question": "Which of the following is a reducing agent in the blast furnace?",
+      "options": [
+        "$CO_2$",
+        "$CO$",
+        "$O_2$",
+        "$CaCO_3$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "questionNumber": 148,
+      "question": "The method used to separate a mixture of ink colors is:",
+      "options": [
+        "Distillation",
+        "Filtration",
+        "Chromatography",
+        "Crystallization"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 149,
+      "questionNumber": 149,
+      "question": "The gas evolved when steam is passed over red-hot iron is:",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Nitrogen",
+        "Carbon monoxide"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 150,
+      "questionNumber": 150,
+      "question": "Which of the following compounds will react with ammoniacal silver trioxonitrate(V) to give a silver mirror?",
+      "options": [
+        "Ethanol",
+        "Ethanal",
+        "Ethanoic acid",
+        "Ethyl ethanoate"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 151,
+      "questionNumber": 151,
+      "question": "Which of the following is a product of the reaction between an alkanoic acid and an alkanol?",
+      "options": [
+        "Ester",
+        "Ether",
+        "Ketone",
+        "Aldehyde"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 152,
+      "questionNumber": 152,
+      "question": "The gas that is used to preserve food by displacing oxygen in packaging is:",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Chlorine"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 153,
+      "questionNumber": 153,
+      "question": "Which of the following describes the nature of a solution with a pH of 3?",
+      "options": [
+        "Strongly alkaline",
+        "Weakly alkaline",
+        "Strongly acidic",
+        "Weakly acidic"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 154,
+      "questionNumber": 154,
+      "question": "The catalyst used in the hydrogenation of vegetable oils is:",
+      "options": [
+        "Platinum",
+        "Copper",
+        "Nickel",
+        "Iron"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 155,
+      "questionNumber": 155,
+      "question": "Which of the following is an example of a double salt?",
+      "options": [
+        "$NaCl$",
+        "$K_4Fe(CN)_6$",
+        "$KAl(SO_4)_2 \\cdot 12H_2O$",
+        "$CuSO_4 \\cdot 5H_2O$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 156,
+      "questionNumber": 156,
+      "question": "The property of an element to exist in two or more forms in the same physical state is:",
+      "options": [
+        "Isomerism",
+        "Allotropy",
+        "Isotropy",
+        "Hygroscopy"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 157,
+      "questionNumber": 157,
+      "question": "Which of the following gases is collected by upward delivery because it is less dense than air?",
+      "options": [
+        "$CO_2$",
+        "$Cl_2$",
+        "$NH_3$",
+        "$SO_2$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 158,
+      "questionNumber": 158,
+      "question": "The oxidation state of Nitrogen in $NO_2$ is:",
+      "options": [
+        "+2",
+        "+3",
+        "+4",
+        "+5"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 159,
+      "questionNumber": 159,
+      "question": "What is the name of the process by which soap is manufactured from fats and oils?",
+      "options": [
+        "Esterification",
+        "Saponification",
+        "Hydrogenation",
+        "Polymerization"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 160,
+      "questionNumber": 160,
+      "question": "Which of the following is the most abundant element in the universe?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Helium",
+        "Nitrogen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 161,
+      "questionNumber": 161,
+      "question": "The type of bond found in the diamond crystal is:",
+      "options": [
+        "Ionic",
+        "Metallic",
+        "Covalent",
+        "Van der Waals"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 162,
+      "questionNumber": 162,
+      "question": "Which of the following ions will cause a white precipitate with $AgNO_3$ that dissolves in excess aqueous ammonia?",
+      "options": [
+        "$Cl^-$",
+        "$Br^-$",
+        "$I^-$",
+        "$SO_4^{2-}$"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 163,
+      "questionNumber": 163,
+      "question": "The heat of reaction is independent of the pathway taken according to:",
+      "options": [
+        "Boyle's Law",
+        "Hess's Law",
+        "Le Chatelier's Principle",
+        "Gay-Lussac's Law"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 164,
+      "questionNumber": 164,
+      "question": "Which of the following is used to remove temporary hardness in water by boiling?",
+      "options": [
+        "$Ca(OH)_2$",
+        "$Na_2CO_3$",
+        "$MgSO_4$",
+        "Heat"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 165,
+      "questionNumber": 165,
+      "question": "The functional group $-OH$ is characteristic of:",
+      "options": [
+        "Alkanals",
+        "Alkanones",
+        "Alkanols",
+        "Alkanoic acids"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 166,
+      "questionNumber": 166,
+      "question": "Which gas is used in the manufacture of nitric acid by the Ostwald process?",
+      "options": [
+        "Nitrogen",
+        "Ammonia",
+        "Sulphur dioxide",
+        "Hydrogen"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 167,
+      "questionNumber": 167,
+      "question": "The most reactive halogen is:",
+      "options": [
+        "Chlorine",
+        "Bromine",
+        "Iodine",
+        "Fluorine"
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 168,
+      "questionNumber": 168,
+      "question": "Which of the following is a physical change?",
+      "options": [
+        "Burning a candle",
+        "Rusting of iron",
+        "Melting of sulfur",
+        "Digestion of food"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 169,
+      "questionNumber": 169,
+      "question": "The formula of the gas that turns acidified $KMnO_4$ from purple to colorless is:",
+      "options": [
+        "$CO_2$",
+        "$SO_2$",
+        "$O_2$",
+        "$NH_3$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 170,
+      "questionNumber": 170,
+      "question": "Which of the following is an example of an endothermic process?",
+      "options": [
+        "Burning fuel",
+        "Evaporation of water",
+        "Neutralization",
+        "Respiration"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 171,
+      "questionNumber": 171,
+      "question": "The mass of one mole of $CaCO_3$ is: ($Ca=40, C=12, O=16$)",
+      "options": [
+        "50g",
+        "100g",
+        "150g",
+        "200g"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 172,
+      "questionNumber": 172,
+      "question": "Which of the following is a characteristic of a covalent compound?",
+      "options": [
+        "High melting point",
+        "Conducts electricity in water",
+        "Low boiling point",
+        "Soluble in polar solvents"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 173,
+      "questionNumber": 173,
+      "question": "The gas evolved when $Zn$ reacts with dilute $H_2SO_4$ is:",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Sulphur dioxide",
+        "Hydrogen sulphide"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 174,
+      "questionNumber": 174,
+      "question": "Which of the following represents an unsaturated hydrocarbon?",
+      "options": [
+        "$CH_4$",
+        "$C_2H_6$",
+        "$C_3H_6$",
+        "$C_4H_{10}$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 175,
+      "questionNumber": 175,
+      "question": "The isotope of carbon used in carbon dating is:",
+      "options": [
+        "C-12",
+        "C-13",
+        "C-14",
+        "C-16"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 176,
+      "questionNumber": 176,
+      "question": "Which of the following is a major constituent of natural gas?",
+      "options": [
+        "Ethane",
+        "Methane",
+        "Propane",
+        "Butane"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 177,
+      "questionNumber": 177,
+      "question": "The reagent used for testing the presence of a double bond in an alkene is:",
+      "options": [
+        "Bromine water",
+        "Lime water",
+        "Fehling's solution",
+        "Copper(II) sulphate"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 178,
+      "questionNumber": 178,
+      "question": "The law that states that the volume of a given mass of gas is directly proportional to its absolute temperature at constant pressure is:",
+      "options": [
+        "Boyle's Law",
+        "Charles's Law",
+        "Avogadro's Law",
+        "Graham's Law"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 179,
+      "questionNumber": 179,
+      "question": "Which of the following is used as an anesthetic in hospitals?",
+      "options": [
+        "Nitrous oxide",
+        "Carbon monoxide",
+        "Chlorine",
+        "Nitrogen dioxide"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 180,
+      "questionNumber": 180,
+      "question": "The number of valence electrons in a chlorine atom is:",
+      "options": [
+        "1",
+        "5",
+        "7",
+        "8"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 181,
+      "questionNumber": 181,
+      "question": "What is the IUPAC name for $CH_3CH_2CHO$?",
+      "options": [
+        "Ethanal",
+        "Propanal",
+        "Butanal",
+        "Ethanol"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 182,
+      "questionNumber": 182,
+      "question": "Which of the following ions gives a blue color with aqueous ammonia in excess?",
+      "options": [
+        "$Fe^{2+}$",
+        "$Fe^{3+}$",
+        "$Cu^{2+}$",
+        "$Zn^{2+}$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 183,
+      "questionNumber": 183,
+      "question": "The catalyst used in the manufacture of sulphuric acid by the contact process is:",
+      "options": [
+        "Iron",
+        "Nickel",
+        "Vanadium(V) oxide",
+        "Platinum"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 184,
+      "questionNumber": 184,
+      "question": "The electrode at which electrons are gained in electrolysis is the:",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Electrolyte",
+        "Bridge"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "questionNumber": 185,
+      "question": "Which of the following is an alkaline gas?",
+      "options": [
+        "$SO_2$",
+        "$NO_2$",
+        "$NH_3$",
+        "$HCl$"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 186,
+      "questionNumber": 186,
+      "question": "The compound used in the fire extinguisher to generate carbon dioxide is:",
+      "options": [
+        "$NaCl$",
+        "$NaHCO_3$",
+        "$NaOH$",
+        "$Na_2CO_3$"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 187,
+      "questionNumber": 187,
+      "question": "The type of linkage found in proteins is:",
+      "options": [
+        "Ester linkage",
+        "Glycosidic linkage",
+        "Peptide linkage",
+        "Metallic linkage"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 188,
+      "questionNumber": 188,
+      "question": "Which of the following elements belongs to the alkaline earth metals group?",
+      "options": [
+        "Sodium",
+        "Calcium",
+        "Potassium",
+        "Aluminum"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 189,
+      "questionNumber": 189,
+      "question": "The process of splitting heavy petroleum fractions into lighter ones is:",
+      "options": [
+        "Polymerization",
+        "Cracking",
+        "Fractionation",
+        "Refining"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 190,
+      "questionNumber": 190,
+      "question": "The indicator used for titration of a weak acid and a strong base is:",
+      "options": [
+        "Methyl orange",
+        "Phenolphthalein",
+        "Litmus",
+        "Screened methyl orange"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 191,
+      "questionNumber": 191,
+      "question": "Which of the following is a greenhouse gas?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 192,
+      "questionNumber": 192,
+      "question": "The geometry of a water molecule is:",
+      "options": [
+        "Linear",
+        "Angular",
+        "Tetrahedral",
+        "Pyramidal"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 193,
+      "questionNumber": 193,
+      "question": "Which of the following is a common name for ethanoic acid?",
+      "options": [
+        "Formic acid",
+        "Acetic acid",
+        "Butyric acid",
+        "Propionic acid"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 194,
+      "questionNumber": 194,
+      "question": "The property of some liquids to flow slowly is known as:",
+      "options": [
+        "Surface tension",
+        "Viscosity",
+        "Volatality",
+        "Diffusivity"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 195,
+      "questionNumber": 195,
+      "question": "The standard reduction potential is measured at:",
+      "options": [
+        "0°C",
+        "25°C",
+        "100°C",
+        "37°C"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 196,
+      "questionNumber": 196,
+      "question": "Which of the following is the catalyst for the Haber process?",
+      "options": [
+        "Nickel",
+        "Iron",
+        "Platinum",
+        "V2O5"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 197,
+      "questionNumber": 197,
+      "question": "The gas produced when dilute hydrochloric acid reacts with reactive metals is:",
+      "options": [
+        "Chlorine",
+        "Hydrogen",
+        "Oxygen",
+        "Water vapor"
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 198,
+      "questionNumber": 198,
+      "question": "Which of the following describes the bond in hydrogen chloride ($HCl$)?",
+      "options": [
+        "Ionic",
+        "Non-polar covalent",
+        "Polar covalent",
+        "Metallic"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 199,
+      "questionNumber": 199,
+      "question": "The main component of LPG (Liquefied Petroleum Gas) is:",
+      "options": [
+        "Methane",
+        "Ethane",
+        "Butane",
+        "Hexane"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 200,
+      "questionNumber": 200,
+      "question": "Which of the following is a subatomic particle with no charge?",
+      "options": [
+        "Proton",
+        "Electron",
+        "Neutron",
+        "Positron"
+      ],
+      "answer": "C"
+    }
+  ]
+}
