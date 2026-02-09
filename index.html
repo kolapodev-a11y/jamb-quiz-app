@@ -1,38 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        
-  <!-- ADD THIS FIRST -->
-    <script>
-    // Fix GitHub Pages base path BEFORE anything loads
-    if (location.hostname === 'kolapodev-a11y.github.io' && 
-        !location.pathname.startsWith('/jamb-quiz-app/')) {
-        location.pathname = '/jamb-quiz-app' + location.pathname;
-        }
-    </script>
-  <!-- REST OF YOUR HEAD -->
-        <!-- ADD THIS TO THE TOP OF <head> -->
-    <base href="/">
-    <script>
-     // Fix GitHub Pages subdirectory issue
-      if (location.pathname.startsWith('/jamb-quiz-app')) {
-        const base = document.querySelector('base');
-        base.href = '/jamb-quiz-app/';
-        }
-    </script>
+    <!-- CRITICAL: Base path for GitHub Pages -->
+    <base href="/jamb-quiz-app/">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="JAMB UTME Quiz Practice App - Prepare for your exams with past questions">
+    <meta name="description" content="JAMB UTME Quiz Practice App">
     <meta name="theme-color" content="#1a472a">
     <title>JAMB UTME Quiz App</title>
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="images/icon-192.png">
-    <!-- KaTeX for math rendering (FIXED: no trailing spaces) -->
+    
+    <!-- KaTeX (FIXED: NO TRAILING SPACES) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
-
 </head>
 <body>
     <!-- Home Screen -->
