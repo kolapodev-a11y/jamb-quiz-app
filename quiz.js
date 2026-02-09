@@ -1,348 +1,378 @@
 // ============================================
-// JAMB Quiz App - Main Application Logic
+// JAMB Quiz App - Quiz Logic
 // ============================================
 
-let currentMode = '';
-let selectedSubjects = ['english']; // English is always selected
-let quizData = [];
-let currentQuestionIndex = 0;
-let userAnswers = [];
-let quizStartTime = null;
-let timerInterval = null;
-let totalTimeSeconds = 0;
-let stats = {
-    totalQuizzes: 0,
-    scores: [],
-    bestScore: 0
-};
-
-// PWA Installation
-let deferredPrompt;
-
-window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    document.getElementById('installBtn').style.display = 'block';
-});
-
-document.getElementById('installBtn')?.addEventListener('click', async () => {
-    if (deferredPrompt) {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        console.log(`User response: ${outcome}`);
-        deferredPrompt = null;
-        document.getElementById('installBtn').style.display = 'none';
-    }
-});
-
-// ============================================
-// Initialize App
-// ============================================
-
-function initApp() {
-    loadStats();
-    displayStats();
-    setupEventListeners();
-}
-
-function setupEventListeners() {
-    // Handle card clicks → delegate to checkbox (for non-compulsory)
-    document.querySelectorAll('.subject-card:not(.compulsory)').forEach(card => {
-        card.addEventListener('click', function(e) {
-            if (e.target.closest('input[type="checkbox"]')) return;
-            const cb = this.querySelector('.subject-checkbox');
-            if (cb) cb.click();
-        });
-    });
-
-    // Single, clean event listener for checkboxes
-    document.querySelectorAll('.subject-checkbox').forEach(checkbox => {
-        checkbox.addEventListener('change', function() {
-            const card = this.closest('.subject-card');
-            if (!card) return;
-
-            const isChecked = this.checked;
-            const selectedNonCompulsory = document.querySelectorAll('.subject-checkbox:checked').length;
-
-            // Enforce max 3 extra subjects
-            if (isChecked && selectedNonCompulsory > 3) {
-                this.checked = false;
-                alert('You can only select 3 subjects besides English.');
-                return;
-            }
-
-            // Update UI
-            card.classList.toggle('selected', isChecked);
-            updateSelectedCount();
-        });
+// KaTeX Rendering Helper
+function renderLatexInElement(el) {
+    if (typeof renderMathInElement !== "function" || !el) return;
+    renderMathInElement(el, {
+        delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false }
+        ],
+        throwOnError: false
     });
 }
 
-// ============================================
-// Screen Navigation
-// ============================================
-
-function showScreen(screenId) {
-    document.querySelectorAll('.screen').forEach(screen => {
-        screen.classList.remove('active');
-    });
-    document.getElementById(screenId).classList.add('active');
+// Bold Text Formatter (for **text** syntax)
+function formatBoldStars(text) {
+    if (typeof text !== 'string') return text;
+    return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 }
 
-function goHome() {
-    showScreen('home-screen');
-    resetQuiz();
-}
+// Global: Track current English passage
+let currentDisplayedPassage = "";
 
 // ============================================
-// Mode Selection
+// Display Question
 // ============================================
 
-function selectMode(mode) {
-    currentMode = mode;
-    showScreen('subject-screen');
+function displayQuestion() {
+    if (currentQuestionIndex >= quizData.length) return;
+
+    const question = quizData[currentQuestionIndex];
     
-    const modeInfo = document.getElementById('modeInfo');
-    if (mode === 'test') {
-        modeInfo.textContent = '📝 Test Mode: 10 questions per subject';
-    } else {
-        modeInfo.textContent = '🎯 Exam Mode: 60 English + 40 questions per other subject';
-    }
-}
+    // Update UI elements
+    document.getElementById('currentQuestion').textContent = currentQuestionIndex + 1;
+    document.getElementById('qNumber').textContent = currentQuestionIndex + 1;
+    document.getElementById('currentSubject').textContent = question.subjectDisplay || capitalizeFirst(question.subject);
+    
+    const questionTextEl = document.getElementById('questionText');
+    const passageBox = document.getElementById('passageBox');
+    let qText = question.question || '';
 
-// ============================================
-// Subject Selection & Count
-// ============================================
-
-function updateSelectedCount() {
-    const selectedCheckboxes = document.querySelectorAll('.subject-checkbox:checked');
-    const count = selectedCheckboxes.length + 1; // +1 for English
-
-    // Build list: always start with English, then others
-    const otherSubjects = [];
-    selectedCheckboxes.forEach(cb => {
-        const card = cb.closest('.subject-card');
-        if (card && card.dataset.subject && card.dataset.subject !== 'english') {
-            otherSubjects.push(card.dataset.subject);
+    // Handle English passage display
+    if (question.subject === 'english' && question._passageText) {
+        if (question._isPassageStart) {
+            currentDisplayedPassage = question._passageText;
         }
+        passageBox.style.display = 'block';
+        passageBox.innerHTML = `<h3>Comprehension Passage</h3><p>${formatBoldStars(currentDisplayedPassage)}</p>`;
+    } else {
+        passageBox.style.display = 'none';
+        currentDisplayedPassage = '';
+    }
+
+    // Format question text and render
+    qText = formatBoldStars(qText);
+    questionTextEl.innerHTML = qText;
+    renderLatexInElement(questionTextEl);
+
+    // Update progress bar
+    const progress = ((currentQuestionIndex + 1) / quizData.length) * 100;
+    document.getElementById('progressFill').style.width = `${progress}%`;
+
+    // Render options
+    const optionsContainer = document.getElementById('optionsContainer');
+    optionsContainer.innerHTML = '';
+    const optionLabels = ['A', 'B', 'C', 'D'];
+
+    (question.options || []).forEach((option, index) => {
+        const optionDiv = document.createElement('div');
+        optionDiv.className = 'option';
+        optionDiv.dataset.index = index;
+        
+        if (userAnswers[currentQuestionIndex] === index) {
+            optionDiv.classList.add('selected');
+        }
+        
+        optionDiv.innerHTML = `
+            <div class="option-label">${optionLabels[index]}</div>
+            <div class="option-text">${formatBoldStars(option)}</div>
+        `;
+        
+        optionDiv.addEventListener('click', () => selectOption(index));
+        optionsContainer.appendChild(optionDiv);
+        renderLatexInElement(optionDiv);
     });
 
-    // Ensure max 3 others
-    if (otherSubjects.length > 3) {
-        otherSubjects.length = 3;
-        alert('You can only select 3 subjects besides English.');
-    }
-
-    selectedSubjects = ['english', ...otherSubjects];
-
-    // Update counter
-    document.getElementById('selectedCount').textContent = selectedSubjects.length;
-
-    // Enable Start button
-    const startBtn = document.getElementById('startQuizBtn');
-    if (startBtn) {
-        const shouldEnable = (selectedSubjects.length === 4);
-        startBtn.disabled = !shouldEnable;
-        startBtn.style.opacity = shouldEnable ? '1' : '0.5';
-    }
-}
-
-// ============================================
-// Start Quiz
-// ============================================
-
-async function startQuiz() {
-    // 🔒 Ensure English is first and exactly 4 subjects
-    const uniqueSubjects = ['english'];
-    for (const s of selectedSubjects) {
-        if (s !== 'english' && !uniqueSubjects.includes(s)) {
-            uniqueSubjects.push(s);
-        }
-    }
-    selectedSubjects = uniqueSubjects.slice(0, 4);
-
-    if (selectedSubjects.length !== 4) {
-        alert('Please select exactly 4 subjects (English + 3 others)');
-        return;
-    }
-
-    // Load questions
-    await loadQuestions();
-
-    if (quizData.length === 0) {
-        alert('Failed to load questions. Please check that JSON files are available.');
-        return;
-    }
-
-    // Initialize quiz state
-    currentQuestionIndex = 0;
-    userAnswers = new Array(quizData.length).fill(null);
-    quizStartTime = Date.now();
-
-    // Show quiz screen FIRST so DOM elements exist
-    showScreen('quiz-screen');
-
-    // Start timer AFTER screen is active
-    startTimer();
-
-    // Display first question
-    displayQuestion();
+    // Update navigation
+    updateNavigationButtons();
     updateQuizNavigation();
 }
 
 // ============================================
-// Load Questions
+// Option Selection
 // ============================================
 
-async function loadQuestions() {
-    quizData = [];
+function selectOption(index) {
+    // Deselect all
+    document.querySelectorAll('.option').forEach(opt => {
+        opt.classList.remove('selected');
+    });
     
-    try {
-        for (const subject of selectedSubjects) {
-            const questionsCount = currentMode === 'test' ? 10 : 
-                                  (subject === 'english' ? 60 : 40);
-            
-            const response = await fetch(`data/${subject}.json`);
-            if (!response.ok) {
-                console.error(`❌ Failed to load ${subject}.json`);
-                continue;
-            }
-            
-            const data = await response.json();
-            const allQuestions = data.questions || [];
-            
-            if (allQuestions.length === 0) {
-                console.warn(`⚠️ ${subject}.json has no questions!`);
-                continue;
-            }
+    // Select current
+    const selectedOpt = document.querySelector(`.option[data-index="${index}"]`);
+    if (selectedOpt) selectedOpt.classList.add('selected');
+    
+    // Save answer
+    userAnswers[currentQuestionIndex] = index;
+    updateQuizNavigation();
+}
 
-            const selectedQuestions = getRandomQuestions(allQuestions, questionsCount);
-            
-            selectedQuestions.forEach(q => {
-                quizData.push({
-                    ...q,
-                    subject: subject,
-                    subjectDisplay: capitalizeFirst(subject)
-                });
-            });
+// ============================================
+// Navigation
+// ============================================
+
+function nextQuestion() {
+    if (currentQuestionIndex < quizData.length - 1) {
+        currentQuestionIndex++;
+        displayQuestion();
+    }
+}
+
+function previousQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        displayQuestion();
+    }
+}
+
+function updateNavigationButtons() {
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const submitBtn = document.getElementById('submitBtn');
+    
+    prevBtn.disabled = currentQuestionIndex === 0;
+    prevBtn.style.opacity = currentQuestionIndex === 0 ? '0.5' : '1';
+    
+    if (currentQuestionIndex === quizData.length - 1) {
+        nextBtn.style.display = 'none';
+        submitBtn.style.display = 'block';
+    } else {
+        nextBtn.style.display = 'block';
+        submitBtn.style.display = 'none';
+    }
+}
+
+// ============================================
+// Question Navigator
+// ============================================
+
+function updateQuizNavigation() {
+    const navGrid = document.getElementById('navGrid');
+    if (!navGrid) return;
+    
+    navGrid.innerHTML = '';
+    let currentSubject = '';
+    
+    quizData.forEach((question, index) => {
+        // Add subject header when subject changes
+        if (question.subject !== currentSubject) {
+            currentSubject = question.subject;
+            const subjectHeader = document.createElement('div');
+            subjectHeader.className = 'nav-subject-header';
+            subjectHeader.textContent = question.subjectDisplay || capitalizeFirst(question.subject);
+            navGrid.appendChild(subjectHeader);
         }
 
-        document.getElementById('totalQuestions').textContent = quizData.length;
-    } catch (error) {
-        console.error('Error loading questions:', error);
-    }
+        const navItem = document.createElement('div');
+        navItem.className = 'nav-item';
+        navItem.textContent = index + 1;
+        
+        if (userAnswers[index] !== null) {
+            navItem.classList.add('answered');
+        }
+        
+        if (index === currentQuestionIndex) {
+            navItem.classList.add('current');
+        }
+        
+        navItem.addEventListener('click', () => jumpToQuestion(index));
+        navGrid.appendChild(navItem);
+    });
 }
 
-function getRandomQuestions(questions, count) {
-    const shuffled = shuffleArray([...questions]);
-    return shuffled.slice(0, Math.min(count, shuffled.length));
+function jumpToQuestion(index) {
+    currentQuestionIndex = index;
+    displayQuestion();
 }
 
-function shuffleArray(array) {
-    const result = [...array];
-    for (let i = result.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [result[i], result[j]] = [result[j], result[i]];
-    }
-    return result;
-}
-
-// ============================================
-// Timer (Countdown)
-// ============================================
-
-function startTimer() {
-    // Set total time based on mode
-    if (currentMode === 'exam') {
-        totalTimeSeconds = 120 * 60; // 120 minutes
-    } else {
-        totalTimeSeconds = 26 * 60;  // 26 minutes
-    }
-
-    quizStartTime = Date.now();
-    timerInterval = setInterval(updateTimer, 1000);
-    updateTimer(); // initial display
-}
-
-function updateTimer() {
-    const timeEl = document.getElementById('timeDisplay');
-    if (!timeEl) return; // safety: element not in DOM yet
-
-    const elapsed = Math.floor((Date.now() - quizStartTime) / 1000);
-    let remaining = totalTimeSeconds - elapsed;
-
-    if (remaining <= 0) {
-        remaining = 0;
-        stopTimer();
-        alert("Time's up! Quiz submitted automatically.");
-        submitQuiz();
-        return;
-    }
-
-    const mins = Math.floor(remaining / 60);
-    const secs = remaining % 60;
-
-    timeEl.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
-}
-
-function stopTimer() {
-    if (timerInterval) {
-        clearInterval(timerInterval);
-        timerInterval = null;
-    }
+function toggleNavigator() {
+    const navGrid = document.getElementById('navGrid');
+    if (navGrid) navGrid.classList.toggle('active');
 }
 
 // ============================================
-// Statistics
+// Submit Quiz
 // ============================================
 
-function loadStats() {
-    const saved = localStorage.getItem('jambQuizStats');
-    if (saved) {
-        stats = JSON.parse(saved);
-    }
-}
-
-function saveStats() {
-    localStorage.setItem('jambQuizStats', JSON.stringify(stats));
-}
-
-function displayStats() {
-    document.getElementById('totalQuizzes').textContent = stats.totalQuizzes || 0;
+function submitQuiz() {
+    const unanswered = userAnswers.filter(a => a === null).length;
     
-    const avgScore = stats.scores.length > 0 
-        ? Math.round(stats.scores.reduce((a, b) => a + b, 0) / stats.scores.length)
-        : 0;
-    document.getElementById('avgScore').textContent = avgScore + '%';
-    
-    document.getElementById('bestScore').textContent = (stats.bestScore || 0) + '%';
-}
-
-function updateStats(score) {
-    stats.totalQuizzes++;
-    stats.scores.push(score);
-    if (score > stats.bestScore) {
-        stats.bestScore = score;
+    if (unanswered > 0) {
+        const confirm = window.confirm(
+            `You have ${unanswered} unanswered question(s). Submit anyway?`
+        );
+        if (!confirm) return;
     }
-    saveStats();
-    displayStats();
-}
-
-// ============================================
-// Reset Quiz
-// ============================================
-
-function resetQuiz() {
+    
     stopTimer();
-    currentQuestionIndex = 0;
-    userAnswers = [];
-    quizData = [];
-    quizStartTime = null;
+    calculateResults();
+    showScreen('results-screen');
 }
 
-function retakeQuiz() {
-    resetQuiz();
-    showScreen('subject-screen');
+// ============================================
+// Calculate & Display Results
+// ============================================
+
+function calculateResults() {
+    let correct = 0, wrong = 0, unanswered = 0;
+    const subjectScores = {};
+    
+    quizData.forEach((question, index) => {
+        const userAnswer = userAnswers[index];
+        const correctAnswer = question.correctAnswer;
+        
+        if (!subjectScores[question.subject]) {
+            subjectScores[question.subject] = {
+                name: question.subjectDisplay || capitalizeFirst(question.subject),
+                correct: 0,
+                total: 0
+            };
+        }
+        
+        subjectScores[question.subject].total++;
+        
+        if (userAnswer === null) {
+            unanswered++;
+        } else if (userAnswer === correctAnswer) {
+            correct++;
+            subjectScores[question.subject].correct++;
+        } else {
+            wrong++;
+        }
+    });
+    
+    const percentage = Math.round((correct / quizData.length) * 100);
+    updateStats(percentage);
+    displayResults(correct, wrong, unanswered, percentage, subjectScores);
+}
+
+function displayResults(correct, wrong, unanswered, percentage, subjectScores) {
+    // Update score circle
+    document.getElementById('scorePercentage').textContent = `${percentage}%`;
+    const circumference = 2 * Math.PI * 90;
+    const offset = circumference - (percentage / 100) * circumference;
+    const circle = document.getElementById('scoreCircle');
+    if (circle) circle.style.strokeDashoffset = offset;
+    
+    // Update summary cards
+    document.getElementById('correctCount').textContent = correct;
+    document.getElementById('wrongCount').textContent = wrong;
+    document.getElementById('unansweredCount').textContent = unanswered;
+    
+    // Subject breakdown
+    const breakdownContainer = document.getElementById('subjectBreakdown');
+    if (breakdownContainer) {
+        breakdownContainer.innerHTML = '<h3>Subject Breakdown</h3>';
+        
+        Object.values(subjectScores).forEach(subject => {
+            const subjectPct = Math.round((subject.correct / subject.total) * 100);
+            const resultDiv = document.createElement('div');
+            resultDiv.className = 'subject-result';
+            resultDiv.innerHTML = `
+                <span class="subject-result-name">${subject.name}</span>
+                <span class="subject-result-score">${subject.correct}/${subject.total} (${subjectPct}%)</span>
+            `;
+            breakdownContainer.appendChild(resultDiv);
+        });
+    }
+}
+
+// ============================================
+// Review Answers
+// ============================================
+
+function reviewAnswers() {
+    showScreen('review-screen');
+    displayReview();
+}
+
+function backToResults() {
+    showScreen('results-screen');
+}
+
+function displayReview() {
+    const reviewContainer = document.getElementById('reviewContainer');
+    if (!reviewContainer) return;
+    
+    reviewContainer.innerHTML = '';
+    let correctCount = 0, wrongCount = 0, unansweredCount = 0;
+    
+    quizData.forEach((question, index) => {
+        const userAnswer = userAnswers[index];
+        const correctAnswer = question.correctAnswer;
+        let status = '', statusClass = '';
+        
+        if (userAnswer === null) {
+            status = '⭕ Unanswered';
+            statusClass = 'unanswered';
+            unansweredCount++;
+        } else if (userAnswer === correctAnswer) {
+            status = '✅ Correct';
+            statusClass = 'correct';
+            correctCount++;
+        } else {
+            status = '❌ Wrong';
+            statusClass = 'wrong';
+            wrongCount++;
+        }
+        
+        const reviewItem = document.createElement('div');
+        reviewItem.className = `review-item ${statusClass}`;
+        reviewItem.dataset.filter = statusClass;
+        
+        const optionLabels = ['A', 'B', 'C', 'D'];
+        let optionsHTML = '';
+        (question.options || []).forEach((option, optIndex) => {
+            let optionClass = 'review-option';
+            if (optIndex === userAnswer && optIndex === correctAnswer) {
+                optionClass += ' user-answer correct-answer';
+            } else if (optIndex === userAnswer) {
+                optionClass += ' user-answer';
+            }
+            optionsHTML += `
+                <div class="${optionClass}">
+                    <strong>${optionLabels[optIndex]}.</strong> ${formatBoldStars(option)}
+                    ${optIndex === userAnswer ? ' 👈 Your answer' : ''}
+                </div>
+            `;
+        });
+        
+        reviewItem.innerHTML = `
+            <div class="review-header">
+                <div class="review-question-number">Question ${index + 1} - ${question.subjectDisplay || capitalizeFirst(question.subject)}</div>
+                <div class="review-status ${statusClass}">${status}</div>
+            </div>
+            <div class="review-question">${formatBoldStars(question.question)}</div>
+            <div class="review-options">${optionsHTML}</div>
+        `;
+        reviewContainer.appendChild(reviewItem);
+    });
+    
+    // Update filter counts
+    document.getElementById('filterAll')?.textContent = quizData.length;
+    document.getElementById('filterCorrect')?.textContent = correctCount;
+    document.getElementById('filterWrong')?.textContent = wrongCount;
+    document.getElementById('filterUnanswered')?.textContent = unansweredCount;
+}
+
+function filterReview(filter) {
+    // Update active button
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    if (event?.target) event.target.classList.add('active');
+    
+    // Filter items
+    document.querySelectorAll('.review-item').forEach(item => {
+        if (filter === 'all' || item.dataset.filter === filter) {
+            item.classList.remove('hidden');
+        } else {
+            item.classList.add('hidden');
+        }
+    });
 }
 
 // ============================================
@@ -350,17 +380,6 @@ function retakeQuiz() {
 // ============================================
 
 function capitalizeFirst(str) {
+    if (!str) return '';
     return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
-// Initialize app when DOM is loaded
-document.addEventListener('DOMContentLoaded', initApp);
-
-// Register Service Worker for PWA
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
-            .then(reg => console.log('Service Worker registered'))
-            .catch(err => console.log('Service Worker registration failed'));
-    });
-}
+            }
