@@ -1,6 +1,19 @@
 // ============================================
 // JAMB Quiz App - Main Application Logic
 // ============================================
+// Fix GitHub Pages base path
+if (location.pathname.startsWith('/')) {
+    const path = location.pathname.split('/')[1];
+    if (path) {
+        // If deployed to a subdirectory (e.g., /jamb-quiz-app/)
+        const base = `/${path}`;
+        const scripts = document.querySelectorAll('script[src], link[href]');
+        scripts.forEach(el => {
+            if (el.src) el.src = el.src.replace(base, '');
+            if (el.href) el.href = el.href.replace(base, '');
+        });
+    }
+}
 
 let currentMode = '';
 let selectedSubjects = ['english'];
