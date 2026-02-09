@@ -1,19 +1,6 @@
 // ============================================
 // JAMB Quiz App - Main Application Logic
 // ============================================
-// Fix GitHub Pages base path
-if (location.pathname.startsWith('/')) {
-    const path = location.pathname.split('/')[1];
-    if (path) {
-        // If deployed to a subdirectory (e.g., /jamb-quiz-app/)
-        const base = `/${path}`;
-        const scripts = document.querySelectorAll('script[src], link[href]');
-        scripts.forEach(el => {
-            if (el.src) el.src = el.src.replace(base, '');
-            if (el.href) el.href = el.href.replace(base, '');
-        });
-    }
-}
 
 let currentMode = '';
 let selectedSubjects = ['english'];
@@ -51,7 +38,6 @@ function initApp() {
 }
 
 function setupEventListeners() {
-    // Card clicks → checkbox
     document.querySelectorAll('.subject-card:not(.compulsory)').forEach(card => {
         card.addEventListener('click', function(e) {
             if (e.target.closest('input[type="checkbox"]')) return;
@@ -60,7 +46,6 @@ function setupEventListeners() {
         });
     });
 
-    // Checkbox change handler
     document.querySelectorAll('.subject-checkbox').forEach(checkbox => {
         checkbox.addEventListener('change', function() {
             const card = this.closest('.subject-card');
@@ -138,14 +123,14 @@ async function startQuiz() {
     updateQuizNavigation();
 }
 
-// Load Questions
+// Load Questions (FIXED: removed duplicate line + added try block)
 async function loadQuestions() {
     quizData = [];
     for (const subject of selectedSubjects) {
-        const count = currentMode === 'test' ? 10 : (subject === 'english' ? 60 : 40);
-        const basePath = location.pathname.includes('/jamb-quiz-app') ? '/jamb-quiz-app' : '';
-        const response = await fetch(`${basePath}/data/${subject}.json`);
-        const response = await fetch(`${basePath}/data/${subject}.json`);
+        try { // ✅ ADDED TRY BLOCK
+            const count = currentMode === 'test' ? 10 : (subject === 'english' ? 60 : 40);
+            const basePath = location.pathname.includes('/jamb-quiz-app') ? '/jamb-quiz-app' : '';
+            const response = await fetch(`${basePath}/data/${subject}.json`); // ✅ ONLY ONE FETCH
             if (!response.ok) throw new Error(`Failed to load ${subject}.json`);
             const data = await response.json();
             const questions = (data.questions || []).slice(0, count);
@@ -163,7 +148,7 @@ async function loadQuestions() {
 
 // Timer (Countdown)
 function startTimer() {
-    totalTimeSeconds = currentMode === 'exam' ? 7200 : 1560; // 120min / 26min
+    totalTimeSeconds = currentMode === 'exam' ? 7200 : 1560;
     quizStartTime = Date.now();
     updateTimer();
     timerInterval = setInterval(updateTimer, 1000);
@@ -234,10 +219,14 @@ function retakeQuiz() {
 // Initialize
 document.addEventListener('DOMContentLoaded', initApp);
 
-// Service Worker Registration (only if supported)
+// ============================================
+// SERVICE WORKER - COMMENTED OUT (PREVENTS CACHING ISSUES)
+// ============================================
+/*
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('/service-worker.js')
             .catch(err => console.log('SW registration failed:', err));
     });
-            }
+}
+*/
