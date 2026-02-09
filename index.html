@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <!-- ADD THIS TO THE TOP OF <head> -->
+    <base href="/">
+    <script>
+     // Fix GitHub Pages subdirectory issue
+      if (location.pathname.startsWith('/jamb-quiz-app')) {
+        const base = document.querySelector('base');
+        base.href = '/jamb-quiz-app/';
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="JAMB UTME Quiz Practice App - Prepare for your exams with past questions">
@@ -13,6 +22,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
 </head>
 <body>
     <!-- Home Screen -->
