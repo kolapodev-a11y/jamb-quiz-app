@@ -143,8 +143,8 @@ async function loadQuestions() {
     quizData = [];
     for (const subject of selectedSubjects) {
         const count = currentMode === 'test' ? 10 : (subject === 'english' ? 60 : 40);
-        try {
-            const response = await fetch(`data/${subject}.json`);
+        try {const basePath = location.pathname.startsWith('/jamb-quiz-app') ? '/jamb-quiz-app' : '';
+        const response = await fetch(`${basePath}/data/${subject}.json`);
             if (!response.ok) throw new Error(`Failed to load ${subject}.json`);
             const data = await response.json();
             const questions = (data.questions || []).slice(0, count);
