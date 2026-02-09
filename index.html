@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        
+  <!-- ADD THIS FIRST -->
+    <script>
+    // Fix GitHub Pages base path BEFORE anything loads
+    if (location.hostname === 'kolapodev-a11y.github.io' && 
+        !location.pathname.startsWith('/jamb-quiz-app/')) {
+        location.pathname = '/jamb-quiz-app' + location.pathname;
+        }
+    </script>
+  <!-- REST OF YOUR HEAD -->
         <!-- ADD THIS TO THE TOP OF <head> -->
     <base href="/">
     <script>
