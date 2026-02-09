@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Fix GitHub Pages base path automatically
+    const path = window.location.pathname;
+    if (path.startsWith('/jamb-quiz-app')) {
+      const newPath = path.replace('/jamb-quiz-app', '');
+      if (newPath !== path) {
+        window.history.replaceState(null, null, newPath);
+      }
+    }
+    // Redirect to home if 404
+    setTimeout(() => {
+      if (!document.getElementById('app')) {
+        window.location.href = '/jamb-quiz-app/';
+      }
+    }, 1000);
+  </script>
+</head>
+<body>
+  <div id="app">Loading...</div>
+</body>
+</html>
