@@ -1,84 +1,119 @@
-// ================================
-// quiz.js – Quiz Engine
-// ================================
+// ============================================
+// quiz.js — Quiz Engine
+// ============================================
 
-let quizQuestions = [];
-let currentIndex = 0;
+let currentQuestionIndex = 0;
 let userAnswers = [];
+let quizQuestions = [];
 
-// ---------- INIT ----------
-function initQuiz(questions) {
-  quizQuestions = questions;
-  currentIndex = 0;
-  userAnswers = new Array(questions.length).fill(null);
-  renderQuestion();
+// ============================================
+// INIT QUIZ
+// ============================================
+
+function initQuiz(data) {
+    quizQuestions = data;
+    currentQuestionIndex = 0;
+    userAnswers = new Array(data.length).fill(null);
+
+    displayQuestion();
+    updateNav();
 }
 
-// ---------- RENDER ----------
-function renderQuestion() {
-  const q = quizQuestions[currentIndex];
+// ============================================
+// DISPLAY QUESTION
+// ============================================
 
-  document.getElementById('questionText').textContent =
-    `${currentIndex + 1}. ${q.question}`;
+function displayQuestion() {
+    const q = quizQuestions[currentQuestionIndex];
 
-  const passageBox = document.getElementById('passageBox');
-  passageBox.style.display = q.passage ? 'block' : 'none';
-  passageBox.textContent = q.passage || '';
+    document.getElementById('currentQuestion').textContent =
+        currentQuestionIndex + 1;
 
-  const optionsBox = document.getElementById('optionsBox');
-  optionsBox.innerHTML = '';
+    document.getElementById('questionSubject').textContent =
+        q.subjectDisplay;
 
-  q.options.forEach((opt, idx) => {
-    const btn = document.createElement('button');
-    btn.className = 'option-btn';
-    btn.textContent = opt;
+    document.getElementById('questionText').textContent = q.question;
 
-    if (userAnswers[currentIndex] === idx) {
-      btn.classList.add('selected');
+    // Passage
+    const passageBox = document.getElementById('passageContainer');
+    if (q.passage) {
+        passageBox.style.display = 'block';
+        document.getElementById('passageText').textContent = q.passage;
+    } else {
+        passageBox.style.display = 'none';
     }
 
-    btn.onclick = () => {
-      userAnswers[currentIndex] = idx;
-      renderQuestion();
-    };
+    // Options
+    const box = document.getElementById('optionsContainer');
+    box.innerHTML = '';
 
-    optionsBox.appendChild(btn);
-  });
+    q.options.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.textContent = opt;
 
-  updateNavButtons();
+        if (userAnswers[currentQuestionIndex] === i) {
+            btn.classList.add('selected');
+        }
+
+        btn.onclick = () => selectAnswer(i);
+        box.appendChild(btn);
+    });
 }
 
-// ---------- NAV ----------
+// ============================================
+// ANSWER
+// ============================================
+
+function selectAnswer(index) {
+    userAnswers[currentQuestionIndex] = index;
+    displayQuestion();
+}
+
+// ============================================
+// NAVIGATION
+// ============================================
+
 function nextQuestion() {
-  if (currentIndex < quizQuestions.length - 1) {
-    currentIndex++;
-    renderQuestion();
-  }
+    if (currentQuestionIndex < quizQuestions.length - 1) {
+        currentQuestionIndex++;
+        displayQuestion();
+        updateNav();
+    }
 }
 
 function prevQuestion() {
-  if (currentIndex > 0) {
-    currentIndex--;
-    renderQuestion();
-  }
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        displayQuestion();
+        updateNav();
+    }
 }
 
-function updateNavButtons() {
-  document.getElementById('prevBtn').disabled = currentIndex === 0;
-  document.getElementById('nextBtn').disabled =
-    currentIndex === quizQuestions.length - 1;
+function updateNav() {
+    document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+    document.getElementById('nextBtn').disabled =
+        currentQuestionIndex === quizQuestions.length - 1;
 }
 
-// ---------- SUBMIT ----------
+// ============================================
+// SUBMIT
+// ============================================
+
 function submitQuiz() {
-  let score = 0;
+    let correct = 0;
 
-  quizQuestions.forEach((q, i) => {
-    if (userAnswers[i] === q.answer) score++;
-  });
+    quizQuestions.forEach((q, i) => {
+        const correctIndex =
+            typeof q.answer === 'string'
+                ? q.answer.charCodeAt(0) - 65
+                : q.answer;
 
-  document.getElementById('scoreText').textContent =
-    `You scored ${score} out of ${quizQuestions.length}`;
+        if (userAnswers[i] === correctIndex) correct++;
+    });
 
-  showScreen('results-screen'); // 👈 from app.js
+    document.getElementById('finalScore').textContent =
+        `${Math.round((correct / quizQuestions.length) * 100)}%`;
+
+    showScreen('result-screen');
 }
