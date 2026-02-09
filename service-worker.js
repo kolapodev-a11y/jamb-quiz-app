@@ -2,12 +2,12 @@ const CACHE_NAME = 'jamb-quiz-v3'; // Changed cache name to force refresh
 const urlsToCache = [
   './index.html',
   './styles.css',
-  './app.js?v=2',
-  './quiz.js?v=2',
+  './app.js',
+  './quiz.js',
   './manifest.json',
   './images/icon-192.png',
   './images/icon-512.png',
-  // JSON files with RELATIVE paths (critical for GitHub Pages)
+  // JSON files
   './data/english.json',
   './data/mathematics.json',
   './data/physics.json',
