@@ -1,186 +1,229 @@
 // ============================================
-// app.js — App + Subject + Loader Logic
+// JAMB Quiz App - Main Application Logic
 // ============================================
 
 let currentMode = '';
-let selectedSubjects = ['english']; // English compulsory
+let selectedSubjects = ['english'];
 let quizData = [];
+let currentQuestionIndex = 0;
+let userAnswers = [];
 let quizStartTime = null;
 let timerInterval = null;
 let totalTimeSeconds = 0;
+let stats = { totalQuizzes: 0, scores: [], bestScore: 0 };
+let deferredPrompt;
 
-// ============================================
-// INIT
-// ============================================
-
-document.addEventListener('DOMContentLoaded', () => {
-    setupEventListeners();
+// PWA Installation
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    document.getElementById('installBtn')?.style.display = 'block';
 });
 
-// ============================================
-// EVENT LISTENERS
-// ============================================
+document.getElementById('installBtn')?.addEventListener('click', async () => {
+    if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`User response: ${outcome}`);
+        deferredPrompt = null;
+        document.getElementById('installBtn').style.display = 'none';
+    }
+});
+
+// Initialize App
+function initApp() {
+    loadStats();
+    displayStats();
+    setupEventListeners();
+}
 
 function setupEventListeners() {
-    // Mode buttons
-    document.querySelectorAll('[data-mode]').forEach(btn => {
-        btn.addEventListener('click', () => {
-            selectMode(btn.dataset.mode);
+    // Card clicks → checkbox
+    document.querySelectorAll('.subject-card:not(.compulsory)').forEach(card => {
+        card.addEventListener('click', function(e) {
+            if (e.target.closest('input[type="checkbox"]')) return;
+            const cb = this.querySelector('.subject-checkbox');
+            if (cb) cb.click();
         });
     });
 
-    // Subject cards (excluding English)
-    document.querySelectorAll('.subject-checkbox').forEach(cb => {
-        cb.addEventListener('change', updateSelectedCount);
+    // Checkbox change handler
+    document.querySelectorAll('.subject-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const card = this.closest('.subject-card');
+            if (!card) return;
+            const isChecked = this.checked;
+            const selectedCount = document.querySelectorAll('.subject-checkbox:checked').length;
+            
+            if (isChecked && selectedCount > 3) {
+                this.checked = false;
+                alert('You can only select 3 subjects besides English.');
+                return;
+            }
+            card.classList.toggle('selected', isChecked);
+            updateSelectedCount();
+        });
     });
-
-    // Start quiz
-    document.getElementById('startQuizBtn').addEventListener('click', startQuiz);
 }
 
-// ============================================
-// SCREEN NAV
-// ============================================
-
-function showScreen(id) {
+// Screen Navigation
+function showScreen(screenId) {
     document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
+    document.getElementById(screenId)?.classList.add('active');
 }
 
-// ============================================
-// MODE
-// ============================================
+function goHome() {
+    showScreen('home-screen');
+    resetQuiz();
+}
 
+// Mode Selection
 function selectMode(mode) {
     currentMode = mode;
     showScreen('subject-screen');
+    document.getElementById('modeInfo').textContent = 
+        mode === 'test' ? '📝 Test Mode: 10 questions per subject' : '🎯 Exam Mode: 60 English + 40 questions per other subject';
 }
 
-// ============================================
-// SUBJECT SELECTION (STRICT)
-// ============================================
-
+// Subject Selection
 function updateSelectedCount() {
-    const checked = document.querySelectorAll('.subject-checkbox:checked');
-
-    if (checked.length > 3) {
-        this.checked = false;
-        alert('You can only select 3 subjects besides English');
-        return;
-    }
-
-    const others = [];
-    checked.forEach(cb => {
-        others.push(cb.dataset.subject);
-    });
-
-    selectedSubjects = ['english', ...others];
-
+    const checkboxes = document.querySelectorAll('.subject-checkbox:checked');
+    const otherSubjects = Array.from(checkboxes)
+        .map(cb => cb.closest('.subject-card')?.dataset.subject)
+        .filter(s => s && s !== 'english');
+    
+    selectedSubjects = ['english', ...otherSubjects.slice(0, 3)];
     document.getElementById('selectedCount').textContent = selectedSubjects.length;
-
-    const startBtn = document.getElementById('startQuizBtn');
-    const valid = selectedSubjects.length === 4;
-
-    startBtn.disabled = !valid;
-    startBtn.style.opacity = valid ? '1' : '0.5';
+    
+    const btn = document.getElementById('startQuizBtn');
+    if (btn) {
+        const enabled = selectedSubjects.length === 4;
+        btn.disabled = !enabled;
+        btn.style.opacity = enabled ? '1' : '0.5';
+    }
 }
 
-// ============================================
-// START QUIZ
-// ============================================
-
+// Start Quiz
 async function startQuiz() {
     if (selectedSubjects.length !== 4) {
-        alert('Select English + 3 other subjects');
+        alert('Please select exactly 4 subjects (English + 3 others)');
         return;
     }
 
-    quizData = [];
     await loadQuestions();
-
-    if (!quizData.length) {
-        alert('Questions not loaded');
+    if (quizData.length === 0) {
+        alert('Failed to load questions. Please check your internet connection.');
         return;
     }
 
+    currentQuestionIndex = 0;
+    userAnswers = new Array(quizData.length).fill(null);
+    quizStartTime = Date.now();
     showScreen('quiz-screen');
     startTimer();
-
-    initQuiz(quizData); // 👈 from quiz.js
+    displayQuestion();
+    updateQuizNavigation();
 }
 
-// ============================================
-// LOAD QUESTIONS (GitHub-safe)
-// ============================================
-
+// Load Questions
 async function loadQuestions() {
-    try {
-        for (const subject of selectedSubjects) {
-            const count =
-                currentMode === 'test'
-                    ? 10
-                    : subject === 'english'
-                    ? 60
-                    : 40;
-
-            const res = await fetch(`./data/${subject}.json`);
-            if (!res.ok) continue;
-
-            const data = await res.json();
-            const questions = data.questions || [];
-
-            const selected = shuffleArray(questions).slice(0, count);
-            selected.forEach(q => {
-                quizData.push({
-                    ...q,
-                    subject,
-                    subjectDisplay: capitalizeFirst(subject)
-                });
-            });
+    quizData = [];
+    for (const subject of selectedSubjects) {
+        const count = currentMode === 'test' ? 10 : (subject === 'english' ? 60 : 40);
+        try {
+            const response = await fetch(`data/${subject}.json`);
+            if (!response.ok) throw new Error(`Failed to load ${subject}.json`);
+            const data = await response.json();
+            const questions = (data.questions || []).slice(0, count);
+            quizData.push(...questions.map(q => ({
+                ...q,
+                subject,
+                subjectDisplay: subject.charAt(0).toUpperCase() + subject.slice(1)
+            })));
+        } catch (e) {
+            console.error(`Error loading ${subject}:`, e);
         }
-
-        document.getElementById('totalQuestions').textContent = quizData.length;
-    } catch (err) {
-        console.error(err);
     }
+    document.getElementById('totalQuestions').textContent = quizData.length;
 }
 
-// ============================================
-// TIMER
-// ============================================
-
+// Timer (Countdown)
 function startTimer() {
-    totalTimeSeconds = currentMode === 'exam' ? 120 * 60 : 26 * 60;
+    totalTimeSeconds = currentMode === 'exam' ? 7200 : 1560; // 120min / 26min
     quizStartTime = Date.now();
-
-    timerInterval = setInterval(updateTimer, 1000);
     updateTimer();
+    timerInterval = setInterval(updateTimer, 1000);
 }
 
 function updateTimer() {
+    const el = document.getElementById('timeDisplay');
+    if (!el) return;
+    
     const elapsed = Math.floor((Date.now() - quizStartTime) / 1000);
-    const remaining = totalTimeSeconds - elapsed;
-
+    let remaining = totalTimeSeconds - elapsed;
+    
     if (remaining <= 0) {
-        clearInterval(timerInterval);
-        submitQuiz();
+        remaining = 0;
+        stopTimer();
+        if (confirm("Time's up! Submit quiz now?")) submitQuiz();
         return;
     }
-
-    const m = Math.floor(remaining / 60);
-    const s = remaining % 60;
-    document.getElementById('timeDisplay').textContent =
-        `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    
+    const mins = Math.floor(remaining / 60);
+    const secs = remaining % 60;
+    el.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
 }
 
-// ============================================
-// HELPERS
-// ============================================
-
-function shuffleArray(arr) {
-    return arr.sort(() => Math.random() - 0.5);
+function stopTimer() {
+    if (timerInterval) clearInterval(timerInterval);
 }
 
-function capitalizeFirst(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+// Statistics
+function loadStats() {
+    const saved = localStorage.getItem('jambQuizStats');
+    if (saved) stats = JSON.parse(saved);
 }
+
+function saveStats() {
+    localStorage.setItem('jambQuizStats', JSON.stringify(stats));
+}
+
+function displayStats() {
+    document.getElementById('totalQuizzes').textContent = stats.totalQuizzes || 0;
+    const avg = stats.scores.length ? Math.round(stats.scores.reduce((a,b)=>a+b)/stats.scores.length) : 0;
+    document.getElementById('avgScore').textContent = `${avg}%`;
+    document.getElementById('bestScore').textContent = `${stats.bestScore || 0}%`;
+}
+
+function updateStats(score) {
+    stats.totalQuizzes++;
+    stats.scores.push(score);
+    if (score > stats.bestScore) stats.bestScore = score;
+    saveStats();
+    displayStats();
+}
+
+// Reset
+function resetQuiz() {
+    stopTimer();
+    currentQuestionIndex = 0;
+    userAnswers = [];
+    quizData = [];
+    quizStartTime = null;
+}
+
+function retakeQuiz() {
+    resetQuiz();
+    showScreen('subject-screen');
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', initApp);
+
+// Service Worker Registration (only if supported)
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+            .catch(err => console.log('SW registration failed:', err));
+    });
+            }
