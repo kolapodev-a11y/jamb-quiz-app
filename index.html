@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="images/icon-192.png">
-    <!-- KaTeX for math rendering -->
+    <!-- KaTeX for math rendering (FIXED: no trailing spaces) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
@@ -66,6 +66,7 @@
                 <div class="contact-section" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: center;">
                     <h3>Need Help? 🤝</h3>
                     <p>For enquiries, support, or feedback, contact us via WhatsApp:</p>
+                    <!-- FIXED: Removed trailing space in href and src -->
                     <a href="https://wa.me/2349050911921" target="_blank" class="btn btn-primary" style="background: #25D366; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; margin-top: 10px;">
                         <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20">
                         Message Us on WhatsApp
@@ -298,7 +299,8 @@
         </div>
     </div>
 
+    <!-- CRITICAL: Load scripts at end of body -->
     <script src="app.js"></script>
     <script src="quiz.js"></script>
 </body>
-                                                       </html>
+                        </html>
