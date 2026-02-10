@@ -98,7 +98,8 @@ function selectMode(mode, singleSubject = false) {
     
     const info = document.getElementById('modeInfo');
     const note = document.querySelector('.subject-note');
-    const englishCard = document.querySelector('.subject-card.compulsory');
+    const englishCard = document.querySelector('.subject-card[data-subject="english"]');
+    const englishCheckbox = englishCard?.querySelector('input[type="checkbox"]');
     
     if (singleSubject) {
         if (info) {
@@ -109,9 +110,14 @@ function selectMode(mode, singleSubject = false) {
         if (note) {
             note.innerHTML = '<p>📌 Select <strong>ONE</strong> subject to practice.</p>';
         }
+        
         if (englishCard) {
-            englishCard.style.display = 'block';
             englishCard.classList.remove('compulsory');
+            // ✅ Fix: Enable the checkbox and uncheck it for manual selection
+            if (englishCheckbox) {
+                englishCheckbox.disabled = false;
+                englishCheckbox.checked = false;
+            }
         }
         selectedSubjects = [];
         
@@ -124,18 +130,29 @@ function selectMode(mode, singleSubject = false) {
         if (note) {
             note.innerHTML = '<p>📌 English is <strong>compulsory</strong>. Select 3 more subjects.</p>';
         }
+        
         if (englishCard) {
-            englishCard.style.display = 'block';
             englishCard.classList.add('compulsory');
+            // ✅ Fix: Force English to be checked and disabled in Multi-mode
+            if (englishCheckbox) {
+                englishCheckbox.disabled = true;
+                englishCheckbox.checked = true;
+            }
         }
         selectedSubjects = ['english'];
     }
     
-    document.querySelectorAll('.subject-checkbox').forEach(cb => cb.checked = false);
-    document.querySelectorAll('.subject-card').forEach(c => c.classList.remove('selected'));
+    // Reset other checkboxes (except English in multi-mode)
+    document.querySelectorAll('.subject-checkbox').forEach(cb => {
+        const card = cb.closest('.subject-card');
+        if (card?.dataset.subject === 'english' && !isSingleSubjectMode) return;
+        cb.checked = false;
+        card?.classList.remove('selected');
+    });
     
     updateSelectedCount();
 }
+
 
 
 // ✅ FIXED: Subject Selection Count
@@ -242,34 +259,42 @@ async function loadQuestions() {
             });
             
             let questionsToAdd = [];
-            
             if (subject === 'english') {
-                if (isSingleSubjectMode) {
-                    // ✅ FIXED: Single subject mode overrides
-                    // Exam = 60 questions, Test = 20 questions
-                    const count = currentMode === 'test' ? 20 : 60; 
-                    
-                    // Filter out ALL passage-related questions for Single Subject
-                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-                    questionsToAdd = nonPassageQuestions.slice(0, count);
-                    
-                } else if (currentMode === 'test') {
-                    // Multi-subject test mode: 10 questions, no passages
-                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-                    questionsToAdd = nonPassageQuestions.slice(0, 10);
-                    
-                } else {
-                    // Multi-subject exam mode: 60 total (10 passage + 50 non-passage)
-                    const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
-                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-                    
-                    const selectedPassage = passageQuestions.slice(0, 10);
-                    const remainingCount = 60 - selectedPassage.length;
-                    const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
-                    
-                    questionsToAdd = [...selectedPassage, ...selectedNonPassage];
-                }
-            } else {
+    if (isSingleSubjectMode) {
+        if (currentMode === 'test') {
+            // ✅ Single Subject Test: 20 questions, NO passages
+            const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+            questionsToAdd = nonPassageQuestions.slice(0, 20);
+        } else {
+            // ✅ Single Subject Exam: 60 questions total
+            // Includes 10 passage questions (1 passage) + 50 non-passage
+            const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+            const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+            
+            // Take questions from the first available passage (usually 10 questions)
+            const selectedPassage = passageQuestions.slice(0, 10);
+            const remainingCount = 60 - selectedPassage.length;
+            const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
+            
+            questionsToAdd = [...selectedPassage, ...selectedNonPassage];
+        }
+    } else if (currentMode === 'test') {
+        // Multi-subject test mode: 10 questions, no passages
+        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+        questionsToAdd = nonPassageQuestions.slice(0, 10);
+    } else {
+        // Multi-subject exam mode: 60 total (10 passage + 50 non-passage)
+        const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+        
+        const selectedPassage = passageQuestions.slice(0, 10);
+        const remainingCount = 60 - selectedPassage.length;
+        const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
+        
+        questionsToAdd = [...selectedPassage, ...selectedNonPassage];
+    }
+}
+ else {
                 // Non-English subjects logic
                 let count;
                 if (isSingleSubjectMode) {
