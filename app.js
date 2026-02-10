@@ -143,12 +143,10 @@ function updateSelectedCount() {
     const checkboxes = document.querySelectorAll('.subject-checkbox:checked');
     
     if (isSingleSubjectMode) {
-        // Single subject: only checked subjects
         selectedSubjects = Array.from(checkboxes)
             .map(cb => cb.closest('.subject-card')?.dataset.subject)
             .filter(s => s);
     } else {
-        // Multi subject: English + 3 others
         const otherSubjects = Array.from(checkboxes)
             .map(cb => cb.closest('.subject-card')?.dataset.subject)
             .filter(s => s && s !== 'english');
@@ -170,6 +168,8 @@ function updateSelectedCount() {
         btn.style.cursor = enabled ? 'pointer' : 'not-allowed';
     }
 }
+
+
 
 // ✅ FIXED: Start Quiz Validation
 async function startQuiz() {
