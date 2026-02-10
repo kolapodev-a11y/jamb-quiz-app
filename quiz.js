@@ -1,11 +1,11 @@
 // ============================================
-// JAMB Quiz App - Quiz Logic
+// JAMB Quiz App - Quiz Logic (FIXED)
 // ============================================
 
 let currentDisplayedPassage = "";
 let isKatexReady = false;
 
-// ✅ FIX 4: Wait for KaTeX to load
+// Wait for KaTeX to load
 window.addEventListener('load', () => {
     const checkKatex = setInterval(() => {
         if (typeof renderMathInElement === 'function') {
@@ -15,7 +15,6 @@ window.addEventListener('load', () => {
         }
     }, 100);
     
-    // Timeout after 5 seconds
     setTimeout(() => {
         if (!isKatexReady) {
             console.warn('⚠️ KaTeX failed to load');
@@ -24,7 +23,7 @@ window.addEventListener('load', () => {
     }, 5000);
 });
 
-// KaTeX Rendering (safe)
+// KaTeX Rendering
 function renderLatexInElement(el) {
     if (!el || !isKatexReady) return;
     try {
@@ -46,7 +45,7 @@ function formatBoldStars(text) {
     return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 }
 
-// ✅ FIXED: Display Question
+// ✅ FIXED: Display Question with Proper Passage Handling
 function displayQuestion() {
     if (currentQuestionIndex >= quizData.length) {
         console.error('Question index out of bounds');
@@ -64,12 +63,13 @@ function displayQuestion() {
     if (qNumEl) qNumEl.textContent = currentQuestionIndex + 1;
     if (subjectEl) subjectEl.textContent = q.subjectDisplay || capitalizeFirst(q.subject);
     
-    // Handle English passages
+    // ✅ FIXED: Passage handling
     const passageBox = document.getElementById('passageBox');
     if (passageBox) {
-        if (q._passageText) {
+        if (q.passage) {
+            // Update passage if it's the first question of this passage
             if (q._isPassageStart) {
-                currentDisplayedPassage = q._passageText;
+                currentDisplayedPassage = q.passage;
             }
             passageBox.style.display = 'block';
             passageBox.innerHTML = `<h3>📖 Comprehension Passage</h3><p>${formatBoldStars(currentDisplayedPassage)}</p>`;
@@ -93,14 +93,15 @@ function displayQuestion() {
         progressFill.style.width = `${progress}%`;
     }
     
-    // Render options
+    // ✅ FIXED: Render options with validation
     const container = document.getElementById('optionsContainer');
     if (container) {
         container.innerHTML = '';
         const options = q.options || [];
         
         if (options.length === 0) {
-            container.innerHTML = '<p style="color: red;">⚠️ No options available for this question</p>';
+            container.innerHTML = '<p style="color: red; padding: 20px; text-align: center;">⚠️ No options available for this question</p>';
+            console.error('Missing options for question:', q);
         } else {
             options.forEach((opt, i) => {
                 const div = document.createElement('div');
@@ -227,7 +228,6 @@ function calculateResults() {
         const userAns = userAnswers[i];
         const correctAns = q.correctAnswer;
         
-        // Initialize subject tracking
         if (!subjectScores[q.subject]) {
             subjectScores[q.subject] = { 
                 name: q.subjectDisplay || capitalizeFirst(q.subject), 
@@ -237,7 +237,6 @@ function calculateResults() {
         }
         subjectScores[q.subject].total++;
         
-        // Count results
         if (userAns === null) {
             unanswered++;
         } else if (userAns === correctAns) {
@@ -254,18 +253,15 @@ function calculateResults() {
 }
 
 function displayResults(correct, wrong, unanswered, pct, subjectScores) {
-    // Score percentage
     const scoreEl = document.getElementById('scorePercentage');
     if (scoreEl) scoreEl.textContent = `${pct}%`;
     
-    // Circular progress
     const circ = 2 * Math.PI * 90;
     const circleEl = document.getElementById('scoreCircle');
     if (circleEl) {
         circleEl.style.strokeDashoffset = circ - (pct / 100) * circ;
     }
     
-    // Summary cards
     const correctEl = document.getElementById('correctCount');
     const wrongEl = document.getElementById('wrongCount');
     const unansweredEl = document.getElementById('unansweredCount');
@@ -274,7 +270,6 @@ function displayResults(correct, wrong, unanswered, pct, subjectScores) {
     if (wrongEl) wrongEl.textContent = wrong;
     if (unansweredEl) unansweredEl.textContent = unanswered;
     
-    // Subject breakdown
     const breakdown = document.getElementById('subjectBreakdown');
     if (breakdown) {
         breakdown.innerHTML = '<h3>📊 Subject Breakdown</h3>';
@@ -331,7 +326,6 @@ function displayReview() {
         item.className = `review-item ${cls}`;
         item.dataset.filter = cls;
         
-        // Build options HTML
         let optsHTML = '';
         (q.options || []).forEach((opt, idx) => {
             let optCls = 'review-option';
@@ -369,7 +363,6 @@ function displayReview() {
         renderLatexInElement(item);
     });
     
-    // Update filter counts
     const filterAll = document.getElementById('filterAll');
     const filterCorrect = document.getElementById('filterCorrect');
     const filterWrong = document.getElementById('filterWrong');
@@ -399,4 +392,5 @@ function filterReview(filter) {
 function capitalizeFirst(str) {
     if (!str) return '';
     return str.charAt(0).toUpperCase() + str.slice(1);
-}
+                }
+        
