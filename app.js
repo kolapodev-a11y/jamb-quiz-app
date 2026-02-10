@@ -205,8 +205,10 @@ async function startQuiz() {
 }
 
 // ✅ FIXED: Load Questions with Correct Counts & Passage Handling
+// ✅ UPDATED: Load Questions with specific English counts and no-passage logic
 async function loadQuestions() {
     quizData = [];
+    // Ensure the path correctly points to your repo subfolder on GitHub Pages
     const basePath = window.location.pathname.includes('/jamb-quiz-app') ? '/jamb-quiz-app' : '';
     
     for (const subject of selectedSubjects) {
@@ -221,10 +223,10 @@ async function loadQuestions() {
             const data = await response.json();
             let allQuestions = data.questions || [];
             
-            // ✅ FIX: Flatten nested passage questions FIRST
+            // Flatten passages if they are nested in your JSON
             allQuestions = flattenPassageQuestions(allQuestions, subject);
             
-            // ✅ FIX: Convert letter answers to indices
+            // Standardize answers
             allQuestions = allQuestions.map(q => {
                 const answerMap = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 };
                 return {
@@ -235,23 +237,25 @@ async function loadQuestions() {
                 };
             });
             
-            // ✅ FIX: Handle English passages based on mode
             let questionsToAdd = [];
             
             if (subject === 'english') {
                 if (isSingleSubjectMode) {
-                    // Single subject mode: NO PASSAGES
-                    const count = currentMode === 'test' ? 20 : 40;
+                    // ✅ FIXED: Single subject mode overrides
+                    // Exam = 60 questions, Test = 20 questions
+                    const count = currentMode === 'test' ? 20 : 60; 
+                    
+                    // Filter out ALL passage-related questions for Single Subject
                     const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
                     questionsToAdd = nonPassageQuestions.slice(0, count);
                     
                 } else if (currentMode === 'test') {
-                    // Multi-subject test mode: NO PASSAGES
+                    // Multi-subject test mode: 10 questions, no passages
                     const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
                     questionsToAdd = nonPassageQuestions.slice(0, 10);
                     
                 } else {
-                    // Multi-subject exam mode: 10 passage questions max + fill to 60
+                    // Multi-subject exam mode: 60 total (10 passage + 50 non-passage)
                     const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
                     const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
                     
@@ -262,7 +266,7 @@ async function loadQuestions() {
                     questionsToAdd = [...selectedPassage, ...selectedNonPassage];
                 }
             } else {
-                // Non-English subjects
+                // Non-English subjects logic
                 let count;
                 if (isSingleSubjectMode) {
                     count = currentMode === 'test' ? 20 : 40;
@@ -276,15 +280,14 @@ async function loadQuestions() {
             
         } catch (error) {
             console.error(`Error loading ${subject}:`, error);
-            alert(`Failed to load ${subject} questions. Check console for details.`);
         }
     }
     
+    // Update the UI with total count
     const totalEl = document.getElementById('totalQuestions');
     if (totalEl) totalEl.textContent = quizData.length;
-    
-    console.log(`✅ Loaded ${quizData.length} questions from ${selectedSubjects.join(', ')}`);
-}
+                    }
+
 
 // ✅ NEW: Flatten nested passage questions properly
 function flattenPassageQuestions(questions, subject) {
