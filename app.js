@@ -14,35 +14,22 @@ let totalTimeSeconds = 0;
 let stats = { totalQuizzes: 0, scores: [], bestScore: 0 };
 let deferredPrompt;
 
-// PWA Install Prompt Handler
-let deferredPrompt;
-
+// PWA Installation
 window.addEventListener('beforeinstallprompt', (e) => {
-  console.log('✅ Install prompt available');
-  e.preventDefault(); // Prevent default mini-infobar
-  deferredPrompt = e;
-  
-  // Show custom install button (add this to your UI)
-  const installBtn = document.getElementById('installBtn');
-  if (installBtn) {
-    installBtn.style.display = 'block';
-    
-    installBtn.addEventListener('click', async () => {
-      if (deferredPrompt) {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        console.log(`User ${outcome} the install`);
-        deferredPrompt = null;
-        installBtn.style.display = 'none';
-      }
-    });
-  }
+    e.preventDefault();
+    deferredPrompt = e;
+    const btn = document.getElementById('installBtn');
+    if (btn) btn.style.display = 'block';
 });
 
-// Detect if already installed
-window.addEventListener('appinstalled', () => {
-  console.log('✅ PWA installed successfully');
-  deferredPrompt = null;
+document.getElementById('installBtn')?.addEventListener('click', async () => {
+    if (deferredPrompt) {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        console.log(`User response: ${outcome}`);
+        deferredPrompt = null;
+        document.getElementById('installBtn').style.display = 'none';
+    }
 });
 
 
