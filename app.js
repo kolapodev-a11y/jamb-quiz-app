@@ -38,16 +38,19 @@ function initApp() {
     displayStats();
     setupEventListeners();
 }
-
 function setupEventListeners() {
-    document.querySelectorAll('.subject-card:not(.compulsory)').forEach(card => {
+    // Subject card clicks
+    document.querySelectorAll('.subject-card').forEach(card => {
         card.addEventListener('click', function(e) {
-            if (e.target.closest('input[type="checkbox"]')) return;
+            // Ignore if clicking the actual checkbox or if card is currently "compulsory" (locked)
+            if (e.target.closest('input[type="checkbox"]') || this.classList.contains('compulsory')) return;
+            
             const cb = this.querySelector('.subject-checkbox');
             if (cb) cb.click();
         });
     });
 
+    // Checkbox change logic
     document.querySelectorAll('.subject-checkbox').forEach(checkbox => {
         checkbox.addEventListener('change', function() {
             const card = this.closest('.subject-card');
@@ -55,7 +58,7 @@ function setupEventListeners() {
             const isChecked = this.checked;
             
             if (isSingleSubjectMode) {
-                // Single subject: uncheck all others
+                // SINGLE MODE: Uncheck all others
                 document.querySelectorAll('.subject-checkbox').forEach(cb => {
                     if (cb !== this) {
                         cb.checked = false;
@@ -63,9 +66,12 @@ function setupEventListeners() {
                     }
                 });
             } else {
-                // Multi subject: max 3 besides English
-                const selectedCount = document.querySelectorAll('.subject-checkbox:checked').length;
-                if (isChecked && selectedCount > 3) {
+                // MULTI MODE: English is always pre-selected (not counted here)
+                // We only count the OTHER 3 subjects the user can choose
+                const otherSelectedCount = Array.from(document.querySelectorAll('.subject-checkbox:checked'))
+                    .filter(cb => cb.closest('.subject-card')?.dataset.subject !== 'english').length;
+
+                if (isChecked && otherSelectedCount > 3) {
                     this.checked = false;
                     alert('You can only select 3 subjects besides English.');
                     return;
@@ -77,6 +83,7 @@ function setupEventListeners() {
         });
     });
 }
+
 
 // Screen Navigation
 function showScreen(screenId) {
@@ -91,6 +98,7 @@ function goHome() {
 }
 
 // ✅ FIXED: Mode Selection
+
 function selectMode(mode, singleSubject = false) {
     currentMode = mode;
     isSingleSubjectMode = singleSubject;
@@ -99,21 +107,16 @@ function selectMode(mode, singleSubject = false) {
     const info = document.getElementById('modeInfo');
     const note = document.querySelector('.subject-note');
     const englishCard = document.querySelector('.subject-card[data-subject="english"]');
+    const englishBadge = englishCard?.querySelector('.compulsory-badge'); // The green badge
     const englishCheckbox = englishCard?.querySelector('input[type="checkbox"]');
     
     if (singleSubject) {
-        if (info) {
-            info.textContent = mode === 'test' 
-                ? '📝 Single Subject Test: 20 questions (14 minutes)' 
-                : '🎯 Single Subject Exam: 60 questions (English) / 40 (Others)';
-        }
-        if (note) {
-            note.innerHTML = '<p>📌 Select <strong>ONE</strong> subject to practice.</p>';
-        }
+        if (info) info.textContent = mode === 'test' ? '📝 Single Subject Test: 20 questions (14 minutes)' : '🎯 Single Subject Exam: 60 questions (English) / 40 (Others)';
+        if (note) note.innerHTML = '<p>📌 Select <strong>ONE</strong> subject to practice.</p>';
         
         if (englishCard) {
             englishCard.classList.remove('compulsory');
-            // ✅ Fix: Enable the checkbox and uncheck it for manual selection
+            if (englishBadge) englishBadge.style.display = 'none'; // ✅ Hide the green badge
             if (englishCheckbox) {
                 englishCheckbox.disabled = false;
                 englishCheckbox.checked = false;
@@ -122,18 +125,12 @@ function selectMode(mode, singleSubject = false) {
         selectedSubjects = [];
         
     } else {
-        if (info) {
-            info.textContent = mode === 'test' 
-                ? '📝 Test Mode: 10 questions per subject (26 minutes)' 
-                : '🎯 Exam Mode: 60 English + 40 per other subject (2 hours)';
-        }
-        if (note) {
-            note.innerHTML = '<p>📌 English is <strong>compulsory</strong>. Select 3 more subjects.</p>';
-        }
+        if (info) info.textContent = mode === 'test' ? '📝 Test Mode: 10 questions per subject (26 minutes)' : '🎯 Exam Mode: 60 English + 40 per other subject (2 hours)';
+        if (note) note.innerHTML = '<p>📌 English is <strong>compulsory</strong>. Select 3 more subjects.</p>';
         
         if (englishCard) {
             englishCard.classList.add('compulsory');
-            // ✅ Fix: Force English to be checked and disabled in Multi-mode
+            if (englishBadge) englishBadge.style.display = 'block'; // ✅ Show the green badge
             if (englishCheckbox) {
                 englishCheckbox.disabled = true;
                 englishCheckbox.checked = true;
@@ -142,16 +139,22 @@ function selectMode(mode, singleSubject = false) {
         selectedSubjects = ['english'];
     }
     
-    // Reset other checkboxes (except English in multi-mode)
+    // Reset all cards and checkboxes except English in Multi-mode
     document.querySelectorAll('.subject-checkbox').forEach(cb => {
         const card = cb.closest('.subject-card');
-        if (card?.dataset.subject === 'english' && !isSingleSubjectMode) return;
+        const isEnglish = card?.dataset.subject === 'english';
+        
+        if (isEnglish && !isSingleSubjectMode) {
+            card.classList.add('selected');
+            return;
+        }
+        
         cb.checked = false;
         card?.classList.remove('selected');
     });
     
     updateSelectedCount();
-}
+    }
 
 
 
