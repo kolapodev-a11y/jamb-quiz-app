@@ -232,7 +232,6 @@ async function startQuiz() {
 // ✅ UPDATED: Load Questions with specific English counts and no-passage logic
 async function loadQuestions() {
     quizData = [];
-    // Ensure the path correctly points to your repo subfolder on GitHub Pages
     const basePath = window.location.pathname.includes('/jamb-quiz-app') ? '/jamb-quiz-app' : '';
     
     for (const subject of selectedSubjects) {
@@ -262,45 +261,43 @@ async function loadQuestions() {
             });
             
             let questionsToAdd = [];
-          if (subject === 'english') {
-    const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
-    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
 
-    // Check if we are in Exam mode (Single or Multi)
-    const isExam = currentMode === 'exam';
+            if (subject === 'english') {
+                const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+                const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
 
-    if (isExam) {
-        // 1. Identify all unique passages available in the JSON
-        const uniquePassages = [...new Set(passageQuestions.map(q => q.passage))];
-        
-        // 2. Randomly select ONE passage from the list (Environmental, Agric, etc.)
-        const randomPassageText = uniquePassages[Math.floor(Math.random() * uniquePassages.length)];
-        
-        // 3. Get all questions belonging to that specific selected passage
-        const selectedPassageQs = passageQuestions.filter(q => q.passage === randomPassageText);
-        
-        // 4. Shuffle all non-passage questions and take the remaining 50
-        const shuffledNonPassage = shuffleArray([...nonPassageQuestions]);
-        const selectedNonPassage = shuffledNonPassage.slice(0, 50);
-        
-        // Combine them: 10 passage questions + 50 others = 60 total
-        questionsToAdd = [...selectedPassageQs, ...selectedNonPassage];
-    } else {
-        // Test Mode: 10 (Multi) or 20 (Single) questions, all non-passage, shuffled
-        const count = isSingleSubjectMode ? 20 : 10;
-        questionsToAdd = shuffleArray([...nonPassageQuestions]).slice(0, count);
-    }
-}
+                // Check if we are in Exam mode (Single or Multi)
+                const isExam = currentMode === 'exam';
 
- else {
+                if (isExam) {
+                    // 1. Identify all unique passages available in the JSON
+                    const uniquePassages = [...new Set(passageQuestions.map(q => q.passage))];
+                    
+                    // 2. Randomly select ONE passage
+                    const randomPassageText = uniquePassages[Math.floor(Math.random() * uniquePassages.length)];
+                    
+                    // 3. Get all questions belonging to that specific passage
+                    const selectedPassageQs = passageQuestions.filter(q => q.passage === randomPassageText);
+                    
+                    // 4. Shuffle and take 50 non-passage questions
+                    const shuffledNonPassage = shuffleArray([...nonPassageQuestions]);
+                    const selectedNonPassage = shuffledNonPassage.slice(0, 50);
+                    
+                    questionsToAdd = [...selectedPassageQs, ...selectedNonPassage];
+                } else {
+                    // Test Mode: 10 (Multi) or 20 (Single) questions, all non-passage
+                    const count = isSingleSubjectMode ? 20 : 10;
+                    questionsToAdd = shuffleArray([...nonPassageQuestions]).slice(0, count);
+                }
+            } else {
                 // Non-English subjects logic
                 let count;
                 if (isSingleSubjectMode) {
-                    count = currentMode === 'test' ? 20 : 40;
+                    count = currentMode === 'test' ? 20 : 40; //
                 } else {
                     count = currentMode === 'test' ? 10 : 40;
                 }
-                questionsToAdd = allQuestions.slice(0, count);
+                questionsToAdd = shuffleArray([...allQuestions]).slice(0, count);
             }
             
             quizData.push(...questionsToAdd);
@@ -310,10 +307,9 @@ async function loadQuestions() {
         }
     }
     
-    // Update the UI with total count
     const totalEl = document.getElementById('totalQuestions');
     if (totalEl) totalEl.textContent = quizData.length;
-                    }
+                                                                       }
 
 
 // ✅ NEW: Flatten nested passage questions properly
