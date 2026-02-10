@@ -25,7 +25,7 @@ const urlsToCache = [
   '/data/geography.json',
   '/data/history.json',
   '/data/marketing.json',
-  '/data/agriculture.json'
+  '/data/agric.json'
 ];
 
 // Install event - cache resources
