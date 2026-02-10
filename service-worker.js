@@ -1,64 +1,89 @@
-const CACHE_NAME = 'jamb-quiz-v4'; // Changed cache name to force refresh
+
+// Service Worker for PWA functionality
+const CACHE_NAME = 'jamb-quiz-v1';
 const urlsToCache = [
-  './index.html',
-  './styles.css',
-  './app.js',
-  './quiz.js',
-  './manifest.json',
-  './images/icon-192.png',
-  './images/icon-512.png',
-  // JSON files
-  './data/english.json',
-  './data/mathematics.json',
-  './data/physics.json',
-  './data/chemistry.json',
-  './data/biology.json',
-  './data/government.json',
-  './data/economics.json',
-  './data/literature.json',
-  './data/commerce.json',
-  './data/accounting.json',
-  './data/crs.json',
-  './data/geography.json',
-  './data/history.json',
-  './data/marketing.json',
-  './data/agric.json' // ✅ Correct filename
+  '/',
+  '/index.html',
+  '/styles.css',        // ← No /css/ folder
+  '/app.js',            // ← No /js/ folder
+  '/quiz.js',
+  '/manifest.json',
+  '/service-worker.js',
+  '/images/icon-192.png',
+  '/images/icon-512.png',
+  // Data files
+  '/data/english.json',
+  '/data/mathematics.json',
+  '/data/physics.json',
+  '/data/chemistry.json',
+  '/data/biology.json',
+  '/data/government.json',
+  '/data/economics.json',
+  '/data/literature.json',
+  '/data/commerce.json',
+  '/data/crs.json',
+  '/data/geography.json',
+  '/data/history.json',
+  '/data/marketing.json',
+  '/data/agriculture.json'
 ];
 
+// Install event - cache resources
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => cache.addAll(urlsToCache))
-      .then(() => self.skipWaiting())
-      .catch(err => console.error('Cache failed:', err))
+      .then(cache => {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
   );
 });
 
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(cacheNames => 
-      Promise.all(
-        cacheNames.map(name => {
-          if (name !== CACHE_NAME) return caches.delete(name);
-        })
-      )
-    ).then(() => self.clients.claim())
-  );
-});
-
+// Fetch event - serve from cache, fallback to network
 self.addEventListener('fetch', event => {
-  // Skip cross-origin requests (like WhatsApp CDN)
-  if (event.request.url.startsWith('http') && 
-      !event.request.url.startsWith(self.location.origin)) {
-    return;
-  }
-  
   event.respondWith(
     caches.match(event.request)
-      .then(response => response || fetch(event.request))
-      .catch(err => {
-        console.warn('Fetch failed:', err);
-        return caches.match('./index.html'); // Fallback to home
+      .then(response => {
+        // Cache hit - return response
+        if (response) {
+          return response;
+        }
+        
+        // Clone the request
+        const fetchRequest = event.request.clone();
+        
+        return fetch(fetchRequest).then(response => {
+          // Check if valid response
+          if (!response || response.status !== 200 || response.type !== 'basic') {
+            return response;
+          }
+          
+          // Clone the response
+          const responseToCache = response.clone();
+          
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, responseToCache);
+          });
+          
+          return response;
+        });
       })
+  );
+});
+
+// Activate event - clean up old caches
+self.addEventListener('activate', event => {
+  const cacheWhitelist = [CACHE_NAME];
+  
+  event.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.map(cacheName => {
+          if (cacheWhitelist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
   );
 });
