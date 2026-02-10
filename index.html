@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- CRITICAL: Base path for GitHub Pages -->
     <base href="/jamb-quiz-app/">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="JAMB UTME Quiz Practice App">
     <meta name="theme-color" content="#1a472a">
     <title>JAMB UTME Quiz App</title>
     
-    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="images/icon-192.png">
     
-    <!-- KaTeX (FIXED: NO TRAILING SPACES) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
@@ -33,47 +29,46 @@
             </header>
 
             <div class="mode-selection">
-               <h2>Select Quiz Mode</h2>
+                <h2>Select Quiz Mode</h2>
     
-    <!-- ✅ NEW: Multi Subject Modes -->
-               <h3 style="color: #1a472a; margin: 20px 0 10px 0; font-size: 18px;">📚 Multi-Subject Practice</h3>
-               <div class="mode-cards">
-               <div class="mode-card" data-mode="test">
-               <div class="mode-icon">📝</div>
-               <h3>Test Mode</h3>
-               <p>10 questions per subject</p>
-               <p class="mode-detail">English + 3 subjects</p>
-               <button class="btn btn-primary" onclick="selectMode('test', false)">Start Test</button>
-               </div>
-               <div class="mode-card" data-mode="exam">
-               <div class="mode-icon">🎯</div>
-               <h3>Exam Mode</h3>
-               <p>60 English + 40 Others</p>
-               <p class="mode-detail">Full JAMB simulation</p>
-               <button class="btn btn-primary" onclick="selectMode('exam', false)">Start Exam</button>
-               </div>
-               </div>
+                <!-- Multi Subject Modes -->
+                <h3 style="color: #1a472a; margin: 20px 0 10px 0; font-size: 18px;">📚 Multi-Subject Practice</h3>
+                <div class="mode-cards">
+                    <div class="mode-card" data-mode="test">
+                        <div class="mode-icon">📝</div>
+                        <h3>Test Mode</h3>
+                        <p>10 questions per subject</p>
+                        <p class="mode-detail">English + 3 subjects · 26 mins</p>
+                        <button class="btn btn-primary" onclick="selectMode('test', false)">Start Test</button>
+                    </div>
+                    <div class="mode-card" data-mode="exam">
+                        <div class="mode-icon">🎯</div>
+                        <h3>Exam Mode</h3>
+                        <p>60 English + 40 Others</p>
+                        <p class="mode-detail">Full JAMB simulation · 2 hours</p>
+                        <button class="btn btn-primary" onclick="selectMode('exam', false)">Start Exam</button>
+                    </div>
+                </div>
     
-    <!-- ✅ NEW: Single Subject Modes -->
-    <h3 style="color: #1a472a; margin: 30px 0 10px 0; font-size: 18px;">📖 Single Subject Practice</h3>
-    <div class="mode-cards">
-        <div class="mode-card" data-mode="single-test">
-            <div class="mode-icon">📄</div>
-            <h3>Subject Test</h3>
-            <p>20 questions</p>
-            <p class="mode-detail">One subject only</p>
-            <button class="btn btn-secondary" onclick="selectMode('test', true)">Start Subject Test</button>
-        </div>
-        <div class="mode-card" data-mode="single-exam">
-            <div class="mode-icon">🎓</div>
-            <h3>Subject Exam</h3>
-            <p>40 questions</p>
-            <p class="mode-detail">Deep practice mode</p>
-            <button class="btn btn-secondary" onclick="selectMode('exam', true)">Start Subject Exam</button>
-        </div>
-    </div>
-</div>
-
+                <!-- Single Subject Modes -->
+                <h3 style="color: #667eea; margin: 30px 0 10px 0; font-size: 18px;">📖 Single Subject Practice</h3>
+                <div class="mode-cards">
+                    <div class="mode-card single-subject-card" data-mode="single-test">
+                        <div class="mode-icon">📄</div>
+                        <h3>Subject Test</h3>
+                        <p>20 questions</p>
+                        <p class="mode-detail">One subject only · 14 mins</p>
+                        <button class="btn btn-secondary" onclick="selectMode('test', true)">Start Subject Test</button>
+                    </div>
+                    <div class="mode-card single-subject-card" data-mode="single-exam">
+                        <div class="mode-icon">🎓</div>
+                        <h3>Subject Exam</h3>
+                        <p>40 questions</p>
+                        <p class="mode-detail">Deep practice mode · 27 mins</p>
+                        <button class="btn btn-secondary" onclick="selectMode('exam', true)">Start Subject Exam</button>
+                    </div>
+                </div>
+            </div>
 
             <div class="stats-section">
                 <h3>Your Statistics</h3>
@@ -95,8 +90,7 @@
                 <div class="contact-section" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: center;">
                     <h3>Need Help? 🤝</h3>
                     <p>For enquiries, support, or feedback, contact us via WhatsApp:</p>
-                    <!-- FIXED: Removed trailing space in href and src -->
-                    <a href="https://wa.me/2349050911921" target="_blank" class="btn btn-primary" style="background: #25D366; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; margin-top: 10px;">
+                    <a href="https://wa.me/2349050911921" target="_blank" class="btn btn-whatsapp" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; margin-top: 10px;">
                         <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20">
                         Message Us on WhatsApp
                     </a>
@@ -200,7 +194,7 @@
                 </div>
 
                 <div class="selection-info">
-                    <p>Selected: <span id="selectedCount">1</span> / 4</p>
+                    <p>Selected: <span id="selectedCount">1</span> / <span id="maxCount">4</span></p>
                 </div>
 
                 <button class="btn btn-primary btn-large" id="startQuizBtn" onclick="startQuiz()">
@@ -328,8 +322,8 @@
         </div>
     </div>
 
-    <!-- CRITICAL: Load scripts at end of body -->
     <script src="app.js"></script>
     <script src="quiz.js"></script>
 </body>
-                        </html>
+        </html>
+    
