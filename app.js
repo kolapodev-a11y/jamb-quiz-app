@@ -228,8 +228,7 @@ async function startQuiz() {
     updateQuizNavigation();
 }
 
-// ✅ FIXED: Load Questions with Correct Counts & Passage Handling
-// ✅ UPDATED: Load Questions with specific English counts and no-passage logic
+// ✅ FULLY FIXED: Load Questions with Correct Counts, Random Passages, and Shuffling
 async function loadQuestions() {
     quizData = [];
     const basePath = window.location.pathname.includes('/jamb-quiz-app') ? '/jamb-quiz-app' : '';
@@ -275,6 +274,7 @@ async function loadQuestions() {
                     let selectedPassageQs = [];
                     if (uniquePassages.length > 0) {
                         const randomPassageText = uniquePassages[Math.floor(Math.random() * uniquePassages.length)];
+                        // Take the 10 questions for this specific random passage
                         selectedPassageQs = passageQuestions.filter(q => q.passage === randomPassageText).slice(0, 10);
                     }
                     
@@ -297,6 +297,7 @@ async function loadQuestions() {
                 } else {
                     count = currentMode === 'test' ? 10 : 40;
                 }
+                // Shuffle non-English subjects too for variety
                 questionsToAdd = shuffleArray([...allQuestions]).slice(0, count);
             }
             
@@ -310,8 +311,8 @@ async function loadQuestions() {
     // Update the UI with total count
     const totalEl = document.getElementById('totalQuestions');
     if (totalEl) totalEl.textContent = quizData.length;
-                }
-        
+                        }
+
 
 // ✅ NEW: Flatten nested passage questions properly
 function flattenPassageQuestions(questions, subject) {
