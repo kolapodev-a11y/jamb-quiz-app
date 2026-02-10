@@ -262,31 +262,36 @@ async function loadQuestions() {
             });
             
             let questionsToAdd = [];
-            if (subject === 'english') {
-    const isExam = (isSingleSubjectMode && currentMode === 'exam') || (!isSingleSubjectMode && currentMode === 'exam');
+          if (subject === 'english') {
     const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
     const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
 
+    // Check if we are in Exam mode (Single or Multi)
+    const isExam = currentMode === 'exam';
+
     if (isExam) {
-        // 1. Identify unique passages available in the JSON
+        // 1. Identify all unique passages available in the JSON
         const uniquePassages = [...new Set(passageQuestions.map(q => q.passage))];
         
-        // 2. Randomly select ONE passage
+        // 2. Randomly select ONE passage from the list (Environmental, Agric, etc.)
         const randomPassageText = uniquePassages[Math.floor(Math.random() * uniquePassages.length)];
         
-        // 3. Get all questions belonging to that specific passage
+        // 3. Get all questions belonging to that specific selected passage
         const selectedPassageQs = passageQuestions.filter(q => q.passage === randomPassageText);
         
-        // 4. Shuffle non-passage questions and take 50
+        // 4. Shuffle all non-passage questions and take the remaining 50
         const shuffledNonPassage = shuffleArray([...nonPassageQuestions]);
         const selectedNonPassage = shuffledNonPassage.slice(0, 50);
         
+        // Combine them: 10 passage questions + 50 others = 60 total
         questionsToAdd = [...selectedPassageQs, ...selectedNonPassage];
     } else {
-        // Test Mode: 10 or 20 questions, all non-passage, shuffled
+        // Test Mode: 10 (Multi) or 20 (Single) questions, all non-passage, shuffled
         const count = isSingleSubjectMode ? 20 : 10;
         questionsToAdd = shuffleArray([...nonPassageQuestions]).slice(0, count);
     }
+}
+
  else {
                 // Non-English subjects logic
                 let count;
