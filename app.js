@@ -101,20 +101,21 @@ function selectMode(mode, singleSubject = false) {
     const englishCard = document.querySelector('.subject-card.compulsory');
     
     if (singleSubject) {
-        // Single Subject Mode
         if (info) {
             info.textContent = mode === 'test' 
                 ? '📝 Single Subject Test: 20 questions (14 minutes)' 
-                : '🎯 Single Subject Exam: 40 questions (27 minutes)';
+                : '🎯 Single Subject Exam: 60 questions (English) / 40 (Others)';
         }
         if (note) {
             note.innerHTML = '<p>📌 Select <strong>ONE</strong> subject to practice.</p>';
         }
-        if (englishCard) englishCard.style.display = 'none';
+        if (englishCard) {
+            englishCard.style.display = 'block';
+            englishCard.classList.remove('compulsory');
+        }
         selectedSubjects = [];
         
     } else {
-        // Multi Subject Mode
         if (info) {
             info.textContent = mode === 'test' 
                 ? '📝 Test Mode: 10 questions per subject (26 minutes)' 
@@ -123,16 +124,19 @@ function selectMode(mode, singleSubject = false) {
         if (note) {
             note.innerHTML = '<p>📌 English is <strong>compulsory</strong>. Select 3 more subjects.</p>';
         }
-        if (englishCard) englishCard.style.display = 'block';
+        if (englishCard) {
+            englishCard.style.display = 'block';
+            englishCard.classList.add('compulsory');
+        }
         selectedSubjects = ['english'];
     }
     
-    // Reset all selections
     document.querySelectorAll('.subject-checkbox').forEach(cb => cb.checked = false);
     document.querySelectorAll('.subject-card').forEach(c => c.classList.remove('selected'));
     
     updateSelectedCount();
 }
+
 
 // ✅ FIXED: Subject Selection Count
 function updateSelectedCount() {
