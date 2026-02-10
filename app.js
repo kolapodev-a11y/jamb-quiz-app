@@ -263,40 +263,30 @@ async function loadQuestions() {
             
             let questionsToAdd = [];
             if (subject === 'english') {
-    if (isSingleSubjectMode) {
-        if (currentMode === 'test') {
-            // ✅ Single Subject Test: 20 questions, NO passages
-            const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-            questionsToAdd = nonPassageQuestions.slice(0, 20);
-        } else {
-            // ✅ Single Subject Exam: 60 questions total
-            // Includes 10 passage questions (1 passage) + 50 non-passage
-            const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
-            const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-            
-            // Take questions from the first available passage (usually 10 questions)
-            const selectedPassage = passageQuestions.slice(0, 10);
-            const remainingCount = 60 - selectedPassage.length;
-            const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
-            
-            questionsToAdd = [...selectedPassage, ...selectedNonPassage];
-        }
-    } else if (currentMode === 'test') {
-        // Multi-subject test mode: 10 questions, no passages
-        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-        questionsToAdd = nonPassageQuestions.slice(0, 10);
+    const isExam = (isSingleSubjectMode && currentMode === 'exam') || (!isSingleSubjectMode && currentMode === 'exam');
+    const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+
+    if (isExam) {
+        // 1. Identify unique passages available in the JSON
+        const uniquePassages = [...new Set(passageQuestions.map(q => q.passage))];
+        
+        // 2. Randomly select ONE passage
+        const randomPassageText = uniquePassages[Math.floor(Math.random() * uniquePassages.length)];
+        
+        // 3. Get all questions belonging to that specific passage
+        const selectedPassageQs = passageQuestions.filter(q => q.passage === randomPassageText);
+        
+        // 4. Shuffle non-passage questions and take 50
+        const shuffledNonPassage = shuffleArray([...nonPassageQuestions]);
+        const selectedNonPassage = shuffledNonPassage.slice(0, 50);
+        
+        questionsToAdd = [...selectedPassageQs, ...selectedNonPassage];
     } else {
-        // Multi-subject exam mode: 60 total (10 passage + 50 non-passage)
-        const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
-        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-        
-        const selectedPassage = passageQuestions.slice(0, 10);
-        const remainingCount = 60 - selectedPassage.length;
-        const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
-        
-        questionsToAdd = [...selectedPassage, ...selectedNonPassage];
+        // Test Mode: 10 or 20 questions, all non-passage, shuffled
+        const count = isSingleSubjectMode ? 20 : 10;
+        questionsToAdd = shuffleArray([...nonPassageQuestions]).slice(0, count);
     }
-}
  else {
                 // Non-English subjects logic
                 let count;
@@ -457,3 +447,12 @@ if (document.readyState === 'loading') {
 } else {
     initApp();
 }
+// Helper to shuffle an array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+    }
+    
