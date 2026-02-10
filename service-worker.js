@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jamb-quiz-v3'; // Changed cache name to force refresh
+const CACHE_NAME = 'jamb-quiz-v4'; // Changed cache name to force refresh
 const urlsToCache = [
   './index.html',
   './styles.css',
