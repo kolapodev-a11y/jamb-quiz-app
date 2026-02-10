@@ -124,6 +124,21 @@ body {
 /* ============================================
    Home Screen
    ============================================ */
+ /* ✅ Single Subject Mode Button Styling */
+.btn-secondary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Mode cards spacing */
+.mode-selection h3 {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 8px;
+}
 
 .app-header {
     text-align: center;
