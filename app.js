@@ -1,9 +1,9 @@
 // ============================================
-// JAMB Quiz App - Main Application Logic
+// JAMB Quiz App - Main Application Logic (FIXED)
 // ============================================
 
 let currentMode = '';
-let isSingleSubjectMode = false; // ✅ NEW: Track single subject mode
+let isSingleSubjectMode = false;
 let selectedSubjects = ['english'];
 let quizData = [];
 let currentQuestionIndex = 0;
@@ -32,7 +32,6 @@ document.getElementById('installBtn')?.addEventListener('click', async () => {
     }
 });
 
-
 // Initialize App
 function initApp() {
     loadStats();
@@ -55,16 +54,16 @@ function setupEventListeners() {
             if (!card) return;
             const isChecked = this.checked;
             
-            // ✅ NEW: Handle single subject mode
             if (isSingleSubjectMode) {
-                // Uncheck all others
+                // Single subject: uncheck all others
                 document.querySelectorAll('.subject-checkbox').forEach(cb => {
-                    if (cb !== this) cb.checked = false;
-                });
-                document.querySelectorAll('.subject-card').forEach(c => {
-                    if (c !== card) c.classList.remove('selected');
+                    if (cb !== this) {
+                        cb.checked = false;
+                        cb.closest('.subject-card')?.classList.remove('selected');
+                    }
                 });
             } else {
+                // Multi subject: max 3 besides English
                 const selectedCount = document.querySelectorAll('.subject-checkbox:checked').length;
                 if (isChecked && selectedCount > 3) {
                     this.checked = false;
@@ -91,7 +90,7 @@ function goHome() {
     resetQuiz();
 }
 
-// ✅ UPDATED: Mode Selection with Single Subject Support
+// ✅ FIXED: Mode Selection
 function selectMode(mode, singleSubject = false) {
     currentMode = mode;
     isSingleSubjectMode = singleSubject;
@@ -105,53 +104,47 @@ function selectMode(mode, singleSubject = false) {
         // Single Subject Mode
         if (info) {
             info.textContent = mode === 'test' 
-                ? '📝 Single Subject Test: 20 questions' 
-                : '🎯 Single Subject Exam: 40 questions';
+                ? '📝 Single Subject Test: 20 questions (14 minutes)' 
+                : '🎯 Single Subject Exam: 40 questions (27 minutes)';
         }
         if (note) {
             note.innerHTML = '<p>📌 Select <strong>ONE</strong> subject to practice.</p>';
         }
-        // Hide English compulsory card
         if (englishCard) englishCard.style.display = 'none';
-        
-        // Uncheck English
         selectedSubjects = [];
         
     } else {
-        // Multi Subject Mode (original behavior)
+        // Multi Subject Mode
         if (info) {
             info.textContent = mode === 'test' 
-                ? '📝 Test Mode: 10 questions per subject' 
-                : '🎯 Exam Mode: 60 English + 40 questions per other subject';
+                ? '📝 Test Mode: 10 questions per subject (26 minutes)' 
+                : '🎯 Exam Mode: 60 English + 40 per other subject (2 hours)';
         }
         if (note) {
             note.innerHTML = '<p>📌 English is <strong>compulsory</strong>. Select 3 more subjects.</p>';
         }
-        // Show English compulsory card
         if (englishCard) englishCard.style.display = 'block';
-        
-        // Reset to English only
         selectedSubjects = ['english'];
     }
     
-    // Reset all checkboxes
+    // Reset all selections
     document.querySelectorAll('.subject-checkbox').forEach(cb => cb.checked = false);
     document.querySelectorAll('.subject-card').forEach(c => c.classList.remove('selected'));
     
     updateSelectedCount();
 }
 
-// ✅ UPDATED: Subject Selection Count
+// ✅ FIXED: Subject Selection Count
 function updateSelectedCount() {
     const checkboxes = document.querySelectorAll('.subject-checkbox:checked');
     
     if (isSingleSubjectMode) {
-        // Single subject mode: only get checked subjects
+        // Single subject: only checked subjects
         selectedSubjects = Array.from(checkboxes)
             .map(cb => cb.closest('.subject-card')?.dataset.subject)
             .filter(s => s);
     } else {
-        // Multi subject mode: English + 3 others
+        // Multi subject: English + 3 others
         const otherSubjects = Array.from(checkboxes)
             .map(cb => cb.closest('.subject-card')?.dataset.subject)
             .filter(s => s && s !== 'english');
@@ -159,21 +152,22 @@ function updateSelectedCount() {
     }
     
     const countEl = document.getElementById('selectedCount');
-    if (countEl) {
-        countEl.textContent = selectedSubjects.length;
-    }
+    const maxCount = document.getElementById('maxCount');
+    
+    if (countEl) countEl.textContent = selectedSubjects.length;
+    if (maxCount) maxCount.textContent = isSingleSubjectMode ? 1 : 4;
     
     const btn = document.getElementById('startQuizBtn');
     if (btn) {
-        const enabled = isSingleSubjectMode 
-            ? selectedSubjects.length === 1 
-            : selectedSubjects.length === 4;
+        const expectedCount = isSingleSubjectMode ? 1 : 4;
+        const enabled = selectedSubjects.length === expectedCount;
         btn.disabled = !enabled;
         btn.style.opacity = enabled ? '1' : '0.5';
+        btn.style.cursor = enabled ? 'pointer' : 'not-allowed';
     }
 }
 
-// ✅ UPDATED: Start Quiz Validation
+// ✅ FIXED: Start Quiz Validation
 async function startQuiz() {
     const expectedCount = isSingleSubjectMode ? 1 : 4;
     const modeName = isSingleSubjectMode ? '1 subject' : '4 subjects (English + 3 others)';
@@ -210,22 +204,13 @@ async function startQuiz() {
     updateQuizNavigation();
 }
 
-// ✅ UPDATED: Load Questions with Single Subject Support
+// ✅ FIXED: Load Questions with Correct Counts & Passage Handling
 async function loadQuestions() {
     quizData = [];
     const basePath = window.location.pathname.includes('/jamb-quiz-app') ? '/jamb-quiz-app' : '';
     
     for (const subject of selectedSubjects) {
         try {
-            let count;
-            if (isSingleSubjectMode) {
-                // Single subject: 20 for test, 40 for exam
-                count = currentMode === 'test' ? 20 : 40;
-            } else {
-                // Multi subject: 10/60+40
-                count = currentMode === 'test' ? 10 : (subject === 'english' ? 60 : 40);
-            }
-            
             const response = await fetch(`${basePath}/data/${subject}.json`);
             
             if (!response.ok) {
@@ -234,10 +219,13 @@ async function loadQuestions() {
             }
             
             const data = await response.json();
-            let questions = data.questions || [];
+            let allQuestions = data.questions || [];
             
-            // Convert letter answers to numeric indices
-            questions = questions.map(q => {
+            // ✅ FIX: Flatten nested passage questions FIRST
+            allQuestions = flattenPassageQuestions(allQuestions, subject);
+            
+            // ✅ FIX: Convert letter answers to indices
+            allQuestions = allQuestions.map(q => {
                 const answerMap = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 };
                 return {
                     ...q,
@@ -247,13 +235,44 @@ async function loadQuestions() {
                 };
             });
             
-            // ✅ NEW: Skip passage preprocessing in test mode
-            if (subject === 'english' && currentMode !== 'test') {
-                questions = preprocessEnglishPassages(questions);
+            // ✅ FIX: Handle English passages based on mode
+            let questionsToAdd = [];
+            
+            if (subject === 'english') {
+                if (isSingleSubjectMode) {
+                    // Single subject mode: NO PASSAGES
+                    const count = currentMode === 'test' ? 20 : 40;
+                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+                    questionsToAdd = nonPassageQuestions.slice(0, count);
+                    
+                } else if (currentMode === 'test') {
+                    // Multi-subject test mode: NO PASSAGES
+                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+                    questionsToAdd = nonPassageQuestions.slice(0, 10);
+                    
+                } else {
+                    // Multi-subject exam mode: 10 passage questions max + fill to 60
+                    const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+                    
+                    const selectedPassage = passageQuestions.slice(0, 10);
+                    const remainingCount = 60 - selectedPassage.length;
+                    const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
+                    
+                    questionsToAdd = [...selectedPassage, ...selectedNonPassage];
+                }
+            } else {
+                // Non-English subjects
+                let count;
+                if (isSingleSubjectMode) {
+                    count = currentMode === 'test' ? 20 : 40;
+                } else {
+                    count = currentMode === 'test' ? 10 : 40;
+                }
+                questionsToAdd = allQuestions.slice(0, count);
             }
             
-            // Slice to required count
-            quizData.push(...questions.slice(0, count));
+            quizData.push(...questionsToAdd);
             
         } catch (error) {
             console.error(`Error loading ${subject}:`, error);
@@ -264,49 +283,46 @@ async function loadQuestions() {
     const totalEl = document.getElementById('totalQuestions');
     if (totalEl) totalEl.textContent = quizData.length;
     
-    console.log(`✅ Loaded ${quizData.length} questions from ${selectedSubjects.length} subjects`);
+    console.log(`✅ Loaded ${quizData.length} questions from ${selectedSubjects.join(', ')}`);
 }
 
-// English Passage Preprocessor
-function preprocessEnglishPassages(questions) {
-    let currentPassage = null;
+// ✅ NEW: Flatten nested passage questions properly
+function flattenPassageQuestions(questions, subject) {
+    const flattened = [];
     
-    return questions.map((q, index) => {
-        // Detect passage-based questions
-        if (q.type === 'passage' && q.passage) {
-            currentPassage = q.passage;
-            q._passageText = currentPassage;
-            q._isPassageStart = true;
-        } else if (q.passage && q.passage !== currentPassage) {
-            // New passage started
-            currentPassage = q.passage;
-            q._passageText = currentPassage;
-            q._isPassageStart = true;
-        } else if (currentPassage && q.type === 'passage') {
-            // Continuation of current passage
-            q._passageText = currentPassage;
-            q._isPassageStart = false;
+    for (const item of questions) {
+        // Check if this is a passage container with nested questions
+        if (item.type === 'passage' && item.questions && Array.isArray(item.questions)) {
+            // This is a passage with nested questions
+            const passage = item.passage;
+            item.questions.forEach((subQ, idx) => {
+                flattened.push({
+                    ...subQ,
+                    passage: passage,
+                    type: 'passage',
+                    _isPassageStart: idx === 0,
+                    subject: subject
+                });
+            });
+        } else {
+            // Regular question or passage question without nesting
+            flattened.push(item);
         }
-        
-        // Handle nested questions in passage objects
-        if (q.questions && Array.isArray(q.questions)) {
-            return q.questions.map((subQ, subIdx) => ({
-                ...subQ,
-                _passageText: q.passage || currentPassage,
-                _isPassageStart: subIdx === 0,
-                subject: 'english',
-                subjectDisplay: 'English',
-                correctAnswer: { 'A': 0, 'B': 1, 'C': 2, 'D': 3 }[subQ.answer] ?? 0
-            }));
-        }
-        
-        return q;
-    }).flat();
+    }
+    
+    return flattened;
 }
 
-// Timer (Countdown)
+// ✅ FIXED: Timer with Correct Durations
 function startTimer() {
-    totalTimeSeconds = currentMode === 'exam' ? 7200 : 1560; // 2hrs or 26min
+    if (isSingleSubjectMode) {
+        // Single subject: 14min test, 27min exam
+        totalTimeSeconds = currentMode === 'test' ? 840 : 1620;
+    } else {
+        // Multi subject: 26min test, 2hrs exam
+        totalTimeSeconds = currentMode === 'test' ? 1560 : 7200;
+    }
+    
     quizStartTime = Date.now();
     updateTimer();
     timerInterval = setInterval(updateTimer, 1000);
@@ -329,6 +345,11 @@ function updateTimer() {
     const mins = Math.floor(remaining / 60);
     const secs = remaining % 60;
     el.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+    
+    // Warning color when < 2 minutes
+    if (remaining < 120) {
+        el.style.color = '#ef4444';
+    }
 }
 
 function stopTimer() {
@@ -387,7 +408,7 @@ function resetQuiz() {
     userAnswers = [];
     quizData = [];
     quizStartTime = null;
-    isSingleSubjectMode = false; // ✅ Reset mode
+    isSingleSubjectMode = false;
 }
 
 function retakeQuiz() {
@@ -400,5 +421,4 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initApp);
 } else {
     initApp();
-        }
-                
+}
