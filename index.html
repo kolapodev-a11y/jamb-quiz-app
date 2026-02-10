@@ -33,24 +33,47 @@
             </header>
 
             <div class="mode-selection">
-                <h2>Select Quiz Mode</h2>
-                <div class="mode-cards">
-                    <div class="mode-card" data-mode="test">
-                        <div class="mode-icon">📝</div>
-                        <h3>Test Mode</h3>
-                        <p>10 questions per subject</p>
-                        <p class="mode-detail">Quick practice session</p>
-                        <button class="btn btn-primary" onclick="selectMode('test')">Start Test</button>
-                    </div>
-                    <div class="mode-card" data-mode="exam">
-                        <div class="mode-icon">🎯</div>
-                        <h3>Exam Mode</h3>
-                        <p>60 English + 40 Others</p>
-                        <p class="mode-detail">Full JAMB simulation</p>
-                        <button class="btn btn-primary" onclick="selectMode('exam')">Start Exam</button>
-                    </div>
-                </div>
-            </div>
+               <h2>Select Quiz Mode</h2>
+    
+    <!-- ✅ NEW: Multi Subject Modes -->
+               <h3 style="color: #1a472a; margin: 20px 0 10px 0; font-size: 18px;">📚 Multi-Subject Practice</h3>
+               <div class="mode-cards">
+               <div class="mode-card" data-mode="test">
+               <div class="mode-icon">📝</div>
+               <h3>Test Mode</h3>
+               <p>10 questions per subject</p>
+               <p class="mode-detail">English + 3 subjects</p>
+               <button class="btn btn-primary" onclick="selectMode('test', false)">Start Test</button>
+               </div>
+               <div class="mode-card" data-mode="exam">
+               <div class="mode-icon">🎯</div>
+               <h3>Exam Mode</h3>
+               <p>60 English + 40 Others</p>
+               <p class="mode-detail">Full JAMB simulation</p>
+               <button class="btn btn-primary" onclick="selectMode('exam', false)">Start Exam</button>
+               </div>
+               </div>
+    
+    <!-- ✅ NEW: Single Subject Modes -->
+    <h3 style="color: #1a472a; margin: 30px 0 10px 0; font-size: 18px;">📖 Single Subject Practice</h3>
+    <div class="mode-cards">
+        <div class="mode-card" data-mode="single-test">
+            <div class="mode-icon">📄</div>
+            <h3>Subject Test</h3>
+            <p>20 questions</p>
+            <p class="mode-detail">One subject only</p>
+            <button class="btn btn-secondary" onclick="selectMode('test', true)">Start Subject Test</button>
+        </div>
+        <div class="mode-card" data-mode="single-exam">
+            <div class="mode-icon">🎓</div>
+            <h3>Subject Exam</h3>
+            <p>40 questions</p>
+            <p class="mode-detail">Deep practice mode</p>
+            <button class="btn btn-secondary" onclick="selectMode('exam', true)">Start Subject Exam</button>
+        </div>
+    </div>
+</div>
+
 
             <div class="stats-section">
                 <h3>Your Statistics</h3>
