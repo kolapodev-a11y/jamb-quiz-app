@@ -260,58 +260,43 @@ async function loadQuestions() {
             });
             
             let questionsToAdd = [];
-
             if (subject === 'english') {
-                // Separate passage-based questions and general questions
-                const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
-                const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-
-                if (currentMode === 'exam') {
-                    // 1. Identify all unique passages (Environmental, Technology, etc.)
-                    const uniquePassages = [...new Set(passageQuestions.map(q => q.passage))];
-                    
-                    // 2. Select ONE random passage if any exist
-                    let selectedPassageQs = [];
-                    if (uniquePassages.length > 0) {
-                        const randomPassageText = uniquePassages[Math.floor(Math.random() * uniquePassages.length)];
-                        // Take the 10 questions for this specific random passage
-                        selectedPassageQs = passageQuestions.filter(q => q.passage === randomPassageText).slice(0, 10);
-                    }
-                    
-                    // 3. Shuffle and take enough non-passage questions to reach 60 total
-                    const shuffledNonPassage = shuffleArray([...nonPassageQuestions]);
-                    const remainingCount = 60 - selectedPassageQs.length;
-                    const selectedNonPassage = shuffledNonPassage.slice(0, remainingCount);
-                    
-                    questionsToAdd = [...selectedPassageQs, ...selectedNonPassage];
-                } else {
-                    // Test Mode: 20 (Single) or 10 (Multi) questions, NO passages
-                    const count = isSingleSubjectMode ? 20 : 10;
-                    questionsToAdd = shuffleArray([...nonPassageQuestions]).slice(0, count);
-                }
-            } else {
-                // Non-English subjects logic
-                let count;
-                if (isSingleSubjectMode) {
-                    count = currentMode === 'test' ? 20 : 40;
-                } else {
-                    count = currentMode === 'test' ? 10 : 40;
-                }
-                // Shuffle non-English subjects too for variety
-                questionsToAdd = shuffleArray([...allQuestions]).slice(0, count);
-            }
+    if (isSingleSubjectMode) {
+        if (currentMode === 'test') {
+            // ✅ Single Subject Test: 20 questions, NO passages
+            const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+            questionsToAdd = nonPassageQuestions.slice(0, 20);
+        } else {
+            // ✅ Single Subject Exam: 60 questions total
+            // Includes 10 passage questions (1 passage) + 50 non-passage
+            const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+            const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
             
-            quizData.push(...questionsToAdd);
+            // Take questions from the first available passage (usually 10 questions)
+            const selectedPassage = passageQuestions.slice(0, 10);
+            const remainingCount = 60 - selectedPassage.length;
+            const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
             
-        } catch (error) {
-            console.error(`Error loading ${subject}:`, error);
+            questionsToAdd = [...selectedPassage, ...selectedNonPassage];
         }
+    } else if (currentMode === 'test') {
+        // Multi-subject test mode: 10 questions, no passages
+        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+        questionsToAdd = nonPassageQuestions.slice(0, 10);
+    } else {
+        // Multi-subject exam mode: 60 total (10 passage + 50 non-passage)
+        const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+        
+        const selectedPassage = passageQuestions.slice(0, 10);
+        const remainingCount = 60 - selectedPassage.length;
+        const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
+        
+        questionsToAdd = [...selectedPassage, ...selectedNonPassage];
     }
-    
-    // Update the UI with total count
-    const totalEl = document.getElementById('totalQuestions');
-    if (totalEl) totalEl.textContent = quizData.length;
-                        }
+                                                   }
+        
+            
 
 
 // ✅ NEW: Flatten nested passage questions properly
