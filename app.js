@@ -52,7 +52,7 @@ function setupEventListeners() {
         card.addEventListener('click', function(e) {
             if (e.target.closest('input[type="checkbox"]')) return;
             const cb = this.querySelector('.subject-checkbox');
-            if (cb) cb.click();
+            if (cb && !cb.disabled) cb.click();
         });
     });
 
@@ -75,7 +75,8 @@ function setupEventListeners() {
                 // Multi subject: max 3 besides English
                 const selectedCount = document.querySelectorAll('.subject-checkbox:checked').length;
                 if (isChecked && selectedCount > 3) {
-                    this.checked = false;
+                    this.checked = false; // Prevent checking
+                    card.classList.remove('selected'); // Ensure card stays unselected
                     alert('You can only select 3 subjects besides English.');
                     return;
                 }
@@ -126,16 +127,20 @@ function selectMode(mode, singleSubject = false) {
     const note = document.querySelector('.subject-note');
     const englishCard = document.querySelector('.subject-card.compulsory');
     const englishCheckbox = englishCard?.querySelector('input[type="checkbox"]');
+    const compulsoryBadge = englishCard?.querySelector('.compulsory-badge');
     
     if (singleSubject) {
         // Single Subject Mode: Show English card and make it selectable
         if (englishCard) {
             englishCard.style.display = 'block';
-            englishCard.classList.remove('compulsory'); // Remove compulsory class temporarily
+            englishCard.classList.remove('compulsory');
         }
         if (englishCheckbox) {
-            englishCheckbox.disabled = false; // Enable checkbox
-            englishCheckbox.checked = false; // Uncheck it
+            englishCheckbox.disabled = false;
+            englishCheckbox.checked = false;
+        }
+        if (compulsoryBadge) {
+            compulsoryBadge.style.display = 'none';
         }
         
         // Update UI text
@@ -153,11 +158,14 @@ function selectMode(mode, singleSubject = false) {
         // Multi Subject Mode
         if (englishCard) {
             englishCard.style.display = 'block';
-            englishCard.classList.add('compulsory'); // Restore compulsory class
+            englishCard.classList.add('compulsory');
         }
         if (englishCheckbox) {
-            englishCheckbox.disabled = true; // Disable checkbox
-            englishCheckbox.checked = true; // Force checked
+            englishCheckbox.disabled = true;
+            englishCheckbox.checked = true;
+        }
+        if (compulsoryBadge) {
+            compulsoryBadge.style.display = 'block';
         }
         
         if (info) {
@@ -507,4 +515,5 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initApp);
 } else {
     initApp();
-}
+                        }
+        
