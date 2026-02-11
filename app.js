@@ -48,41 +48,53 @@ function initApp() {
 
 function setupEventListeners() {
     // Click handler for subject cards
-    document.querySelectorAll('.subject-card:not(.compulsory)').forEach(card => {
+    document.querySelectorAll('.subject-card').forEach(card => {
         card.addEventListener('click', function(e) {
+            // Don't trigger if clicking the checkbox directly
             if (e.target.closest('input[type="checkbox"]')) return;
+            
             const cb = this.querySelector('.subject-checkbox');
-            if (cb && !cb.disabled) cb.click();
+            if (cb && !cb.disabled) {
+                cb.click();
+            }
         });
     });
 
     // Change handler for checkboxes
     document.querySelectorAll('.subject-checkbox').forEach(checkbox => {
-        checkbox.addEventListener('change', function() {
+        checkbox.addEventListener('change', function(e) {
             const card = this.closest('.subject-card');
             if (!card) return;
-            const isChecked = this.checked;
             
             if (isSingleSubjectMode) {
                 // Single subject: uncheck all others
-                document.querySelectorAll('.subject-checkbox').forEach(cb => {
-                    if (cb !== this) {
-                        cb.checked = false;
-                        cb.closest('.subject-card')?.classList.remove('selected');
-                    }
-                });
+                if (this.checked) {
+                    document.querySelectorAll('.subject-checkbox').forEach(cb => {
+                        if (cb !== this) {
+                            cb.checked = false;
+                            cb.closest('.subject-card')?.classList.remove('selected');
+                        }
+                    });
+                    card.classList.add('selected');
+                } else {
+                    card.classList.remove('selected');
+                }
             } else {
                 // Multi subject: max 3 besides English
-                const selectedCount = document.querySelectorAll('.subject-checkbox:checked').length;
-                if (isChecked && selectedCount > 3) {
-                    this.checked = false; // Prevent checking
-                    card.classList.remove('selected'); // Ensure card stays unselected
+                const currentlySelected = document.querySelectorAll('.subject-checkbox:checked').length;
+                
+                if (this.checked && currentlySelected > 3) {
+                    // Prevent selection
+                    e.preventDefault();
+                    this.checked = false;
+                    card.classList.remove('selected');
                     alert('You can only select 3 subjects besides English.');
                     return;
                 }
+                
+                card.classList.toggle('selected', this.checked);
             }
             
-            card.classList.toggle('selected', isChecked);
             updateSelectedCount();
         });
     });
@@ -125,15 +137,16 @@ function selectMode(mode, singleSubject = false) {
     
     const info = document.getElementById('modeInfo');
     const note = document.querySelector('.subject-note');
-    const englishCard = document.querySelector('.subject-card.compulsory');
+    const englishCard = document.querySelector('.subject-card[data-subject="english"]');
     const englishCheckbox = englishCard?.querySelector('input[type="checkbox"]');
     const compulsoryBadge = englishCard?.querySelector('.compulsory-badge');
     
     if (singleSubject) {
-        // Single Subject Mode: Show English card and make it selectable
+        // Single Subject Mode: English becomes selectable like any other subject
         if (englishCard) {
             englishCard.style.display = 'block';
             englishCard.classList.remove('compulsory');
+            englishCard.classList.remove('selected');
         }
         if (englishCheckbox) {
             englishCheckbox.disabled = false;
@@ -155,10 +168,11 @@ function selectMode(mode, singleSubject = false) {
         selectedSubjects = [];
         
     } else {
-        // Multi Subject Mode
+        // Multi Subject Mode: English is compulsory
         if (englishCard) {
             englishCard.style.display = 'block';
             englishCard.classList.add('compulsory');
+            englishCard.classList.add('selected');
         }
         if (englishCheckbox) {
             englishCheckbox.disabled = true;
@@ -179,15 +193,12 @@ function selectMode(mode, singleSubject = false) {
         selectedSubjects = ['english'];
     }
     
-    // Reset all non-English selections
-    document.querySelectorAll('.subject-checkbox').forEach(cb => {
-        if (cb !== englishCheckbox) {
-            cb.checked = false;
-        }
-    });
-    document.querySelectorAll('.subject-card').forEach(c => {
-        if (c !== englishCard || !singleSubject) {
-            c.classList.remove('selected');
+    // Reset all other subject selections
+    document.querySelectorAll('.subject-card').forEach(card => {
+        if (card !== englishCard) {
+            card.classList.remove('selected');
+            const cb = card.querySelector('.subject-checkbox');
+            if (cb) cb.checked = false;
         }
     });
     
@@ -206,7 +217,7 @@ function updateSelectedCount() {
             .map(cb => cb.closest('.subject-card')?.dataset.subject)
             .filter(s => s);
     } else {
-        // Multi subject: English + 3 others
+        // Multi subject: English + up to 3 others
         const otherSubjects = Array.from(checkboxes)
             .map(cb => cb.closest('.subject-card')?.dataset.subject)
             .filter(s => s && s !== 'english');
@@ -515,5 +526,5 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initApp);
 } else {
     initApp();
-                        }
-        
+        }
+                                   
