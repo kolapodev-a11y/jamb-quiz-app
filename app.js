@@ -283,8 +283,9 @@ async function loadQuestions() {
         }
     }
             // ✅ FIX: Handle English passages based on mode
-let questionsToAdd = [];
-
+                let questionsToAdd = [];
+                 
+                
 if (subject === 'english') {
     if (isSingleSubjectMode) {
         // Single subject mode: NO PASSAGES
