@@ -87,7 +87,7 @@ function setupEventListeners() {
     });
 }
 
-// ============================================
+// =============================================
 // UTILITY FUNCTIONS
 // ============================================
 // Shuffle array using Fisher-Yates algorithm
