@@ -47,58 +47,65 @@ function initApp() {
 }
 
 function setupEventListeners() {
-    // Click handler for subject cards
-    document.querySelectorAll('.subject-card').forEach(card => {
-        card.addEventListener('click', function(e) {
-            // Don't trigger if clicking the checkbox directly
-            if (e.target.closest('input[type="checkbox"]')) return;
-            
-            const cb = this.querySelector('.subject-checkbox');
-            if (cb && !cb.disabled) {
-                cb.click();
-            }
-        });
-    });
+  // Click handler for subject cards
+  document.querySelectorAll('.subject-card').forEach(card => {
+    card.addEventListener('click', function (e) {
+      // Don't trigger if clicking the checkbox directly
+      if (e.target.closest('input[type="checkbox"]')) return;
 
-    // Change handler for checkboxes
-    document.querySelectorAll('.subject-checkbox').forEach(checkbox => {
-        checkbox.addEventListener('change', function(e) {
-            const card = this.closest('.subject-card');
-            if (!card) return;
-            
-            if (isSingleSubjectMode) {
-                // Single subject: uncheck all others
-                if (this.checked) {
-                    document.querySelectorAll('.subject-checkbox').forEach(cb => {
-                        if (cb !== this) {
-                            cb.checked = false;
-                            cb.closest('.subject-card')?.classList.remove('selected');
-                        }
-                    });
-                    card.classList.add('selected');
-                } else {
-                    card.classList.remove('selected');
-                }
-            } else {
-                // Multi subject: max 3 besides English
-                const currentlySelected = document.querySelectorAll('.subject-checkbox:checked').length;
-                
-                if (this.checked && currentlySelected > 3) {
-                    // Prevent selection
-                    e.preventDefault();
-                    this.checked = false;
-                    card.classList.remove('selected');
-                    alert('You can only select 3 subjects besides English.');
-                    return;
-                }
-                
-                card.classList.toggle('selected', this.checked);
-            }
-            
-            updateSelectedCount();
-        });
+      const cb = this.querySelector('.subject-checkbox');
+      if (cb && !cb.disabled) cb.click();
     });
+  });
+
+  // Change handler for checkboxes
+  document.querySelectorAll('.subject-checkbox').forEach(checkbox => {
+    checkbox.addEventListener('change', function (e) {
+      const card = this.closest('.subject-card');
+      if (!card) return;
+
+      const subject = card.dataset.subject;
+
+      if (isSingleSubjectMode) {
+        // Single subject: uncheck all others
+        if (this.checked) {
+          document.querySelectorAll('.subject-checkbox').forEach(cb => {
+            if (cb !== this) {
+              cb.checked = false;
+              cb.closest('.subject-card')?.classList.remove('selected');
+            }
+          });
+          card.classList.add('selected');
+        } else {
+          card.classList.remove('selected');
+        }
+
+      } else {
+        // Multi-subject: allow max 3 subjects besides English
+
+        // Count ONLY non-English checked boxes (English is compulsory and already checked)
+        const otherSelectedCount = Array.from(
+          document.querySelectorAll('.subject-checkbox:checked')
+        ).filter(cb => cb.closest('.subject-card')?.dataset.subject !== 'english').length;
+
+        // If user is trying to check a non-English subject that would exceed 3
+        if (subject !== 'english' && this.checked && otherSelectedCount > 3) {
+          // Undo the check
+          this.checked = false;
+          card.classList.remove('selected');
+          alert('You can only select 3 subjects besides English.');
+          updateSelectedCount(); // keep UI in sync
+          return;
+        }
+
+        card.classList.toggle('selected', this.checked);
+      }
+
+      updateSelectedCount();
+    });
+  });
 }
+
 
 // =============================================
 // UTILITY FUNCTIONS
