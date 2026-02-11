@@ -2,6 +2,9 @@
 // JAMB Quiz App - Main Application Logic (FIXED)
 // ============================================
 
+// ============================================
+// GLOBAL VARIABLES
+// ============================================
 let currentMode = '';
 let isSingleSubjectMode = false;
 let selectedSubjects = ['english'];
@@ -14,7 +17,9 @@ let totalTimeSeconds = 0;
 let stats = { totalQuizzes: 0, scores: [], bestScore: 0 };
 let deferredPrompt;
 
-// PWA Installation
+// ============================================
+// PWA INSTALLATION
+// ============================================
 window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
@@ -32,7 +37,9 @@ document.getElementById('installBtn')?.addEventListener('click', async () => {
     }
 });
 
-// Initialize App
+// ============================================
+// INITIALIZATION
+// ============================================
 function initApp() {
     loadStats();
     displayStats();
@@ -40,6 +47,7 @@ function initApp() {
 }
 
 function setupEventListeners() {
+    // Click handler for subject cards
     document.querySelectorAll('.subject-card:not(.compulsory)').forEach(card => {
         card.addEventListener('click', function(e) {
             if (e.target.closest('input[type="checkbox"]')) return;
@@ -48,6 +56,7 @@ function setupEventListeners() {
         });
     });
 
+    // Change handler for checkboxes
     document.querySelectorAll('.subject-checkbox').forEach(checkbox => {
         checkbox.addEventListener('change', function() {
             const card = this.closest('.subject-card');
@@ -77,7 +86,11 @@ function setupEventListeners() {
         });
     });
 }
-// Utility: Shuffle array (Fisher-Yates algorithm)
+
+// ============================================
+// UTILITY FUNCTIONS
+// ============================================
+// Shuffle array using Fisher-Yates algorithm
 function shuffleArray(array) {
     const shuffled = [...array]; // Create a copy
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -85,9 +98,11 @@ function shuffleArray(array) {
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     return shuffled;
-    }
+}
 
-// Screen Navigation
+// ============================================
+// SCREEN NAVIGATION
+// ============================================
 function showScreen(screenId) {
     document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
     const screen = document.getElementById(screenId);
@@ -99,7 +114,9 @@ function goHome() {
     resetQuiz();
 }
 
-// ✅ FIXED: Mode Selection
+// ============================================
+// MODE SELECTION
+// ============================================
 function selectMode(mode, singleSubject = false) {
     currentMode = mode;
     isSingleSubjectMode = singleSubject;
@@ -111,7 +128,7 @@ function selectMode(mode, singleSubject = false) {
     const englishCheckbox = englishCard?.querySelector('input[type="checkbox"]');
     
     if (singleSubject) {
-        // ✅ FIX: Show English card and make it selectable
+        // Single Subject Mode: Show English card and make it selectable
         if (englishCard) {
             englishCard.style.display = 'block';
             englishCard.classList.remove('compulsory'); // Remove compulsory class temporarily
@@ -169,9 +186,9 @@ function selectMode(mode, singleSubject = false) {
     updateSelectedCount();
 }
 
-
-
-// ✅ FIXED: Subject Selection Count
+// ============================================
+// SUBJECT SELECTION
+// ============================================
 function updateSelectedCount() {
     const checkboxes = document.querySelectorAll('.subject-checkbox:checked');
     
@@ -204,7 +221,9 @@ function updateSelectedCount() {
     }
 }
 
-// ✅ FIXED: Start Quiz Validation
+// ============================================
+// QUIZ INITIALIZATION
+// ============================================
 async function startQuiz() {
     const expectedCount = isSingleSubjectMode ? 1 : 4;
     const modeName = isSingleSubjectMode ? '1 subject' : '4 subjects (English + 3 others)';
@@ -241,7 +260,9 @@ async function startQuiz() {
     updateQuizNavigation();
 }
 
-// ✅ FIXED: Load Questions with Correct Counts & Passage Handling
+// ============================================
+// QUESTION LOADING
+// ============================================
 async function loadQuestions() {
     quizData = [];
     const basePath = window.location.pathname.includes('/jamb-quiz-app') ? '/jamb-quiz-app' : '';
@@ -258,10 +279,10 @@ async function loadQuestions() {
             const data = await response.json();
             let allQuestions = data.questions || [];
             
-            // ✅ FIX: Flatten nested passage questions FIRST
+            // Flatten nested passage questions FIRST
             allQuestions = flattenPassageQuestions(allQuestions, subject);
             
-            // ✅ FIX: Convert letter answers to indices
+            // Convert letter answers to indices
             allQuestions = allQuestions.map(q => {
                 const answerMap = { 'A': 0, 'B': 1, 'C': 2, 'D': 3 };
                 return {
@@ -272,8 +293,62 @@ async function loadQuestions() {
                 };
             });
             
-            // ✅ FIX: Handle English passages based on mode
+            // Handle question selection based on mode and subject
+            let questionsToAdd = [];
             
+            if (subject === 'english') {
+                if (isSingleSubjectMode) {
+                    // Single subject mode: NO PASSAGES
+                    const count = currentMode === 'test' ? 20 : 40;
+                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+                    questionsToAdd = shuffleArray(nonPassageQuestions).slice(0, count);
+                    
+                } else if (currentMode === 'test') {
+                    // Multi-subject test mode: NO PASSAGES
+                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+                    questionsToAdd = shuffleArray(nonPassageQuestions).slice(0, 10);
+                    
+                } else {
+                    // Multi-subject exam mode: 1 random passage (10Q) + 50 independent questions
+                    const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+                    
+                    // Group passage questions by passage text to get complete passages
+                    const passageGroups = {};
+                    passageQuestions.forEach(q => {
+                        const key = q.passage || 'unknown';
+                        if (!passageGroups[key]) passageGroups[key] = [];
+                        passageGroups[key].push(q);
+                    });
+                    
+                    // Convert to array of passage groups and select one randomly
+                    const passageGroupsArray = Object.values(passageGroups).filter(group => group.length === 10);
+                    
+                    let selectedPassage = [];
+                    if (passageGroupsArray.length > 0) {
+                        // Select one random passage (should have 10 questions)
+                        const randomIndex = Math.floor(Math.random() * passageGroupsArray.length);
+                        selectedPassage = passageGroupsArray[randomIndex];
+                    }
+                    
+                    // Select 50 random independent questions
+                    const selectedNonPassage = shuffleArray(nonPassageQuestions).slice(0, 50);
+                    
+                    // Combine: passage questions first, then independent questions
+                    questionsToAdd = [...selectedPassage, ...selectedNonPassage];
+                    
+                    console.log(`✅ English Exam: ${selectedPassage.length} passage questions + ${selectedNonPassage.length} independent = ${questionsToAdd.length} total`);
+                }
+            } else {
+                // Non-English subjects
+                let count;
+                if (isSingleSubjectMode) {
+                    count = currentMode === 'test' ? 20 : 40;
+                } else {
+                    count = currentMode === 'test' ? 10 : 40;
+                }
+                questionsToAdd = shuffleArray(allQuestions).slice(0, count);
+            }
             
             quizData.push(...questionsToAdd);
             
@@ -282,63 +357,6 @@ async function loadQuestions() {
             alert(`Failed to load ${subject} questions. Check console for details.`);
         }
     }
-            // ✅ FIX: Handle English passages based on mode
-                let questionsToAdd = [];
-                 
-                
-if (subject === 'english') {
-    if (isSingleSubjectMode) {
-        // Single subject mode: NO PASSAGES
-        const count = currentMode === 'test' ? 20 : 40;
-        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-        questionsToAdd = shuffleArray(nonPassageQuestions).slice(0, count);
-        
-    } else if (currentMode === 'test') {
-        // Multi-subject test mode: NO PASSAGES
-        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-        questionsToAdd = shuffleArray(nonPassageQuestions).slice(0, 10);
-        
-    } else {
-        // ✅ NEW: Multi-subject exam mode - 1 random passage (10Q) + 50 independent questions
-        const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
-        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-        
-        // Group passage questions by passage text to get complete passages
-        const passageGroups = {};
-        passageQuestions.forEach(q => {
-            const key = q.passage || 'unknown';
-            if (!passageGroups[key]) passageGroups[key] = [];
-            passageGroups[key].push(q);
-        });
-        
-        // Convert to array of passage groups and select one randomly
-        const passageGroupsArray = Object.values(passageGroups).filter(group => group.length === 10);
-        
-        let selectedPassage = [];
-        if (passageGroupsArray.length > 0) {
-            // Select one random passage (should have 10 questions)
-            const randomIndex = Math.floor(Math.random() * passageGroupsArray.length);
-            selectedPassage = passageGroupsArray[randomIndex];
-        }
-        
-        // Select 50 random independent questions
-        const selectedNonPassage = shuffleArray(nonPassageQuestions).slice(0, 50);
-        
-        // Combine: passage questions first, then independent questions
-        questionsToAdd = [...selectedPassage, ...selectedNonPassage];
-        
-        console.log(`✅ English Exam: ${selectedPassage.length} passage questions + ${selectedNonPassage.length} independent = ${questionsToAdd.length} total`);
-    }
-} else {
-    // Non-English subjects
-    let count;
-    if (isSingleSubjectMode) {
-        count = currentMode === 'test' ? 20 : 40;
-    } else {
-        count = currentMode === 'test' ? 10 : 40;
-    }
-    questionsToAdd = shuffleArray(allQuestions).slice(0, count);
-}
     
     const totalEl = document.getElementById('totalQuestions');
     if (totalEl) totalEl.textContent = quizData.length;
@@ -346,7 +364,7 @@ if (subject === 'english') {
     console.log(`✅ Loaded ${quizData.length} questions from ${selectedSubjects.join(', ')}`);
 }
 
-// ✅ NEW: Flatten nested passage questions properly
+// Flatten nested passage questions properly
 function flattenPassageQuestions(questions, subject) {
     const flattened = [];
     
@@ -373,7 +391,9 @@ function flattenPassageQuestions(questions, subject) {
     return flattened;
 }
 
-// ✅ FIXED: Timer with Correct Durations
+// ============================================
+// TIMER FUNCTIONS
+// ============================================
 function startTimer() {
     if (isSingleSubjectMode) {
         // Single subject: 14min test, 27min exam
@@ -419,7 +439,9 @@ function stopTimer() {
     }
 }
 
-// Statistics
+// ============================================
+// STATISTICS MANAGEMENT
+// ============================================
 function loadStats() {
     try {
         const saved = localStorage.getItem('jambQuizStats');
@@ -461,7 +483,9 @@ function updateStats(score) {
     displayStats();
 }
 
-// Reset
+// ============================================
+// RESET & RETAKE
+// ============================================
 function resetQuiz() {
     stopTimer();
     currentQuestionIndex = 0;
@@ -476,10 +500,11 @@ function retakeQuiz() {
     showScreen('subject-screen');
 }
 
-// Initialize on load
+// ============================================
+// APP INITIALIZATION ON LOAD
+// ============================================
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initApp);
 } else {
     initApp();
-                }
-        
+}
