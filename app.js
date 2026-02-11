@@ -77,6 +77,15 @@ function setupEventListeners() {
         });
     });
 }
+// Utility: Shuffle array (Fisher-Yates algorithm)
+function shuffleArray(array) {
+    const shuffled = [...array]; // Create a copy
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+    }
 
 // Screen Navigation
 function showScreen(screenId) {
@@ -99,9 +108,20 @@ function selectMode(mode, singleSubject = false) {
     const info = document.getElementById('modeInfo');
     const note = document.querySelector('.subject-note');
     const englishCard = document.querySelector('.subject-card.compulsory');
+    const englishCheckbox = englishCard?.querySelector('input[type="checkbox"]');
     
     if (singleSubject) {
-        // Single Subject Mode
+        // ✅ FIX: Show English card and make it selectable
+        if (englishCard) {
+            englishCard.style.display = 'block';
+            englishCard.classList.remove('compulsory'); // Remove compulsory class temporarily
+        }
+        if (englishCheckbox) {
+            englishCheckbox.disabled = false; // Enable checkbox
+            englishCheckbox.checked = false; // Uncheck it
+        }
+        
+        // Update UI text
         if (info) {
             info.textContent = mode === 'test' 
                 ? '📝 Single Subject Test: 20 questions (14 minutes)' 
@@ -110,11 +130,19 @@ function selectMode(mode, singleSubject = false) {
         if (note) {
             note.innerHTML = '<p>📌 Select <strong>ONE</strong> subject to practice.</p>';
         }
-        if (englishCard) englishCard.style.display = 'none';
         selectedSubjects = [];
         
     } else {
         // Multi Subject Mode
+        if (englishCard) {
+            englishCard.style.display = 'block';
+            englishCard.classList.add('compulsory'); // Restore compulsory class
+        }
+        if (englishCheckbox) {
+            englishCheckbox.disabled = true; // Disable checkbox
+            englishCheckbox.checked = true; // Force checked
+        }
+        
         if (info) {
             info.textContent = mode === 'test' 
                 ? '📝 Test Mode: 10 questions per subject (26 minutes)' 
@@ -123,16 +151,25 @@ function selectMode(mode, singleSubject = false) {
         if (note) {
             note.innerHTML = '<p>📌 English is <strong>compulsory</strong>. Select 3 more subjects.</p>';
         }
-        if (englishCard) englishCard.style.display = 'block';
         selectedSubjects = ['english'];
     }
     
-    // Reset all selections
-    document.querySelectorAll('.subject-checkbox').forEach(cb => cb.checked = false);
-    document.querySelectorAll('.subject-card').forEach(c => c.classList.remove('selected'));
+    // Reset all non-English selections
+    document.querySelectorAll('.subject-checkbox').forEach(cb => {
+        if (cb !== englishCheckbox) {
+            cb.checked = false;
+        }
+    });
+    document.querySelectorAll('.subject-card').forEach(c => {
+        if (c !== englishCard || !singleSubject) {
+            c.classList.remove('selected');
+        }
+    });
     
     updateSelectedCount();
 }
+
+
 
 // ✅ FIXED: Subject Selection Count
 function updateSelectedCount() {
@@ -236,41 +273,7 @@ async function loadQuestions() {
             });
             
             // ✅ FIX: Handle English passages based on mode
-            let questionsToAdd = [];
             
-            if (subject === 'english') {
-                if (isSingleSubjectMode) {
-                    // Single subject mode: NO PASSAGES
-                    const count = currentMode === 'test' ? 20 : 40;
-                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-                    questionsToAdd = nonPassageQuestions.slice(0, count);
-                    
-                } else if (currentMode === 'test') {
-                    // Multi-subject test mode: NO PASSAGES
-                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-                    questionsToAdd = nonPassageQuestions.slice(0, 10);
-                    
-                } else {
-                    // Multi-subject exam mode: 10 passage questions max + fill to 60
-                    const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
-                    const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
-                    
-                    const selectedPassage = passageQuestions.slice(0, 10);
-                    const remainingCount = 60 - selectedPassage.length;
-                    const selectedNonPassage = nonPassageQuestions.slice(0, remainingCount);
-                    
-                    questionsToAdd = [...selectedPassage, ...selectedNonPassage];
-                }
-            } else {
-                // Non-English subjects
-                let count;
-                if (isSingleSubjectMode) {
-                    count = currentMode === 'test' ? 20 : 40;
-                } else {
-                    count = currentMode === 'test' ? 10 : 40;
-                }
-                questionsToAdd = allQuestions.slice(0, count);
-            }
             
             quizData.push(...questionsToAdd);
             
@@ -279,6 +282,62 @@ async function loadQuestions() {
             alert(`Failed to load ${subject} questions. Check console for details.`);
         }
     }
+            // ✅ FIX: Handle English passages based on mode
+let questionsToAdd = [];
+
+if (subject === 'english') {
+    if (isSingleSubjectMode) {
+        // Single subject mode: NO PASSAGES
+        const count = currentMode === 'test' ? 20 : 40;
+        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+        questionsToAdd = shuffleArray(nonPassageQuestions).slice(0, count);
+        
+    } else if (currentMode === 'test') {
+        // Multi-subject test mode: NO PASSAGES
+        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+        questionsToAdd = shuffleArray(nonPassageQuestions).slice(0, 10);
+        
+    } else {
+        // ✅ NEW: Multi-subject exam mode - 1 random passage (10Q) + 50 independent questions
+        const passageQuestions = allQuestions.filter(q => q.passage || q.type === 'passage');
+        const nonPassageQuestions = allQuestions.filter(q => !q.passage && q.type !== 'passage');
+        
+        // Group passage questions by passage text to get complete passages
+        const passageGroups = {};
+        passageQuestions.forEach(q => {
+            const key = q.passage || 'unknown';
+            if (!passageGroups[key]) passageGroups[key] = [];
+            passageGroups[key].push(q);
+        });
+        
+        // Convert to array of passage groups and select one randomly
+        const passageGroupsArray = Object.values(passageGroups).filter(group => group.length === 10);
+        
+        let selectedPassage = [];
+        if (passageGroupsArray.length > 0) {
+            // Select one random passage (should have 10 questions)
+            const randomIndex = Math.floor(Math.random() * passageGroupsArray.length);
+            selectedPassage = passageGroupsArray[randomIndex];
+        }
+        
+        // Select 50 random independent questions
+        const selectedNonPassage = shuffleArray(nonPassageQuestions).slice(0, 50);
+        
+        // Combine: passage questions first, then independent questions
+        questionsToAdd = [...selectedPassage, ...selectedNonPassage];
+        
+        console.log(`✅ English Exam: ${selectedPassage.length} passage questions + ${selectedNonPassage.length} independent = ${questionsToAdd.length} total`);
+    }
+} else {
+    // Non-English subjects
+    let count;
+    if (isSingleSubjectMode) {
+        count = currentMode === 'test' ? 20 : 40;
+    } else {
+        count = currentMode === 'test' ? 10 : 40;
+    }
+    questionsToAdd = shuffleArray(allQuestions).slice(0, count);
+}
     
     const totalEl = document.getElementById('totalQuestions');
     if (totalEl) totalEl.textContent = quizData.length;
