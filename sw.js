@@ -1,76 +1,64 @@
 // Service Worker for JAMB Quiz App
-const CACHE_NAME = 'jamb-quiz-v1.0.0';
+const CACHE_NAME = 'jamb-quiz-v1.0.1';
 const BASE_PATH = '/jamb-quiz-app';
 
-const urlsToCache = [
+// Cache ONLY same-origin app shell during install
+const APP_SHELL = [
   `${BASE_PATH}/`,
   `${BASE_PATH}/index.html`,
   `${BASE_PATH}/styles.css`,
   `${BASE_PATH}/app.js`,
   `${BASE_PATH}/quiz.js`,
   `${BASE_PATH}/manifest.json`,
-  'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css',
-  'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js',
-  'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js'
+  `${BASE_PATH}/images/icon-192.png`,
+  `${BASE_PATH}/images/icon-512.png`,
 ];
 
 // Install event
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then((cache) => {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
-      .catch((error) => {
-        console.error('Cache installation failed:', error);
-      })
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL))
   );
   self.skipWaiting();
 });
 
-// Fetch event - Network first, fallback to cache
+// Fetch event
 self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        // Clone the response
-        const responseClone = response.clone();
-        
-        // Cache the fetched response
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseClone);
+  const req = event.request;
+  const url = new URL(req.url);
+
+  // Always ignore non-GET
+  if (req.method !== 'GET') return;
+
+  // Same-origin: cache-first for speed/offline
+  if (url.origin === self.location.origin) {
+    event.respondWith(
+      caches.match(req).then((cached) => {
+        if (cached) return cached;
+
+        return fetch(req).then((res) => {
+          const resClone = res.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, resClone));
+          return res;
         });
-        
-        return response;
       })
-      .catch(() => {
-        // Network failed, try cache
-        return caches.match(event.request)
-          .then((response) => {
-            if (response) {
-              return response;
-            }
-            // Return offline page if available
-            return caches.match(`${BASE_PATH}/`);
-          });
-      })
+    );
+    return;
+  }
+
+  // Cross-origin (e.g., jsdelivr): network-first, don’t block install
+  event.respondWith(
+    fetch(req).catch(() => caches.match(req))
   );
 });
 
-// Activate event - Clean up old caches
+// Activate: cleanup old caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheName !== CACHE_NAME) {
-            console.log('Deleting old cache:', cacheName);
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    })
+    caches.keys().then((names) =>
+      Promise.all(names.map((n) => (n !== CACHE_NAME ? caches.delete(n) : null)))
+    )
   );
   self.clients.claim();
 });
+    
