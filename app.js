@@ -525,29 +525,7 @@ function retakeQuiz() {
     resetQuiz();
     showScreen('subject-screen');
 }
-// ============================================
-// SERVICE WORKER REGISTRATION (PWA)
-// ============================================
-(function registerServiceWorker() {
-  if (!('serviceWorker' in navigator)) return;
 
-  // Works for localhost AND GitHub Pages (/jamb-quiz-app)
-  const basePath = window.location.pathname.includes('/jamb-quiz-app')
-    ? '/jamb-quiz-app'
-    : '';
-
-  window.addEventListener('load', async () => {
-    try {
-      const reg = await navigator.serviceWorker.register(
-        `${basePath}/sw.js`,
-        { scope: `${basePath}/` }
-      );
-      console.log('✅ SW registered. Scope:', reg.scope);
-    } catch (err) {
-      console.error('❌ SW registration failed:', err);
-    }
-  });
-})();
 
 // ============================================
 // APP INITIALIZATION ON LOAD
