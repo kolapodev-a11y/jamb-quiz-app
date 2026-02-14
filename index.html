@@ -76,15 +76,6 @@
                 </div>    
             </div>    
 
-            <!-- Adsterra Native Banner -->
-            <div class="ads-container">
-
-                <script async="async"
-                    data-cfasync="false"
-            src="https://pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js">
-                </script>
-
-                <div id="container-c7bf2117c3372e12237c88be59428594"></div>
 
             </div>
             <!-- Single Subject Modes -->    
@@ -362,8 +353,35 @@
 
 <script src="app.js"></script>    
 <script src="quiz.js"></script>    
- <!-- Adsterra Social Bar -->
-<script src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js"></script>
+ 
+  <!-- Monetag (async, non-blocking) -->
+<script async src="https://quge5.com/88/tag.min.js" data-zone="211233" data-cfasync="false"></script>
+
+  <!-- Adsterra: Load only in sticky container to avoid layout shift -->
+<script>
+    // Load Adsterra only after DOM is ready and only on home screen
+    document.addEventListener('DOMContentLoaded', () => {
+      if (document.getElementById('home-screen').classList.contains('active')) {
+        const script = document.createElement('script');
+        script.async = true;
+        script.setAttribute('data-cfasync', 'false');
+        script.src = 'https://pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js';
+        script.onload = () => {
+          // Optional: Show container only if ad is filled (basic check)
+          setTimeout(() => {
+            const adContainer = document.getElementById('container-c7bf2117c3372e12237c88be59428594');
+            if (adContainer && adContainer.children.length > 0) {
+              document.getElementById('sticky-ad').style.display = 'block';
+            }
+          }, 1000);
+        };
+        document.head.appendChild(script);
+      }
+    });
+  </script>
+
+  <!-- Remove the inline Adsterra Social Bar unless needed elsewhere -->
+  <!-- If you must keep it, load it only on quiz/results pages, not homepage -->
 
   
 
