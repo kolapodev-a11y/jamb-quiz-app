@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script src="https://quge5.com/88/tag.min.js" data-zone="211233" async data-cfasync="false"></script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="JAMB UTME Quiz Practice App">
@@ -15,9 +16,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+    <style>
+        /* Styling to ensure Ads don't break the UI */
+        .ad-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+            min-height: 120px; /* Reserves space so content doesn't jump */
+            clear: both;
+        }
+        /* Mobile adjustment for Ads */
+        @media (max-width: 480px) {
+            .ad-wrapper { margin: 10px 0; min-height: 100px; }
+        }
+    </style>
 </head>
 <body>
-    <!-- Home Screen -->
     <div id="home-screen" class="screen active">
         <div class="container">
             <header class="app-header">
@@ -28,10 +46,14 @@
                 <button class="install-btn" id="installBtn" style="display: none;">📱 Install App</button>
             </header>
 
+            <div class="ad-wrapper">
+                <script async="async" data-cfasync="false" src="https://pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js"></script>
+                <div id="container-c7bf2117c3372e12237c88be59428594"></div>
+            </div>
+
             <div class="mode-selection">
                 <h2>Select Quiz Mode</h2>
     
-                <!-- Multi Subject Modes -->
                 <h3 style="color: #1a472a; margin: 20px 0 10px 0; font-size: 18px;">📚 Multi-Subject Practice</h3>
                 <div class="mode-cards">
                     <div class="mode-card" data-mode="test">
@@ -50,7 +72,6 @@
                     </div>
                 </div>
     
-                <!-- Single Subject Modes -->
                 <h3 style="color: #667eea; margin: 30px 0 10px 0; font-size: 18px;">📖 Single Subject Practice</h3>
                 <div class="mode-cards">
                     <div class="mode-card single-subject-card" data-mode="single-test">
@@ -100,7 +121,6 @@
         </div>
     </div>
 
-    <!-- Subject Selection Screen -->
     <div id="subject-screen" class="screen">
         <div class="container">
             <div class="screen-header">
@@ -121,77 +141,20 @@
                        <p class="compulsory-badge">Compulsory</p>
                        <input type="checkbox" class="subject-checkbox" checked disabled>
                     </div>
-
-                    <div class="subject-card" data-subject="mathematics">
-                        <div class="subject-icon">🔢</div>
-                        <h3>Mathematics</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="physics">
-                        <div class="subject-icon">⚛️</div>
-                        <h3>Physics</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="chemistry">
-                        <div class="subject-icon">🧪</div>
-                        <h3>Chemistry</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="biology">
-                        <div class="subject-icon">🧬</div>
-                        <h3>Biology</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="government">
-                        <div class="subject-icon">🏛️</div>
-                        <h3>Government</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="economics">
-                        <div class="subject-icon">💰</div>
-                        <h3>Economics</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="literature">
-                        <div class="subject-icon">📖</div>
-                        <h3>Literature</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="commerce">
-                        <div class="subject-icon">🏢</div>
-                        <h3>Commerce</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="accounting">
-                        <div class="subject-icon">📊</div>
-                        <h3>Accounting</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="crs">
-                        <div class="subject-icon">✝️</div>
-                        <h3>CRS</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="history">
-                        <div class="subject-icon">🏛️</div>
-                        <h3>History</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="geography">
-                        <div class="subject-icon">🌍</div>
-                        <h3>Geography</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="marketing">
-                        <div class="subject-icon">📢</div>
-                        <h3>Marketing</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
-                    <div class="subject-card" data-subject="agric">
-                        <div class="subject-icon">🌾</div>
-                        <h3>Agric</h3>
-                        <input type="checkbox" class="subject-checkbox">
-                    </div>
+                    <div class="subject-card" data-subject="mathematics"><div class="subject-icon">🔢</div><h3>Mathematics</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="physics"><div class="subject-icon">⚛️</div><h3>Physics</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="chemistry"><div class="subject-icon">🧪</div><h3>Chemistry</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="biology"><div class="subject-icon">🧬</div><h3>Biology</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="government"><div class="subject-icon">🏛️</div><h3>Government</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="economics"><div class="subject-icon">💰</div><h3>Economics</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="literature"><div class="subject-icon">📖</div><h3>Literature</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="commerce"><div class="subject-icon">🏢</div><h3>Commerce</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="accounting"><div class="subject-icon">📊</div><h3>Accounting</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="crs"><div class="subject-icon">✝️</div><h3>CRS</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="history"><div class="subject-icon">🏛️</div><h3>History</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="geography"><div class="subject-icon">🌍</div><h3>Geography</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="marketing"><div class="subject-icon">📢</div><h3>Marketing</h3><input type="checkbox" class="subject-checkbox"></div>
+                    <div class="subject-card" data-subject="agric"><div class="subject-icon">🌾</div><h3>Agric</h3><input type="checkbox" class="subject-checkbox"></div>
                 </div>
 
                 <div class="selection-info">
@@ -205,7 +168,6 @@
         </div>
     </div>
 
-    <!-- Quiz Screen -->
     <div id="quiz-screen" class="screen">
         <div class="quiz-header">
             <div class="quiz-info">
@@ -245,7 +207,6 @@
         </div>
     </div>
 
-    <!-- Results Screen -->
     <div id="results-screen" class="screen">
         <div class="container">
             <div class="results-container">
@@ -265,6 +226,10 @@
                             <div class="score-label">Score</div>
                         </div>
                     </div>
+                </div>
+
+                <div class="ad-wrapper">
+                    <div id="container-c7bf2117c3372e12237c88be59428594"></div>
                 </div>
 
                 <div class="results-summary">
@@ -296,7 +261,6 @@
         </div>
     </div>
 
-    <!-- Review Screen -->
     <div id="review-screen" class="screen">
         <div class="container">
             <div class="screen-header">
@@ -305,18 +269,10 @@
             </div>
 
             <div class="review-filters">
-                <button class="filter-btn active" data-filter="all" onclick="filterReview('all')">
-                    All (<span id="filterAll">0</span>)
-                </button>
-                <button class="filter-btn" data-filter="correct" onclick="filterReview('correct')">
-                    ✅ Correct (<span id="filterCorrect">0</span>)
-                </button>
-                <button class="filter-btn" data-filter="wrong" onclick="filterReview('wrong')">
-                    ❌ Wrong (<span id="filterWrong">0</span>)
-                </button>
-                <button class="filter-btn" data-filter="unanswered" onclick="filterReview('unanswered')">
-                    ⭕ Unanswered (<span id="filterUnanswered">0</span>)
-                </button>
+                <button class="filter-btn active" data-filter="all" onclick="filterReview('all')">All (<span id="filterAll">0</span>)</button>
+                <button class="filter-btn" data-filter="correct" onclick="filterReview('correct')">✅ Correct (<span id="filterCorrect">0</span>)</button>
+                <button class="filter-btn" data-filter="wrong" onclick="filterReview('wrong')">❌ Wrong (<span id="filterWrong">0</span>)</button>
+                <button class="filter-btn" data-filter="unanswered" onclick="filterReview('unanswered')">⭕ Unanswered (<span id="filterUnanswered">0</span>)</button>
             </div>
 
             <div class="review-container" id="reviewContainer"></div>
@@ -325,7 +281,7 @@
 
     <script src="app.js"></script>
     <script src="quiz.js"></script>
+
     <script src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js"></script>
-    
 </body>
 </html>
