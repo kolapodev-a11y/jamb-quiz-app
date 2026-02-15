@@ -17,25 +17,7 @@ let totalTimeSeconds = 0;
 let stats = { totalQuizzes: 0, scores: [], bestScore: 0 };
 let deferredPrompt;
 
-// ============================================
-// PWA INSTALLATION
-// ============================================
-window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    const btn = document.getElementById('installBtn');
-    if (btn) btn.style.display = 'block';
-});
 
-document.getElementById('installBtn')?.addEventListener('click', async () => {
-    if (deferredPrompt) {
-        deferredPrompt.prompt();
-        const { outcome } = await deferredPrompt.userChoice;
-        console.log(`User response: ${outcome}`);
-        deferredPrompt = null;
-        document.getElementById('installBtn').style.display = 'none';
-    }
-});
 
 // ============================================
 // INITIALIZATION
