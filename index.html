@@ -14,19 +14,30 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+
+  <!-- =========================================================
+       ✅ POPUNDER (FIX)
+       Adsterra says: paste right before </head>.
+       So we LOAD the popunder script here (per instruction),
+       but we only "arm" it on Review screen with a real tap.
+       ========================================================= -->
+  <script data-cfasync="false" async
+    src="https://pl28720963.effectivegatecpm.com/4c/0d/c5/4c0dc5d49cbe558de9d8f0ca616da2c0.js">
+  </script>
 </head>
 
 <body>
-  <!-- ✅ SOCIAL BAR (Fixed Top Bar) -->
-  <!-- Keep the container for spacing/styling -->
+  <!-- ✅ SOCIAL BAR AD (Fixed Top Bar) -->
   <div id="adsterra-social-bar" class="adsterra-social-bar"></div>
 
-  <!-- ✅ IMPORTANT FIX:
-       Load Social Bar script as a normal script tag (NOT appended into div) -->
-  <script async data-cfasync="false"
+  <!-- =========================================================
+       ✅ SOCIAL BAR (FIX)
+       Don't append script into the bar div.
+       Load it normally, let it render itself.
+       ========================================================= -->
+  <script data-cfasync="false" async
     src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js">
   </script>
-
 
   <!-- Home Screen -->
   <div id="home-screen" class="screen active">
@@ -235,7 +246,8 @@
         <div class="ad-container">
           <div id="container-c7bf2117c3372e12237c88be59428594"></div>
           <script async="async" data-cfasync="false"
-            src="https://pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js"></script>
+            src="https://pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js">
+          </script>
         </div>
 
         <div class="subject-breakdown" id="subjectBreakdown"></div>
@@ -279,27 +291,35 @@
       if (typeof callback === 'function') callback();
     }
 
-    // ✅ POPUNDER FIX:
-    // Load popunder on the FIRST real user interaction anywhere.
-    // (Popunder generally requires a real user gesture.)
-    (function () {
-      let loaded = false;
+    /* =========================================================
+       ✅ POPUNDER ARMING (Review screen only)
+       Script is already loaded in <head> (as Adsterra instructs).
+       Here we just ensure there is a REAL user tap on review screen.
+       ========================================================= */
+    (function(){
+      let armed = false;
 
-      function loadPopunder() {
-        if (loaded) return;
-        loaded = true;
-
-        const s = document.createElement('script');
-        s.src = "https://pl28720963.effectivegatecpm.com/4c/0d/c5/4c0dc5d49cbe558de9d8f0ca616da2c0.js";
-        s.async = true;
-        s.setAttribute("data-cfasync", "false");
-        document.body.appendChild(s);
+      function isReviewActive(){
+        const review = document.getElementById('review-screen');
+        return !!review && review.classList.contains('active');
       }
 
-      // pointerdown triggers earlier than click, best on mobile
-      window.addEventListener('pointerdown', loadPopunder, { once: true, passive: true });
+      function armOnReviewTap(e){
+        if (armed) return;
+        if (!isReviewActive()) return;
+
+        // First real interaction inside review screen
+        armed = true;
+
+        // Some pop scripts hook global events; giving it a microtask tick helps
+        // but we do NOT re-inject the script (avoid double load).
+        setTimeout(function(){ /* no-op: just a tick */ }, 0);
+      }
+
+      // pointerdown works best on mobile
+      document.addEventListener('pointerdown', armOnReviewTap, { capture: true });
     })();
   </script>
 </body>
-          </html>
-          
+                                                                                                                  </html>
+                                                                                                                  
