@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/jamb-quiz-app/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JAMB UTME Quiz Practice App - Practice for your JAMB exams with comprehensive questions">
+    <meta name="theme-color" content="#1a472a">
+    <title>JAMB UTME Quiz App - Practice & Prepare</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" href="images/icon-192.png">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+    
+    <!-- AdSterra Global Scripts -->
+    <script type='text/javascript' src='//pl25451451.profitablecpmrate.com/60/5a/df/605adf3e4ba8de6e520a11c653d2a858.js'></script>
+</head>
+<body>
+    <!-- AdSterra Social Bar (Fixed Top) -->
+    <div id="adsterra-social-bar" style="position: sticky; top: 0; z-index: 1000; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '60af4effca8badee5e1c23a9f11c6382',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/60af4effca8badee5e1c23a9f11c6382/invoke.js"></script>
+    </div>
+
+    <!-- Home Screen -->
+    <div id="home-screen" class="screen active">
+        <div class="container">
+            <header class="app-header">
+                <div class="logo">
+                    <h1>🎓 JAMB UTME</h1>
+                    <p>Practice Quiz</p>
+                </div>
+            </header>
+
+            <div class="mode-selection">
+                <h2>Select Quiz Mode</h2>
+    
+                <!-- Multi Subject Modes -->
+                <h3 style="color: #1a472a; margin: 20px 0 10px 0; font-size: 18px;">📚 Multi-Subject Practice</h3>
+                <div class="mode-cards">
+                    <div class="mode-card" data-mode="test">
+                        <div class="mode-icon">📝</div>
+                        <h3>Test Mode</h3>
+                        <p>10 questions per subject</p>
+                        <p class="mode-detail">English + 3 subjects · 26 mins</p>
+                        <button class="btn btn-primary" onclick="selectMode('test', false)">Start Test</button>
+                    </div>
+                    <div class="mode-card" data-mode="exam">
+                        <div class="mode-icon">🎯</div>
+                        <h3>Exam Mode</h3>
+                        <p>60 English + 40 Others</p>
+                        <p class="mode-detail">Full JAMB simulation · 2 hours</p>
+                        <button class="btn btn-primary" onclick="selectMode('exam', false)">Start Exam</button>
+                    </div>
+                </div>
+    
+                <!-- Single Subject Modes -->
+                <h3 style="color: #667eea; margin: 30px 0 10px 0; font-size: 18px;">📖 Single Subject Practice</h3>
+                <div class="mode-cards">
+                    <div class="mode-card single-subject-card" data-mode="single-test">
+                        <div class="mode-icon">📄</div>
+                        <h3>Subject Test</h3>
+                        <p>20 questions</p>
+                        <p class="mode-detail">One subject only · 14 mins</p>
+                        <button class="btn btn-secondary" onclick="selectMode('test', true)">Start Subject Test</button>
+                    </div>
+                    <div class="mode-card single-subject-card" data-mode="single-exam">
+                        <div class="mode-icon">🎓</div>
+                        <h3>Subject Exam</h3>
+                        <p>60 questions</p>
+                        <p class="mode-detail">Deep practice mode · 27 mins</p>
+                        <button class="btn btn-secondary" onclick="selectMode('exam', true)">Start Subject Exam</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AdSterra Native Banner (Between Content) -->
+            <div class="ad-container" style="margin: 30px auto; padding: 20px 0; text-align: center; max-width: 400px;">
+                <p style="font-size: 11px; color: #999; margin-bottom: 5px;">Advertisement</p>
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '7c437d57c16372ddaa2a37d99d1e63e9',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/7c437d57c16372ddaa2a37d99d1e63e9/invoke.js"></script>
+            </div>
+
+            <div class="stats-section">
+                <h3>Your Statistics</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalQuizzes">0</div>
+                        <div class="stat-label">Quizzes Taken</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="avgScore">0%</div>
+                        <div class="stat-label">Average Score</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="bestScore">0%</div>
+                        <div class="stat-label">Best Score</div>
+                    </div>
+                </div>
+                
+                <div class="contact-section" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: center;">
+                    <h3>Need Help? 🤝</h3>
+                    <p>For enquiries, support, or feedback, contact us via WhatsApp:</p>
+                    <a href="https://wa.me/2349050911921" target="_blank" class="btn btn-whatsapp" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; margin-top: 10px;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20">
+                        Message Us on WhatsApp
+                    </a>
+                    <p style="font-size: 12px; color: #666; margin-top: 8px;">We respond within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subject Selection Screen -->
+    <div id="subject-screen" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <button class="btn-back" onclick="goHome()">← Back</button>
+                <h2>Select Subjects</h2>
+            </div>
+
+            <div class="subject-selection">
+                <div class="subject-note">
+                    <p>📌 English is <strong>compulsory</strong>. Select 3 more subjects.</p>
+                    <p class="mode-info" id="modeInfo"></p>
+                </div>
+
+                <div class="subjects-grid">
+                    <div class="subject-card compulsory" data-subject="english">
+                        <div class="subject-icon">📚</div>
+                        <h3>English</h3>
+                        <p class="compulsory-badge">Compulsory</p>
+                        <input type="checkbox" checked disabled>
+                    </div>
+                    <div class="subject-card" data-subject="mathematics">
+                        <div class="subject-icon">🔢</div>
+                        <h3>Mathematics</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="physics">
+                        <div class="subject-icon">⚛️</div>
+                        <h3>Physics</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="chemistry">
+                        <div class="subject-icon">🧪</div>
+                        <h3>Chemistry</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="biology">
+                        <div class="subject-icon">🧬</div>
+                        <h3>Biology</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="government">
+                        <div class="subject-icon">🏛️</div>
+                        <h3>Government</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="economics">
+                        <div class="subject-icon">💰</div>
+                        <h3>Economics</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="literature">
+                        <div class="subject-icon">📖</div>
+                        <h3>Literature</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="commerce">
+                        <div class="subject-icon">🏢</div>
+                        <h3>Commerce</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="accounting">
+                        <div class="subject-icon">📊</div>
+                        <h3>Accounting</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="crs">
+                        <div class="subject-icon">✝️</div>
+                        <h3>CRS</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="history">
+                        <div class="subject-icon">🏛️</div>
+                        <h3>History</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="geography">
+                        <div class="subject-icon">🌍</div>
+                        <h3>Geography</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="marketing">
+                        <div class="subject-icon">📢</div>
+                        <h3>Marketing</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                    <div class="subject-card" data-subject="agric">
+                        <div class="subject-icon">🌾</div>
+                        <h3>Agric</h3>
+                        <input type="checkbox" class="subject-checkbox">
+                    </div>
+                </div>
+
+                <div class="selection-info">
+                    <p>Selected: <span id="selectedCount">1</span> / <span id="maxCount">4</span></p>
+                </div>
+
+                <button class="btn btn-primary btn-large" id="startQuizBtn" onclick="startQuiz()">
+                    Start Quiz →
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="screen">
+        <div class="quiz-header">
+            <div class="quiz-info">
+                <div class="timer" id="timer">
+                    <span class="timer-icon">⏱️</span>
+                    <span id="timeDisplay">00:00</span>
+                </div>
+                <div class="progress-info">
+                    <span id="currentQuestion">1</span> / <span id="totalQuestions">0</span>
+                </div>
+            </div>
+            <div class="subject-indicator" id="currentSubject"></div>
+        </div>
+
+        <div class="quiz-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div class="question-section">
+                <div class="question-number">Question <span id="qNumber">1</span></div>
+                <div class="passage-box" id="passageBox" style="display:none;"></div>
+                <div class="question-text" id="questionText"></div>
+                <div class="options-container" id="optionsContainer"></div>
+            </div>
+
+            <!-- AdSterra Native Banner (Between Questions - Shows every 10 questions) -->
+            <div id="quiz-ad-container" class="ad-container" style="display: none; margin: 20px auto; padding: 15px; text-align: center; max-width: 400px; background: #f9f9f9; border-radius: 8px;">
+                <p style="font-size: 10px; color: #999; margin-bottom: 8px;">Advertisement - Continue after viewing</p>
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '7c437d57c16372ddaa2a37d99d1e63e9',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/7c437d57c16372ddaa2a37d99d1e63e9/invoke.js"></script>
+            </div>
+
+            <div class="quiz-navigation">
+                <button class="btn btn-secondary" id="prevBtn" onclick="previousQuestion()">← Previous</button>
+                <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Next →</button>
+                <button class="btn btn-success" id="submitBtn" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
+            </div>
+
+            <div class="question-navigator">
+                <button class="btn-toggle-nav" onclick="toggleNavigator()">📋 Question Navigator</button>
+                <div class="nav-grid" id="navGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="screen">
+        <div class="container">
+            <div class="results-container">
+                <div class="results-header">
+                    <div class="results-icon">🎉</div>
+                    <h2>Quiz Completed!</h2>
+                </div>
+
+                <div class="score-display">
+                    <div class="score-circle">
+                        <svg width="200" height="200">
+                            <circle cx="100" cy="100" r="90" class="score-bg"></circle>
+                            <circle cx="100" cy="100" r="90" class="score-progress" id="scoreCircle"></circle>
+                        </svg>
+                        <div class="score-text">
+                            <div class="score-percentage" id="scorePercentage">0%</div>
+                            <div class="score-label">Score</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AdSterra Native Banner (Results Page) -->
+                <div class="ad-container" style="margin: 30px auto; padding: 20px 0; text-align: center; max-width: 400px;">
+                    <p style="font-size: 11px; color: #999; margin-bottom: 5px;">Advertisement</p>
+                    <script type="text/javascript">
+                        atOptions = {
+                            'key' : '7c437d57c16372ddaa2a37d99d1e63e9',
+                            'format' : 'iframe',
+                            'height' : 250,
+                            'width' : 300,
+                            'params' : {}
+                        };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/7c437d57c16372ddaa2a37d99d1e63e9/invoke.js"></script>
+                </div>
+
+                <div class="results-summary">
+                    <div class="summary-card correct">
+                        <div class="summary-icon">✅</div>
+                        <div class="summary-value" id="correctCount">0</div>
+                        <div class="summary-label">Correct</div>
+                    </div>
+                    <div class="summary-card wrong">
+                        <div class="summary-icon">❌</div>
+                        <div class="summary-value" id="wrongCount">0</div>
+                        <div class="summary-label">Wrong</div>
+                    </div>
+                    <div class="summary-card unanswered">
+                        <div class="summary-icon">⭕</div>
+                        <div class="summary-value" id="unansweredCount">0</div>
+                        <div class="summary-label">Unanswered</div>
+                    </div>
+                </div>
+
+                <div class="subject-breakdown" id="subjectBreakdown"></div>
+
+                <div class="results-actions">
+                    <button class="btn btn-primary" onclick="reviewAnswers()">📝 Review Questions</button>
+                    <button class="btn btn-secondary" onclick="goHome()">🏠 Home</button>
+                    <button class="btn btn-success" onclick="retakeQuiz()">🔄 Retake Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Screen -->
+    <div id="review-screen" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <button class="btn-back" onclick="backToResults()">← Back to Results</button>
+                <h2>Review Answers</h2>
+            </div>
+
+            <div class="review-filters">
+                <button class="filter-btn active" data-filter="all" onclick="filterReview('all')">
+                    All (<span id="filterAll">0</span>)
+                </button>
+                <button class="filter-btn" data-filter="correct" onclick="filterReview('correct')">
+                    ✅ Correct (<span id="filterCorrect">0</span>)
+                </button>
+                <button class="filter-btn" data-filter="wrong" onclick="filterReview('wrong')">
+                    ❌ Wrong (<span id="filterWrong">0</span>)
+                </button>
+                <button class="filter-btn" data-filter="unanswered" onclick="filterReview('unanswered')">
+                    ⭕ Unanswered (<span id="filterUnanswered">0</span>)
+                </button>
+            </div>
+
+            <div class="review-container" id="reviewContainer"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="quiz.js"></script>
+    
+    <!-- AdSterra Ad Display Logic -->
+    <script>
+        // Show ad container every 10 questions during quiz
+        let originalDisplayQuestion;
+        
+        window.addEventListener('load', function() {
+            if (typeof displayQuestion !== 'undefined') {
+                originalDisplayQuestion = displayQuestion;
+                
+                window.displayQuestion = function() {
+                    originalDisplayQuestion();
+                    
+                    // Show ad every 10 questions (but not on first question)
+                    const adContainer = document.getElementById('quiz-ad-container');
+                    if (adContainer && currentQuestionIndex > 0 && (currentQuestionIndex % 10 === 0)) {
+                        adContainer.style.display = 'block';
+                    } else if (adContainer) {
+                        adContainer.style.display = 'none';
+                    }
+                };
+            }
+        });
+    </script>
+</body>
+</html>
