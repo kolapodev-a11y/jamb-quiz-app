@@ -989,12 +989,6 @@ body {
 /* ============================================
    AD CONTAINER STYLING
    ============================================ */
-/* ============================================
-   AD CONTAINER STYLES (KEEP ONLY THIS VERSION)
-   ============================================ */
-/* ============================================
-   AD CONTAINER STYLES (single source of truth)
-   ============================================ */
 .ad-container {
   margin: 30px auto;
   padding: 15px;
@@ -1015,10 +1009,43 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#adsterra-social-bar:empty {
-  min-height: 60px; /* keep space while it loads */
+/* ===== ADSTERRA SOCIAL BAR STYLING ===== */
+#adsterra-social-bar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 2147483647 !important; /* highest possible */
+  background: transparent !important;
+  overflow: visible !important;
+  min-height: 60px !important;
 }
 
+/* Ensure it shows even when content loads (not :empty) */
+#adsterra-social-bar:not(:empty) {
+  min-height: 60px !important;
+  display: block !important;
+}
+
+/* Force inner content (iframe/div) to fill height */
+#adsterra-social-bar > * {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 60px !important;
+}
+
+/* Optional: add subtle shadow for visibility */
+#adsterra-social-bar::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
 /* Ensure ads are visible on mobile */
 @media (max-width: 768px) {
     .ad-container {
