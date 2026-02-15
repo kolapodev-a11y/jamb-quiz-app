@@ -989,26 +989,31 @@ body {
 /* ============================================
    AD CONTAINER STYLING
    ============================================ */
+/* ============================================
+   AD CONTAINER STYLES (KEEP ONLY THIS VERSION)
+   ============================================ */
 .ad-container {
-    margin: 30px auto;
-    text-align: center;
-    max-width: 100%;
-    min-height: 100px;
-    padding: 10px;
-    background: #f5f5f5;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 30px auto;
+  text-align: center;
+  max-width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .ad-container::before {
-    content: 'Advertisement';
-    display: block;
-    font-size: 10px;
-    color: #999;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  content: 'Advertisement';
+  display: block;
+  font-size: 10px;
+  color: #999;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
+
 
 /* Ensure ads are visible on mobile */
 @media (max-width: 768px) {
