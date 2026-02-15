@@ -4,63 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="JAMB UTME Quiz Practice App" />
-  <meta name="theme-color" content="#1a472a" />
   <title>JAMB UTME Quiz App</title>
 
   <link rel="stylesheet" href="styles.css" />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="apple-touch-icon" href="images/icon-192.png" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
 
-  <!-- =========================================================
-       ✅ POPUNDER (FIX)
-       Adsterra says: paste right before </head>.
-       So we LOAD the popunder script here (per instruction),
-       but we only "arm" it on Review screen with a real tap.
-       ========================================================= -->
+  <!-- ✅ POPUNDER SCRIPT – MUST be in <head> per Adsterra -->
   <script data-cfasync="false" async
     src="https://pl28720963.effectivegatecpm.com/4c/0d/c5/4c0dc5d49cbe558de9d8f0ca616da2c0.js">
   </script>
 </head>
 
 <body>
-  <!-- Adsterra Social Bar mount -->
-<div id="adsterra-social-bar" class="adsterra-social-bar"></div>
-
-<!-- Adsterra Social Bar script (load once) -->
-<script data-cfasync="false" async
-  src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js">
-</script>
-
-<!-- Safety: if the bar stays empty after 3s, reload script once -->
-<script>
-(function(){
-  let retried = false;
-  function retry(){
-    if (retried) return;
-    retried = true;
-
-    const s = document.createElement('script');
-    s.src = "https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js";
-    s.async = true;
-    s.setAttribute("data-cfasync","false");
-    document.body.appendChild(s);
-  }
-
-  window.addEventListener('load', function(){
-    setTimeout(function(){
-      const bar = document.getElementById('adsterra-social-bar');
-      if (!bar) return;
-
-      // if nothing rendered, retry once
-      if (bar.innerHTML.trim() === "") retry();
-    }, 3000);
-  });
-})();
-</script>
+  <!-- ✅ SOCIAL BAR CONTAINER – MUST be FIRST child of <body> -->
+  <div id="adsterra-social-bar" class="adsterra-social-bar"></div>
 
   <!-- Home Screen -->
   <div id="home-screen" class="screen active">
@@ -70,7 +30,7 @@
           <h1>🎓 JAMB UTME</h1>
           <p>Practice Quiz</p>
         </div>
-        <button class="install-btn" id="installBtn" style="display:none;">📱 Install App</button>
+        <!-- Install button removed (PWA not needed) -->
       </header>
 
       <div class="mode-selection">
@@ -265,7 +225,7 @@
           <div class="summary-card unanswered"><div class="summary-icon">⭕</div><div class="summary-value" id="unansweredCount">0</div><div class="summary-label">Unanswered</div></div>
         </div>
 
-        <!-- ✅ NATIVE BANNER AD (Results Only) -->
+        <!-- ✅ NATIVE BANNER AD -->
         <div class="ad-container">
           <div id="container-c7bf2117c3372e12237c88be59428594"></div>
           <script async="async" data-cfasync="false"
@@ -303,46 +263,35 @@
     </div>
   </div>
 
+  <!-- Social Bar Script – loaded normally -->
+  <script data-cfasync="false" async
+    src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js">
+  </script>
+
   <script src="app.js"></script>
   <script src="quiz.js"></script>
 
   <script>
-    // ✅ Smartlink helper (unchanged)
+    // Smartlink helper
     const SMARTLINK_URL = 'https://www.effectivegatecpm.com/v31zhyhy8w?key=58401952550308bcd5c3c4a3f2bfe14d';
-    function openSmartlinkThen(callback){
+    function openSmartlinkThen(callback) {
       try { window.open(SMARTLINK_URL, '_blank'); } catch(e) {}
       if (typeof callback === 'function') callback();
     }
 
-    /* =========================================================
-       ✅ POPUNDER ARMING (Review screen only)
-       Script is already loaded in <head> (as Adsterra instructs).
-       Here we just ensure there is a REAL user tap on review screen.
-       ========================================================= */
-    (function(){
+    // ✅ POPUNDER ARMING – trigger on FIRST real user interaction
+    (function() {
       let armed = false;
-
-      function isReviewActive(){
-        const review = document.getElementById('review-screen');
-        return !!review && review.classList.contains('active');
-      }
-
-      function armOnReviewTap(e){
+      function arm() {
         if (armed) return;
-        if (!isReviewActive()) return;
-
-        // First real interaction inside review screen
         armed = true;
-
-        // Some pop scripts hook global events; giving it a microtask tick helps
-        // but we do NOT re-inject the script (avoid double load).
-        setTimeout(function(){ /* no-op: just a tick */ }, 0);
+        console.log('Popunder armed via user gesture');
       }
-
-      // pointerdown works best on mobile
-      document.addEventListener('pointerdown', armOnReviewTap, { capture: true });
+      // Use multiple event types for maximum compatibility
+      ['click', 'touchstart', 'pointerdown'].forEach(event => {
+        document.addEventListener(event, arm, { once: true, capture: true });
+      });
     })();
   </script>
 </body>
-    </html>
-  
+              </html>
