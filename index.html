@@ -17,19 +17,16 @@
 </head>
 
 <body>
-  <!-- ✅ SOCIAL BAR AD (Fixed Top Bar) -->
+  <!-- ✅ SOCIAL BAR (Fixed Top Bar) -->
+  <!-- Keep the container for spacing/styling -->
   <div id="adsterra-social-bar" class="adsterra-social-bar"></div>
 
-  <!-- Inject social bar script (primary) -->
-  <script>
-    (function loadSocialBar(){
-      const bar = document.getElementById('adsterra-social-bar');
-      if (!bar) return;
-      const s = document.createElement('script');
-      s.src = "https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js";
-      bar.appendChild(s);
-    })();
+  <!-- ✅ IMPORTANT FIX:
+       Load Social Bar script as a normal script tag (NOT appended into div) -->
+  <script async data-cfasync="false"
+    src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js">
   </script>
+
 
   <!-- Home Screen -->
   <div id="home-screen" class="screen active">
@@ -282,46 +279,27 @@
       if (typeof callback === 'function') callback();
     }
 
-    // ✅ SOCIAL BAR fallback: if bar is empty after load, re-inject once
-    window.addEventListener('load', function(){
-      setTimeout(function(){
-        const bar = document.getElementById('adsterra-social-bar');
-        if (!bar) return;
+    // ✅ POPUNDER FIX:
+    // Load popunder on the FIRST real user interaction anywhere.
+    // (Popunder generally requires a real user gesture.)
+    (function () {
+      let loaded = false;
 
-        // if script didn't render anything, try once more
-        if (bar.childElementCount === 0 || bar.innerHTML.trim() === '') {
-          const s = document.createElement('script');
-          s.src = "https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js";
-          bar.appendChild(s);
-        }
-      }, 1500);
-    });
-
-    // ✅ Popunder: trigger via FIRST USER CLICK *inside review screen*
-    // (Popunder usually requires a real click/tap)
-    (function(){
-      let popInjected = false;
-
-      function injectPopunder(){
-        if (popInjected) return;
-        popInjected = true;
+      function loadPopunder() {
+        if (loaded) return;
+        loaded = true;
 
         const s = document.createElement('script');
         s.src = "https://pl28720963.effectivegatecpm.com/4c/0d/c5/4c0dc5d49cbe558de9d8f0ca616da2c0.js";
+        s.async = true;
+        s.setAttribute("data-cfasync", "false");
         document.body.appendChild(s);
       }
 
-      document.addEventListener('click', function(e){
-        const reviewScreen = document.getElementById('review-screen');
-        if (!reviewScreen) return;
-
-        // only when review screen is active AND click happened inside it
-        if (reviewScreen.classList.contains('active') && reviewScreen.contains(e.target)) {
-          injectPopunder();
-        }
-      }, { capture: true, once: false });
+      // pointerdown triggers earlier than click, best on mobile
+      window.addEventListener('pointerdown', loadPopunder, { once: true, passive: true });
     })();
   </script>
 </body>
-  </html>
-  
+          </html>
+          
