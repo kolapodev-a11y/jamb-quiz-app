@@ -45,7 +45,6 @@
             <p class="mode-detail">English + 3 subjects · 26 mins</p>
             <button class="btn btn-primary" onclick="selectMode('test', false)">Start Test</button>
           </div>
-
           <div class="mode-card" data-mode="exam">
             <div class="mode-icon">🎯</div>
             <h3>Exam Mode</h3>
@@ -64,7 +63,6 @@
             <p class="mode-detail">One subject only · 14 mins</p>
             <button class="btn btn-secondary" onclick="selectMode('test', true)">Start Subject Test</button>
           </div>
-
           <div class="mode-card single-subject-card" data-mode="single-exam">
             <div class="mode-icon">🎓</div>
             <h3>Subject Exam</h3>
@@ -95,8 +93,6 @@
         <div class="contact-section" style="margin-top:40px; padding-top:20px; border-top:1px solid #eee; text-align:center;">
           <h3>Need Help? 🤝</h3>
           <p>For enquiries, support, or feedback, contact us via WhatsApp:</p>
-
-          <!-- ✅ SMARTLINK on WhatsApp button (your original setup) -->
           <a href="https://www.effectivegatecpm.com/v31zhyhy8w?key=58401952550308bcd5c3c4a3f2bfe14d"
              target="_blank"
              class="btn btn-whatsapp"
@@ -104,7 +100,6 @@
             <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="20" height="20">
             Message Us on WhatsApp
           </a>
-
           <p style="font-size:12px; color:#666; margin-top:8px;">We respond within 24 hours.</p>
         </div>
       </div>
@@ -133,6 +128,7 @@
             <input type="checkbox" class="subject-checkbox" checked disabled>
           </div>
 
+          <!-- (rest of subject cards unchanged) -->
           <div class="subject-card" data-subject="mathematics"><div class="subject-icon">🔢</div><h3>Mathematics</h3><input type="checkbox" class="subject-checkbox"></div>
           <div class="subject-card" data-subject="physics"><div class="subject-icon">⚛️</div><h3>Physics</h3><input type="checkbox" class="subject-checkbox"></div>
           <div class="subject-card" data-subject="chemistry"><div class="subject-icon">🧪</div><h3>Chemistry</h3><input type="checkbox" class="subject-checkbox"></div>
@@ -153,9 +149,7 @@
           <p>Selected: <span id="selectedCount">1</span> / <span id="maxCount">4</span></p>
         </div>
 
-        <button class="btn btn-primary btn-large" id="startQuizBtn" onclick="startQuiz()">
-          Start Quiz →
-        </button>
+        <button class="btn btn-primary btn-large" id="startQuizBtn" onclick="startQuiz()">Start Quiz →</button>
       </div>
     </div>
   </div>
@@ -226,7 +220,7 @@
           <div class="summary-card unanswered"><div class="summary-icon">⭕</div><div class="summary-value" id="unansweredCount">0</div><div class="summary-label">Unanswered</div></div>
         </div>
 
-        <!-- ✅ NATIVE BANNER AD (ONLY HERE, ONE ZONE) -->
+        <!-- ✅ NATIVE BANNER AD (Results) -->
         <div class="ad-container">
           <div id="container-c7bf2117c3372e12237c88be59428594"></div>
           <script async="async" data-cfasync="false"
@@ -253,23 +247,20 @@
       </div>
 
       <div class="review-filters">
-        <button class="filter-btn active" data-filter="all" onclick="filterReview('all')">
-          All (<span id="filterAll">0</span>)
-        </button>
-        <button class="filter-btn" data-filter="correct" onclick="filterReview('correct')">
-          ✅ Correct (<span id="filterCorrect">0</span>)
-        </button>
-        <button class="filter-btn" data-filter="wrong" onclick="filterReview('wrong')">
-          ❌ Wrong (<span id="filterWrong">0</span>)
-        </button>
-        <button class="filter-btn" data-filter="unanswered" onclick="filterReview('unanswered')">
-          ⭕ Unanswered (<span id="filterUnanswered">0</span>)
-        </button>
+        <button class="filter-btn active" data-filter="all" onclick="filterReview('all')">All (<span id="filterAll">0</span>)</button>
+        <button class="filter-btn" data-filter="correct" onclick="filterReview('correct')">✅ Correct (<span id="filterCorrect">0</span>)</button>
+        <button class="filter-btn" data-filter="wrong" onclick="filterReview('wrong')">❌ Wrong (<span id="filterWrong">0</span>)</button>
+        <button class="filter-btn" data-filter="unanswered" onclick="filterReview('unanswered')">⭕ Unanswered (<span id="filterUnanswered">0</span>)</button>
       </div>
 
       <div class="review-container" id="reviewContainer"></div>
 
-      <!-- No native banner here since you only have 1 zone -->
+      <!-- ✅ NATIVE BANNER AD (Review) -->
+      <div class="ad-container">
+        <div id="container-c7bf2117c3372e12237c88be59428594"></div>
+        <script async="async" data-cfasync="false"
+          src="https://pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js"></script>
+      </div>
     </div>
   </div>
 
@@ -285,5 +276,4 @@
     }
   </script>
 </body>
-                 </html>
-                 
+</html>
