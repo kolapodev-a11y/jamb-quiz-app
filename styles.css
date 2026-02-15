@@ -991,4 +991,17 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
    }
-   
+.ads-container {
+    max-width: 728px;              /* No full-screen takeover */
+    background: #f8f9fa;           /* Subtle background */
+    border: 1px dashed #ddd;       /* Clear separation */
+    border-radius: 8px;            /* Modern styling */
+    padding: 15px;                 /* Breathing room */
+}
+
+.ads-container::before {
+    content: "Advertisement";       /* Transparency */
+    font-size: 10px;
+    color: #999;
+}
+
