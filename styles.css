@@ -991,27 +991,21 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
    }
-.ads-container {
-    max-width: 728px;              /* No full-screen takeover */
-    background: #f8f9fa;           /* Subtle background */
-    border: 1px dashed #ddd;       /* Clear separation */
-    border-radius: 8px;            /* Modern styling */
-    padding: 15px;                 /* Breathing room */
+.native-ad-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
 }
 
-.ads-container::before {
-    content: "Advertisement";       /* Transparency */
+.ad-label {
+    display: block;
     font-size: 10px;
     color: #999;
-}
-.ads-container {
-  max-width: 728px;
-  margin: 16px auto;
-  min-height: 90px;         /* reserve space for a 728x90 type banner */
-  overflow: hidden;         /* prevents weird expansion */
-}
-@media (max-width: 768px){
-  .ads-container{ min-height: 100px; } /* e.g., 320x100 mobile banner */
+    margin-bottom: 8px;
+    text-transform: uppercase;
 }
 
 
