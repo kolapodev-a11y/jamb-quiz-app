@@ -14,9 +14,6 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
 
-    <!-- Adsterra Social Bar (Floating) -->
-    <script src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js"></script>
-
     <style>
         /* Ad Container Styling */
         .ad-wrapper {
@@ -73,7 +70,7 @@
             <!-- AD 1: Native Banner (Top Position - High Visibility) -->
             <div class="ad-wrapper">
                 <span class="ad-label">Advertisement</span>
-                <script async="async" data-cfasync="false" src="https://pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js"></script>
+                <script async="async" data-cfasync="false" src="//pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js"></script>
                 <div id="container-c7bf2117c3372e12237c88be59428594"></div>
             </div>
 
@@ -222,12 +219,16 @@
                 <div class="options-container" id="optionsContainer"></div>
             </div>
 
+            <!-- AD 2: Native Banner (During Quiz - Mid-Content) -->
+            <div class="ad-wrapper">
+                <span class="ad-label">Advertisement</span>
+                <script async="async" data-cfasync="false" src="//pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js"></script>
+                <div id="container-c7bf2117c3372e12237c88be59428594-quiz"></div>
+            </div>
+
             <div class="quiz-navigation">
                 <button class="btn btn-secondary" id="prevBtn" onclick="previousQuestion()">← Previous</button>
-                <!-- Smart Link wrapped around Next Button for engagement monetization -->
-                <a href="https://www.effectivegatecpm.com/v31zhyhy8w?key=58401952550308bcd5c3c4a3f2bfe14d" target="_blank" style="flex: 1; text-decoration: none;">
-                    <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion(); return false;" style="width: 100%;">Next →</button>
-                </a>
+                <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Next →</button>
                 <button class="btn btn-success" id="submitBtn" onclick="submitQuiz()" style="display: none;">Submit Quiz</button>
             </div>
 
@@ -260,12 +261,11 @@
                     </div>
                 </div>
 
-                <!-- AD 2: Native Banner (After Results - High Engagement Point) -->
+                <!-- AD 3: Native Banner (After Results - High Engagement Point) -->
                 <div class="ad-wrapper">
                     <span class="ad-label">Advertisement</span>
-                    <script async="async" data-cfasync="false" src="https://pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js"></script>
-                    <div id="container-c7bf2117c3372e12237c88be59428594"></div>
-                    
+                    <script async="async" data-cfasync="false" src="//pl28715421.effectivegatecpm.com/c7bf2117c3372e12237c88be59428594/invoke.js"></script>
+                    <div id="container-c7bf2117c3372e12237c88be59428594-results"></div>
                 </div>
 
                 <div class="results-summary">
@@ -291,10 +291,7 @@
                 <div class="results-actions">
                     <button class="btn btn-primary" onclick="reviewAnswers()">📝 Review Questions</button>
                     <button class="btn btn-secondary" onclick="goHome()">🏠 Home</button>
-                    <!-- Smart Link on Retake Button -->
-                    <a href="https://www.effectivegatecpm.com/v31zhyhy8w?key=58401952550308bcd5c3c4a3f2bfe14d" target="_blank" style="text-decoration: none;">
-                        <button class="btn btn-success" onclick="retakeQuiz(); return false;">🔄 Retake Quiz</button>
-                    </a>
+                    <button class="btn btn-success" onclick="retakeQuiz()">🔄 Retake Quiz</button>
                 </div>
             </div>
         </div>
@@ -318,6 +315,9 @@
             <div class="review-container" id="reviewContainer"></div>
         </div>
     </div>
+
+    <!-- Adsterra Social Bar (Floating at Bottom) -->
+    <script async src="//pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js"></script>
 
     <script src="app.js"></script>
     <script src="quiz.js"></script>
