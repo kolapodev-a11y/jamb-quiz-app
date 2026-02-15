@@ -1015,6 +1015,9 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+#adsterra-social-bar:empty {
+  min-height: 60px; /* keep space while it loads */
+}
 
 /* Ensure ads are visible on mobile */
 @media (max-width: 768px) {
