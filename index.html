@@ -96,7 +96,6 @@
           <h3>Need Help? 🤝</h3>
           <p>For enquiries, support, or feedback, contact us via WhatsApp:</p>
 
-          <!-- ✅ SMARTLINK on WhatsApp button (your original setup) -->
           <a href="https://www.effectivegatecpm.com/v31zhyhy8w?key=58401952550308bcd5c3c4a3f2bfe14d"
              target="_blank"
              class="btn btn-whatsapp"
@@ -226,7 +225,7 @@
           <div class="summary-card unanswered"><div class="summary-icon">⭕</div><div class="summary-value" id="unansweredCount">0</div><div class="summary-label">Unanswered</div></div>
         </div>
 
-        <!-- ✅ NATIVE BANNER AD (ONLY HERE, ONE ZONE) -->
+        <!-- ✅ NATIVE BANNER AD (Results Only) -->
         <div class="ad-container">
           <div id="container-c7bf2117c3372e12237c88be59428594"></div>
           <script async="async" data-cfasync="false"
@@ -269,21 +268,46 @@
 
       <div class="review-container" id="reviewContainer"></div>
 
-      <!-- No native banner here since you only have 1 zone -->
+      <!-- ✅ Popunder should trigger ONLY on Review screen -->
+      <div id="review-popunder-anchor" style="display:none;"></div>
     </div>
   </div>
 
   <script src="app.js"></script>
   <script src="quiz.js"></script>
 
-  <!-- ✅ Smartlink helper -->
+  <!-- ✅ Smartlink helper (unchanged) + Popunder-on-Review loader -->
   <script>
     const SMARTLINK_URL = 'https://www.effectivegatecpm.com/v31zhyhy8w?key=58401952550308bcd5c3c4a3f2bfe14d';
     function openSmartlinkThen(callback){
       try { window.open(SMARTLINK_URL, '_blank'); } catch(e) {}
       if (typeof callback === 'function') callback();
     }
+
+    // ✅ Popunder: load ONLY when Review screen becomes active
+    (function(){
+      let popLoaded = false;
+
+      function loadPopunderOnce(){
+        if (popLoaded) return;
+        popLoaded = true;
+
+        const s = document.createElement('script');
+        s.src = "https://pl28720963.effectivegatecpm.com/4c/0d/c5/4c0dc5d49cbe558de9d8f0ca616da2c0.js";
+        document.body.appendChild(s);
+      }
+
+      const reviewScreen = document.getElementById('review-screen');
+      if (!reviewScreen) return;
+
+      const obs = new MutationObserver(() => {
+        const reviewActive = reviewScreen.classList.contains('active');
+        if (reviewActive) loadPopunderOnce();
+      });
+
+      obs.observe(reviewScreen, { attributes: true, attributeFilter: ['class'] });
+    })();
   </script>
 </body>
-          </html>
-    
+                                                             </html>
+                                                                                           
