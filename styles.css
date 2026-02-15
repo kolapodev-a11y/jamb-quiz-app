@@ -978,3 +978,39 @@ body {
 .mb-20 {
     margin-bottom: 20px;
 }
+/* ============================================
+   AD CONTAINER STYLING
+   ============================================ */
+.ad-container {
+    margin: 30px auto;
+    text-align: center;
+    max-width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ad-container::before {
+    content: 'Advertisement';
+    display: block;
+    font-size: 10px;
+    color: #999;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Ensure ads are visible on mobile */
+@media (max-width: 768px) {
+    .ad-container {
+        margin: 20px 10px;
+        padding: 8px;
+    }
+}
+
+/* Social Bar spacing (prevent overlap with content) */
+body {
+    padding-bottom: 60px; /* Space for social bar at bottom */
+}
