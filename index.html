@@ -16,6 +16,45 @@
   <script data-cfasync="false" async
     src="https://pl28720963.effectivegatecpm.com/4c/0d/c5/4c0dc5d49cbe558de9d8f0ca616da2c0.js">
   </script>
+
+  <!-- ✅ INLINE CSS FOR SOCIAL BAR VISIBILITY -->
+  <style>
+    /* ===== ADSTERRA SOCIAL BAR STYLING ===== */
+    #adsterra-social-bar {
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      z-index: 2147483647 !important;
+      background: transparent !important;
+      overflow: visible !important;
+      min-height: 60px !important;
+      display: block !important;
+    }
+
+    #adsterra-social-bar:not(:empty) {
+      min-height: 60px !important;
+    }
+
+    #adsterra-social-bar > * {
+      display: block !important;
+      width: 100% !important;
+      height: 100% !important;
+      max-height: 60px !important;
+    }
+
+    /* Optional: subtle bottom shadow */
+    #adsterra-social-bar::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: rgba(0,0,0,0.1);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+  </style>
 </head>
 
 <body>
@@ -30,7 +69,6 @@
           <h1>🎓 JAMB UTME</h1>
           <p>Practice Quiz</p>
         </div>
-        <!-- Install button removed (PWA not needed) -->
       </header>
 
       <div class="mode-selection">
@@ -263,11 +301,6 @@
     </div>
   </div>
 
-  <!-- Social Bar Script – loaded normally -->
-  <script data-cfasync="false" async
-    src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js">
-  </script>
-
   <script src="app.js"></script>
   <script src="quiz.js"></script>
 
@@ -279,19 +312,36 @@
       if (typeof callback === 'function') callback();
     }
 
-    // ✅ POPUNDER ARMING – trigger on FIRST real user interaction
+    // ✅ POPUNDER ARMING – on first user gesture anywhere
     (function() {
       let armed = false;
-      function arm() {
-        if (armed) return;
-        armed = true;
-        console.log('Popunder armed via user gesture');
+      const arm = () => {
+        if (!armed) {
+          armed = true;
+          console.log('Popunder armed');
+        }
+      };
+      ['click', 'touchstart', 'pointerdown'].forEach(type =>
+        document.addEventListener(type, arm, { once: true, capture: true })
+      );
+    })();
+
+    // ✅ DEFERRED SOCIAL BAR LOADER
+    (function() {
+      const loadBar = () => {
+        const script = document.createElement('script');
+        script.src = 'https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js';
+        script.async = true;
+        script.setAttribute('data-cfasync', 'false');
+        document.body.appendChild(script);
+      };
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadBar);
+      } else {
+        loadBar();
       }
-      // Use multiple event types for maximum compatibility
-      ['click', 'touchstart', 'pointerdown'].forEach(event => {
-        document.addEventListener(event, arm, { once: true, capture: true });
-      });
     })();
   </script>
 </body>
-              </html>
+        </html>
