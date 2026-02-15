@@ -27,6 +27,41 @@
 </head>
 
 <body>
+  <!-- Adsterra Social Bar mount -->
+<div id="adsterra-social-bar" class="adsterra-social-bar"></div>
+
+<!-- Adsterra Social Bar script (load once) -->
+<script data-cfasync="false" async
+  src="https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js">
+</script>
+
+<!-- Safety: if the bar stays empty after 3s, reload script once -->
+<script>
+(function(){
+  let retried = false;
+  function retry(){
+    if (retried) return;
+    retried = true;
+
+    const s = document.createElement('script');
+    s.src = "https://pl28716036.effectivegatecpm.com/53/08/6e/53086e6c1a10c92e09c2b4b302e9bb0f.js";
+    s.async = true;
+    s.setAttribute("data-cfasync","false");
+    document.body.appendChild(s);
+  }
+
+  window.addEventListener('load', function(){
+    setTimeout(function(){
+      const bar = document.getElementById('adsterra-social-bar');
+      if (!bar) return;
+
+      // if nothing rendered, retry once
+      if (bar.innerHTML.trim() === "") retry();
+    }, 3000);
+  });
+})();
+</script>
+  
   <!-- ✅ SOCIAL BAR AD (Fixed Top Bar) -->
   <div id="adsterra-social-bar" class="adsterra-social-bar"></div>
 
