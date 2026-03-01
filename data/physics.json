@@ -2388,6 +2388,606 @@
         "Thermal energy"
       ],
       "answer": "B"
-    }
+    },
+    {
+    "id": 200,
+    "questionNumber": 200,
+    "question": "The temperature at which the water vapor present in the air is just sufficient to saturate it is known as:",
+    "options": [
+      "Boiling point",
+      "Dew point",
+      "Ice point",
+      "Critical temperature"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 201,
+    "questionNumber": 201,
+    "question": "Which of the following is the correct unit for specific heat capacity?",
+    "options": [
+      "J/kg",
+      "J/K",
+      "J/(kg·K)",
+      "kg/J"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 202,
+    "questionNumber": 202,
+    "question": "A mass of 2kg of water at 100°C is converted to steam at 100°C. If the latent heat of vaporization is 2.26 x 10^6 J/kg, the heat required is:",
+    "options": [
+      "1.13 x 10^6 J",
+      "4.52 x 10^6 J",
+      "2.26 x 10^6 J",
+      "0.50 x 10^6 J"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 203,
+    "questionNumber": 203,
+    "question": "The transfer of heat through a vacuum is mainly by:",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Evaporation"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 204,
+    "questionNumber": 204,
+    "question": "If the linear expansivity of a solid is α, its volume expansivity γ is given by:",
+    "options": [
+      "γ = α",
+      "γ = 2α",
+      "γ = 3α",
+      "γ = α^3"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 205,
+    "questionNumber": 205,
+    "question": "The clinical thermometer has a range of approximately:",
+    "options": [
+      "0°C to 100°C",
+      "35°C to 42°C",
+      "-10°C to 110°C",
+      "32°F to 212°F"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 206,
+    "questionNumber": 206,
+    "question": "Bimetallic strips are used in thermostats because:",
+    "options": [
+      "They conduct heat very fast",
+      "Different metals expand at different rates",
+      "They are very cheap",
+      "They do not melt easily"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 207,
+    "questionNumber": 207,
+    "question": "The heat required to raise the temperature of a body by 1 Kelvin is called:",
+    "options": [
+      "Specific heat capacity",
+      "Latent heat",
+      "Heat capacity",
+      "Internal energy"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 208,
+    "questionNumber": 208,
+    "question": "At 4°C, water has its:",
+    "options": [
+      "Maximum volume and minimum density",
+      "Minimum volume and maximum density",
+      "Maximum volume and maximum density",
+      "Minimum volume and minimum density"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 209,
+    "questionNumber": 209,
+    "question": "Which of these factors does NOT affect the rate of evaporation?",
+    "options": [
+      "Temperature",
+      "Surface area",
+      "Humidity",
+      "Mass of the liquid"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 210,
+    "questionNumber": 210,
+    "question": "The pressure of a fixed mass of gas at constant volume is directly proportional to its absolute temperature. This is:",
+    "options": [
+      "Boyle’s Law",
+      "Charles’s Law",
+      "Pressure (Gay-Lussac’s) Law",
+      "Newton’s Law of cooling"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 211,
+    "questionNumber": 211,
+    "question": "Convert 27°C to the Kelvin scale:",
+    "options": [
+      "273 K",
+      "300 K",
+      "246 K",
+      "327 K"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 212,
+    "questionNumber": 212,
+    "question": "An iron rod of length 2.0m is heated from 30°C to 80°C. If linear expansivity is 1.2 x 10^-5 /K, the expansion is:",
+    "options": [
+      "0.0012m",
+      "0.0024m",
+      "0.0120m",
+      "0.0006m"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 213,
+    "questionNumber": 213,
+    "question": "The cooling effect produced by a fan on a human body is primarily due to:",
+    "options": [
+      "Conduction",
+      "Increased evaporation of sweat",
+      "Radiation",
+      "Lowering of the room temperature"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 214,
+    "questionNumber": 214,
+    "question": "Which of the following surfaces is the best absorber of radiant heat?",
+    "options": [
+      "Shiny silver surface",
+      "Dull black surface",
+      "White polished surface",
+      "Red painted surface"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 215,
+    "questionNumber": 215,
+    "question": "A change of state from solid directly to gas is called:",
+    "options": [
+      "Evaporation",
+      "Sublimation",
+      "Condensation",
+      "Fusion"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 216,
+    "questionNumber": 216,
+    "question": "When a liquid is heated, its molecules move faster and their average kinetic energy:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 217,
+    "questionNumber": 217,
+    "question": "A thermometer whose thermometric property is the change in electrical resistance is called:",
+    "options": [
+      "Thermocouple",
+      "Resistance thermometer",
+      "Constant volume gas thermometer",
+      "Liquid-in-glass thermometer"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 218,
+    "questionNumber": 218,
+    "question": "Specific latent heat of fusion is the heat required to change unit mass of a substance from:",
+    "options": [
+      "Liquid to gas at constant temperature",
+      "Solid to liquid at constant temperature",
+      "Solid to gas at constant temperature",
+      "Gas to liquid at constant temperature"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 219,
+    "questionNumber": 219,
+    "question": "The use of a vacuum in a thermos flask is to prevent heat loss by:",
+    "options": [
+      "Radiation only",
+      "Convection only",
+      "Conduction and Convection",
+      "Conduction only"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 220,
+    "questionNumber": 220,
+    "question": "If 100g of water at 80°C is mixed with 100g of water at 20°C, the final temperature is:",
+    "options": [
+      "40°C",
+      "50°C",
+      "60°C",
+      "100°C"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 221,
+    "questionNumber": 221,
+    "question": "The purpose of the silvered walls in a Dewar (thermos) flask is to reduce heat loss by:",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Evaporation"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 222,
+    "questionNumber": 222,
+    "question": "Absolute zero temperature is equivalent to:",
+    "options": [
+      "0°C",
+      "-273°C",
+      "273°C",
+      "100°C"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 223,
+    "questionNumber": 223,
+    "question": "When a solid is heated, the percentage increase is greatest in its:",
+    "options": [
+      "Length",
+      "Area",
+      "Volume",
+      "Density"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 224,
+    "questionNumber": 224,
+    "question": "Which of the following liquids is most suitable for use in a thermometer to measure very low temperatures?",
+    "options": [
+      "Mercury",
+      "Alcohol",
+      "Water",
+      "Paraffin"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 225,
+    "questionNumber": 225,
+    "question": "Heat capacity is the product of:",
+    "options": [
+      "Mass and density",
+      "Mass and specific heat capacity",
+      "Mass and latent heat",
+      "Volume and temperature"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 226,
+    "questionNumber": 226,
+    "question": "The graph of Volume (V) against Temperature (T) for a fixed mass of gas at constant pressure is a:",
+    "options": [
+      "Hyperbola",
+      "Parabola",
+      "Straight line through the origin",
+      "Straight line with a negative intercept"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 227,
+    "questionNumber": 227,
+    "question": "During the melting of ice, the temperature remains constant. The heat being added is used to:",
+    "options": [
+      "Increase the kinetic energy of molecules",
+      "Do work against intermolecular forces",
+      "Increase the speed of the molecules",
+      "Decrease the potential energy"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 228,
+    "questionNumber": 228,
+    "question": "Steam at 100°C causes more severe burns than water at 100°C because steam:",
+    "options": [
+      "Is a gas",
+      "Has more kinetic energy",
+      "Possesses latent heat of vaporization",
+      "Has a higher specific heat capacity"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 229,
+    "questionNumber": 229,
+    "question": "The lower fixed point of a thermometer is the temperature of:",
+    "options": [
+      "Mixture of salt and ice",
+      "Pure melting ice at standard pressure",
+      "Pure boiling water",
+      "Liquid nitrogen"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 230,
+    "questionNumber": 230,
+    "question": "A substance that has a high specific heat capacity will:",
+    "options": [
+      "Heat up and cool down quickly",
+      "Heat up and cool down slowly",
+      "Melt very easily",
+      "Be a good conductor of heat"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 231,
+    "questionNumber": 231,
+    "question": "Land and sea breezes are examples of heat transfer by:",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Sublimation"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 232,
+    "questionNumber": 232,
+    "question": "The linear expansivity of a substance is 0.000019 /K. Its value in /°C is:",
+    "options": [
+      "0.000019",
+      "0.0019",
+      "0.000038",
+      "0.019"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 233,
+    "questionNumber": 233,
+    "question": "Which of these is NOT a thermometric property?",
+    "options": [
+      "Pressure of a gas at constant volume",
+      "Resistance of a platinum wire",
+      "Volume of a liquid",
+      "Mass of a substance"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 234,
+    "questionNumber": 234,
+    "question": "An ideal gas has its volume doubled and its pressure halved. The absolute temperature will:",
+    "options": [
+      "Be doubled",
+      "Be halved",
+      "Remain constant",
+      "Be quadrupled"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 235,
+    "questionNumber": 235,
+    "question": "Heat can be measured in the following units EXCEPT:",
+    "options": [
+      "Joules",
+      "Calories",
+      "Kelvin",
+      "British Thermal Units"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 236,
+    "questionNumber": 236,
+    "question": "The increase in pressure of a gas at constant volume is due to:",
+    "options": [
+      "Increased collision frequency of molecules with walls",
+      "Increase in the size of the molecules",
+      "Intermolecular attraction",
+      "The gas turning into a liquid"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 237,
+    "questionNumber": 237,
+    "question": "The specific latent heat of vaporization of water is 2,260,000 J/kg. How much heat is needed to vaporize 0.5kg of water?",
+    "options": [
+      "4,520,000 J",
+      "1,130,000 J",
+      "2,260,000 J",
+      "565,000 J"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 238,
+    "questionNumber": 238,
+    "question": "On the Fahrenheit scale, the boiling point of water is:",
+    "options": [
+      "100°F",
+      "212°F",
+      "180°F",
+      "32°F"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 239,
+    "questionNumber": 239,
+    "question": "Mercury is preferred to water in barometers because:",
+    "options": [
+      "It is cheaper",
+      "It is a liquid metal",
+      "It has a high density",
+      "It is more transparent"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 240,
+    "questionNumber": 240,
+    "question": "A metal rod of length 40cm is heated through 100°C. If its linear expansivity is 2.0 x 10^-5 /K, find the new length:",
+    "options": [
+      "40.08 cm",
+      "40.80 cm",
+      "41.00 cm",
+      "40.04 cm"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 241,
+    "questionNumber": 241,
+    "question": "The instrument used to measure relative humidity is the:",
+    "options": [
+      "Hydrometer",
+      "Hygrometer",
+      "Barometer",
+      "Anemometer"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 242,
+    "questionNumber": 242,
+    "question": "Radiation can be detected using a:",
+    "options": [
+      "Thermopile",
+      "Barometer",
+      "Manometer",
+      "Hygrometer"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 243,
+    "questionNumber": 243,
+    "question": "When a gas expands adiabatically, its temperature:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains constant",
+      "Becomes absolute zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 244,
+    "questionNumber": 244,
+    "question": "The temperature gradient of a rod is the:",
+    "options": [
+      "Total heat in the rod",
+      "Rate of change of temperature with distance",
+      "Rate of change of temperature with time",
+      "Heat capacity of the rod"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 245,
+    "questionNumber": 245,
+    "question": "Which of these is the best thermal insulator?",
+    "options": [
+      "Copper",
+      "Iron",
+      "Wood",
+      "Aluminum"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 246,
+    "questionNumber": 246,
+    "question": "The heat required to raise the temperature of 5kg of a substance (c = 400 J/kgK) from 20°C to 30°C is:",
+    "options": [
+      "2,000 J",
+      "20,000 J",
+      "4,000 J",
+      "10,000 J"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 247,
+    "questionNumber": 247,
+    "question": "Anomalous expansion of water occurs between:",
+    "options": [
+      "0°C and 100°C",
+      "0°C and 4°C",
+      "-4°C and 0°C",
+      "4°C and 10°C"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 248,
+    "questionNumber": 248,
+    "question": "Newton’s Law of Cooling states that the rate of loss of heat is proportional to the:",
+    "options": [
+      "Mass of the body",
+      "Temperature of the surroundings",
+      "Temperature difference between the body and surroundings",
+      "Specific heat capacity of the body"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 249,
+    "questionNumber": 249,
+    "question": "Thermal equilibrium between two objects means they have the same:",
+    "options": [
+      "Heat content",
+      "Specific heat capacity",
+      "Temperature",
+      "Mass"
+    ],
+    "answer": "C"
+      }
   ]
 }
